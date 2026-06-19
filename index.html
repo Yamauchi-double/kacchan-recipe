@@ -122,27 +122,45 @@ button{font-family:inherit}img{display:block}
 .cwrap{margin-top:22px}
 .cbar{display:flex;align-items:center;gap:10px;margin-bottom:12px}
 .cbar .ct{font-weight:800;font-size:15px}.cbar .cnum{color:var(--ink-soft);font-size:13px}
-.modetoggle{margin-left:auto;display:flex;background:#ECEAE6;border-radius:9px;padding:3px;gap:2px}
-.modetoggle button{border:none;background:transparent;border-radius:7px;padding:5px 10px;font-size:11.5px;font-weight:800;color:var(--ink-soft);cursor:pointer}
-.modetoggle button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.1)}
-.cinput{display:flex;gap:9px;margin-bottom:16px}
-.cinput .ava{width:34px;height:34px;border-radius:50%;flex:0 0 auto;background:#888;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
-.cinput .box{flex:1}
-.cinput textarea{width:100%;border:1.5px solid var(--line);border-radius:11px;padding:10px 12px;font-family:inherit;font-size:14px;resize:vertical;min-height:42px;outline:none}
+/* 投稿フォーム */
+.cinput{display:flex;gap:9px;margin-bottom:18px}
+.cinput .ava{width:34px;height:34px;border-radius:50%;flex:0 0 auto;background:#888;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+.cinput .box{flex:1;min-width:0}
+.cinput textarea{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:11px;padding:10px 12px;font-family:inherit;font-size:14px;resize:vertical;min-height:42px;outline:none}
 .cinput textarea:focus{border-color:var(--red)}
-.cinput .send{margin-top:8px;background:var(--ink);color:#fff;border:none;border-radius:18px;padding:8px 18px;font-weight:700;font-size:13px;cursor:pointer;float:right}
-.comment{display:flex;gap:10px;margin-bottom:16px}
-.comment .ava{width:34px;height:34px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff}
-.comment .body{flex:1;min-width:0}
-.comment .who{font-size:12.5px;font-weight:800}.comment .who .time{color:var(--ink-faint);font-weight:500;margin-left:7px}
-.comment .txt{font-size:14px;margin-top:2px}
-.replies{margin-top:12px;padding-left:14px;border-left:2px solid var(--line);display:flex;flex-direction:column;gap:14px}
-.badge{font-size:10px;font-weight:800;padding:2px 7px;border-radius:5px;margin-left:7px}
-.badge.pending{background:#FFF4E5;color:#B25E00}.badge.pub{background:#EAF7EE;color:#2E7D32}
-.comment.pending .txt{background:#FFFBF2;border:1px dashed #FFD9A0;border-radius:9px;padding:8px 10px;margin-top:4px}
-.modbtns{display:flex;gap:7px;margin-top:8px;flex-wrap:wrap}
-.modbtns button{border:none;border-radius:8px;padding:6px 12px;font-family:inherit;font-size:12px;font-weight:800;cursor:pointer}
-.modbtns .pubbtn{background:#2E7D32;color:#fff}.modbtns .rejbtn{background:#fff;border:1px solid var(--line);color:var(--ink-soft)}.modbtns .repbtn{background:var(--ink);color:#fff}
+.cinput .crow{display:flex;align-items:center;gap:10px;margin-top:8px}
+.cinput .storetag{font-size:12px;font-weight:700;color:var(--ink-soft)}
+.cinput .storetag b{color:var(--red)}
+.cinput .send{margin-left:auto;background:var(--ink);color:#fff;border:none;border-radius:18px;padding:8px 18px;font-weight:700;font-size:13px;cursor:pointer}
+.cinput .send:disabled{background:#ccc;cursor:not-allowed}
+.cinput .needstore{font-size:12px;font-weight:700;color:#cc7700}
+.postedmsg{font-size:12.5px;color:#1a9c4c;background:#EAF7EE;border:1px solid #b8e6c8;border-radius:9px;padding:10px 12px;margin-bottom:14px;font-weight:600}
+/* コメント1件 */
+.cmt{margin-bottom:14px}
+.cmt .head{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.cmt .who{font-size:12.5px;font-weight:800;color:var(--ink)}
+.cmt .who.hq{color:#fff;background:var(--red);border-radius:5px;padding:1px 8px}
+.cmt .time{color:var(--ink-faint);font-weight:500;font-size:11px}
+.cmt .txt{font-size:14px;margin-top:3px;line-height:1.55;white-space:pre-wrap;word-break:break-word}
+.cmt.hqcmt .txt{background:#FFF3F2;border-left:3px solid var(--red);border-radius:0 8px 8px 0;padding:7px 11px}
+.cmt .acts{margin-top:5px;display:flex;gap:12px}
+.cmt .acts button{border:none;background:transparent;color:var(--ink-soft);font-family:inherit;font-size:11.5px;font-weight:700;cursor:pointer;padding:0}
+.cmt .acts button:active{opacity:.6}
+/* 子ツリー（アコーディオン） */
+.kids{margin-top:10px;padding-left:13px;border-left:2px solid var(--line);display:none;flex-direction:column;gap:14px}
+.kids.open{display:flex}
+.toggle{display:inline-flex;align-items:center;gap:4px;border:none;background:#F0EFED;border-radius:14px;padding:4px 11px;font-family:inherit;font-size:11.5px;font-weight:800;color:var(--ink-soft);cursor:pointer;margin-top:6px}
+.toggle .cv{transition:transform .18s}
+.toggle.open .cv{transform:rotate(180deg)}
+/* 返信入力（インライン） */
+.replybox{margin-top:9px;display:none}
+.replybox.open{display:block}
+.replybox textarea{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:10px;padding:8px 11px;font-family:inherit;font-size:13.5px;resize:vertical;min-height:38px;outline:none}
+.replybox textarea:focus{border-color:var(--red)}
+.replybox .rb{display:flex;align-items:center;gap:8px;margin-top:6px}
+.replybox .rb .send{background:var(--ink);color:#fff;border:none;border-radius:15px;padding:6px 15px;font-weight:700;font-size:12px;cursor:pointer}
+.replybox .rb .send:disabled{background:#ccc;cursor:not-allowed}
+.replybox .rb .cancel{background:transparent;border:none;color:var(--ink-soft);font-size:12px;font-weight:700;cursor:pointer}
 .hidden-note{font-size:11.5px;color:var(--ink-faint);padding:14px;text-align:center;background:#fff;border:1px dashed var(--line);border-radius:11px}
 
 .related .rcard{display:flex;gap:11px;cursor:pointer;margin-bottom:14px}.related .rcard:active{opacity:.7}
@@ -646,25 +664,120 @@ function copyIM(btn, text){
   }).catch(function(){ btn.textContent='✗'; });
 }
 
-/* ===== コメント（掲載済みのみ表示・本番はSS連携予定）===== */
-const COMMENTS={};
+/* ===== コメント（多階層ツリー・アコーディオン・承認制）===== */
+// GAS Webアプリ（doPost）URL。デプロイ後にここを差し替える。
+var COMMENT_POST_URL = 'https://script.google.com/macros/s/AKfycbxuKYCYYzC0mB5VEqJmph_NNOFoad_YJyeQLrH1pppxsJccXp2GMMfVcKirrdU2iJgSig/exec';
+var COMMENT_KEY = 'kacchan-cmt-2026';
+var HQ_NAME = '商品開発部'; // この店舗名は本部回答として色分け
+
+function escapeHtml(s){ return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
 function renderComments(id){
-  var cs=COMMENTS[id]||[];
-  var body=cs.filter(function(c){return c.pub;}).map(function(c){
-    var reps=(c.replies||[]).filter(function(x){return x.pub;}).map(function(x){
-      return '<div class="comment"><div class="ava" style="background:'+(x.color||'#888')+'">'+(x.who||'?')[0]+'</div><div class="body"><div class="who">'+x.who+'<span class="time">'+x.time+'</span></div><div class="txt">'+x.txt+'</div></div></div>';
-    }).join('');
-    return '<div class="comment"><div class="ava" style="background:'+(c.color||'#888')+'">'+(c.who||'?')[0]+'</div><div class="body"><div class="who">'+c.who+'<span class="time">'+c.time+'</span></div><div class="txt">'+c.txt+'</div>'+(reps?'<div class="replies">'+reps+'</div>':'')+'</div></div>';
-  }).join('');
+  var r = findRecipe(id);
+  var all = (r && r.comments) ? r.comments.slice() : [];
+  // 親IDで子をグループ化
+  var kids = {};
+  all.forEach(function(c){ var p=c.parent||''; (kids[p]=kids[p]||[]).push(c); });
+  // 投稿日時で昇順
+  Object.keys(kids).forEach(function(k){
+    kids[k].sort(function(a,b){ return String(a.at).localeCompare(String(b.at)); });
+  });
+
+  function nodeHtml(c){
+    var isHQ = (c.store===HQ_NAME);
+    var children = kids[c.id]||[];
+    var childCount = countDescendants(c.id);
+    var who = '<span class="who'+(isHQ?' hq':'')+'">'+escapeHtml(c.store)+'</span>';
+    var toggle = children.length
+      ? '<button class="toggle" onclick="this.classList.toggle(\'open\');this.parentNode.querySelector(\':scope > .kids\').classList.toggle(\'open\')">返信'+childCount+'件 <span class="cv">▾</span></button>'
+      : '';
+    var kidsHtml = children.length
+      ? '<div class="kids">'+children.map(nodeHtml).join('')+'</div>'
+      : '';
+    return '<div class="cmt'+(isHQ?' hqcmt':'')+'">'+
+      '<div class="head">'+who+'<span class="time">'+escapeHtml(c.at)+'</span></div>'+
+      '<div class="txt">'+escapeHtml(c.body)+'</div>'+
+      '<div class="acts"><button onclick="openReply(\''+id+'\',\''+c.id+'\',this)">返信する</button></div>'+
+      '<div class="replybox" id="rb_'+c.id+'"></div>'+
+      toggle+
+      kidsHtml+
+    '</div>';
+  }
+  function countDescendants(pid){
+    var ch=kids[pid]||[]; var n=ch.length;
+    ch.forEach(function(c){ n+=countDescendants(c.id); });
+    return n;
+  }
+
+  var roots = kids[''] || [];
+  var body = roots.map(nodeHtml).join('');
+  var total = all.length;
+
+  var storeLabel = CURRENT_STORE
+    ? '<span class="storetag">投稿者：<b>'+escapeHtml(CURRENT_STORE.name)+'</b></span>'
+    : '<span class="needstore">▲ 上部で店舗を選ぶと投稿できます</span>';
+  var sendDisabled = CURRENT_STORE ? '' : 'disabled';
+
   document.getElementById('cwrap').innerHTML=
-    '<div class="cbar"><span class="ct">質問・コメント</span><span class="cnum">'+(cs.filter(function(c){return c.pub;}).length)+'件</span></div>'+
-    '<div class="cinput"><div class="ava">店</div><div class="box"><textarea id="newc" placeholder="質問・要望を書く（確認のうえ掲載されます）"></textarea><button class="send" onclick="postComment(\''+id+'\')">送信</button></div></div>'+
-    (body||'<div class="hidden-note">まだ掲載されたコメントはありません</div>');
+    '<div class="cbar"><span class="ct">質問・コメント</span><span class="cnum">'+total+'件</span></div>'+
+    '<div class="cinput"><div class="ava">店</div><div class="box">'+
+      '<textarea id="newc" placeholder="質問・要望を書く（確認のうえ掲載されます）"></textarea>'+
+      '<div class="crow">'+storeLabel+'<button class="send" id="sendc" '+sendDisabled+' onclick="postComment(\''+id+'\',\'\',\'newc\',this)">送信</button></div>'+
+    '</div></div>'+
+    '<div id="postedmsg"></div>'+
+    (body||'<div class="hidden-note">まだ掲載されたコメントはありません。最初の質問をどうぞ。</div>');
 }
-function postComment(id){
-  var v=document.getElementById('newc').value.trim();if(!v)return;
-  var cw=document.getElementById('cwrap');var n=document.createElement('div');n.className='hidden-note';n.style.borderColor='#FF0000';n.style.color='#CC0000';n.style.marginTop='10px';n.textContent='送信しました。確認のうえ掲載されます。';cw.appendChild(n);
-  document.getElementById('newc').value='';
+
+/* 返信フォームを開く（インライン） */
+function openReply(recipeId, parentId, btn){
+  if(!CURRENT_STORE){ alert('上部で店舗を選んでから返信してください。'); return; }
+  var box = document.getElementById('rb_'+parentId);
+  if(!box) return;
+  if(box.classList.contains('open')){ box.classList.remove('open'); box.innerHTML=''; return; }
+  // 他の開いてる返信欄を閉じる
+  document.querySelectorAll('.replybox.open').forEach(function(b){ b.classList.remove('open'); b.innerHTML=''; });
+  var taId='rt_'+parentId;
+  box.innerHTML =
+    '<textarea id="'+taId+'" placeholder="'+escapeHtml(CURRENT_STORE.name)+' として返信"></textarea>'+
+    '<div class="rb"><span class="storetag">投稿者：<b>'+escapeHtml(CURRENT_STORE.name)+'</b></span>'+
+    '<button class="send" onclick="postComment(\''+recipeId+'\',\''+parentId+'\',\''+taId+'\',this)">送信</button>'+
+    '<button class="cancel" onclick="document.getElementById(\'rb_'+parentId+'\').classList.remove(\'open\');document.getElementById(\'rb_'+parentId+'\').innerHTML=\'\'">キャンセル</button></div>';
+  box.classList.add('open');
+  document.getElementById(taId).focus();
+}
+
+/* 投稿（新規も返信も共通・GAS doPostへ） */
+function postComment(recipeId, parentId, taId, btn){
+  if(!CURRENT_STORE){ alert('上部で店舗を選んでください。'); return; }
+  var ta=document.getElementById(taId);
+  var v=ta.value.trim();
+  if(!v) return;
+  if(v.length>500){ alert('500文字以内で入力してください。'); return; }
+  btn.disabled=true; btn.textContent='送信中…';
+
+  fetch(COMMENT_POST_URL, {
+    method:'POST',
+    headers:{'Content-Type':'text/plain;charset=utf-8'}, // プリフライト回避
+    body: JSON.stringify({ key:COMMENT_KEY, recipeId:recipeId, parentId:parentId, store:CURRENT_STORE.name, body:v })
+  }).then(function(res){ return res.json(); })
+    .then(function(d){
+      if(d && d.ok){
+        ta.value='';
+        if(parentId){
+          var box=document.getElementById('rb_'+parentId);
+          if(box){ box.classList.remove('open'); box.innerHTML=''; }
+        } else {
+          ta.value='';
+        }
+        var pm=document.getElementById('postedmsg');
+        if(pm){ pm.innerHTML='<div class="postedmsg">送信しました。商品開発部の確認のうえ掲載されます。</div>'; }
+      } else {
+        alert('送信に失敗しました：'+((d&&d.error)||'unknown')); btn.disabled=false; btn.textContent='送信';
+      }
+    })
+    .catch(function(e){
+      alert('送信に失敗しました。通信環境を確認してください。'); btn.disabled=false; btn.textContent='送信';
+    });
 }
 
 /* ===== 関連レシピ（JSONのrelated＋仕込みリンク）===== */
