@@ -518,8 +518,8 @@ function renderHome(){
   grid.innerHTML=list.map(function(r,i){
     return '<div class="vcard" style="animation-delay:'+(i*.05)+'s" onclick="openWatch(\''+r.id+'\')">'+
       '<div class="vthumb">'+thumb(r,640)+'<span class="dur">⏱'+(r.time||'-')+'</span></div>'+
-      '<div class="vinfo"><div class="ava">坊</div><div class="vmeta"><div class="vtitle">'+r.name+'</div>'+
-      '<div class="vsub">坊っちゃん<br>'+r.category+(r.yieldAmt?'・上がり'+r.yieldAmt+(r.yieldUnit||''):'')+'</div></div></div></div>';
+      '<div class="vinfo"><div class="ava">'+((r.brand||'か')[0])+'</div><div class="vmeta"><div class="vtitle">'+r.name+'</div>'+
+      '<div class="vsub">'+(r.brand||'かっちゃん')+'<br>'+r.category+(r.yieldAmt?'・上がり'+r.yieldAmt+(r.yieldUnit||''):'')+'</div></div></div></div>';
   }).join('');
 }
 
