@@ -473,11 +473,12 @@ let TABS = [];
 let activeTab = '調理';
 function buildTabs(){
   var set=[]; RECIPES.forEach(function(r){ if(set.indexOf(r.category)<0) set.push(r.category); });
-  var order=['調理','仕込み','切り物'];
-  set.sort(function(a,b){ return order.indexOf(a)-order.indexOf(b); });
-  var cats=[{k:'調理',l:'調理'}].concat(
-    set.filter(function(c){return c!=='調理';}).map(function(c){return {k:c,l:c};})
-  ).concat([{k:'all',l:'すべて'}]);
+  // 希望の並び順（固定）
+  var order=['調理','ランチ','仕込み','切り物','他'];
+  // 実データに存在するカテゴリを希望順で並べる（順序リストに無いものは末尾にデータ順で）
+  var ordered = order.filter(function(c){ return set.indexOf(c)>=0; })
+    .concat(set.filter(function(c){ return order.indexOf(c)<0; }));
+  var cats = ordered.map(function(c){ return {k:c, l:c}; }).concat([{k:'all',l:'すべて'}]);
   var seen={}; TABS=[]; cats.forEach(function(t){ if(!seen[t.k]){seen[t.k]=1;TABS.push(t);} });
   activeTab = TABS[0].k;
 }
@@ -503,7 +504,7 @@ function currentList(){
   var q=qEl.value.trim(),list;
   if(q){var tk=tokens(q);var query=tk.length?{$or:tk.map(function(t){return {$or:[{name:t},{_doc:t}]};})}:q;list=fuse.search(query).map(function(r){return r.item;});}
   else list=RECIPES.slice();
-  if(['調理','仕込み','切り物'].indexOf(activeTab)>=0) list=list.filter(function(r){return r.category===activeTab;});
+  if(activeTab && activeTab!=='all') list=list.filter(function(r){return r.category===activeTab;});
   return list;
 }
 function thumb(r,w){
