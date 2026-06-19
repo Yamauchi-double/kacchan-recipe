@@ -21,7 +21,7 @@ body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:var(--ink)
 button{font-family:inherit}img{display:block}
 
 .topbar{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line);padding:8px 14px;display:flex;align-items:center;gap:12px}
-.topbar .logo{height:28px;width:auto}.topbar .sp{flex:1}
+.topbar .logo{height:42px;width:auto}.topbar .sp{flex:1}
 .topbar .sbtn{width:40px;height:40px;border:none;background:transparent;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink)}
 .topbar .sbtn:active{background:var(--chip)}
 .searchrow{display:none;padding:10px 14px;gap:10px;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:49px;background:#fff;z-index:29}
@@ -59,6 +59,8 @@ button{font-family:inherit}img{display:block}
 .player .closebar{position:absolute;top:0;left:0;right:0;display:flex;padding:10px;z-index:21;background:linear-gradient(rgba(0,0,0,.5),transparent)}
 .wclose{width:36px;height:36px;border:none;background:rgba(0,0,0,.4);border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
 .wclose:active{transform:scale(.92)}
+.backbar{display:inline-flex;align-items:center;gap:5px;cursor:pointer;color:var(--ink-soft);font-weight:700;font-size:13.5px;padding:6px 12px 6px 8px;margin-bottom:12px;border:1.5px solid var(--line);border-radius:20px;background:#fff;-webkit-tap-highlight-color:transparent}
+.backbar:active{background:#f0efed}
 
 .wlayout{display:flex;flex-direction:column}
 @media(min-width:900px){.player{position:relative;max-height:62vh}.wlayout{flex-direction:row;align-items:flex-start;gap:24px;padding:0 24px}.wmain{flex:1;min-width:0}.waside{flex:0 0 340px;padding-top:18px}}
@@ -93,12 +95,13 @@ button{font-family:inherit}img{display:block}
 .ord{font-size:12px;color:var(--ink);font-weight:700;background:var(--chip);border-radius:7px;padding:6px 10px}
 .ord.linkrow{display:block;margin-top:2px;color:var(--ink-soft);background:none;padding:0;font-size:11px;font-weight:500}
 .ord-hint{margin-top:5px;font-size:11px;color:#b5b5b8;font-weight:500}
-.ing .row{display:flex;align-items:flex-start;gap:10px;padding:11px 13px;border-bottom:1px solid var(--line)}
+.ing .row{padding:11px 13px;border-bottom:1px solid var(--line)}
+.ing .rowtop{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
 .ing .row:last-child{border-bottom:none}
 .ing .l{flex:1;min-width:0}
 .ing .nm{font-weight:700;font-size:14px}
 .ing .nm.link{color:var(--ink);cursor:pointer;text-decoration:underline;text-underline-offset:2px;text-decoration-color:#bbb}
-.ing .amt{font-weight:800;font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:1px}
+.ing .amt{font-weight:800;font-size:16px;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
 
 /* accordion 工程 */
 .acc{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
@@ -189,8 +192,8 @@ button{font-family:inherit}img{display:block}
   background:#fff; color:#222; max-width:180px; cursor:pointer;
 }
 .storesel:focus{ outline:none; border-color:#cc0000; }
-.ord-line{ display:flex; align-items:center; gap:8px; margin-top:4px; flex-wrap:wrap; }
-.ord-im{ font-size:12.5px; color:#333; line-height:1.5; flex:1; min-width:0; }
+.ord-line{ display:flex; align-items:center; gap:6px; margin-top:6px; flex-wrap:wrap; }
+.ord-im{ font-size:11px; color:#777; line-height:1.45; flex:1; min-width:0; }
 .ord-vendor{
   display:inline-block; font-size:11px; font-weight:700; color:#cc0000;
   background:#fff0f0; border-radius:5px; padding:1px 7px; margin-right:6px; white-space:nowrap;
@@ -208,7 +211,7 @@ button{font-family:inherit}img{display:block}
 <body>
 
 <div class="topbar">
-  <img class="logo" id="logo" alt="餃子のかっちゃん" style="height:28px;width:auto;">
+  <img class="logo" id="logo" alt="餃子のかっちゃん" style="height:42px;width:auto;">
   <div class="sp"></div>
   <select id="storeSelect" class="storesel"><option value="">店舗を選択</option></select>
   <button class="sbtn" id="sbtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
@@ -548,8 +551,12 @@ function findRecipe(id){return RECIPES.find(function(x){return x.id===id;});}
 var CURRENT_WATCH_ID = null;
 function openWatch(id){
   var r=findRecipe(id); if(!r) return;
+  var firstOpen = !CURRENT_WATCH_ID;
   CURRENT_WATCH_ID = id;
+  // ブラウザバックで一覧に戻れるよう履歴を積む（初回openのみ）
+  if(firstOpen){ try{ history.pushState({watch:true}, '', '#recipe'); }catch(e){} }
   var closeBar='<div class="closebar"><button class="wclose" onclick="closeWatch()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>';
+  var backBar='<div class="backbar" onclick="closeWatch()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg><span>一覧に戻る</span></div>';
   var vid=mediaUrl(r,'動画'), vidId=driveId(vid);
   // 写真（料理写真→お皿写真→工程写真 の順で全部集める）
   var PHOTO_ORDER=['料理写真','お皿写真','工程写真'];
@@ -597,7 +604,7 @@ function openWatch(id){
     var amt=(i.amt||'')+(i.unit||'');
     // 仕込みリンク先があれば飛べるリンクに
     if(i.linkId && findRecipe(i.linkId)){
-      return '<div class="row"><div class="l"><div class="nm link" onclick="openWatch(\''+i.linkId+'\')">'+i.label+'</div><div class="ord linkrow">↳ 仕込みレシピを見る</div></div><div class="amt">'+amt+'</div></div>';
+      return '<div class="row"><div class="rowtop"><div class="nm link" onclick="openWatch(\''+i.linkId+'\')">'+i.label+'</div><div class="amt">'+amt+'</div></div><div class="ord linkrow">↳ 仕込みレシピを見る</div></div>';
     }
     // 発注情報（店舗×ラベル→IM名）
     var info = imNameFor(i.label);
@@ -617,7 +624,7 @@ function openWatch(id){
     } else {
       ordHtml='<div class="ord-hint">商品マスタ未登録</div>';
     }
-    return '<div class="row"><div class="l"><div class="nm">'+i.label+'</div>'+ordHtml+'</div><div class="amt">'+amt+'</div></div>';
+    return '<div class="row"><div class="rowtop"><div class="nm">'+i.label+'</div><div class="amt">'+amt+'</div></div>'+ordHtml+'</div>';
   }).join('');
 
   // 手順（アコーディオン・初期閉じ）
@@ -631,6 +638,7 @@ function openWatch(id){
   var plt=(r.plating||[]).map(function(p){return '<div class="row"><span class="k">'+p.item+'</span><span class="v">'+p.content+'</span></div>';}).join('');
 
   wmain.innerHTML=
+    backBar+
     '<div class="wtitle">'+r.name+'</div>'+
     '<div class="wmetarow"><span class="pill cat">'+r.category+'</span><span class="pill">⏱<b>'+(r.time||'-')+'</b></span>'+
       (r.yieldAmt?'<span class="pill">上がり<b>'+r.yieldAmt+(r.yieldUnit||'')+'</b></span>':'')+'</div>'+
@@ -655,7 +663,16 @@ function openWatch(id){
   homeEl.style.display='none';watch.classList.add('show');window.scrollTo(0,0);
 }
 function stepNo(steps,idx){var n=0;for(var i=0;i<=idx;i++)if(!steps[i].note)n++;return n;}
-function closeWatch(){watch.classList.remove('show');player.innerHTML='';homeEl.style.display='block';}
+function closeWatch(fromPop){
+  watch.classList.remove('show');player.innerHTML='';homeEl.style.display='block';
+  CURRENT_WATCH_ID=null;
+  // ボタンで閉じた時は積んだ履歴を戻す（popstate経由なら戻さない）
+  if(!fromPop){ try{ if(location.hash==='#recipe') history.back(); }catch(e){} }
+}
+// ブラウザ／スマホの戻るでレシピ→一覧
+window.addEventListener('popstate', function(){
+  if(document.getElementById('watch').classList.contains('show')){ closeWatch(true); }
+});
 /* 発注名コピー */
 function copyIM(btn, text){
   navigator.clipboard.writeText(text).then(function(){
