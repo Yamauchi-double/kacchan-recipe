@@ -533,8 +533,13 @@ function openWatch(id){
   CURRENT_WATCH_ID = id;
   var closeBar='<div class="closebar"><button class="wclose" onclick="closeWatch()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>';
   var vid=mediaUrl(r,'動画'), vidId=driveId(vid);
-  // 料理写真（複数対応）
-  var photos=(r.media||[]).filter(function(m){return m.type==='料理写真'&&m.url;}).map(function(m){return driveId(m.url);}).filter(Boolean);
+  // 写真（料理写真→お皿写真→工程写真 の順で全部集める）
+  var PHOTO_ORDER=['料理写真','お皿写真','工程写真'];
+  var photos=[];
+  PHOTO_ORDER.forEach(function(t){
+    (r.media||[]).filter(function(m){return m.type===t&&m.url;})
+      .forEach(function(m){ var id=driveId(m.url); if(id) photos.push(id); });
+  });
 
   if(vidId){
     // 動画あり → 動画メイン
