@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T05:08:08.829Z",
+  "generatedAt": "2026-06-20T05:14:47.987Z",
   "count": 144,
   "recipes": [
     {
@@ -1902,7 +1902,12 @@
           "content": "餃子"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH001",
+          "reason": "上がけ用"
+        }
+      ],
       "comments": []
     },
     {
