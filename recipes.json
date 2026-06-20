@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:31:09.076Z",
+  "generatedAt": "2026-06-20T05:08:08.829Z",
   "count": 144,
   "recipes": [
     {
@@ -142,7 +142,20 @@
           "content": "餃子"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "CO004",
+          "reason": "ベース"
+        },
+        {
+          "id": "CO005",
+          "reason": "ベース"
+        },
+        {
+          "id": "CO006",
+          "reason": "ベース"
+        }
+      ],
       "comments": []
     },
     {
