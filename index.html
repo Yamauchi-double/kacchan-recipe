@@ -797,20 +797,40 @@ function postComment(recipeId, parentId, taId, btn){
     });
 }
 
-/* ===== 関連レシピ（JSONのrelated＋仕込みリンク）===== */
+/* ===== 関連レシピ（手動related）＋こちらもおすすめ（自動suggested）===== */
+function relCard_(x, reason){
+  return '<div class="rcard" onclick="openWatch(\''+x.id+'\')">'+
+    '<div class="rt">'+thumbHtml_(x)+'<span class="dur">⏱'+(x.time||'-')+'</span></div>'+
+    '<div class="ri"><div class="rti">'+x.name+'</div><div class="rs">'+x.category+(reason?'・'+reason:'')+'</div></div></div>';
+}
+// 関連カードのサムネ（写真あれば写真・無ければ絵文字）
+function thumbHtml_(x){
+  var pid=null;
+  var order=['料理写真','お皿写真','工程写真'];
+  for(var k=0;k<order.length && !pid;k++){
+    var m=(x.media||[]).filter(function(mm){return mm.type===order[k]&&mm.url;});
+    if(m.length){ pid=driveId(m[0].url); }
+  }
+  if(pid) return '<img src="https://drive.google.com/thumbnail?id='+pid+'&sz=w400" loading="lazy">';
+  return emojiFor(x);
+}
 function renderRelated(r){
-  var items=(r.related||[]).map(function(rel){
-    var x=findRecipe(rel.id);
-    return x? {x:x, reason:rel.reason} : null;
+  var html='';
+  // ①手動related
+  var manual=(r.related||[]).map(function(rel){
+    var x=findRecipe(rel.id); return x?{x:x,reason:rel.reason}:null;
   }).filter(Boolean);
-  if(!items.length){ waside.innerHTML=''; return; }
-  waside.innerHTML='<div class="related"><div class="sech">関連レシピ</div>'+
-    items.map(function(o){
-      var x=o.x;
-      return '<div class="rcard" onclick="openWatch(\''+x.id+'\')">'+
-        '<div class="rt">'+emojiFor(x)+'<span class="dur">⏱'+(x.time||'-')+'</span></div>'+
-        '<div class="ri"><div class="rti">'+x.name+'</div><div class="rs">'+x.category+(o.reason?'・'+o.reason:'')+'</div></div></div>';
-    }).join('')+'</div>';
+  if(manual.length){
+    html+='<div class="related"><div class="sech">関連レシピ</div>'+
+      manual.map(function(o){ return relCard_(o.x,o.reason); }).join('')+'</div>';
+  }
+  // ②自動suggested（手動が5未満のときだけGAS側が入れてくる）
+  var sug=(r.suggested||[]).map(function(id){ return findRecipe(id); }).filter(Boolean);
+  if(sug.length){
+    html+='<div class="related" style="margin-top:18px"><div class="sech">こちらもおすすめ</div>'+
+      sug.map(function(x){ return relCard_(x,''); }).join('')+'</div>';
+  }
+  waside.innerHTML=html;
 }
 
 /* ===== 初期化（データ読み込み後に実行）===== */
