@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T05:14:47.987Z",
+  "generatedAt": "2026-06-20T05:22:08.333Z",
   "count": 144,
   "recipes": [
     {
@@ -156,7 +156,11 @@
           "reason": "ベース"
         }
       ],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO007",
+        "CO008"
+      ]
     },
     {
       "id": "SH001",
@@ -259,8 +263,22 @@
         }
       ],
       "plating": [],
-      "related": [],
-      "comments": []
+      "related": [
+        {
+          "id": "CO023",
+          "reason": "上がけ用"
+        },
+        {
+          "id": "CO004",
+          "reason": "上がけ用"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO065",
+        "SH017",
+        "SH020"
+      ]
     },
     {
       "id": "LU001",
@@ -403,7 +421,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU015",
+        "LU019",
+        "LU003",
+        "LU010",
+        "LU011"
+      ]
     },
     {
       "id": "CU001",
@@ -481,7 +506,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "LU015",
+        "CO034",
+        "CO038",
+        "CU002"
+      ]
     },
     {
       "id": "OT001",
@@ -516,7 +548,13 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "OT002",
+        "OT003",
+        "OT004",
+        "OT005"
+      ]
     },
     {
       "id": "CO002",
@@ -659,7 +697,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO003",
+        "CO004",
+        "CO005",
+        "CO006"
+      ]
     },
     {
       "id": "SH002",
@@ -759,7 +804,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH003",
+        "SH004",
+        "SH005",
+        "SH006"
+      ]
     },
     {
       "id": "CU002",
@@ -841,7 +893,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO069",
+        "CU001",
+        "CU003",
+        "CU004",
+        "CU005"
+      ]
     },
     {
       "id": "LU002",
@@ -972,7 +1031,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO048",
+        "LU013",
+        "CO041",
+        "LU004",
+        "LU017"
+      ]
     },
     {
       "id": "OT002",
@@ -1098,7 +1164,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "OT003",
+        "LU018",
+        "OT004",
+        "LU012",
+        "OT005"
+      ]
     },
     {
       "id": "CO003",
@@ -1241,7 +1314,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO073",
+        "CO074",
+        "CO001",
+        "CO002",
+        "CO004"
+      ]
     },
     {
       "id": "SH003",
@@ -1371,7 +1451,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032",
+        "SH034"
+      ]
     },
     {
       "id": "LU003",
@@ -1552,7 +1639,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "CO038",
+        "LU015",
+        "CO065",
+        "LU010"
+      ]
     },
     {
       "id": "OT003",
@@ -1664,7 +1758,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "OT002",
+        "LU018",
+        "OT004",
+        "OT005",
+        "LU004"
+      ]
     },
     {
       "id": "CU003",
@@ -1738,7 +1839,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "LU002",
+        "LU004",
+        "CO006",
+        "LU017"
+      ]
     },
     {
       "id": "CO004",
@@ -1906,9 +2014,21 @@
         {
           "id": "SH001",
           "reason": "上がけ用"
+        },
+        {
+          "id": "CO023",
+          "reason": "ネギ塩被り"
+        },
+        {
+          "id": "CO001",
+          "reason": "ベース"
         }
       ],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO005",
+        "CO006"
+      ]
     },
     {
       "id": "SH004",
@@ -1996,7 +2116,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH032",
+        "SH003",
+        "SH006",
+        "SH007",
+        "SH029"
+      ]
     },
     {
       "id": "LU004",
@@ -2093,7 +2220,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO044",
+        "LU002",
+        "CO048",
+        "LU017",
+        "LU019"
+      ]
     },
     {
       "id": "OT004",
@@ -2150,7 +2284,14 @@
       "media": [],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "OT002",
+        "OT003",
+        "OT005",
+        "CO001",
+        "CO004"
+      ]
     },
     {
       "id": "CU004",
@@ -2228,7 +2369,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO033",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU005"
+      ]
     },
     {
       "id": "CO005",
@@ -2394,8 +2542,19 @@
           "content": "餃子"
         }
       ],
-      "related": [],
-      "comments": []
+      "related": [
+        {
+          "id": "CO001",
+          "reason": "ベース"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO026",
+        "CO004",
+        "CO006",
+        "CO007"
+      ]
     },
     {
       "id": "SH005",
@@ -2479,7 +2638,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "LU010",
+        "LU012",
+        "SH001",
+        "SH002"
+      ]
     },
     {
       "id": "LU005",
@@ -2534,7 +2700,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO046",
+        "LU001",
+        "LU002",
+        "LU003",
+        "LU004"
+      ]
     },
     {
       "id": "OT005",
@@ -2593,7 +2766,14 @@
       "media": [],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "CO019",
+        "CO020",
+        "CO064",
+        "OT002"
+      ]
     },
     {
       "id": "CU005",
@@ -2683,7 +2863,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO054",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004"
+      ]
     },
     {
       "id": "CO006",
@@ -2849,8 +3036,19 @@
           "content": "餃子"
         }
       ],
-      "related": [],
-      "comments": []
+      "related": [
+        {
+          "id": "CO001",
+          "reason": "ベース"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO048",
+        "LU002",
+        "LU013",
+        "CO004"
+      ]
     },
     {
       "id": "SH006",
@@ -2968,7 +3166,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH003",
+        "SH004",
+        "SH007",
+        "SH032",
+        "SH034"
+      ]
     },
     {
       "id": "LU006",
@@ -3061,7 +3266,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO042",
+        "CO010",
+        "LU001",
+        "LU002",
+        "LU003"
+      ]
     },
     {
       "id": "CU006",
@@ -3151,7 +3363,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO061",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004"
+      ]
     },
     {
       "id": "CO007",
@@ -3268,7 +3487,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "LU012",
+        "LU013",
+        "LU018",
+        "CO001"
+      ]
     },
     {
       "id": "SH007",
@@ -3408,7 +3634,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH032",
+        "SH003",
+        "SH004",
+        "SH006",
+        "SH013"
+      ]
     },
     {
       "id": "LU007",
@@ -3481,7 +3714,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "LU011",
+        "LU014",
+        "OT002",
+        "OT003"
+      ]
     },
     {
       "id": "CU007",
@@ -3591,7 +3831,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH025",
+        "CO062",
+        "CO063",
+        "CU001",
+        "CU002"
+      ]
     },
     {
       "id": "CO008",
@@ -3740,7 +3987,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU010",
+        "LU013",
+        "CO007",
+        "CO031"
+      ]
     },
     {
       "id": "SH008",
@@ -3868,7 +4122,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH009",
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
+      ]
     },
     {
       "id": "LU008",
@@ -3955,7 +4216,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU014",
+        "OT005",
+        "CO020",
+        "LU007",
+        "LU011"
+      ]
     },
     {
       "id": "CU008",
@@ -3972,7 +4240,14 @@
       "media": [],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004",
+        "CU005"
+      ]
     },
     {
       "id": "CO009",
@@ -4131,7 +4406,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO004",
+        "CO005",
+        "CO006",
+        "CO007"
+      ]
     },
     {
       "id": "SH009",
@@ -4259,7 +4541,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH008",
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
+      ]
     },
     {
       "id": "LU009",
@@ -4352,7 +4641,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU018",
+        "OT002",
+        "OT003",
+        "LU001"
+      ]
     },
     {
       "id": "CO010",
@@ -4453,7 +4749,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO042",
+        "LU006",
+        "CO001",
+        "CO002",
+        "CO003"
+      ]
     },
     {
       "id": "SH010",
@@ -4541,7 +4844,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH028",
+        "LU014",
+        "CO017",
+        "CO029"
+      ]
     },
     {
       "id": "LU010",
@@ -4618,7 +4928,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU003",
+        "CO008",
+        "LU013",
+        "LU019"
+      ]
     },
     {
       "id": "CO011",
@@ -4707,7 +5024,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO017",
+        "CO056",
+        "CO072",
+        "SH031",
+        "CO001"
+      ]
     },
     {
       "id": "SH011",
@@ -4831,7 +5155,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
+      ]
     },
     {
       "id": "LU011",
@@ -4960,7 +5291,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO043",
+        "CO033",
+        "CO058",
+        "CO059",
+        "LU001"
+      ]
     },
     {
       "id": "CO012",
@@ -5041,7 +5379,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO013",
+        "CO014",
+        "CO015",
+        "CO016"
+      ]
     },
     {
       "id": "SH012",
@@ -5153,7 +5498,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH027",
+        "LU003",
+        "CO033",
+        "CO034"
+      ]
     },
     {
       "id": "LU012",
@@ -5250,7 +5602,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU010",
+        "CO008",
+        "LU003",
+        "LU013",
+        "LU018"
+      ]
     },
     {
       "id": "CO013",
@@ -5343,7 +5702,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO014",
+        "CO015",
+        "CO016"
+      ]
     },
     {
       "id": "SH013",
@@ -5439,7 +5805,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH007",
+        "SH016",
+        "SH018",
+        "SH019",
+        "SH026"
+      ]
     },
     {
       "id": "LU013",
@@ -5578,7 +5951,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO041",
+        "LU002",
+        "CO048",
+        "LU012",
+        "CO008"
+      ]
     },
     {
       "id": "CO014",
@@ -5663,7 +6043,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO015"
+      ]
     },
     {
       "id": "SH014",
@@ -5787,7 +6174,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
+      ]
     },
     {
       "id": "LU014",
@@ -5884,7 +6278,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "SH019",
+        "CO052",
+        "LU007",
+        "LU011"
+      ]
     },
     {
       "id": "CO015",
@@ -5973,7 +6374,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014",
+        "CO016"
+      ]
     },
     {
       "id": "SH015",
@@ -6079,7 +6487,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
+      ]
     },
     {
       "id": "LU015",
@@ -6226,7 +6641,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "CO038",
+        "LU003",
+        "LU017",
+        "CO065"
+      ]
     },
     {
       "id": "CO016",
@@ -6311,7 +6733,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014",
+        "CO015"
+      ]
     },
     {
       "id": "SH016",
@@ -6415,7 +6844,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH026",
+        "SH032",
+        "SH013",
+        "SH020",
+        "SH023"
+      ]
     },
     {
       "id": "LU016",
@@ -6508,7 +6944,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "LU015",
+        "LU019",
+        "CO034",
+        "CO038"
+      ]
     },
     {
       "id": "CO017",
@@ -6619,7 +7062,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO011",
+        "CO029",
+        "CO052",
+        "CO054",
+        "CO056"
+      ]
     },
     {
       "id": "SH017",
@@ -6703,7 +7153,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "LU003",
+        "CO007",
+        "CO008",
+        "LU010"
+      ]
     },
     {
       "id": "LU017",
@@ -6824,7 +7281,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU015",
+        "CO065",
+        "CO034",
+        "LU002",
+        "LU003"
+      ]
     },
     {
       "id": "CO018",
@@ -6927,7 +7391,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "CO038",
+        "CO065",
+        "LU003",
+        "LU015"
+      ]
     },
     {
       "id": "SH018",
@@ -7027,7 +7498,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH013",
+        "SH020",
+        "SH021",
+        "SH033"
+      ]
     },
     {
       "id": "LU018",
@@ -7158,7 +7636,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU020",
+        "LU012",
+        "OT002",
+        "LU013",
+        "OT003"
+      ]
     },
     {
       "id": "CO019",
@@ -7263,7 +7748,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO064",
+        "OT005",
+        "CO020",
+        "CO021",
+        "CO023"
+      ]
     },
     {
       "id": "SH019",
@@ -7377,7 +7869,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO052",
+        "SH018",
+        "LU014",
+        "CO054",
+        "SH010"
+      ]
     },
     {
       "id": "LU019",
@@ -7512,7 +8011,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO031",
+        "CO063",
+        "CO065",
+        "LU001",
+        "LU002"
+      ]
     },
     {
       "id": "CO020",
@@ -7617,7 +8123,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "OT005",
+        "LU008",
+        "CO019",
+        "CO022",
+        "CO030"
+      ]
     },
     {
       "id": "SH020",
@@ -7737,7 +8250,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH021",
+        "SH033",
+        "LU019",
+        "CO064",
+        "SH001"
+      ]
     },
     {
       "id": "LU020",
@@ -7848,7 +8368,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU018",
+        "LU003",
+        "LU010",
+        "LU012",
+        "LU013"
+      ]
     },
     {
       "id": "CO021",
@@ -7939,7 +8466,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO019",
+        "CO023",
+        "CO024",
+        "CO025",
+        "CO026"
+      ]
     },
     {
       "id": "SH021",
@@ -8047,7 +8581,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH033",
+        "SH020",
+        "SH018",
+        "SH019",
+        "OT005"
+      ]
     },
     {
       "id": "CO022",
@@ -8138,7 +8679,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO020",
+        "OT005",
+        "LU008",
+        "CO001",
+        "CO002"
+      ]
     },
     {
       "id": "SH022",
@@ -8252,7 +8800,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
+      ]
     },
     {
       "id": "CO023",
@@ -8361,7 +8916,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO004",
+        "CO019",
+        "CO021",
+        "CO024",
+        "CO025"
+      ]
     },
     {
       "id": "SH023",
@@ -8451,7 +9013,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH026",
+        "SH016",
+        "SH020",
+        "SH031",
+        "SH034"
+      ]
     },
     {
       "id": "CO024",
@@ -8566,7 +9135,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO026",
+        "CO027",
+        "CO005",
+        "CO019",
+        "CO021"
+      ]
     },
     {
       "id": "SH024",
@@ -8610,7 +9186,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO045",
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
+      ]
     },
     {
       "id": "CO025",
@@ -8725,7 +9308,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014",
+        "CO015"
+      ]
     },
     {
       "id": "SH025",
@@ -8805,7 +9395,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CU007",
+        "CO062",
+        "CO063",
+        "SH001",
+        "SH002"
+      ]
     },
     {
       "id": "CO026",
@@ -8920,7 +9517,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO005",
+        "CO024",
+        "CO027",
+        "CO019",
+        "CO021"
+      ]
     },
     {
       "id": "SH026",
@@ -9040,7 +9644,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH016",
+        "SH023",
+        "SH013",
+        "SH020",
+        "SH031"
+      ]
     },
     {
       "id": "CO027",
@@ -9155,7 +9766,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO024",
+        "CO026",
+        "CO056",
+        "CO005",
+        "CO019"
+      ]
     },
     {
       "id": "SH027",
@@ -9243,7 +9861,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH012",
+        "SH019",
+        "LU003",
+        "CO033",
+        "CO034"
+      ]
     },
     {
       "id": "CO028",
@@ -9358,7 +9983,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO031",
+        "CO038",
+        "CO045",
+        "CO051",
+        "CO053"
+      ]
     },
     {
       "id": "SH028",
@@ -9446,7 +10078,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO060",
+        "SH010",
+        "SH019",
+        "LU014",
+        "CO017"
+      ]
     },
     {
       "id": "CO029",
@@ -9601,7 +10240,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO005",
+        "CO017",
+        "CO024",
+        "CO026",
+        "CO027"
+      ]
     },
     {
       "id": "SH029",
@@ -9681,7 +10327,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH004",
+        "SH032",
+        "CO018",
+        "CO032"
+      ]
     },
     {
       "id": "CO030",
@@ -9814,7 +10467,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO031",
+        "CO041",
+        "CO063",
+        "CO064",
+        "LU013"
+      ]
     },
     {
       "id": "SH030",
@@ -9843,7 +10503,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
+      ]
     },
     {
       "id": "CO031",
@@ -9968,7 +10635,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO063",
+        "CO038",
+        "CO041",
+        "CO065",
+        "LU013"
+      ]
     },
     {
       "id": "SH031",
@@ -10104,7 +10778,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "SH016",
+        "SH020",
+        "SH023",
+        "SH026"
+      ]
     },
     {
       "id": "CO032",
@@ -10255,7 +10936,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO037",
+        "CO018",
+        "CO028",
+        "CO033",
+        "CO036"
+      ]
     },
     {
       "id": "SH032",
@@ -10313,7 +11001,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH004",
+        "SH007",
+        "SH016",
+        "SH003",
+        "SH006"
+      ]
     },
     {
       "id": "CO033",
@@ -10446,7 +11141,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO037",
+        "CO043",
+        "CO058",
+        "CO059",
+        "LU011"
+      ]
     },
     {
       "id": "SH033",
@@ -10530,7 +11232,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH021",
+        "SH020",
+        "SH018",
+        "SH019",
+        "OT005"
+      ]
     },
     {
       "id": "CO034",
@@ -10683,7 +11392,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CO038",
+        "CO065",
+        "LU015",
+        "LU017"
+      ]
     },
     {
       "id": "SH034",
@@ -10747,7 +11463,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH003",
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH016"
+      ]
     },
     {
       "id": "CO035",
@@ -10832,7 +11555,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO007",
+        "CO008",
+        "CO030",
+        "CO031",
+        "CO034"
+      ]
     },
     {
       "id": "SH035",
@@ -10873,7 +11603,14 @@
       "media": [],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH003",
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032"
+      ]
     },
     {
       "id": "CO036",
@@ -11018,7 +11755,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO061",
+        "CO038",
+        "CO051",
+        "CO062",
+        "CO065"
+      ]
     },
     {
       "id": "SH036",
@@ -11070,7 +11814,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH003",
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032"
+      ]
     },
     {
       "id": "CO037",
@@ -11136,7 +11887,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO032",
+        "CO033",
+        "CO018",
+        "CO028",
+        "CO034"
+      ]
     },
     {
       "id": "CO038",
@@ -11303,7 +12061,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "LU003",
+        "CO065",
+        "LU015",
+        "CO031"
+      ]
     },
     {
       "id": "CO039",
@@ -11410,7 +12175,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014",
+        "CO015"
+      ]
     },
     {
       "id": "CO040",
@@ -11489,7 +12261,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO041",
@@ -11646,7 +12425,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU013",
+        "CO048",
+        "LU002",
+        "CO031",
+        "CO063"
+      ]
     },
     {
       "id": "CO042",
@@ -11739,7 +12525,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU006",
+        "CO010",
+        "CO001",
+        "CO002",
+        "CO003"
+      ]
     },
     {
       "id": "CO043",
@@ -11872,7 +12665,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU011",
+        "CO033",
+        "CO058",
+        "CO059",
+        "CO005"
+      ]
     },
     {
       "id": "CO044",
@@ -12005,7 +12805,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU004",
+        "CO048",
+        "LU002",
+        "CO006",
+        "CO019"
+      ]
     },
     {
       "id": "CO045",
@@ -12120,7 +12927,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO028",
+        "CO031",
+        "CO038",
+        "CO048",
+        "CO049"
+      ]
     },
     {
       "id": "CO046",
@@ -12199,7 +13013,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU005",
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004"
+      ]
     },
     {
       "id": "CO047",
@@ -12322,7 +13143,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO058",
+        "LU007",
+        "CO001",
+        "CO002",
+        "CO003"
+      ]
     },
     {
       "id": "CO048",
@@ -12477,7 +13305,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "LU002",
+        "CO041",
+        "LU013",
+        "CO006",
+        "CO044"
+      ]
     },
     {
       "id": "CO049",
@@ -12606,7 +13441,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO038",
+        "CO045",
+        "CO048",
+        "LU002",
+        "CO008"
+      ]
     },
     {
       "id": "CO050",
@@ -12677,7 +13519,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO051",
@@ -12778,7 +13627,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO028",
+        "CO031",
+        "CO036",
+        "CO038",
+        "CO045"
+      ]
     },
     {
       "id": "CO052",
@@ -12907,7 +13763,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "CO054",
+        "LU014",
+        "CO017",
+        "CO019"
+      ]
     },
     {
       "id": "CO053",
@@ -13020,7 +13883,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO028",
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014"
+      ]
     },
     {
       "id": "CO054",
@@ -13143,7 +14013,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO052",
+        "SH019",
+        "CO017",
+        "CO029",
+        "CO060"
+      ]
     },
     {
       "id": "CO055",
@@ -13274,7 +14151,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO056",
@@ -13417,7 +14301,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO027",
+        "CO005",
+        "CO011",
+        "CO017",
+        "CO024"
+      ]
     },
     {
       "id": "CO057",
@@ -13456,7 +14347,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO058",
@@ -13581,7 +14479,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO033",
+        "CO043",
+        "CO059",
+        "LU011",
+        "CO005"
+      ]
     },
     {
       "id": "CO059",
@@ -13688,7 +14593,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO033",
+        "CO043",
+        "CO058",
+        "LU011",
+        "CO005"
+      ]
     },
     {
       "id": "CO060",
@@ -13821,7 +14733,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "SH028",
+        "CO007",
+        "CO008",
+        "CO017",
+        "CO029"
+      ]
     },
     {
       "id": "CO061",
@@ -13966,7 +14885,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO062",
+        "CO036",
+        "CO038",
+        "CO051",
+        "CO065"
+      ]
     },
     {
       "id": "CO062",
@@ -14089,7 +15015,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO061",
+        "CO036",
+        "CO051",
+        "CO063",
+        "CO028"
+      ]
     },
     {
       "id": "CO063",
@@ -14214,7 +15147,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO031",
+        "CO038",
+        "CO041",
+        "CO065",
+        "LU013"
+      ]
     },
     {
       "id": "CO064",
@@ -14357,7 +15297,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO019",
+        "CO030",
+        "LU003",
+        "OT005",
+        "LU010"
+      ]
     },
     {
       "id": "CO065",
@@ -14520,7 +15467,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "CO038",
+        "LU003",
+        "LU015",
+        "LU017"
+      ]
     },
     {
       "id": "CO066",
@@ -14549,7 +15503,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO067",
@@ -14660,7 +15621,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO027",
+        "CO028",
+        "CO053",
+        "CO056",
+        "CO001"
+      ]
     },
     {
       "id": "CO068",
@@ -14807,7 +15775,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO069",
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004"
+      ]
     },
     {
       "id": "CO069",
@@ -14940,7 +15915,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO068",
+        "CU002",
+        "CO001",
+        "CO002",
+        "CO003"
+      ]
     },
     {
       "id": "CO070",
@@ -15057,7 +16039,14 @@
         }
       ],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO002",
+        "CO003",
+        "CO004",
+        "CO005"
+      ]
     },
     {
       "id": "CO071",
@@ -15141,7 +16130,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO014",
+        "CO015"
+      ]
     },
     {
       "id": "CO072",
@@ -15237,7 +16233,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO011",
+        "CO017",
+        "CO056",
+        "SH031",
+        "CO001"
+      ]
     },
     {
       "id": "CO073",
@@ -15290,7 +16293,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO074",
+        "CO034",
+        "CO038",
+        "LU003",
+        "LU015"
+      ]
     },
     {
       "id": "CO074",
@@ -15343,7 +16353,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO073",
+        "CO034",
+        "CO038",
+        "LU003",
+        "LU015"
+      ]
     },
     {
       "id": "CO075",
@@ -15372,7 +16389,14 @@
       ],
       "plating": [],
       "related": [],
-      "comments": []
+      "comments": [],
+      "suggested": [
+        "CO041",
+        "CO065",
+        "LU013",
+        "CO001",
+        "CO002"
+      ]
     }
   ]
 }
