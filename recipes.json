@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T06:44:29.689Z",
+  "generatedAt": "2026-06-20T07:13:13.262Z",
   "count": 144,
   "recipes": [
     {
@@ -709,7 +709,7 @@
     {
       "id": "SH002",
       "brand": "かっちゃん",
-      "name": "仕込み_チーズ",
+      "name": "仕込み_チーズソース",
       "category": "仕込み",
       "time": "20分",
       "yieldAmt": null,
@@ -916,7 +916,7 @@
           "label": "仕込み_麻婆ソース",
           "amt": "70",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "絹ごし豆腐",
@@ -1030,14 +1030,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH003",
+          "reason": "使用する仕込み（仕込み_麻婆ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO048",
         "LU013",
         "CO041",
-        "LU004",
-        "LU017"
+        "LU004"
       ]
     },
     {
@@ -1066,19 +1070,19 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "2",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_サラダベース",
           "amt": "5",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "仕込み_もやしナムル",
           "amt": "15",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH031"
         },
         {
           "label": "弁当箱",
@@ -1163,14 +1167,24 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "OT003",
-        "LU018",
-        "OT004",
-        "LU012",
-        "OT005"
+        "LU018"
       ]
     },
     {
@@ -1352,13 +1366,7 @@
           "linkId": ""
         }
       ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
+      "allergens": [],
       "steps": [
         {
           "text": "上記材料を分量通り用意する",
@@ -1516,7 +1524,7 @@
           "label": "仕込み_豚キムたれ",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH013"
         },
         {
           "label": "ごま油",
@@ -1644,14 +1652,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH013",
+          "reason": "使用する仕込み（仕込み_豚キムたれ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO034",
         "CO038",
         "LU015",
-        "CO065",
-        "LU010"
+        "CO065"
       ]
     },
     {
@@ -1674,19 +1686,19 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_サラダベース",
           "amt": "5",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "仕込み_もやしナムル",
           "amt": "15",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH031"
         },
         {
           "label": "弁当箱",
@@ -1763,14 +1775,24 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "OT002",
-        "LU018",
-        "OT004",
-        "OT005",
-        "LU004"
+        "LU018"
       ]
     },
     {
@@ -1886,19 +1908,19 @@
           "label": "仕込み_ネギ塩",
           "amt": "15",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH001"
         },
         {
           "label": "仕込み_ネギ塩",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH001"
         },
         {
           "label": "仕込み_ネギ塩",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH001"
         }
       ],
       "allergens": [],
@@ -2145,13 +2167,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "2",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_油淋鶏ソース",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH020"
         },
         {
           "label": "カット白ネギ",
@@ -2225,14 +2247,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH020",
+          "reason": "使用する仕込み（仕込み_油淋鶏ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO044",
         "LU002",
-        "CO048",
-        "LU017",
-        "LU019"
+        "CO048"
       ]
     },
     {
@@ -2416,19 +2445,19 @@
           "label": "仕込み_チーズソース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH002"
         },
         {
           "label": "仕込み_チーズソース",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH002"
         },
         {
           "label": "仕込み_チーズソース",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH002"
         },
         {
           "label": "パセリ",
@@ -2552,14 +2581,17 @@
         {
           "id": "CO001",
           "reason": "ベース"
+        },
+        {
+          "id": "SH002",
+          "reason": "使用する仕込み（仕込み_チーズソース）"
         }
       ],
       "comments": [],
       "suggested": [
         "CO026",
         "CO004",
-        "CO006",
-        "CO007"
+        "CO006"
       ]
     },
     {
@@ -2576,7 +2608,7 @@
           "label": "仕込み_白湯ベース",
           "amt": "1000",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH004"
         },
         {
           "label": "トマトソース",
@@ -2643,14 +2675,18 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO008",
         "LU010",
         "LU012",
-        "SH001",
-        "SH002"
+        "SH001"
       ]
     },
     {
@@ -2667,7 +2703,7 @@
           "label": "仕込み_ピリ辛メンマ",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH023"
         }
       ],
       "allergens": [],
@@ -2705,14 +2741,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH023",
+          "reason": "使用する仕込み（仕込み_ピリ辛メンマ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO046",
         "LU001",
         "LU002",
-        "LU003",
-        "LU004"
+        "LU003"
       ]
     },
     {
@@ -2729,13 +2769,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "175",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_むね唐揚げ",
           "amt": "175",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH009"
         },
         {
           "label": "特製ダレ",
@@ -2771,14 +2811,21 @@
       ],
       "media": [],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU008",
         "CO019",
-        "CO020",
-        "CO064",
-        "OT002"
+        "CO020"
       ]
     },
     {
@@ -2910,19 +2957,19 @@
           "label": "仕込み_麻婆ソース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "仕込み_麻婆ソース",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "仕込み_麻婆ソース",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "カット白ネギ",
@@ -3046,14 +3093,17 @@
         {
           "id": "CO001",
           "reason": "ベース"
+        },
+        {
+          "id": "SH003",
+          "reason": "使用する仕込み（仕込み_麻婆ソース）"
         }
       ],
       "comments": [],
       "suggested": [
         "CO048",
         "LU002",
-        "LU013",
-        "CO004"
+        "LU013"
       ]
     },
     {
@@ -3669,7 +3719,7 @@
           "label": "仕込み_サラダベース",
           "amt": "2",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         }
       ],
       "allergens": [],
@@ -3719,14 +3769,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU008",
         "LU011",
         "LU014",
-        "OT002",
-        "OT003"
+        "OT002"
       ]
     },
     {
@@ -3872,7 +3926,7 @@
           "label": "仕込み_白湯ベース",
           "amt": "100",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH004"
         },
         {
           "label": "カットネギ",
@@ -3992,14 +4046,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU012",
         "LU010",
         "LU013",
-        "CO007",
-        "CO031"
+        "CO007"
       ]
     },
     {
@@ -4151,13 +4209,13 @@
           "label": "仕込み_むね唐揚げ",
           "amt": "2",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH009"
         },
         {
           "label": "仕込み_サラダベース",
           "amt": "2",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "特製ダレ",
@@ -4221,14 +4279,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU014",
         "OT005",
-        "CO020",
-        "LU007",
-        "LU011"
+        "CO020"
       ]
     },
     {
@@ -4281,7 +4346,7 @@
           "label": "仕込み_トマト白湯ベース",
           "amt": "100",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH005"
         },
         {
           "label": "粉チーズ",
@@ -4411,14 +4476,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH005",
+          "reason": "使用する仕込み（仕込み_トマト白湯ベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO001",
         "CO004",
         "CO005",
-        "CO006",
-        "CO007"
+        "CO006"
       ]
     },
     {
@@ -4873,7 +4942,7 @@
           "label": "仕込み_白湯ベース",
           "amt": "150",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH004"
         },
         {
           "label": "カットネギ",
@@ -4933,14 +5002,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU012",
         "LU003",
         "CO008",
-        "LU013",
-        "LU019"
+        "LU013"
       ]
     },
     {
@@ -5190,13 +5263,13 @@
           "label": "仕込み_サラダベース",
           "amt": "2",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "仕込み_エビマヨソース",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH019"
         },
         {
           "label": "パセリ",
@@ -5296,14 +5369,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        },
+        {
+          "id": "SH019",
+          "reason": "使用する仕込み（仕込み_エビマヨソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO043",
         "CO033",
-        "CO058",
-        "CO059",
-        "LU001"
+        "CO058"
       ]
     },
     {
@@ -5527,7 +5607,7 @@
           "label": "仕込み_白湯ベース",
           "amt": "150",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH004"
         },
         {
           "label": "カットネギ",
@@ -5607,14 +5687,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU010",
         "CO008",
         "LU003",
-        "LU013",
-        "LU018"
+        "LU013"
       ]
     },
     {
@@ -5631,7 +5715,7 @@
           "label": "仕込み_きゅうりの浅漬け",
           "amt": "8",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH006"
         },
         {
           "label": "白ごま",
@@ -5707,14 +5791,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH006",
+          "reason": "使用する仕込み（仕込み_きゅうりの浅漬け）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO008",
         "CO012",
         "CO014",
-        "CO015",
-        "CO016"
+        "CO015"
       ]
     },
     {
@@ -5840,13 +5928,13 @@
           "label": "仕込み_混ぜそばベース",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH018"
         },
         {
           "label": "仕込み_麻婆ソース",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "カットネギ",
@@ -5956,14 +6044,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH018",
+          "reason": "使用する仕込み（仕込み_混ぜそばベース）"
+        },
+        {
+          "id": "SH003",
+          "reason": "使用する仕込み（仕込み_麻婆ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO041",
         "LU002",
-        "CO048",
-        "LU012",
-        "CO008"
+        "CO048"
       ]
     },
     {
@@ -6215,7 +6310,7 @@
           "label": "仕込み_サラダベース",
           "amt": "5",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "マヨネーズ",
@@ -6283,14 +6378,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU008",
         "SH019",
         "CO052",
-        "LU007",
-        "LU011"
+        "LU007"
       ]
     },
     {
@@ -6307,7 +6406,7 @@
           "label": "仕込み_うずらの煮卵",
           "amt": "7",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH007"
         },
         {
           "label": "白ごま",
@@ -6379,14 +6478,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH007",
+          "reason": "使用する仕込み（仕込み_うずらの煮卵）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO008",
         "CO012",
         "CO013",
-        "CO014",
-        "CO016"
+        "CO014"
       ]
     },
     {
@@ -6516,7 +6619,7 @@
           "label": "仕込み_豚肉下茹で",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH030"
         },
         {
           "label": "キャベツ",
@@ -6558,7 +6661,7 @@
           "label": "仕込み_八宝菜のたれ",
           "amt": "50",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH034"
         },
         {
           "label": "白ごま",
@@ -6646,14 +6749,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH030",
+          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+        },
+        {
+          "id": "SH034",
+          "reason": "使用する仕込み（仕込み_八宝菜のたれ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO034",
         "CO038",
-        "LU003",
-        "LU017",
-        "CO065"
+        "LU003"
       ]
     },
     {
@@ -7182,7 +7292,7 @@
           "label": "仕込み_豚肉下茹で",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH030"
         },
         {
           "label": "キャベツ",
@@ -7286,14 +7396,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH030",
+          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU015",
         "CO065",
         "CO034",
-        "LU002",
-        "LU003"
+        "LU002"
       ]
     },
     {
@@ -7533,13 +7647,13 @@
           "label": "仕込み_かっちゃんラーメンベース",
           "amt": "260",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH035"
         },
         {
           "label": "仕込み_もやしナムル",
           "amt": "15",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH031"
         },
         {
           "label": "焼豚",
@@ -7641,14 +7755,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH035",
+          "reason": "使用する仕込み（仕込み_かっちゃんラーメンベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU020",
         "LU012",
-        "OT002",
-        "LU013",
-        "OT003"
+        "OT002"
       ]
     },
     {
@@ -7665,7 +7786,7 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "特製ダレ",
@@ -7753,14 +7874,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO064",
         "OT005",
         "CO020",
-        "CO021",
-        "CO023"
+        "CO021"
       ]
     },
     {
@@ -7898,7 +8023,7 @@
           "label": "仕込み_戻しきくらげ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH036"
         },
         {
           "label": "むき玉ねぎ",
@@ -8016,14 +8141,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH036",
+          "reason": "使用する仕込み（仕込み_戻しきくらげ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO031",
         "CO063",
         "CO065",
-        "LU001",
-        "LU002"
+        "LU001"
       ]
     },
     {
@@ -8040,7 +8169,7 @@
           "label": "仕込み_むね唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH009"
         },
         {
           "label": "特製ダレ",
@@ -8128,14 +8257,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "OT005",
         "LU008",
         "CO019",
-        "CO022",
-        "CO030"
+        "CO022"
       ]
     },
     {
@@ -8285,13 +8418,13 @@
           "label": "仕込み_かっちゃんラーメンベース",
           "amt": "260",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH035"
         },
         {
           "label": "仕込み_もやしナムル",
           "amt": "15",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH031"
         },
         {
           "label": "焼豚",
@@ -8373,14 +8506,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH035",
+          "reason": "使用する仕込み（仕込み_かっちゃんラーメンベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU018",
         "LU003",
-        "LU010",
-        "LU012",
-        "LU013"
+        "LU010"
       ]
     },
     {
@@ -8397,7 +8537,7 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         }
       ],
       "allergens": [],
@@ -8471,14 +8611,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO019",
         "CO023",
         "CO024",
-        "CO025",
-        "CO026"
+        "CO025"
       ]
     },
     {
@@ -8610,7 +8754,7 @@
           "label": "仕込み_むね唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH009"
         }
       ],
       "allergens": [],
@@ -8684,14 +8828,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO020",
         "OT005",
         "LU008",
-        "CO001",
-        "CO002"
+        "CO001"
       ]
     },
     {
@@ -8829,13 +8977,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_ネギ塩",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH001"
         }
       ],
       "allergens": [],
@@ -8921,14 +9069,21 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH001",
+          "reason": "使用する仕込み（仕込み_ネギ塩）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO004",
         "CO019",
-        "CO021",
-        "CO024",
-        "CO025"
+        "CO021"
       ]
     },
     {
@@ -9042,7 +9197,7 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "タルタルソース",
@@ -9140,14 +9295,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO026",
         "CO027",
         "CO005",
-        "CO019",
-        "CO021"
+        "CO019"
       ]
     },
     {
@@ -9170,7 +9329,7 @@
           "label": "仕込み_よだれ鶏",
           "amt": "1",
           "unit": "枚",
-          "linkId": ""
+          "linkId": "SH022"
         }
       ],
       "allergens": [],
@@ -9191,14 +9350,18 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH022",
+          "reason": "使用する仕込み（仕込み_よだれ鶏）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO045",
         "SH001",
         "SH002",
-        "SH003",
-        "SH004"
+        "SH003"
       ]
     },
     {
@@ -9215,7 +9378,7 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "ヤンニョム",
@@ -9313,14 +9476,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO008",
         "CO012",
         "CO013",
-        "CO014",
-        "CO015"
+        "CO014"
       ]
     },
     {
@@ -9337,7 +9504,7 @@
           "label": "仕込み_キムチベース",
           "amt": "150",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH026"
         },
         {
           "label": "サーモン",
@@ -9400,14 +9567,18 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH026",
+          "reason": "使用する仕込み（仕込み_キムチベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CU007",
         "CO062",
         "CO063",
-        "SH001",
-        "SH002"
+        "SH001"
       ]
     },
     {
@@ -9424,13 +9595,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_チーズソース",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH002"
         },
         {
           "label": "パセリ",
@@ -9522,14 +9693,21 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH002",
+          "reason": "使用する仕込み（仕込み_チーズソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO005",
         "CO024",
-        "CO027",
-        "CO019",
-        "CO021"
+        "CO027"
       ]
     },
     {
@@ -9673,13 +9851,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_明太マヨ",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH010"
         },
         {
           "label": "パセリ",
@@ -9771,14 +9949,21 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH010",
+          "reason": "使用する仕込み（仕込み_明太マヨ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO024",
         "CO026",
-        "CO056",
-        "CO005",
-        "CO019"
+        "CO056"
       ]
     },
     {
@@ -9890,7 +10075,7 @@
           "label": "仕込み_サラダベース",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "むき玉ねぎ",
@@ -9988,14 +10173,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO031",
         "CO038",
         "CO045",
-        "CO051",
-        "CO053"
+        "CO051"
       ]
     },
     {
@@ -10807,7 +10996,7 @@
           "label": "仕込み_タンステーキ",
           "amt": "80",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH012"
         },
         {
           "label": "塩だれ",
@@ -10819,7 +11008,7 @@
           "label": "仕込み_サラダベース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "レモン",
@@ -10941,14 +11130,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH012",
+          "reason": "使用する仕込み（仕込み_タンステーキ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO037",
         "CO018",
-        "CO028",
-        "CO033",
-        "CO036"
+        "CO028"
       ]
     },
     {
@@ -11054,7 +11250,7 @@
           "label": "仕込み_サラダベース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "パセリ",
@@ -11146,14 +11342,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO037",
         "CO043",
         "CO058",
-        "CO059",
-        "LU011"
+        "CO059"
       ]
     },
     {
@@ -11261,7 +11461,7 @@
           "label": "仕込み_豚肉下茹で",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH030"
         },
         {
           "label": "味塩コショー",
@@ -11291,7 +11491,7 @@
           "label": "仕込み_豚キムたれ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH013"
         },
         {
           "label": "カットネギ",
@@ -11397,14 +11597,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH030",
+          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+        },
+        {
+          "id": "SH013",
+          "reason": "使用する仕込み（仕込み_豚キムたれ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU003",
         "CO038",
-        "CO065",
-        "LU015",
-        "LU017"
+        "CO065"
       ]
     },
     {
@@ -11492,7 +11699,7 @@
           "label": "仕込み_どて煮",
           "amt": "100",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH014"
         },
         {
           "label": "カットネギ",
@@ -11560,14 +11767,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH014",
+          "reason": "使用する仕込み（仕込み_どて煮）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO007",
         "CO008",
         "CO030",
-        "CO031",
-        "CO034"
+        "CO031"
       ]
     },
     {
@@ -11843,7 +12054,7 @@
           "label": "仕込み_ヤゲン",
           "amt": "90",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH015"
         },
         {
           "label": "味塩コショー",
@@ -11861,7 +12072,7 @@
           "label": "仕込み_サラダベース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "レモン",
@@ -11892,14 +12103,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH015",
+          "reason": "使用する仕込み（仕込み_ヤゲン）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO032",
         "CO033",
-        "CO018",
-        "CO028",
-        "CO034"
+        "CO018"
       ]
     },
     {
@@ -11952,7 +12170,7 @@
           "label": "仕込み_ホルモンタレ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH016"
         },
         {
           "label": "カットネギ",
@@ -12066,14 +12284,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH016",
+          "reason": "使用する仕込み（仕込み_ホルモンタレ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO034",
         "LU003",
         "CO065",
-        "LU015",
-        "CO031"
+        "LU015"
       ]
     },
     {
@@ -12204,7 +12426,7 @@
           "label": "仕込み_コブクロ",
           "amt": "50",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH017"
         }
       ],
       "allergens": [],
@@ -12266,14 +12488,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH017",
+          "reason": "使用する仕込み（仕込み_コブクロ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
@@ -12296,13 +12522,13 @@
           "label": "仕込み_混ぜそばベース",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH018"
         },
         {
           "label": "仕込み_麻婆ソース",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "カットネギ",
@@ -12430,14 +12656,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH018",
+          "reason": "使用する仕込み（仕込み_混ぜそばベース）"
+        },
+        {
+          "id": "SH003",
+          "reason": "使用する仕込み（仕込み_麻婆ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU013",
         "CO048",
-        "LU002",
-        "CO031",
-        "CO063"
+        "LU002"
       ]
     },
     {
@@ -12560,13 +12793,13 @@
           "label": "仕込み_サラダベース",
           "amt": "5",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "仕込み_エビマヨソース",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH019"
         },
         {
           "label": "パセリ",
@@ -12670,14 +12903,21 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        },
+        {
+          "id": "SH019",
+          "reason": "使用する仕込み（仕込み_エビマヨソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU011",
         "CO033",
-        "CO058",
-        "CO059",
-        "CO005"
+        "CO058"
       ]
     },
     {
@@ -12694,13 +12934,13 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "5",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "仕込み_油淋鶏ソース",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH020"
         },
         {
           "label": "カット白ネギ",
@@ -12810,14 +13050,21 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH020",
+          "reason": "使用する仕込み（仕込み_油淋鶏ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU004",
         "CO048",
-        "LU002",
-        "CO006",
-        "CO019"
+        "LU002"
       ]
     },
     {
@@ -12840,13 +13087,13 @@
           "label": "仕込み_よだれ鶏",
           "amt": "60",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH022"
         },
         {
           "label": "仕込み_よだれ鶏タレ",
           "amt": "30",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH021"
         },
         {
           "label": "白ごま",
@@ -12932,14 +13179,21 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH022",
+          "reason": "使用する仕込み（仕込み_よだれ鶏）"
+        },
+        {
+          "id": "SH021",
+          "reason": "使用する仕込み（仕込み_よだれ鶏タレ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO028",
         "CO031",
-        "CO038",
-        "CO048",
-        "CO049"
+        "CO038"
       ]
     },
     {
@@ -12956,7 +13210,7 @@
           "label": "仕込み_ピリ辛メンマ",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH023"
         }
       ],
       "allergens": [],
@@ -13018,14 +13272,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH023",
+          "reason": "使用する仕込み（仕込み_ピリ辛メンマ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU005",
         "CO001",
         "CO002",
-        "CO003",
-        "CO004"
+        "CO003"
       ]
     },
     {
@@ -13172,7 +13430,7 @@
           "label": "仕込み_麻婆ソース",
           "amt": "150",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH003"
         },
         {
           "label": "絹ごし豆腐",
@@ -13310,14 +13568,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH003",
+          "reason": "使用する仕込み（仕込み_麻婆ソース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "LU002",
         "CO041",
         "LU013",
-        "CO006",
-        "CO044"
+        "CO006"
       ]
     },
     {
@@ -13340,7 +13602,7 @@
           "label": "仕込み_ホルモンタレ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH016"
         },
         {
           "label": "糸唐辛子",
@@ -13446,14 +13708,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH016",
+          "reason": "使用する仕込み（仕込み_ホルモンタレ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO038",
         "CO045",
         "CO048",
-        "LU002",
-        "CO008"
+        "LU002"
       ]
     },
     {
@@ -13470,7 +13736,7 @@
           "label": "仕込み_鶏むねクラゲ",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH024"
         }
       ],
       "allergens": [],
@@ -13524,14 +13790,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH024",
+          "reason": "使用する仕込み（仕込み_鶏むねクラゲ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
@@ -13560,7 +13830,7 @@
           "label": "仕込み_サーモンキムチ",
           "amt": "60",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH025"
         },
         {
           "label": "白ごま",
@@ -13632,14 +13902,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH025",
+          "reason": "使用する仕込み（仕込み_サーモンキムチ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO028",
         "CO031",
         "CO036",
-        "CO038",
-        "CO045"
+        "CO038"
       ]
     },
     {
@@ -13798,7 +14072,7 @@
           "label": "仕込み_トロたく",
           "amt": "60",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH027"
         },
         {
           "label": "韓国のり",
@@ -13888,14 +14162,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH027",
+          "reason": "使用する仕込み（仕込み_トロたく）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO028",
         "CO008",
         "CO012",
-        "CO013",
-        "CO014"
+        "CO013"
       ]
     },
     {
@@ -14066,7 +14344,7 @@
           "label": "仕込み_ソースマヨ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH028"
         }
       ],
       "allergens": [],
@@ -14156,14 +14434,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH028",
+          "reason": "使用する仕込み（仕込み_ソースマヨ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
@@ -14198,7 +14480,7 @@
           "label": "仕込み_明太マヨ",
           "amt": "適量",
           "unit": "",
-          "linkId": ""
+          "linkId": "SH010"
         },
         {
           "label": "パセリ",
@@ -14306,14 +14588,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH010",
+          "reason": "使用する仕込み（仕込み_明太マヨ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO027",
         "CO005",
         "CO011",
-        "CO017",
-        "CO024"
+        "CO017"
       ]
     },
     {
@@ -14382,7 +14668,7 @@
           "label": "仕込み_サラダベース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "パセリ",
@@ -14484,14 +14770,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO033",
         "CO043",
         "CO059",
-        "LU011",
-        "CO005"
+        "LU011"
       ]
     },
     {
@@ -14514,7 +14804,7 @@
           "label": "仕込み_サラダベース",
           "amt": "10",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH011"
         },
         {
           "label": "パセリ",
@@ -14598,14 +14888,18 @@
           "content": "揚げ"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO033",
         "CO043",
         "CO058",
-        "LU011",
-        "CO005"
+        "LU011"
       ]
     },
     {
@@ -15176,7 +15470,7 @@
           "label": "仕込み_もも唐揚げ",
           "amt": "1",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH008"
         },
         {
           "label": "ごま油",
@@ -15302,14 +15596,18 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO019",
         "CO030",
         "LU003",
-        "OT005",
-        "LU010"
+        "OT005"
       ]
     },
     {
@@ -15332,7 +15630,7 @@
           "label": "仕込み_豚肉下茹で",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH030"
         },
         {
           "label": "キャベツ",
@@ -15356,7 +15654,7 @@
           "label": "仕込み_焼きラーメンダレ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH029"
         },
         {
           "label": "カット白ネギ",
@@ -15472,14 +15770,21 @@
           "content": "焼き・〆"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH030",
+          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+        },
+        {
+          "id": "SH029",
+          "reason": "使用する仕込み（仕込み_焼きラーメンダレ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO034",
         "CO038",
-        "LU003",
-        "LU015",
-        "LU017"
+        "LU003"
       ]
     },
     {
@@ -15544,7 +15849,7 @@
           "label": "仕込み_明太マヨ",
           "amt": "20",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH010"
         }
       ],
       "allergens": [],
@@ -15626,14 +15931,18 @@
           "content": "冷製"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "SH010",
+          "reason": "使用する仕込み（仕込み_明太マヨ）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO027",
         "CO028",
         "CO053",
-        "CO056",
-        "CO001"
+        "CO056"
       ]
     },
     {
@@ -16068,7 +16377,7 @@
           "label": "仕込み_もやしナムル",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH031"
         },
         {
           "label": "白ごま",
@@ -16135,14 +16444,18 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO008",
         "CO012",
         "CO013",
-        "CO014",
-        "CO015"
+        "CO014"
       ]
     },
     {
