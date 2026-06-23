@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T23:31:22.179Z",
+  "generatedAt": "2026-06-23T06:10:09.217Z",
   "count": 144,
   "recipes": [
     {
@@ -13458,7 +13458,7 @@
       "ingredients": [
         {
           "label": "仕込み_麻婆ソース",
-          "amt": "150",
+          "amt": "200",
           "unit": "g",
           "linkId": "SH003"
         },
