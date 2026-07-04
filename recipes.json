@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T11:56:30.241Z",
-  "count": 145,
+  "generatedAt": "2026-07-04T23:31:29.254Z",
+  "count": 144,
   "recipes": [
     {
       "id": "CO001",
@@ -17554,89 +17554,6 @@
         "LU013",
         "CO001",
         "CO002"
-      ]
-    },
-    {
-      "id": "TE001",
-      "brand": "かっちゃん",
-      "name": "テスト",
-      "furigana": "テスト",
-      "category": "テスト",
-      "time": "10分",
-      "yieldAmt": 500,
-      "yieldUnit": "g",
-      "appOrder": 79,
-      "ingredients": [
-        {
-          "label": "おろしにんにく",
-          "amt": "1",
-          "unit": "本",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "1",
-          "note": false
-        },
-        {
-          "text": "2",
-          "note": true
-        },
-        {
-          "text": "3",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1x13nU7pOR7ba_TDgtR1PBAt3qcLV7YPr/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ttupSKdctb1nz2VA_0fJuhqjgsLpaFzf/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "aa"
-        }
-      ],
-      "related": [
-        {
-          "id": "CO018",
-          "reason": "手動"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "SH013",
-        "SH016",
-        "SH026",
-        "SH032"
       ]
     }
   ]
