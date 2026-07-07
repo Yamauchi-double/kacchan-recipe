@@ -598,12 +598,11 @@ function openWatch(id){
       '</div></div>'
     : '';
 
-  // メディア欄（PDF＝画像付き調理工程）
+  // メディア欄（PDF＝画像付き調理工程）。登録無しなら欄ごと非表示
   var pdf=mediaUrl(r,'PDF'), pdfId=driveId(pdf);
-  var pdfBtn = pdfId
-    ? '<a class="mbtn" target="_blank" href="https://drive.google.com/file/d/'+pdfId+'/view">🖼 画像付き調理工程を見る</a>'
-    : '<span class="mbtn disabled">🖼 画像付き調理工程なし</span>';
-  var mediaSec='<div class="sec"><div class="sech">メディア</div><div class="mediabtns">'+pdfBtn+'</div></div>';
+  var mediaSec = pdfId
+    ? '<div class="sec"><div class="sech">メディア</div><div class="mediabtns"><a class="mbtn" target="_blank" href="https://drive.google.com/file/d/'+pdfId+'/view">🖼 画像付き調理工程を見る</a></div></div>'
+    : '';
 
   // アレルゲン
   var aller=(r.allergens&&r.allergens.length)
