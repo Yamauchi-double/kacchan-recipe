@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T12:19:45.372Z",
+  "generatedAt": "2026-07-07T13:14:40.404Z",
   "count": 144,
   "recipes": [
     {
@@ -11933,14 +11933,14 @@
           "linkId": ""
         },
         {
-          "label": "一味",
-          "amt": "30",
+          "label": "味の素",
+          "amt": "10",
           "unit": "g",
           "linkId": ""
         },
         {
-          "label": "味の素",
-          "amt": "10",
+          "label": "一味",
+          "amt": "30",
           "unit": "g",
           "linkId": ""
         },
@@ -12004,9 +12004,38 @@
         {
           "text": "余った分は清潔な容器に入れて常温保管",
           "note": false
+        },
+        {
+          "text": "保存方法：常温（高温多湿をなるべく避ける）\n保存期間：3カ月",
+          "note": false
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1Vcoogs_X9xy0EeY2AaFfngYOLCFOldS4/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1yUwHC7-2ZyEuvmQrTBkk3y78ZanWe4Fr/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1shNuP9WfFQYJao8LY4woHPQPdmMA3pq7/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1LDUJSEdT5pej5B_dWREeoAQrMRLNHLft/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1jlQ1fZlH-Xsp2a_xT2YgB_-Zkt-xV9VG/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1mKJnVlpWsGUBKNdgPozRGWlpBg8ioPBV/view?usp=sharing"
+        }
+      ],
       "plating": [],
       "related": [],
       "comments": [],
