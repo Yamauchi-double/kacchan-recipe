@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T23:31:19.976Z",
-  "count": 144,
+  "generatedAt": "2026-07-07T10:58:14.214Z",
+  "count": 145,
   "recipes": [
     {
       "id": "CO001",
@@ -132,20 +132,8 @@
       ],
       "plating": [
         {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "油引き"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
+          "item": "",
+          "content": ""
         }
       ],
       "related": [
@@ -166,6 +154,272 @@
       "suggested": [
         "CO007",
         "CO008"
+      ]
+    },
+    {
+      "id": "CU001",
+      "brand": "かっちゃん",
+      "name": "切り物_ニラカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "1分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 1,
+      "ingredients": [
+        {
+          "label": "にら",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "ニラのパックを開ける",
+          "note": false
+        },
+        {
+          "text": "根元3cm前後切り落とす",
+          "note": false
+        },
+        {
+          "text": "5cm前後にカットする",
+          "note": false
+        },
+        {
+          "text": "容器に入れて冷蔵保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵4日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：2,440mlタッパ",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1kThSJxlZ96Y9FahIDAUS7Hscv-88bKFn/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1gTw6msGAUdF2K_2-1Hlj5VfqHoBaTmJk/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1CN2NjIEte182RBQlyrlsssYRYTr3N65w/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1zyLh9LQE9-wcaahybcL_842aNVE5K-um/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/16syoOeI5gUo1vaP_xmW1yKwcbvuM76g9/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1seA3iW6oSwQNYbIBGApNcdi8eNj-Wlev/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1kThSJxlZ96Y9FahIDAUS7Hscv-88bKFn/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "LU015",
+        "CO034",
+        "CO038",
+        "CU002"
+      ]
+    },
+    {
+      "id": "LU001",
+      "brand": "かっちゃん",
+      "name": "ランチ_エビチリ",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 1,
+      "ingredients": [
+        {
+          "label": "エビフリット",
+          "amt": "4",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "冷凍ピーマン",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "むき玉ねぎ",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "エビチリソース",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "えび",
+        "小麦",
+        "卵",
+        "大豆",
+        "ごま",
+        "鶏肉",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "水気の無い清潔なフライパンを軽く温め油を引く",
+          "note": false
+        },
+        {
+          "text": "オニスラ、ピーマン（冷凍でOK）を入れる",
+          "note": false
+        },
+        {
+          "text": "1分前後、中~強火で炒める",
+          "note": false
+        },
+        {
+          "text": "前もって揚げておいたエビフリットを入れる",
+          "note": false
+        },
+        {
+          "text": "エビチリソースを40ｇ入れる",
+          "note": false
+        },
+        {
+          "text": "しっかりとソースを絡める",
+          "note": false
+        },
+        {
+          "text": "最後にごま油を少し入れて香り付けする",
+          "note": false
+        },
+        {
+          "text": "銀皿（小）に盛り付ける",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "レギュラーサイズは上記レシピの分量が各2倍",
+          "note": true
+        },
+        {
+          "text": "全体的に手早く仕上げる",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1wgOFJnhi7j2Pz9AE7WcKn5ttGDSMno7H/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1gSIPfdfNXjZ6psmxqtDvw81ye7o8lndM/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1mULSr9ULSJLBTuDiJfJvrIf9meOaGCri/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1VMh39xJdtdzkg7U7dVUeVOSKxKjwdWE8/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Ws4qEi3MJzsTImkMEGCi82iQC4aZiboK/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1IeZHpA74FfYOHfO71nLwfvfZfyjNnK_0/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU015",
+        "LU019",
+        "LU003",
+        "LU010",
+        "LU011"
+      ]
+    },
+    {
+      "id": "OT001",
+      "brand": "かっちゃん",
+      "name": "他_皿画像",
+      "furigana": "",
+      "category": "他",
+      "time": "",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 1,
+      "ingredients": [],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "インフォマート発注用の皿画像など掲載",
+          "note": false
+        },
+        {
+          "text": "調理工程のPDFで確認お願いします。",
+          "note": false
+        },
+        {
+          "text": "インフォマート検索名、皿画像、使用用途を掲載してます",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1gTBrJTpnq-IuEs6qqIziryMPqzx5vKja/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "OT002",
+        "OT003",
+        "OT004",
+        "OT005"
       ]
     },
     {
@@ -296,293 +550,6 @@
       ]
     },
     {
-      "id": "LU001",
-      "brand": "かっちゃん",
-      "name": "ランチ_エビチリ",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "4分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 1,
-      "ingredients": [
-        {
-          "label": "エビフリット",
-          "amt": "4",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "冷凍ピーマン",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "むき玉ねぎ",
-          "amt": "15",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "エビチリソース",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "えび",
-        "小麦",
-        "卵",
-        "大豆",
-        "ごま",
-        "鶏肉",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "水気の無い清潔なフライパンを軽く温め油を引く",
-          "note": false
-        },
-        {
-          "text": "オニスラ、ピーマン（冷凍でOK）を入れる",
-          "note": false
-        },
-        {
-          "text": "1分前後、中~強火で炒める",
-          "note": false
-        },
-        {
-          "text": "前もって揚げておいたエビフリットを入れる",
-          "note": false
-        },
-        {
-          "text": "エビチリソースを40ｇ入れる",
-          "note": false
-        },
-        {
-          "text": "しっかりとソースを絡める",
-          "note": false
-        },
-        {
-          "text": "最後にごま油を少し入れて香り付けする",
-          "note": false
-        },
-        {
-          "text": "銀皿（小）に盛り付ける",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "レギュラーサイズは上記レシピの分量が各2倍",
-          "note": true
-        },
-        {
-          "text": "全体的に手早く仕上げる",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1wgOFJnhi7j2Pz9AE7WcKn5ttGDSMno7H/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1gSIPfdfNXjZ6psmxqtDvw81ye7o8lndM/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1mULSr9ULSJLBTuDiJfJvrIf9meOaGCri/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1VMh39xJdtdzkg7U7dVUeVOSKxKjwdWE8/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Ws4qEi3MJzsTImkMEGCi82iQC4aZiboK/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1IeZHpA74FfYOHfO71nLwfvfZfyjNnK_0/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小, 銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "3分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU015",
-        "LU019",
-        "LU003",
-        "LU010",
-        "LU011"
-      ]
-    },
-    {
-      "id": "CU001",
-      "brand": "かっちゃん",
-      "name": "切り物_ニラカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "1分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 1,
-      "ingredients": [
-        {
-          "label": "にら",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "ニラのパックを開ける",
-          "note": false
-        },
-        {
-          "text": "根元3cm前後切り落とす",
-          "note": false
-        },
-        {
-          "text": "5cm前後にカットする",
-          "note": false
-        },
-        {
-          "text": "容器に入れて冷蔵保存",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵4日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：2,440mlタッパ",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1kThSJxlZ96Y9FahIDAUS7Hscv-88bKFn/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1gTw6msGAUdF2K_2-1Hlj5VfqHoBaTmJk/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1CN2NjIEte182RBQlyrlsssYRYTr3N65w/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1zyLh9LQE9-wcaahybcL_842aNVE5K-um/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/16syoOeI5gUo1vaP_xmW1yKwcbvuM76g9/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1seA3iW6oSwQNYbIBGApNcdi8eNj-Wlev/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1kThSJxlZ96Y9FahIDAUS7Hscv-88bKFn/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "LU015",
-        "CO034",
-        "CO038",
-        "CU002"
-      ]
-    },
-    {
-      "id": "OT001",
-      "brand": "かっちゃん",
-      "name": "他_皿画像",
-      "furigana": "",
-      "category": "他",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 1,
-      "ingredients": [],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "インフォマート発注用の皿画像など掲載",
-          "note": false
-        },
-        {
-          "text": "調理工程のPDFで確認お願いします。",
-          "note": false
-        },
-        {
-          "text": "インフォマート検索名、皿画像、使用用途を掲載してます",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1gTBrJTpnq-IuEs6qqIziryMPqzx5vKja/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "OT002",
-        "OT003",
-        "OT004",
-        "OT005"
-      ]
-    },
-    {
       "id": "CO002",
       "brand": "かっちゃん",
       "name": "旨味爆弾！じゅ～しぃ餃子",
@@ -612,7 +579,13 @@
           "linkId": ""
         }
       ],
-      "allergens": [],
+      "allergens": [
+        "小麦",
+        "豚肉",
+        "ゼラチン",
+        "大豆",
+        "ごま"
+      ],
       "steps": [
         {
           "text": "燃焼ランプが消えてることを確認して、消えていたら調理を始める",
@@ -705,24 +678,7 @@
           "url": "https://nigami17.com/"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "油引き"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -731,116 +687,6 @@
         "CO004",
         "CO005",
         "CO006"
-      ]
-    },
-    {
-      "id": "SH002",
-      "brand": "かっちゃん",
-      "name": "仕込み_チーズソース",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "20分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 2,
-      "ingredients": [
-        {
-          "label": "チーズフォンデュ",
-          "amt": "1200",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "レジェ",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "乳製品"
-      ],
-      "steps": [
-        {
-          "text": "鍋底で袋やパックが溶けないように綺麗なダスターを敷いておく",
-          "note": false
-        },
-        {
-          "text": "レジェは口を開けて鍋を火にかける",
-          "note": false
-        },
-        {
-          "text": "パックのチーズが柔らかくなれば火から外してOK",
-          "note": false
-        },
-        {
-          "text": "もう1パックも同様にチーズの袋を開けてボウルに移す",
-          "note": false
-        },
-        {
-          "text": "もう1パックも同様にチーズの袋を開けてボウルに移す",
-          "note": false
-        },
-        {
-          "text": "レジェを少しずつチーズに入れていく",
-          "note": false
-        },
-        {
-          "text": "ある程度チーズとレジェが一体化したらレジェを一気に入れてOK",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵3日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：UK18-8角型キッチンポット16.5ｃｍ手無",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ha0pfxCxmsDdShplfFal8G55pPpMWGJ3/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1PG0gPy2iPMq-U-8QhepkVi-FG99HToyi/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ldKWrVo1eIIreT1jGfMzAcIyYunwrv_o/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1hqzCCMruvI-wFg9BfpGGnH69hRq_dqkN/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1kxPuHxEpfE8vvvW5c8Qynd3Jjx8Sfbeg/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1D6Tb0TOX65wyuq1Acoj56X7QSu-uvZD3/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Df1YsiWFMqx-ah8xdBPa-r89n0IHSs-8/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH001",
-        "SH003",
-        "SH004",
-        "SH005",
-        "SH006"
       ]
     },
     {
@@ -1047,28 +893,7 @@
           "url": "https://drive.google.com/file/d/1Zl96NMfRb0wsohJTbRqaRaRtJZCFiSER/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "スープ椀"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "3分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH003",
@@ -1233,6 +1058,116 @@
       ]
     },
     {
+      "id": "SH002",
+      "brand": "かっちゃん",
+      "name": "仕込み_チーズソース",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "20分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 2,
+      "ingredients": [
+        {
+          "label": "チーズフォンデュ",
+          "amt": "1200",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "レジェ",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "乳製品"
+      ],
+      "steps": [
+        {
+          "text": "鍋底で袋やパックが溶けないように綺麗なダスターを敷いておく",
+          "note": false
+        },
+        {
+          "text": "レジェは口を開けて鍋を火にかける",
+          "note": false
+        },
+        {
+          "text": "パックのチーズが柔らかくなれば火から外してOK",
+          "note": false
+        },
+        {
+          "text": "もう1パックも同様にチーズの袋を開けてボウルに移す",
+          "note": false
+        },
+        {
+          "text": "もう1パックも同様にチーズの袋を開けてボウルに移す",
+          "note": false
+        },
+        {
+          "text": "レジェを少しずつチーズに入れていく",
+          "note": false
+        },
+        {
+          "text": "ある程度チーズとレジェが一体化したらレジェを一気に入れてOK",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：UK18-8角型キッチンポット16.5ｃｍ手無",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1ha0pfxCxmsDdShplfFal8G55pPpMWGJ3/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1PG0gPy2iPMq-U-8QhepkVi-FG99HToyi/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1ldKWrVo1eIIreT1jGfMzAcIyYunwrv_o/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1hqzCCMruvI-wFg9BfpGGnH69hRq_dqkN/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1kxPuHxEpfE8vvvW5c8Qynd3Jjx8Sfbeg/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1D6Tb0TOX65wyuq1Acoj56X7QSu-uvZD3/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Df1YsiWFMqx-ah8xdBPa-r89n0IHSs-8/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH003",
+        "SH004",
+        "SH005",
+        "SH006"
+      ]
+    },
+    {
       "id": "CO003",
       "brand": "かっちゃん",
       "name": "おとこは黙って,,,漢餃子",
@@ -1361,24 +1296,7 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "油引き"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -1390,97 +1308,35 @@
       ]
     },
     {
-      "id": "SH003",
+      "id": "CU003",
       "brand": "かっちゃん",
-      "name": "仕込み_麻婆ソース",
+      "name": "切り物_白ネギカット",
       "furigana": "",
-      "category": "仕込み",
-      "time": "30分",
+      "category": "切り物",
+      "time": "5分",
       "yieldAmt": null,
       "yieldUnit": "",
       "appOrder": 3,
       "ingredients": [
         {
-          "label": "水",
-          "amt": "500",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB麻婆",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
+          "label": "カット白ネギ",
           "amt": "500",
           "unit": "g",
           "linkId": ""
         }
       ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
+      "allergens": [],
       "steps": [
         {
-          "text": "上記材料を分量通り用意する",
+          "text": "まな板に白ねぎを乗せて全体的に広げる",
           "note": false
         },
         {
-          "text": "全て鍋の中に入れる",
+          "text": "5cm角を目安に全体的に縦横とカットする",
           "note": false
         },
         {
-          "text": "鍋に入れるときに、パックの中などに取り残しの無いように気を付ける",
-          "note": false
-        },
-        {
-          "text": "中火を目安に焼く15分前後火にかける",
-          "note": false
-        },
-        {
-          "text": "水を沸騰させて殺菌する",
-          "note": true
-        },
-        {
-          "text": "焦げ付かないように時々混ぜる",
-          "note": false
-        },
-        {
-          "text": "鍋の中央辺りから気泡が上がってきたら殺菌完了の合図",
-          "note": false
-        },
-        {
-          "text": "火傷に注意して清潔なポットに移す",
-          "note": false
-        },
-        {
-          "text": "冷めてからポットに移し替えてもOK",
-          "note": true
-        },
-        {
-          "text": "ネバの中に取り残しの無いようにしっかりと取りきる",
-          "note": false
-        },
-        {
-          "text": "麻婆ソースの粗熱が取れるまでは蓋をしない",
-          "note": false
-        },
-        {
-          "text": "蒸れて腐りやすいため",
-          "note": true
-        },
-        {
-          "text": "粗熱が取れたら蓋をして冷蔵保存",
-          "note": false
-        },
-        {
-          "text": "完成",
+          "text": "カット出来たら容器に入れて保管",
           "note": false
         },
         {
@@ -1488,49 +1344,49 @@
           "note": false
         },
         {
-          "text": "保存推奨容器：キッチンポット19.5cm",
+          "text": "保存推奨容器：タッパ：3700",
           "note": false
         }
       ],
       "media": [
         {
           "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ylpYi214drTdXXfoRK9NYScQVfNwfRaq/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1iWu96lN5HQt7UmtD9aTfWvZ2Tg4p4wIu/view?usp=drive_link"
         },
         {
           "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1aariRHerjlxBiLs4qKs5TUegeo5XAyYb/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1_5kLW78g51CPUMKyxEJDJ--AJ8oXQDIT/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1nGQ1Ku6ctqnEpMU6QiIXloy9mnAbQ3zf/view?usp=drive_link"
         },
         {
           "type": "動画",
-          "url": "https://drive.google.com/file/d/1Ch1gc_s8XyjNahHZ58yxEqIU1XHwAP0V/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1ydxVSFQV5Pw0zki0O8cjB9lKzjrsh6Az/view?usp=drive_link"
         },
         {
           "type": "PDF",
-          "url": "https://drive.google.com/file/d/1SMs_-cEMGDJvrv4IisJdzDZTlNaImeV5/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1pYm-SkUdJdeV0gAHazbvwflk-Ack_BhN/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1fbOlpqg0swOqWWvdq6QgrSnxmcod0qlN/view?usp=sharing"
+          "url": "https://drive.google.com/file/d/12mYb98dYPKYcoL3DaNlXupIEYr2eUqSH/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1BcSZAJiMDXB3hUhC8vQhBYpB3b-lMInx/view?usp=sharing"
+          "url": "https://drive.google.com/file/d/1vWVqL1u9r0VsakCS2V3-V4y10nFBMgnE/view?usp=drive_link"
         }
       ],
       "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH004",
-        "SH006",
-        "SH007",
-        "SH032",
-        "SH034"
+        "SH001",
+        "LU002",
+        "LU004",
+        "CO006",
+        "LU017"
       ]
     },
     {
@@ -1695,28 +1551,7 @@
           "url": "https://drive.google.com/file/d/1JaunI16ieDAyUD4d1AABsWVhl4dsIVX0/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小, 銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "3分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH013",
@@ -1864,35 +1699,97 @@
       ]
     },
     {
-      "id": "CU003",
+      "id": "SH003",
       "brand": "かっちゃん",
-      "name": "切り物_白ネギカット",
+      "name": "仕込み_麻婆ソース",
       "furigana": "",
-      "category": "切り物",
-      "time": "5分",
+      "category": "仕込み",
+      "time": "30分",
       "yieldAmt": null,
       "yieldUnit": "",
       "appOrder": 3,
       "ingredients": [
         {
-          "label": "カット白ネギ",
+          "label": "水",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB麻婆",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
           "amt": "500",
           "unit": "g",
           "linkId": ""
         }
       ],
-      "allergens": [],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉"
+      ],
       "steps": [
         {
-          "text": "まな板に白ねぎを乗せて全体的に広げる",
+          "text": "上記材料を分量通り用意する",
           "note": false
         },
         {
-          "text": "5cm角を目安に全体的に縦横とカットする",
+          "text": "全て鍋の中に入れる",
           "note": false
         },
         {
-          "text": "カット出来たら容器に入れて保管",
+          "text": "鍋に入れるときに、パックの中などに取り残しの無いように気を付ける",
+          "note": false
+        },
+        {
+          "text": "中火を目安に焼く15分前後火にかける",
+          "note": false
+        },
+        {
+          "text": "水を沸騰させて殺菌する",
+          "note": true
+        },
+        {
+          "text": "焦げ付かないように時々混ぜる",
+          "note": false
+        },
+        {
+          "text": "鍋の中央辺りから気泡が上がってきたら殺菌完了の合図",
+          "note": false
+        },
+        {
+          "text": "火傷に注意して清潔なポットに移す",
+          "note": false
+        },
+        {
+          "text": "冷めてからポットに移し替えてもOK",
+          "note": true
+        },
+        {
+          "text": "ネバの中に取り残しの無いようにしっかりと取りきる",
+          "note": false
+        },
+        {
+          "text": "麻婆ソースの粗熱が取れるまでは蓋をしない",
+          "note": false
+        },
+        {
+          "text": "蒸れて腐りやすいため",
+          "note": true
+        },
+        {
+          "text": "粗熱が取れたら蓋をして冷蔵保存",
+          "note": false
+        },
+        {
+          "text": "完成",
           "note": false
         },
         {
@@ -1900,49 +1797,49 @@
           "note": false
         },
         {
-          "text": "保存推奨容器：タッパ：3700",
+          "text": "保存推奨容器：キッチンポット19.5cm",
           "note": false
         }
       ],
       "media": [
         {
           "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1iWu96lN5HQt7UmtD9aTfWvZ2Tg4p4wIu/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1ylpYi214drTdXXfoRK9NYScQVfNwfRaq/view?usp=drive_link"
         },
         {
           "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1aariRHerjlxBiLs4qKs5TUegeo5XAyYb/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1nGQ1Ku6ctqnEpMU6QiIXloy9mnAbQ3zf/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1_5kLW78g51CPUMKyxEJDJ--AJ8oXQDIT/view?usp=drive_link"
         },
         {
           "type": "動画",
-          "url": "https://drive.google.com/file/d/1ydxVSFQV5Pw0zki0O8cjB9lKzjrsh6Az/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1Ch1gc_s8XyjNahHZ58yxEqIU1XHwAP0V/view?usp=drive_link"
         },
         {
           "type": "PDF",
-          "url": "https://drive.google.com/file/d/1pYm-SkUdJdeV0gAHazbvwflk-Ack_BhN/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1SMs_-cEMGDJvrv4IisJdzDZTlNaImeV5/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/12mYb98dYPKYcoL3DaNlXupIEYr2eUqSH/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1fbOlpqg0swOqWWvdq6QgrSnxmcod0qlN/view?usp=sharing"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1vWVqL1u9r0VsakCS2V3-V4y10nFBMgnE/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1BcSZAJiMDXB3hUhC8vQhBYpB3b-lMInx/view?usp=sharing"
         }
       ],
       "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH001",
-        "LU002",
-        "LU004",
-        "CO006",
-        "LU017"
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032",
+        "SH034"
       ]
     },
     {
@@ -2094,28 +1991,7 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "油引き"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "1分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH001",
@@ -2134,6 +2010,261 @@
       "suggested": [
         "CO005",
         "CO006"
+      ]
+    },
+    {
+      "id": "CU004",
+      "brand": "かっちゃん",
+      "name": "切り物_エリンギカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 4,
+      "ingredients": [
+        {
+          "label": "エリンギ",
+          "amt": "5",
+          "unit": "PC",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "根元部分を切り落とす",
+          "note": false
+        },
+        {
+          "text": "傘部分を切り落とし、一口大に切る",
+          "note": false
+        },
+        {
+          "text": "小さくなり過ぎないように注意",
+          "note": false
+        },
+        {
+          "text": "容器やポーション袋に入れて保管",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：タッパ：3700",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1MjKo7uWb_B9W43J5NvBzST5VGROGIZSW/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1aariRHerjlxBiLs4qKs5TUegeo5XAyYb/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1_39r3pqkWZkKcD7d5HYiTLkh-MN0DKX7/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1t8ykmSafOvHF6UQ8YJdtNATn4kHrhsEp/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1KWUtHZ3fLANdCZrnPdn0h3cjD82K57Qg/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/17H5BhbYtTg5nu02YvP0B4soxX0f12pwD/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1tlJMYILtGcWWj8NilqT7qAEPgYUy_Hef/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO033",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU005"
+      ]
+    },
+    {
+      "id": "LU004",
+      "brand": "かっちゃん",
+      "name": "ランチ_油淋鶏",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 4,
+      "ingredients": [
+        {
+          "label": "仕込み_もも唐揚げ",
+          "amt": "2",
+          "unit": "個",
+          "linkId": "SH008"
+        },
+        {
+          "label": "仕込み_油淋鶏ソース",
+          "amt": "20",
+          "unit": "g",
+          "linkId": "SH020"
+        },
+        {
+          "label": "カット白ネギ",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "糸唐辛子",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "前揚げしておいたもも唐揚げを2個、1分半揚げる",
+          "note": false
+        },
+        {
+          "text": "お通し皿に2個盛り付ける",
+          "note": false
+        },
+        {
+          "text": "ソースを20g前後を目安に全体にかける",
+          "note": false
+        },
+        {
+          "text": "中央にカットネギ、糸唐辛子を盛り付ける",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        },
+        {
+          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
+          "note": true
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1ENKwGl-bz7Vyhifm-kbC_EQiNeZLiqtw/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1tOrgx6JVk2Qwmyx-mZTW0v-p8uOodrrk/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH020",
+          "reason": "使用する仕込み（仕込み_油淋鶏ソース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO044",
+        "LU002",
+        "CO048"
+      ]
+    },
+    {
+      "id": "OT004",
+      "brand": "かっちゃん",
+      "name": "他_持ち帰り用餃子",
+      "furigana": "",
+      "category": "他",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 4,
+      "ingredients": [
+        {
+          "label": "かっちゃん餃子",
+          "amt": "10",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "餃子容器",
+          "amt": "1",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "タレ容器",
+          "amt": "3",
+          "unit": "個",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "ごま",
+        "大豆",
+        "豚肉",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "餃子10個を容器に入れる",
+          "note": false
+        },
+        {
+          "text": "20個の場合は10個ずつ入れて容器を2つに分ける",
+          "note": true
+        },
+        {
+          "text": "タレ容器にタレ3種を入れる",
+          "note": false
+        },
+        {
+          "text": "輪ゴムで止める",
+          "note": false
+        },
+        {
+          "text": "手提げ袋に入れて持ち帰って頂く",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "OT002",
+        "OT003",
+        "OT005",
+        "CO001",
+        "CO004"
       ]
     },
     {
@@ -2239,278 +2370,6 @@
         "SH006",
         "SH007",
         "SH029"
-      ]
-    },
-    {
-      "id": "LU004",
-      "brand": "かっちゃん",
-      "name": "ランチ_油淋鶏",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 4,
-      "ingredients": [
-        {
-          "label": "仕込み_もも唐揚げ",
-          "amt": "2",
-          "unit": "個",
-          "linkId": "SH008"
-        },
-        {
-          "label": "仕込み_油淋鶏ソース",
-          "amt": "20",
-          "unit": "g",
-          "linkId": "SH020"
-        },
-        {
-          "label": "カット白ネギ",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "糸唐辛子",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "ごま"
-      ],
-      "steps": [
-        {
-          "text": "前揚げしておいたもも唐揚げを2個、1分半揚げる",
-          "note": false
-        },
-        {
-          "text": "お通し皿に2個盛り付ける",
-          "note": false
-        },
-        {
-          "text": "ソースを20g前後を目安に全体にかける",
-          "note": false
-        },
-        {
-          "text": "中央にカットネギ、糸唐辛子を盛り付ける",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        },
-        {
-          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
-          "note": true
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ENKwGl-bz7Vyhifm-kbC_EQiNeZLiqtw/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1tOrgx6JVk2Qwmyx-mZTW0v-p8uOodrrk/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "お通し"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH008",
-          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
-        },
-        {
-          "id": "SH020",
-          "reason": "使用する仕込み（仕込み_油淋鶏ソース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO044",
-        "LU002",
-        "CO048"
-      ]
-    },
-    {
-      "id": "OT004",
-      "brand": "かっちゃん",
-      "name": "他_持ち帰り用餃子",
-      "furigana": "",
-      "category": "他",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 4,
-      "ingredients": [
-        {
-          "label": "かっちゃん餃子",
-          "amt": "10",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "餃子容器",
-          "amt": "1",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "タレ容器",
-          "amt": "3",
-          "unit": "個",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "ごま",
-        "大豆",
-        "豚肉",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "餃子10個を容器に入れる",
-          "note": false
-        },
-        {
-          "text": "20個の場合は10個ずつ入れて容器を2つに分ける",
-          "note": true
-        },
-        {
-          "text": "タレ容器にタレ3種を入れる",
-          "note": false
-        },
-        {
-          "text": "輪ゴムで止める",
-          "note": false
-        },
-        {
-          "text": "手提げ袋に入れて持ち帰って頂く",
-          "note": false
-        }
-      ],
-      "media": [],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "OT002",
-        "OT003",
-        "OT005",
-        "CO001",
-        "CO004"
-      ]
-    },
-    {
-      "id": "CU004",
-      "brand": "かっちゃん",
-      "name": "切り物_エリンギカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 4,
-      "ingredients": [
-        {
-          "label": "エリンギ",
-          "amt": "5",
-          "unit": "PC",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "根元部分を切り落とす",
-          "note": false
-        },
-        {
-          "text": "傘部分を切り落とし、一口大に切る",
-          "note": false
-        },
-        {
-          "text": "小さくなり過ぎないように注意",
-          "note": false
-        },
-        {
-          "text": "容器やポーション袋に入れて保管",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵3日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：タッパ：3700",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1MjKo7uWb_B9W43J5NvBzST5VGROGIZSW/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1aariRHerjlxBiLs4qKs5TUegeo5XAyYb/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1_39r3pqkWZkKcD7d5HYiTLkh-MN0DKX7/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1t8ykmSafOvHF6UQ8YJdtNATn4kHrhsEp/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1KWUtHZ3fLANdCZrnPdn0h3cjD82K57Qg/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/17H5BhbYtTg5nu02YvP0B4soxX0f12pwD/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1tlJMYILtGcWWj8NilqT7qAEPgYUy_Hef/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO033",
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU005"
       ]
     },
     {
@@ -2666,24 +2525,7 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "CO001",
@@ -2699,6 +2541,251 @@
         "CO026",
         "CO004",
         "CO006"
+      ]
+    },
+    {
+      "id": "CU005",
+      "brand": "かっちゃん",
+      "name": "切り物_エイヒレカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 5,
+      "ingredients": [
+        {
+          "label": "エイヒレ",
+          "amt": "1",
+          "unit": "PC",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "軟骨と身の間にハサミを入れて切る",
+          "note": false
+        },
+        {
+          "text": "軟骨部分は縁のところが固いので、縁側からハサミを入れる",
+          "note": false
+        },
+        {
+          "text": "ハサミの根元で切るとまだ切りやすいと思います",
+          "note": true
+        },
+        {
+          "text": "身の部分はそれほど固くないので好きな方向から切ってください",
+          "note": false
+        },
+        {
+          "text": "同様のカットを繰り返す",
+          "note": false
+        },
+        {
+          "text": "大体2cm幅くらいを目安に",
+          "note": true
+        },
+        {
+          "text": "全てカット出来たらポーション袋に50gずつに小分けにして保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷凍60日：常温30日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：タッパ：3700",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1LIRzRi2gpvjodeqzmzMuLFWO9hkw2rmv/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1tCGG2j7JJmmIqrW3bip9fpna4UIde_X0/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Vr_Z9cu2FK-oaJsl4sxP4VDWNhp0Dgrp/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1VjnR-qmCMG_hkaxjI2dCpwkedVAMTzy-/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1DgOHS36TBuLDB10KjSMk4DP0r5NIq6ik/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1II0GLLlhKtBvU-IHPClKdOF-YR8rZ5sc/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/14i_9htjAByJIMnnCszCF6xBtwuQ7YAqK/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO054",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004"
+      ]
+    },
+    {
+      "id": "LU005",
+      "brand": "かっちゃん",
+      "name": "ランチ_メンマ",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "1分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 5,
+      "ingredients": [
+        {
+          "label": "仕込み_ピリ辛メンマ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": "SH023"
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "牛肉",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "えび"
+      ],
+      "steps": [
+        {
+          "text": "仕込んでおいたメンマ：40gをお皿に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "ディナーと全く同じです",
+          "note": true
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/12TIRZBHyRSqRKoEWI2xZvfYWJ96K05ZL/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/16ImhDjvsv9OUYsUKKLAt2cwrO3j5drXz/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH023",
+          "reason": "使用する仕込み（仕込み_ピリ辛メンマ）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO046",
+        "LU001",
+        "LU002",
+        "LU003"
+      ]
+    },
+    {
+      "id": "OT005",
+      "brand": "かっちゃん",
+      "name": "他_持ち帰り用から揚げ",
+      "furigana": "",
+      "category": "他",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 5,
+      "ingredients": [
+        {
+          "label": "仕込み_もも唐揚げ",
+          "amt": "175",
+          "unit": "g",
+          "linkId": "SH008"
+        },
+        {
+          "label": "仕込み_むね唐揚げ",
+          "amt": "175",
+          "unit": "g",
+          "linkId": "SH009"
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "餃子容器",
+          "amt": "1",
+          "unit": "個",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "から揚げ5個を容器に入れる",
+          "note": false
+        },
+        {
+          "text": "もも or むね。とタレ or ノーマル。の間違いに注意",
+          "note": true
+        },
+        {
+          "text": "輪ゴムで止める",
+          "note": false
+        },
+        {
+          "text": "手提げ袋に入れて持ち帰って頂く",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
+        },
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "CO019",
+        "CO020"
       ]
     },
     {
@@ -2805,256 +2892,6 @@
         "LU010",
         "LU012",
         "SH001"
-      ]
-    },
-    {
-      "id": "LU005",
-      "brand": "かっちゃん",
-      "name": "ランチ_メンマ",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "1分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 5,
-      "ingredients": [
-        {
-          "label": "仕込み_ピリ辛メンマ",
-          "amt": "40",
-          "unit": "g",
-          "linkId": "SH023"
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "牛肉",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "えび"
-      ],
-      "steps": [
-        {
-          "text": "仕込んでおいたメンマ：40gをお皿に盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "ディナーと全く同じです",
-          "note": true
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/12TIRZBHyRSqRKoEWI2xZvfYWJ96K05ZL/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/16ImhDjvsv9OUYsUKKLAt2cwrO3j5drXz/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH023",
-          "reason": "使用する仕込み（仕込み_ピリ辛メンマ）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO046",
-        "LU001",
-        "LU002",
-        "LU003"
-      ]
-    },
-    {
-      "id": "OT005",
-      "brand": "かっちゃん",
-      "name": "他_持ち帰り用から揚げ",
-      "furigana": "",
-      "category": "他",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 5,
-      "ingredients": [
-        {
-          "label": "仕込み_もも唐揚げ",
-          "amt": "175",
-          "unit": "g",
-          "linkId": "SH008"
-        },
-        {
-          "label": "仕込み_むね唐揚げ",
-          "amt": "175",
-          "unit": "g",
-          "linkId": "SH009"
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "餃子容器",
-          "amt": "1",
-          "unit": "個",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆"
-      ],
-      "steps": [
-        {
-          "text": "から揚げ5個を容器に入れる",
-          "note": false
-        },
-        {
-          "text": "もも or むね。とタレ or ノーマル。の間違いに注意",
-          "note": true
-        },
-        {
-          "text": "輪ゴムで止める",
-          "note": false
-        },
-        {
-          "text": "手提げ袋に入れて持ち帰って頂く",
-          "note": false
-        }
-      ],
-      "media": [],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH008",
-          "reason": "使用する仕込み（仕込み_もも唐揚げ）"
-        },
-        {
-          "id": "SH009",
-          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU008",
-        "CO019",
-        "CO020"
-      ]
-    },
-    {
-      "id": "CU005",
-      "brand": "かっちゃん",
-      "name": "切り物_エイヒレカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 5,
-      "ingredients": [
-        {
-          "label": "エイヒレ",
-          "amt": "1",
-          "unit": "PC",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "軟骨と身の間にハサミを入れて切る",
-          "note": false
-        },
-        {
-          "text": "軟骨部分は縁のところが固いので、縁側からハサミを入れる",
-          "note": false
-        },
-        {
-          "text": "ハサミの根元で切るとまだ切りやすいと思います",
-          "note": true
-        },
-        {
-          "text": "身の部分はそれほど固くないので好きな方向から切ってください",
-          "note": false
-        },
-        {
-          "text": "同様のカットを繰り返す",
-          "note": false
-        },
-        {
-          "text": "大体2cm幅くらいを目安に",
-          "note": true
-        },
-        {
-          "text": "全てカット出来たらポーション袋に50gずつに小分けにして保存",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷凍60日：常温30日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：タッパ：3700",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1LIRzRi2gpvjodeqzmzMuLFWO9hkw2rmv/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1tCGG2j7JJmmIqrW3bip9fpna4UIde_X0/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Vr_Z9cu2FK-oaJsl4sxP4VDWNhp0Dgrp/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1VjnR-qmCMG_hkaxjI2dCpwkedVAMTzy-/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1DgOHS36TBuLDB10KjSMk4DP0r5NIq6ik/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1II0GLLlhKtBvU-IHPClKdOF-YR8rZ5sc/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/14i_9htjAByJIMnnCszCF6xBtwuQ7YAqK/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO054",
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU004"
       ]
     },
     {
@@ -3211,24 +3048,7 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "油（中子バット）"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル50"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "CO001",
@@ -3244,6 +3064,204 @@
         "CO048",
         "LU002",
         "LU013"
+      ]
+    },
+    {
+      "id": "CU006",
+      "brand": "かっちゃん",
+      "name": "切り物_むね刺しカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 6,
+      "ingredients": [
+        {
+          "label": "むね刺し",
+          "amt": "1",
+          "unit": "PC",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "解凍した鶏むねハムのパックを開けてペーパータオルなどで軽く水気を切る",
+          "note": false
+        },
+        {
+          "text": "皮を外して全体的に塩コショウをする",
+          "note": false
+        },
+        {
+          "text": "縦に半分に切る",
+          "note": false
+        },
+        {
+          "text": "10g/枚斜めにカットしていく",
+          "note": false
+        },
+        {
+          "text": "白い部分なども特に気にして取り除く必要なしです",
+          "note": true
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "ラップで1人前ポーション推奨",
+          "note": true
+        },
+        {
+          "text": "保存期間：開封後冷蔵保存：3日",
+          "note": false
+        },
+        {
+          "text": "保存期間：未開封冷蔵保存：7日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：タッパ：2,440 ＆ 1人前ラップポーション",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1TX0KX9WYbfZ8nr1PT-j9qniZ3cRn3YrC/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/15w3rI8RjDC63BHbFOD5aJJY34pNyvjb4/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1YC5pYu7vqinRsJ7WkYfiAkTAj1kRhDzz/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1rFglMkh1LbC1eYrewK2c9rkoGhPhN2LD/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1qPpybUczO0eBg-TjJJQ3SAmGfTB9oS6f/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1FY8HxMJ6pArMliQh9Jby-Q_rHdjLgufD/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO061",
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004"
+      ]
+    },
+    {
+      "id": "LU006",
+      "brand": "かっちゃん",
+      "name": "ランチ_焼売",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "16分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 6,
+      "ingredients": [
+        {
+          "label": "豚焼売",
+          "amt": "2",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "セイロ用シート",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "豚肉",
+        "ゼラチン",
+        "大豆",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "よくお湯が沸いた蒸器を用意しておく",
+          "note": false
+        },
+        {
+          "text": "セイロにシートを1枚セットする",
+          "note": false
+        },
+        {
+          "text": "餃子を2個乗せて蓋をする",
+          "note": false
+        },
+        {
+          "text": "蒸器に入れて、蒸器の蓋をして15分蒸す",
+          "note": false
+        },
+        {
+          "text": "15分経ったら白黒の皿を下に敷いて完成",
+          "note": false
+        },
+        {
+          "text": "動画や連続写真は3個バージョンで掲載してます",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1QfUg3GDyWcM3jObuGPGVesM4Sk0BqzAW/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Gie6WaV6qVwCkR77nScJFxsHSLu6Wr1P/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1iozlJnyFClan3WEWDAV_n9svdoSyqe2m/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1WwkXgc0MWcpQskBMg_w-5SCog5hcIL6U/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1XMmnoPDKD2I9U1vidSDLhtbOKhFFjG5M/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Vbjh4C72n5bEXICfVYNS5PtFRCk_6RFm/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO042",
+        "CO010",
+        "LU001",
+        "LU002",
+        "LU003"
       ]
     },
     {
@@ -3376,207 +3394,6 @@
       ]
     },
     {
-      "id": "LU006",
-      "brand": "かっちゃん",
-      "name": "ランチ_焼売",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "16分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 6,
-      "ingredients": [
-        {
-          "label": "豚焼売",
-          "amt": "2",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "セイロ用シート",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "よくお湯が沸いた蒸器を用意しておく",
-          "note": false
-        },
-        {
-          "text": "セイロにシートを1枚セットする",
-          "note": false
-        },
-        {
-          "text": "餃子を2個乗せて蓋をする",
-          "note": false
-        },
-        {
-          "text": "蒸器に入れて、蒸器の蓋をして15分蒸す",
-          "note": false
-        },
-        {
-          "text": "15分経ったら白黒の皿を下に敷いて完成",
-          "note": false
-        },
-        {
-          "text": "動画や連続写真は3個バージョンで掲載してます",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1QfUg3GDyWcM3jObuGPGVesM4Sk0BqzAW/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Gie6WaV6qVwCkR77nScJFxsHSLu6Wr1P/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1iozlJnyFClan3WEWDAV_n9svdoSyqe2m/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1WwkXgc0MWcpQskBMg_w-5SCog5hcIL6U/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1XMmnoPDKD2I9U1vidSDLhtbOKhFFjG5M/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Vbjh4C72n5bEXICfVYNS5PtFRCk_6RFm/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "セイロ"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO042",
-        "CO010",
-        "LU001",
-        "LU002",
-        "LU003"
-      ]
-    },
-    {
-      "id": "CU006",
-      "brand": "かっちゃん",
-      "name": "切り物_むね刺しカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 6,
-      "ingredients": [
-        {
-          "label": "むね刺し",
-          "amt": "1",
-          "unit": "PC",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "鶏肉"
-      ],
-      "steps": [
-        {
-          "text": "解凍した鶏むねハムのパックを開けてペーパータオルなどで軽く水気を切る",
-          "note": false
-        },
-        {
-          "text": "皮を外して全体的に塩コショウをする",
-          "note": false
-        },
-        {
-          "text": "縦に半分に切る",
-          "note": false
-        },
-        {
-          "text": "10g/枚斜めにカットしていく",
-          "note": false
-        },
-        {
-          "text": "白い部分なども特に気にして取り除く必要なしです",
-          "note": true
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "ラップで1人前ポーション推奨",
-          "note": true
-        },
-        {
-          "text": "保存期間：開封後冷蔵保存：3日",
-          "note": false
-        },
-        {
-          "text": "保存期間：未開封冷蔵保存：7日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：タッパ：2,440 ＆ 1人前ラップポーション",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1TX0KX9WYbfZ8nr1PT-j9qniZ3cRn3YrC/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/15w3rI8RjDC63BHbFOD5aJJY34pNyvjb4/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1YC5pYu7vqinRsJ7WkYfiAkTAj1kRhDzz/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1rFglMkh1LbC1eYrewK2c9rkoGhPhN2LD/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1qPpybUczO0eBg-TjJJQ3SAmGfTB9oS6f/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1FY8HxMJ6pArMliQh9Jby-Q_rHdjLgufD/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO061",
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU004"
-      ]
-    },
-    {
       "id": "CO007",
       "brand": "かっちゃん",
       "name": "パリパリ揚げ餃子",
@@ -3680,24 +3497,7 @@
           "url": "https://drive.google.com/file/d/1afK_TMEQw6Kg0xlwfT9FDvCuaMQVDvpy/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "5分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -3706,6 +3506,208 @@
         "LU013",
         "LU018",
         "CO001"
+      ]
+    },
+    {
+      "id": "CU007",
+      "brand": "かっちゃん",
+      "name": "切り物_サーモンカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "8分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 7,
+      "ingredients": [
+        {
+          "label": "サーモン",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "さけ"
+      ],
+      "steps": [
+        {
+          "text": "詳細はpdfや動画参照",
+          "note": false
+        },
+        {
+          "text": "まずは3等分にする",
+          "note": false
+        },
+        {
+          "text": "3番部分の尻尾側の端に合わせて①、②を切り分ける",
+          "note": false
+        },
+        {
+          "text": "各部分の推奨の使い方は画像参照。出数のバランスもあると思うので、サーモンキムチ用で刺身を作ってもユッケを作ってもOKです",
+          "note": false
+        },
+        {
+          "text": "刺身用のカット。なるべく同じ包丁の動きをすれば同じカットになる部分を選択すると切りやすいです",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの６番補足：5～7mm厚を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "画像のような感じで3枚並べそこにもたれさせるように2枚盛るとバランスが取れてキレイに盛りやすいです",
+          "note": false
+        },
+        {
+          "text": "ユッケ用のカット。白い（腹膜）は付いたままでもＯＫですユッケ用で小さくカットするのでそれほど口残りしないです。",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの８番補足：4等分の長さは5cm以内にカットするイメージ",
+          "note": false
+        },
+        {
+          "text": "板状にスライスした後に細切りイメージとして割り箸の先の方の細さ感が限界のサイズです。それより大きくならないように注意長さ感は５cm以内",
+          "note": false
+        },
+        {
+          "text": "サーモンキムチ用。サイズによりますが３～４等分",
+          "note": false
+        },
+        {
+          "text": "向きを変えてサイコロ状にカット",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの１１番補足：1.5cm角をイメージ",
+          "note": false
+        },
+        {
+          "text": "保存期間：開封後冷蔵保存：3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1i8Bs7sgu-tiD3UpThtm9mhTEYEMGaE0P/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1HSeLQJspgKy8RPTPj2B0v6e7Pzj4WG-0/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1d7VlIeEnethNH1pV3w71o4lpJ6RpaiKR/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1AxYG2tU3bb5sxKz9JsHGLtoAR90jZrZ4/view?usp=sharing"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1x13nU7pOR7ba_TDgtR1PBAt3qcLV7YPr/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1eV6mS0dW3c0bKsusWTCufJxOVNZXUPjr/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/13gFoSzu2hgDTvnXm-5IKBgiNhXfWQqf8/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH025",
+        "CO062",
+        "CO063",
+        "CU001",
+        "CU002"
+      ]
+    },
+    {
+      "id": "LU007",
+      "brand": "かっちゃん",
+      "name": "ランチ_春巻き",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "8分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 7,
+      "ingredients": [
+        {
+          "label": "春巻き",
+          "amt": "1",
+          "unit": "本",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_サラダベース",
+          "amt": "2",
+          "unit": "g",
+          "linkId": "SH011"
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "春巻きを7分揚げる",
+          "note": false
+        },
+        {
+          "text": "お皿にサラダベースを盛る",
+          "note": false
+        },
+        {
+          "text": "揚がった春巻きをサラダベースの上に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1Af3m9P--XGdmogSRuKSeE9cifrVHm9AG/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "LU011",
+        "LU014",
+        "OT002"
       ]
     },
     {
@@ -3861,217 +3863,6 @@
       ]
     },
     {
-      "id": "LU007",
-      "brand": "かっちゃん",
-      "name": "ランチ_春巻き",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "8分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 7,
-      "ingredients": [
-        {
-          "label": "春巻き",
-          "amt": "1",
-          "unit": "本",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "2",
-          "unit": "g",
-          "linkId": "SH011"
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "春巻きを7分揚げる",
-          "note": false
-        },
-        {
-          "text": "お皿にサラダベースを盛る",
-          "note": false
-        },
-        {
-          "text": "揚がった春巻きをサラダベースの上に盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1Af3m9P--XGdmogSRuKSeE9cifrVHm9AG/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU008",
-        "LU011",
-        "LU014",
-        "OT002"
-      ]
-    },
-    {
-      "id": "CU007",
-      "brand": "かっちゃん",
-      "name": "切り物_サーモンカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "8分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 7,
-      "ingredients": [
-        {
-          "label": "サーモン",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "さけ"
-      ],
-      "steps": [
-        {
-          "text": "詳細はpdfや動画参照",
-          "note": false
-        },
-        {
-          "text": "まずは3等分にする",
-          "note": false
-        },
-        {
-          "text": "3番部分の尻尾側の端に合わせて①、②を切り分ける",
-          "note": false
-        },
-        {
-          "text": "各部分の推奨の使い方は画像参照。出数のバランスもあると思うので、サーモンキムチ用で刺身を作ってもユッケを作ってもOKです",
-          "note": false
-        },
-        {
-          "text": "刺身用のカット。なるべく同じ包丁の動きをすれば同じカットになる部分を選択すると切りやすいです",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの６番補足：5～7mm厚を目安にカットする",
-          "note": false
-        },
-        {
-          "text": "画像のような感じで3枚並べそこにもたれさせるように2枚盛るとバランスが取れてキレイに盛りやすいです",
-          "note": false
-        },
-        {
-          "text": "ユッケ用のカット。白い（腹膜）は付いたままでもＯＫですユッケ用で小さくカットするのでそれほど口残りしないです。",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの８番補足：4等分の長さは5cm以内にカットするイメージ",
-          "note": false
-        },
-        {
-          "text": "板状にスライスした後に細切りイメージとして割り箸の先の方の細さ感が限界のサイズです。それより大きくならないように注意長さ感は５cm以内",
-          "note": false
-        },
-        {
-          "text": "サーモンキムチ用。サイズによりますが３～４等分",
-          "note": false
-        },
-        {
-          "text": "向きを変えてサイコロ状にカット",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの１１番補足：1.5cm角をイメージ",
-          "note": false
-        },
-        {
-          "text": "保存期間：開封後冷蔵保存：3日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1i8Bs7sgu-tiD3UpThtm9mhTEYEMGaE0P/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1HSeLQJspgKy8RPTPj2B0v6e7Pzj4WG-0/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1d7VlIeEnethNH1pV3w71o4lpJ6RpaiKR/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1AxYG2tU3bb5sxKz9JsHGLtoAR90jZrZ4/view?usp=sharing"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1x13nU7pOR7ba_TDgtR1PBAt3qcLV7YPr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1eV6mS0dW3c0bKsusWTCufJxOVNZXUPjr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/13gFoSzu2hgDTvnXm-5IKBgiNhXfWQqf8/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH025",
-        "CO062",
-        "CO063",
-        "CU001",
-        "CU002"
-      ]
-    },
-    {
       "id": "CO008",
       "brand": "かっちゃん",
       "name": "ぷるもちっ水餃子",
@@ -4209,24 +4000,7 @@
           "url": "https://drive.google.com/file/d/1osKRb1fk4iQtaNxWMdoVQ3iIzy6xc2TT/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白黒"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル100"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH004",
@@ -4239,6 +4013,127 @@
         "LU010",
         "LU013",
         "CO007"
+      ]
+    },
+    {
+      "id": "CU008",
+      "brand": "かっちゃん",
+      "name": "切り物_豚バラカット",
+      "furigana": "",
+      "category": "切り物",
+      "time": "",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
+      "ingredients": [],
+      "allergens": [],
+      "steps": [],
+      "media": [],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004",
+        "CU005"
+      ]
+    },
+    {
+      "id": "LU008",
+      "brand": "かっちゃん",
+      "name": "ランチ_タレむね",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
+      "ingredients": [
+        {
+          "label": "仕込み_むね唐揚げ",
+          "amt": "2",
+          "unit": "個",
+          "linkId": "SH009"
+        },
+        {
+          "label": "仕込み_サラダベース",
+          "amt": "2",
+          "unit": "g",
+          "linkId": "SH011"
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "前揚げしておいたむねから揚げを2個、1分は揚げる",
+          "note": false
+        },
+        {
+          "text": "お皿にサラダベースを盛る",
+          "note": false
+        },
+        {
+          "text": "揚がったむねから揚げを特製ダレの中に入れてタレをしっかりと絡ませる",
+          "note": false
+        },
+        {
+          "text": "お皿に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        },
+        {
+          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
+          "note": true
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1klqqLNehj4Kre9uVMe3yu44ovT_FYKYe/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU014",
+        "OT005",
+        "CO020"
       ]
     },
     {
@@ -4375,136 +4270,6 @@
         "SH002",
         "SH003",
         "SH004"
-      ]
-    },
-    {
-      "id": "LU008",
-      "brand": "かっちゃん",
-      "name": "ランチ_タレむね",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "4分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [
-        {
-          "label": "仕込み_むね唐揚げ",
-          "amt": "2",
-          "unit": "個",
-          "linkId": "SH009"
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "2",
-          "unit": "g",
-          "linkId": "SH011"
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆"
-      ],
-      "steps": [
-        {
-          "text": "前揚げしておいたむねから揚げを2個、1分は揚げる",
-          "note": false
-        },
-        {
-          "text": "お皿にサラダベースを盛る",
-          "note": false
-        },
-        {
-          "text": "揚がったむねから揚げを特製ダレの中に入れてタレをしっかりと絡ませる",
-          "note": false
-        },
-        {
-          "text": "お皿に盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        },
-        {
-          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
-          "note": true
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1klqqLNehj4Kre9uVMe3yu44ovT_FYKYe/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH009",
-          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
-        },
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU014",
-        "OT005",
-        "CO020"
-      ]
-    },
-    {
-      "id": "CU008",
-      "brand": "かっちゃん",
-      "name": "切り物_豚バラカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [],
-      "allergens": [],
-      "steps": [],
-      "media": [],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU004",
-        "CU005"
       ]
     },
     {
@@ -4657,24 +4422,7 @@
           "url": "https://drive.google.com/file/d/1LdI5aSNtTKlo4CS_2LuykgwC6mEJHwCE/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白黒"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル100"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH005",
@@ -4687,6 +4435,98 @@
         "CO004",
         "CO005",
         "CO006"
+      ]
+    },
+    {
+      "id": "LU009",
+      "brand": "かっちゃん",
+      "name": "ランチ_米",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "60分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 9,
+      "ingredients": [
+        {
+          "label": "ランチ用米",
+          "amt": "230",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ランチ用米",
+          "amt": "140",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "米を計量する（1合=約160g）",
+          "note": false
+        },
+        {
+          "text": "米をたっぷりの水でよく研ぎ洗う",
+          "note": false
+        },
+        {
+          "text": "水を軽く切る",
+          "note": false
+        },
+        {
+          "text": "米1合に対し、190gの水を用意する",
+          "note": false
+        },
+        {
+          "text": "1升（10合）炊く場合は1,900gの水）",
+          "note": true
+        },
+        {
+          "text": "米と水を合わせ炊飯器に入れて炊飯ボタンを押す",
+          "note": false
+        },
+        {
+          "text": "炊き上がった米の分量で1人前230g、ハーフなら140gで盛り付ける",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/19Jd_j1SUnuEhfySnDT0VDGTdWSB-72Kf/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1zUQcXQVe-JLFV-iTgYGe72E2Eeiw2W9o/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1kLSs-6HpQos3pAVHZw4Cw14GhYLjY0_g/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1ET6pDOm_8o6brGUN7iwKA9Jdr8SQI99L/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU018",
+        "OT002",
+        "OT003",
+        "LU001"
       ]
     },
     {
@@ -4826,107 +4666,6 @@
       ]
     },
     {
-      "id": "LU009",
-      "brand": "かっちゃん",
-      "name": "ランチ_米",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "60分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 9,
-      "ingredients": [
-        {
-          "label": "ランチ用米",
-          "amt": "230",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ランチ用米",
-          "amt": "140",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "米を計量する（1合=約160g）",
-          "note": false
-        },
-        {
-          "text": "米をたっぷりの水でよく研ぎ洗う",
-          "note": false
-        },
-        {
-          "text": "水を軽く切る",
-          "note": false
-        },
-        {
-          "text": "米1合に対し、190gの水を用意する",
-          "note": false
-        },
-        {
-          "text": "1升（10合）炊く場合は1,900gの水）",
-          "note": true
-        },
-        {
-          "text": "米と水を合わせ炊飯器に入れて炊飯ボタンを押す",
-          "note": false
-        },
-        {
-          "text": "炊き上がった米の分量で1人前230g、ハーフなら140gで盛り付ける",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/19Jd_j1SUnuEhfySnDT0VDGTdWSB-72Kf/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1zUQcXQVe-JLFV-iTgYGe72E2Eeiw2W9o/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1kLSs-6HpQos3pAVHZw4Cw14GhYLjY0_g/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1ET6pDOm_8o6brGUN7iwKA9Jdr8SQI99L/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "ライス椀"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU012",
-        "LU018",
-        "OT002",
-        "OT003",
-        "LU001"
-      ]
-    },
-    {
       "id": "CO010",
       "brand": "かっちゃん",
       "name": "海老のぷりぷり餃子",
@@ -5022,16 +4761,7 @@
           "url": "https://drive.google.com/file/d/1uynJwXEO1kJxkMHdtg_2LjX9ZwGkfmb-/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "セイロ"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -5040,6 +4770,95 @@
         "CO001",
         "CO002",
         "CO003"
+      ]
+    },
+    {
+      "id": "LU010",
+      "brand": "かっちゃん",
+      "name": "ランチ_スープ",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "2分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 10,
+      "ingredients": [
+        {
+          "label": "仕込み_白湯ベース",
+          "amt": "150",
+          "unit": "g",
+          "linkId": "SH004"
+        },
+        {
+          "label": "カットネギ",
+          "amt": "1",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "鶏肉",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "お皿にカットネギ、白ごま、ごま油を入れておく",
+          "note": false
+        },
+        {
+          "text": "沸かした白湯ベースを150gお皿に入れる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Zl96NMfRb0wsohJTbRqaRaRtJZCFiSER/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU003",
+        "CO008",
+        "LU013"
       ]
     },
     {
@@ -5143,104 +4962,6 @@
       ]
     },
     {
-      "id": "LU010",
-      "brand": "かっちゃん",
-      "name": "ランチ_スープ",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 10,
-      "ingredients": [
-        {
-          "label": "仕込み_白湯ベース",
-          "amt": "150",
-          "unit": "g",
-          "linkId": "SH004"
-        },
-        {
-          "label": "カットネギ",
-          "amt": "1",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "お皿にカットネギ、白ごま、ごま油を入れておく",
-          "note": false
-        },
-        {
-          "text": "沸かした白湯ベースを150gお皿に入れる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Zl96NMfRb0wsohJTbRqaRaRtJZCFiSER/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "セイロ"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH004",
-          "reason": "使用する仕込み（仕込み_白湯ベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU012",
-        "LU003",
-        "CO008",
-        "LU013"
-      ]
-    },
-    {
       "id": "CO011",
       "brand": "かっちゃん",
       "name": "とりあえず枝豆",
@@ -5319,16 +5040,7 @@
           "url": "https://drive.google.com/file/d/19e9L1SiIDufYpbIv_vBJiavBRwtMPs0B/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -5337,6 +5049,148 @@
         "CO072",
         "SH031",
         "CO001"
+      ]
+    },
+    {
+      "id": "LU011",
+      "brand": "かっちゃん",
+      "name": "ランチ_エビマヨ",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 11,
+      "ingredients": [
+        {
+          "label": "エビフリット",
+          "amt": "4",
+          "unit": "尾",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_サラダベース",
+          "amt": "2",
+          "unit": "g",
+          "linkId": "SH011"
+        },
+        {
+          "label": "仕込み_エビマヨソース",
+          "amt": "20",
+          "unit": "g",
+          "linkId": "SH019"
+        },
+        {
+          "label": "パセリ",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "えび",
+        "小麦",
+        "卵",
+        "大豆",
+        "ごま",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "170～175°にフライヤーを温度設定する",
+          "note": false
+        },
+        {
+          "text": "えびフリットを4個フライヤーに入れる",
+          "note": false
+        },
+        {
+          "text": "3分揚げる",
+          "note": false
+        },
+        {
+          "text": "3分経ったらフライヤーから取り出す",
+          "note": false
+        },
+        {
+          "text": "お皿にエビ4個を盛る",
+          "note": false
+        },
+        {
+          "text": "サラダベースを盛る",
+          "note": false
+        },
+        {
+          "text": "エビの上にたっぷりのエビマヨソースをかける",
+          "note": false
+        },
+        {
+          "text": "⑦の上にパセリを軽く振る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画、画像は8個バージョンなので、個数は4個にしてください",
+          "note": true
+        },
+        {
+          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
+          "note": true
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1YyrgxCRrXsFYMXwGofLdB_ynnedJtY0H/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1EdBKip5UG_lqqS_rAYP-DUY3Y8I9Eqhd/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1BB6NCu_ycBz16khOcAptlbkc3AxQtL87/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1rC8w3nckXgG4nBsp-JhVYxtecVHeRnED/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1dwQq-bSRlnSR18JjaZ3DpTPf70LVVi2V/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1F8M0iP97ZgZIoc7-zPN5Zm45ey8SXzTD/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        },
+        {
+          "id": "SH019",
+          "reason": "使用する仕込み（仕込み_エビマヨソース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO043",
+        "CO033",
+        "CO058"
       ]
     },
     {
@@ -5472,157 +5326,6 @@
       ]
     },
     {
-      "id": "LU011",
-      "brand": "かっちゃん",
-      "name": "ランチ_エビマヨ",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 11,
-      "ingredients": [
-        {
-          "label": "エビフリット",
-          "amt": "4",
-          "unit": "尾",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "2",
-          "unit": "g",
-          "linkId": "SH011"
-        },
-        {
-          "label": "仕込み_エビマヨソース",
-          "amt": "20",
-          "unit": "g",
-          "linkId": "SH019"
-        },
-        {
-          "label": "パセリ",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "えび",
-        "小麦",
-        "卵",
-        "大豆",
-        "ごま",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "170～175°にフライヤーを温度設定する",
-          "note": false
-        },
-        {
-          "text": "えびフリットを4個フライヤーに入れる",
-          "note": false
-        },
-        {
-          "text": "3分揚げる",
-          "note": false
-        },
-        {
-          "text": "3分経ったらフライヤーから取り出す",
-          "note": false
-        },
-        {
-          "text": "お皿にエビ4個を盛る",
-          "note": false
-        },
-        {
-          "text": "サラダベースを盛る",
-          "note": false
-        },
-        {
-          "text": "エビの上にたっぷりのエビマヨソースをかける",
-          "note": false
-        },
-        {
-          "text": "⑦の上にパセリを軽く振る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画、画像は8個バージョンなので、個数は4個にしてください",
-          "note": true
-        },
-        {
-          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
-          "note": true
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1YyrgxCRrXsFYMXwGofLdB_ynnedJtY0H/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1EdBKip5UG_lqqS_rAYP-DUY3Y8I9Eqhd/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1BB6NCu_ycBz16khOcAptlbkc3AxQtL87/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1rC8w3nckXgG4nBsp-JhVYxtecVHeRnED/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1dwQq-bSRlnSR18JjaZ3DpTPf70LVVi2V/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1F8M0iP97ZgZIoc7-zPN5Zm45ey8SXzTD/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小, 銀皿"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        },
-        {
-          "id": "SH019",
-          "reason": "使用する仕込み（仕込み_エビマヨソース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO043",
-        "CO033",
-        "CO058"
-      ]
-    },
-    {
       "id": "CO012",
       "brand": "かっちゃん",
       "name": "たこわさ",
@@ -5696,16 +5399,7 @@
           "url": "https://drive.google.com/file/d/1hY0kqdnkwmSOxHYKoS1YDB2nGKu0Rpd2/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青菊"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -5714,6 +5408,115 @@
         "CO014",
         "CO015",
         "CO016"
+      ]
+    },
+    {
+      "id": "LU012",
+      "brand": "かっちゃん",
+      "name": "ランチ_餃子定食",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 12,
+      "ingredients": [
+        {
+          "label": "仕込み_白湯ベース",
+          "amt": "150",
+          "unit": "g",
+          "linkId": "SH004"
+        },
+        {
+          "label": "カットネギ",
+          "amt": "1",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ランチ用米",
+          "amt": "230",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "かっちゃん餃子",
+          "amt": "6",
+          "unit": "個",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "鶏肉",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "ランチ用スープ",
+          "note": false
+        },
+        {
+          "text": "米：230ｇ（炊き上がりの分量）",
+          "note": false
+        },
+        {
+          "text": "餃子6個 or 10個",
+          "note": false
+        },
+        {
+          "text": "全てお盆に乗せて提供",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1gNKn85FmEGASG4qZyGi70WxXeWolwpvQ/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU010",
+        "CO008",
+        "LU003",
+        "LU013"
       ]
     },
     {
@@ -5839,124 +5642,6 @@
       ]
     },
     {
-      "id": "LU012",
-      "brand": "かっちゃん",
-      "name": "ランチ_餃子定食",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 12,
-      "ingredients": [
-        {
-          "label": "仕込み_白湯ベース",
-          "amt": "150",
-          "unit": "g",
-          "linkId": "SH004"
-        },
-        {
-          "label": "カットネギ",
-          "amt": "1",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ランチ用米",
-          "amt": "230",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "かっちゃん餃子",
-          "amt": "6",
-          "unit": "個",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "ランチ用スープ",
-          "note": false
-        },
-        {
-          "text": "米：230ｇ（炊き上がりの分量）",
-          "note": false
-        },
-        {
-          "text": "餃子6個 or 10個",
-          "note": false
-        },
-        {
-          "text": "全てお盆に乗せて提供",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1gNKn85FmEGASG4qZyGi70WxXeWolwpvQ/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "スープ椀, 銀皿, 銀皿・小, ライス椀"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH004",
-          "reason": "使用する仕込み（仕込み_白湯ベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU010",
-        "CO008",
-        "LU003",
-        "LU013"
-      ]
-    },
-    {
       "id": "CO013",
       "brand": "かっちゃん",
       "name": "さっぱり！きゅうりの浅漬け",
@@ -6041,16 +5726,7 @@
           "url": "https://drive.google.com/file/d/1AR-aPkRk1DZEx-xk2r6QO7e-CvHwFOYO/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH006",
@@ -6063,115 +5739,6 @@
         "CO012",
         "CO014",
         "CO015"
-      ]
-    },
-    {
-      "id": "SH013",
-      "brand": "かっちゃん",
-      "name": "仕込み_豚キムたれ",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 13,
-      "ingredients": [
-        {
-          "label": "担々麵ベース",
-          "amt": "200",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "甘醤油",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "おろしにんにく",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "料理酒",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "上記分量をそれぞれ別容器で軽量する",
-          "note": false
-        },
-        {
-          "text": "計量の際に、担々麺ベースは成分が沈殿してる事があるのでよく振ってから計量する",
-          "note": false
-        },
-        {
-          "text": "計量した容器に取り残しが無いようにしながらボウルなどでよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "容器に移して冷蔵保管",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵14日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：水マス500ml",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1XKBdr8pUJu-gGG1LpcdYl3tL8GirqrIT/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1DqleAmkrQfUhMweGcWCysBNgIODrl6cB/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1B1COcETSx5f-YqmqZvH2lZBxqRrztKe8/view?usp=sharing"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1gYdfYuvEsK4ZZOOeYmRidYuBDff_vXCq/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Epgcko9QhLl63SGoy9q4syicMLtdrmV9/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1VITeXEU1EnIi-nHcj1NO7ZIMTz4VOGvK/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH007",
-        "SH016",
-        "SH018",
-        "SH019",
-        "SH026"
       ]
     },
     {
@@ -6310,16 +5877,7 @@
           "url": "https://drive.google.com/file/d/1zvCjPX_gmbn1u_bTdaT8Bg_rNaQFrcAX/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小, 黒鉢"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH018",
@@ -6335,6 +5893,115 @@
         "CO041",
         "LU002",
         "CO048"
+      ]
+    },
+    {
+      "id": "SH013",
+      "brand": "かっちゃん",
+      "name": "仕込み_豚キムたれ",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 13,
+      "ingredients": [
+        {
+          "label": "担々麵ベース",
+          "amt": "200",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "甘醤油",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "おろしにんにく",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "料理酒",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "上記分量をそれぞれ別容器で軽量する",
+          "note": false
+        },
+        {
+          "text": "計量の際に、担々麺ベースは成分が沈殿してる事があるのでよく振ってから計量する",
+          "note": false
+        },
+        {
+          "text": "計量した容器に取り残しが無いようにしながらボウルなどでよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "容器に移して冷蔵保管",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵14日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：水マス500ml",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1XKBdr8pUJu-gGG1LpcdYl3tL8GirqrIT/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1DqleAmkrQfUhMweGcWCysBNgIODrl6cB/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1B1COcETSx5f-YqmqZvH2lZBxqRrztKe8/view?usp=sharing"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1gYdfYuvEsK4ZZOOeYmRidYuBDff_vXCq/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Epgcko9QhLl63SGoy9q4syicMLtdrmV9/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1VITeXEU1EnIi-nHcj1NO7ZIMTz4VOGvK/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH007",
+        "SH016",
+        "SH018",
+        "SH019",
+        "SH026"
       ]
     },
     {
@@ -6412,16 +6079,7 @@
           "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "緑鉢"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -6430,6 +6088,111 @@
         "CO012",
         "CO013",
         "CO015"
+      ]
+    },
+    {
+      "id": "LU014",
+      "brand": "かっちゃん",
+      "name": "ランチ_炙り焼豚",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 14,
+      "ingredients": [
+        {
+          "label": "焼豚",
+          "amt": "6",
+          "unit": "枚",
+          "linkId": ""
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_サラダベース",
+          "amt": "5",
+          "unit": "g",
+          "linkId": "SH011"
+        },
+        {
+          "label": "マヨネーズ",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆",
+        "豚肉",
+        "卵"
+      ],
+      "steps": [
+        {
+          "text": "焼豚を縦に半分にカットする",
+          "note": false
+        },
+        {
+          "text": "断面を下にして焼豚をスライスしていく",
+          "note": false
+        },
+        {
+          "text": "３mm幅～５mm幅以内を目安にする（１０ｇ/枚目安）",
+          "note": true
+        },
+        {
+          "text": "カットした焼豚６枚を軽くあぶる",
+          "note": false
+        },
+        {
+          "text": "お皿にサラダベースを１０ｇ盛る",
+          "note": false
+        },
+        {
+          "text": "マヨネーズを盛る",
+          "note": false
+        },
+        {
+          "text": "炙った焼豚を６枚盛る",
+          "note": false
+        },
+        {
+          "text": "焼豚の上に特製ダレをかける",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1qqi_WiweNbqw940g5QHG1braEUeVYhTd/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1at1NqEgyOsY0yJjt7fpEntU5XQeg6PQr/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU008",
+        "SH019",
+        "CO052",
+        "LU007"
       ]
     },
     {
@@ -6569,119 +6332,6 @@
       ]
     },
     {
-      "id": "LU014",
-      "brand": "かっちゃん",
-      "name": "ランチ_炙り焼豚",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 14,
-      "ingredients": [
-        {
-          "label": "焼豚",
-          "amt": "6",
-          "unit": "枚",
-          "linkId": ""
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "5",
-          "unit": "g",
-          "linkId": "SH011"
-        },
-        {
-          "label": "マヨネーズ",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "卵"
-      ],
-      "steps": [
-        {
-          "text": "焼豚を縦に半分にカットする",
-          "note": false
-        },
-        {
-          "text": "断面を下にして焼豚をスライスしていく",
-          "note": false
-        },
-        {
-          "text": "３mm幅～５mm幅以内を目安にする（１０ｇ/枚目安）",
-          "note": true
-        },
-        {
-          "text": "カットした焼豚６枚を軽くあぶる",
-          "note": false
-        },
-        {
-          "text": "お皿にサラダベースを１０ｇ盛る",
-          "note": false
-        },
-        {
-          "text": "マヨネーズを盛る",
-          "note": false
-        },
-        {
-          "text": "炙った焼豚を６枚盛る",
-          "note": false
-        },
-        {
-          "text": "焼豚の上に特製ダレをかける",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1qqi_WiweNbqw940g5QHG1braEUeVYhTd/view?usp=sharing"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1at1NqEgyOsY0yJjt7fpEntU5XQeg6PQr/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU008",
-        "SH019",
-        "CO052",
-        "LU007"
-      ]
-    },
-    {
       "id": "CO015",
       "brand": "かっちゃん",
       "name": "うずらの煮卵",
@@ -6763,16 +6413,7 @@
           "url": "https://drive.google.com/file/d/1azw2cKEMpbRFOzjQmXyGZroVC1zzLW9_/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "緑鉢"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH007",
@@ -6785,122 +6426,6 @@
         "CO012",
         "CO013",
         "CO014"
-      ]
-    },
-    {
-      "id": "SH015",
-      "brand": "かっちゃん",
-      "name": "仕込み_ヤゲン",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 15,
-      "ingredients": [
-        {
-          "label": "ヤゲン軟骨",
-          "amt": "2000",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "鶏肉"
-      ],
-      "steps": [
-        {
-          "text": "完全解凍したヤゲン軟骨をザルにあけて余分な水気とドリップを切る",
-          "note": false
-        },
-        {
-          "text": "100gにポーション分けする",
-          "note": false
-        },
-        {
-          "text": "目安として7～9個前後",
-          "note": true
-        },
-        {
-          "text": "同様の作をヤゲン軟骨が無くなるまで繰り返す",
-          "note": false
-        },
-        {
-          "text": "極力袋な中の空気を抜きながら袋詰めしていく",
-          "note": false
-        },
-        {
-          "text": "残数が3,4人前ほどになったら一度残量を測り3～4で残量を割り、等分する形で3,4ポーションを作る",
-          "note": false
-        },
-        {
-          "text": "全てポーション分け出来たら水をたっぷりと入れた鍋にポーション分けしたヤゲン軟骨を入れる",
-          "note": false
-        },
-        {
-          "text": "鍋底に袋が付いていると袋が溶けるので、必ず鍋底にはつかないようにする",
-          "note": false
-        },
-        {
-          "text": "鍋を火にかける。沸いても10分ほど放置しする。",
-          "note": false
-        },
-        {
-          "text": "その後、袋ごと流水などに当てて熱を取ってから冷蔵か冷凍保存",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：ポーション袋",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷凍保管14日",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵保管4日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ONLdWbopipv2akgpQBnLHd_Y3V9dA5FT/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1tCGG2j7JJmmIqrW3bip9fpna4UIde_X0/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1-7YL6PdpOLhIV3jBjCItRJthDnZtb-Qt/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/15mr9Ul4HA95tvg6LO1oNDwK8eXd9a_GN/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1v938CvFXsswqmCi3EcK2mr6Gw6tfyyce/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1p74UpwAnx4sTn9TycoXPOiVpRxlSk-7a/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1VAcY37JM2dp2-SKtMqcfZfp2x5OlLIKz/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH001",
-        "SH002",
-        "SH003",
-        "SH004",
-        "SH005"
       ]
     },
     {
@@ -7044,16 +6569,7 @@
           "url": "https://drive.google.com/file/d/1Va09GwPBfnhSOPbKmP1NWeMhe9OPRSQb/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿, 銀皿・小"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH030",
@@ -7069,6 +6585,122 @@
         "CO034",
         "CO038",
         "LU003"
+      ]
+    },
+    {
+      "id": "SH015",
+      "brand": "かっちゃん",
+      "name": "仕込み_ヤゲン",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "30分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 15,
+      "ingredients": [
+        {
+          "label": "ヤゲン軟骨",
+          "amt": "2000",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "完全解凍したヤゲン軟骨をザルにあけて余分な水気とドリップを切る",
+          "note": false
+        },
+        {
+          "text": "100gにポーション分けする",
+          "note": false
+        },
+        {
+          "text": "目安として7～9個前後",
+          "note": true
+        },
+        {
+          "text": "同様の作をヤゲン軟骨が無くなるまで繰り返す",
+          "note": false
+        },
+        {
+          "text": "極力袋な中の空気を抜きながら袋詰めしていく",
+          "note": false
+        },
+        {
+          "text": "残数が3,4人前ほどになったら一度残量を測り3～4で残量を割り、等分する形で3,4ポーションを作る",
+          "note": false
+        },
+        {
+          "text": "全てポーション分け出来たら水をたっぷりと入れた鍋にポーション分けしたヤゲン軟骨を入れる",
+          "note": false
+        },
+        {
+          "text": "鍋底に袋が付いていると袋が溶けるので、必ず鍋底にはつかないようにする",
+          "note": false
+        },
+        {
+          "text": "鍋を火にかける。沸いても10分ほど放置しする。",
+          "note": false
+        },
+        {
+          "text": "その後、袋ごと流水などに当てて熱を取ってから冷蔵か冷凍保存",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：ポーション袋",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷凍保管14日",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵保管4日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1ONLdWbopipv2akgpQBnLHd_Y3V9dA5FT/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1tCGG2j7JJmmIqrW3bip9fpna4UIde_X0/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1-7YL6PdpOLhIV3jBjCItRJthDnZtb-Qt/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/15mr9Ul4HA95tvg6LO1oNDwK8eXd9a_GN/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1v938CvFXsswqmCi3EcK2mr6Gw6tfyyce/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1p74UpwAnx4sTn9TycoXPOiVpRxlSk-7a/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1VAcY37JM2dp2-SKtMqcfZfp2x5OlLIKz/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
       ]
     },
     {
@@ -7149,16 +6781,7 @@
           "url": "https://drive.google.com/file/d/1kXz796QBQyXLIutVkkin-UBMskjzIjAd/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青菊"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -7167,6 +6790,104 @@
         "CO013",
         "CO014",
         "CO015"
+      ]
+    },
+    {
+      "id": "LU016",
+      "brand": "かっちゃん",
+      "name": "ランチ_肉もやし炒め",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 16,
+      "ingredients": [
+        {
+          "label": "もやし",
+          "amt": "80",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "中華だれ",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "大豆",
+        "小麦",
+        "ごま",
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "フライパンに軽く油を引き火にかけて温める",
+          "note": false
+        },
+        {
+          "text": "もやしを入れて中～強火で一気に炒める",
+          "note": false
+        },
+        {
+          "text": "もやしが全体的に少ししんなりしたら肉味噌を入れてよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "肉味噌が全体にしっかりと混ざったら中華だれを入れる",
+          "note": false
+        },
+        {
+          "text": "全体になじんだらお皿に盛る",
+          "note": false
+        },
+        {
+          "text": "白ごまを振って完成",
+          "note": false
+        },
+        {
+          "text": "レギュラーサイズは上記レシピの分量が各2倍",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1CJZssTFxKxhBFGP5p-mzGdci3NVD7zX9/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1HQUPv9c610BvPgiWCl4lB-OxzF4HqSbe/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "LU015",
+        "LU019",
+        "CO034",
+        "CO038"
       ]
     },
     {
@@ -7291,113 +7012,6 @@
       ]
     },
     {
-      "id": "LU016",
-      "brand": "かっちゃん",
-      "name": "ランチ_肉もやし炒め",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "4分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 16,
-      "ingredients": [
-        {
-          "label": "もやし",
-          "amt": "80",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "中華だれ",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "適量",
-          "unit": "",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "豚肉",
-        "大豆",
-        "小麦",
-        "ごま",
-        "鶏肉"
-      ],
-      "steps": [
-        {
-          "text": "フライパンに軽く油を引き火にかけて温める",
-          "note": false
-        },
-        {
-          "text": "もやしを入れて中～強火で一気に炒める",
-          "note": false
-        },
-        {
-          "text": "もやしが全体的に少ししんなりしたら肉味噌を入れてよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "肉味噌が全体にしっかりと混ざったら中華だれを入れる",
-          "note": false
-        },
-        {
-          "text": "全体になじんだらお皿に盛る",
-          "note": false
-        },
-        {
-          "text": "白ごまを振って完成",
-          "note": false
-        },
-        {
-          "text": "レギュラーサイズは上記レシピの分量が各2倍",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1CJZssTFxKxhBFGP5p-mzGdci3NVD7zX9/view?usp=sharing"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1HQUPv9c610BvPgiWCl4lB-OxzF4HqSbe/view?usp=sharing"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿, 銀皿・小"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "LU015",
-        "LU019",
-        "CO034",
-        "CO038"
-      ]
-    },
-    {
       "id": "CO017",
       "brand": "かっちゃん",
       "name": "冷やしトマト",
@@ -7496,20 +7110,7 @@
           "url": "https://drive.google.com/file/d/1Il8wkA7yDTnWOhNHljHZOCrZBccaCbmg/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー黄"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -7518,98 +7119,6 @@
         "CO052",
         "CO054",
         "CO056"
-      ]
-    },
-    {
-      "id": "SH017",
-      "brand": "かっちゃん",
-      "name": "仕込み_コブクロ",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 17,
-      "ingredients": [
-        {
-          "label": "コブクロ",
-          "amt": "500",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "カットネギ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [],
-      "steps": [
-        {
-          "text": "上記を用意する",
-          "note": false
-        },
-        {
-          "text": "コブクロの中にカットネギを入れる",
-          "note": false
-        },
-        {
-          "text": "よく混ぜる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵2日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：2,440mlタッパ",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1RvLRIrzOpYSe0l-RLJg4OdHpnhnAxO0u/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1SRXqS302Q3BjENFLsFNUGvGMlGDwuEpa/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1XZLNYBTiYrzQpF6oQK50GjUdzjMSX4vx/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1d58JEQLEiVvG7STq5G68AA3yymw1hCOA/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1xP2XSpJQULkFbyCNPru_scbnkWfQsPfK/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/13b69Yqda9pgdNIS5KsqAuCi5NaPO5Tk4/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH001",
-        "LU003",
-        "CO007",
-        "CO008",
-        "LU010"
       ]
     },
     {
@@ -7729,16 +7238,7 @@
           "url": "https://drive.google.com/file/d/1w8omTLa84rewR7baI3o3brCuCwg_SMTz/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿, 銀皿・小"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH030",
@@ -7751,6 +7251,98 @@
         "CO065",
         "CO034",
         "LU002"
+      ]
+    },
+    {
+      "id": "SH017",
+      "brand": "かっちゃん",
+      "name": "仕込み_コブクロ",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 17,
+      "ingredients": [
+        {
+          "label": "コブクロ",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "上記を用意する",
+          "note": false
+        },
+        {
+          "text": "コブクロの中にカットネギを入れる",
+          "note": false
+        },
+        {
+          "text": "よく混ぜる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵2日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：2,440mlタッパ",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1RvLRIrzOpYSe0l-RLJg4OdHpnhnAxO0u/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1SRXqS302Q3BjENFLsFNUGvGMlGDwuEpa/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1XZLNYBTiYrzQpF6oQK50GjUdzjMSX4vx/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1d58JEQLEiVvG7STq5G68AA3yymw1hCOA/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1xP2XSpJQULkFbyCNPru_scbnkWfQsPfK/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/13b69Yqda9pgdNIS5KsqAuCi5NaPO5Tk4/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "LU003",
+        "CO007",
+        "CO008",
+        "LU010"
       ]
     },
     {
@@ -7848,20 +7440,7 @@
           "url": "https://drive.google.com/file/d/1Pq2IkiPOxx00XLBZ2ONZH-1frVRT-WcQ/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -7870,121 +7449,6 @@
         "CO065",
         "LU003",
         "LU015"
-      ]
-    },
-    {
-      "id": "SH018",
-      "brand": "かっちゃん",
-      "name": "仕込み_混ぜそばベース",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 18,
-      "ingredients": [
-        {
-          "label": "担々麵ベース",
-          "amt": "150",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "練りごま",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "200",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣スパイス",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "豚肉",
-        "乳成分",
-        "鶏肉"
-      ],
-      "steps": [
-        {
-          "text": "上記を計量しておく",
-          "note": false
-        },
-        {
-          "text": "ねりごまに麻辣スパイスを入れる",
-          "note": false
-        },
-        {
-          "text": "担々麺ベースを入れる",
-          "note": false
-        },
-        {
-          "text": "特製ダレを入れる",
-          "note": false
-        },
-        {
-          "text": "よく混ぜる",
-          "note": false
-        },
-        {
-          "text": "少しドロっとした感じになってきて全体に混ざったらOK",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1TVIaBlbpjH-EeA1HaXuN8VwKlNCIkd4W/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1zveiSgpry30sGT3Ise_6I43OCtnXJdco/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1-bR6G0xe__mj9SRIqg1rzV6FShm-L6ku/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/105pntP2al4Fq4PcSNYinZWcJI7LsopMD/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Yz2ux1uhj7vuEjoFSuVFhbpzg6VoGirN/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1lV9uB92GAT42IdO8HdZjnXTngrhiYaHO/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH019",
-        "SH013",
-        "SH020",
-        "SH021",
-        "SH033"
       ]
     },
     {
@@ -8114,16 +7578,7 @@
           "url": "https://drive.google.com/file/d/1LbDi9Degzfap6WiNOPkEIcHdMFxse3X1/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小, ラーメン鉢, ラーメン鉢・小, ライス椀"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH035",
@@ -8139,6 +7594,121 @@
         "LU020",
         "LU012",
         "OT002"
+      ]
+    },
+    {
+      "id": "SH018",
+      "brand": "かっちゃん",
+      "name": "仕込み_混ぜそばベース",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 18,
+      "ingredients": [
+        {
+          "label": "担々麵ベース",
+          "amt": "150",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "練りごま",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "200",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣スパイス",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "豚肉",
+        "乳成分",
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "上記を計量しておく",
+          "note": false
+        },
+        {
+          "text": "ねりごまに麻辣スパイスを入れる",
+          "note": false
+        },
+        {
+          "text": "担々麺ベースを入れる",
+          "note": false
+        },
+        {
+          "text": "特製ダレを入れる",
+          "note": false
+        },
+        {
+          "text": "よく混ぜる",
+          "note": false
+        },
+        {
+          "text": "少しドロっとした感じになってきて全体に混ざったらOK",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1TVIaBlbpjH-EeA1HaXuN8VwKlNCIkd4W/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1zveiSgpry30sGT3Ise_6I43OCtnXJdco/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1-bR6G0xe__mj9SRIqg1rzV6FShm-L6ku/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/105pntP2al4Fq4PcSNYinZWcJI7LsopMD/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Yz2ux1uhj7vuEjoFSuVFhbpzg6VoGirN/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1lV9uB92GAT42IdO8HdZjnXTngrhiYaHO/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH013",
+        "SH020",
+        "SH021",
+        "SH033"
       ]
     },
     {
@@ -8233,20 +7803,7 @@
           "url": "https://drive.google.com/file/d/1zXGNm1GgRFnhIfFyVAdQFVPaWeTVCasD/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "Kポット 16.5㎝"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -8259,134 +7816,6 @@
         "OT005",
         "CO020",
         "CO021"
-      ]
-    },
-    {
-      "id": "SH019",
-      "brand": "かっちゃん",
-      "name": "仕込み_エビマヨソース",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 19,
-      "ingredients": [
-        {
-          "label": "マヨネーズ",
-          "amt": "250",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "25",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "担々麵ベース",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "一味",
-          "amt": "2",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "味塩コショー",
-          "amt": "2",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "卵",
-        "小麦",
-        "大豆",
-        "ごま",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "各材料を計量しておく",
-          "note": false
-        },
-        {
-          "text": "マヨネーズ250ｇに一味2ｇを入れる",
-          "note": false
-        },
-        {
-          "text": "②に塩コショウ2ｇを入れる",
-          "note": false
-        },
-        {
-          "text": "③に担々麺ベース50ｇを入れる",
-          "note": false
-        },
-        {
-          "text": "④に特製ダレ25ｇを入れる",
-          "note": false
-        },
-        {
-          "text": "よく混ぜる",
-          "note": false
-        },
-        {
-          "text": "容器に移して完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵7日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：白ディスペンサー（320ml）",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1VHf8VeY6YNFIBv8mUbIVfnrJqbvcKe-p/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1hujPuc42AOumAYRsaR7xuhr-UDE4AEYq/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1CDaQrVcDiqaozWt5hySZRzOLDy2OvOgk/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1wcNgOj9lWWG1kKhJiBG9g3wBHghSR94z/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1_eX2GWOetIpSSV10dP6Uu470jh3l-02_/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1L3TvCrops03Gh9oZUjlp6HYWIOyhI8fM/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1eiIl6j_IngXTfkhwI6dcGvcCdYhQqRM6/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO052",
-        "SH018",
-        "LU014",
-        "CO054",
-        "SH010"
       ]
     },
     {
@@ -8519,16 +7948,7 @@
           "url": "https://drive.google.com/file/d/1CfpisLhltmpYag-wiQrmp18hD9EpsrLw/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿, 銀皿・小"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH036",
@@ -8541,6 +7961,134 @@
         "CO063",
         "CO065",
         "LU001"
+      ]
+    },
+    {
+      "id": "SH019",
+      "brand": "かっちゃん",
+      "name": "仕込み_エビマヨソース",
+      "furigana": "",
+      "category": "仕込み",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 19,
+      "ingredients": [
+        {
+          "label": "マヨネーズ",
+          "amt": "250",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "25",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "担々麵ベース",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "一味",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味塩コショー",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "卵",
+        "小麦",
+        "大豆",
+        "ごま",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "各材料を計量しておく",
+          "note": false
+        },
+        {
+          "text": "マヨネーズ250ｇに一味2ｇを入れる",
+          "note": false
+        },
+        {
+          "text": "②に塩コショウ2ｇを入れる",
+          "note": false
+        },
+        {
+          "text": "③に担々麺ベース50ｇを入れる",
+          "note": false
+        },
+        {
+          "text": "④に特製ダレ25ｇを入れる",
+          "note": false
+        },
+        {
+          "text": "よく混ぜる",
+          "note": false
+        },
+        {
+          "text": "容器に移して完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵7日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：白ディスペンサー（320ml）",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1VHf8VeY6YNFIBv8mUbIVfnrJqbvcKe-p/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1hujPuc42AOumAYRsaR7xuhr-UDE4AEYq/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1CDaQrVcDiqaozWt5hySZRzOLDy2OvOgk/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1wcNgOj9lWWG1kKhJiBG9g3wBHghSR94z/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1_eX2GWOetIpSSV10dP6Uu470jh3l-02_/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1L3TvCrops03Gh9oZUjlp6HYWIOyhI8fM/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1eiIl6j_IngXTfkhwI6dcGvcCdYhQqRM6/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO052",
+        "SH018",
+        "LU014",
+        "CO054",
+        "SH010"
       ]
     },
     {
@@ -8635,20 +8183,7 @@
           "url": "https://drive.google.com/file/d/1CfNwPLqEJO32f_vesTQQ0PUcr-gZNUcR/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "Kポット 16.5㎝"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH009",
@@ -8661,6 +8196,131 @@
         "LU008",
         "CO019",
         "CO022"
+      ]
+    },
+    {
+      "id": "LU020",
+      "brand": "かっちゃん",
+      "name": "ランチ_かっちゃんラーメン",
+      "furigana": "",
+      "category": "ランチ",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 20,
+      "ingredients": [
+        {
+          "label": "生麺",
+          "amt": "半",
+          "unit": "玉",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_かっちゃんラーメンベース",
+          "amt": "260",
+          "unit": "g",
+          "linkId": "SH035"
+        },
+        {
+          "label": "仕込み_もやしナムル",
+          "amt": "15",
+          "unit": "g",
+          "linkId": "SH031"
+        },
+        {
+          "label": "焼豚",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        },
+        {
+          "label": "マー油",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "鶏油",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "大豆",
+        "小麦",
+        "ごま",
+        "鶏肉",
+        "豚肉",
+        "乳製品",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "沸いたお湯に生麺を入れて２分ボイル",
+          "note": false
+        },
+        {
+          "text": "鍋でラーメンのベースを沸かす",
+          "note": false
+        },
+        {
+          "text": "丼に鶏油をマー油を入れておく",
+          "note": false
+        },
+        {
+          "text": "②が沸いたら③に入れる",
+          "note": false
+        },
+        {
+          "text": "ボイルした麺の水気をよく切って丼に入れて麺を軽くほぐす",
+          "note": false
+        },
+        {
+          "text": "もやしナムル、焼豚、カットネギを盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "レギュラーサイズは上記レシピの分量が各２倍",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1tt9gqU4Z5CLtzfkkQ6MVi6jCSBxUj3Jd/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1LbDi9Degzfap6WiNOPkEIcHdMFxse3X1/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH035",
+          "reason": "使用する仕込み（仕込み_かっちゃんラーメンベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU018",
+        "LU003",
+        "LU010"
       ]
     },
     {
@@ -8796,140 +8456,6 @@
       ]
     },
     {
-      "id": "LU020",
-      "brand": "かっちゃん",
-      "name": "ランチ_かっちゃんラーメン",
-      "furigana": "",
-      "category": "ランチ",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 20,
-      "ingredients": [
-        {
-          "label": "生麺",
-          "amt": "半",
-          "unit": "玉",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_かっちゃんラーメンベース",
-          "amt": "260",
-          "unit": "g",
-          "linkId": "SH035"
-        },
-        {
-          "label": "仕込み_もやしナムル",
-          "amt": "15",
-          "unit": "g",
-          "linkId": "SH031"
-        },
-        {
-          "label": "焼豚",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        },
-        {
-          "label": "マー油",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "鶏油",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "カットネギ",
-          "amt": "2",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "大豆",
-        "小麦",
-        "ごま",
-        "鶏肉",
-        "豚肉",
-        "乳製品",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "沸いたお湯に生麺を入れて２分ボイル",
-          "note": false
-        },
-        {
-          "text": "鍋でラーメンのベースを沸かす",
-          "note": false
-        },
-        {
-          "text": "丼に鶏油をマー油を入れておく",
-          "note": false
-        },
-        {
-          "text": "②が沸いたら③に入れる",
-          "note": false
-        },
-        {
-          "text": "ボイルした麺の水気をよく切って丼に入れて麺を軽くほぐす",
-          "note": false
-        },
-        {
-          "text": "もやしナムル、焼豚、カットネギを盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "レギュラーサイズは上記レシピの分量が各２倍",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1tt9gqU4Z5CLtzfkkQ6MVi6jCSBxUj3Jd/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1LbDi9Degzfap6WiNOPkEIcHdMFxse3X1/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "ラーメン鉢, ラーメン鉢・小"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH035",
-          "reason": "使用する仕込み（仕込み_かっちゃんラーメンベース）"
-        },
-        {
-          "id": "SH031",
-          "reason": "使用する仕込み（仕込み_もやしナムル）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU018",
-        "LU003",
-        "LU010"
-      ]
-    },
-    {
       "id": "CO021",
       "brand": "かっちゃん",
       "name": "もも肉から揚げ",
@@ -9008,16 +8534,7 @@
           "url": "https://drive.google.com/file/d/17x789GCeWs6MJhKzO1DSb6vJmFVmUfuL/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀バット"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -9149,7 +8666,7 @@
         "SH020",
         "SH018",
         "SH019",
-        "OT005"
+        "SH037"
       ]
     },
     {
@@ -9231,16 +8748,7 @@
           "url": "https://drive.google.com/file/d/1lRM7MmTOnHE2HMRyxuyxYg5n3KNppSI7/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀バット"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH009",
@@ -9478,20 +8986,7 @@
           "url": "https://drive.google.com/file/d/1nnn7rprTv8PL7DeTXHYoNNirYPO9z38B/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "＊餃子場と併用"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -9718,20 +9213,7 @@
           "url": "https://drive.google.com/file/d/1t5ayYY3Dh1qkdcmQVYoOh9-ra9MdE3UZ/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "そのまま使用"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -9906,20 +9388,7 @@
           "url": "https://drive.google.com/file/d/13FgyOjYpHO2tBeV0L1InkJ-lYBIGNgZv/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -10133,20 +9602,7 @@
           "url": "https://drive.google.com/file/d/1dq_m4z7YeYg7Wyu-RqYFan75jni0PoVv/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "＊餃子場と併用"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -10400,20 +9856,7 @@
           "url": "https://drive.google.com/file/d/1d8AjEf3miIiER39yCpcEEgUjhQFkoMUQ/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -10630,20 +10073,7 @@
           "url": "https://drive.google.com/file/d/1JAS-seETwmtFeliJx13OqQl6Ms1sv6Jv/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小"
-        },
-        {
-          "item": "ソース容器",
-          "content": "そのまま使用"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH011",
@@ -10907,20 +10337,7 @@
           "url": "https://drive.google.com/file/d/1VBKe0v21QKaTpPX3JR_qVL_JDea5iGBp/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "すり鉢"
-        },
-        {
-          "item": "ソース容器",
-          "content": "＃22ディッシャー"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -11145,24 +10562,7 @@
           "url": "https://drive.google.com/file/d/1bfcPEl7sl4vyv6R1rEdVphj4hIAem6Kt/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと, 青菊"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス 3 L"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル10"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -11326,20 +10726,7 @@
           "url": "https://drive.google.com/file/d/1Hsjn_7hJETLwf-T86bc9d3PAJFlThlKN/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -11635,24 +11022,7 @@
           "url": "https://drive.google.com/file/d/1hpNYWiYFoC49gu9jo-TKqCtm5GbrXZyF/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル10"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH012",
@@ -11867,20 +11237,7 @@
           "url": "https://drive.google.com/file/d/1_Vrg3r34fML_tQR9wZr7b12GLGKg7F3-/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "1P醬油ボトル"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH011",
@@ -11992,7 +11349,7 @@
         "SH020",
         "SH018",
         "SH019",
-        "OT005"
+        "SH037"
       ]
     },
     {
@@ -12133,24 +11490,7 @@
           "url": "https://drive.google.com/file/d/1JaunI16ieDAyUD4d1AABsWVhl4dsIVX0/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル20"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH030",
@@ -12322,16 +11662,7 @@
           "url": "https://drive.google.com/file/d/1fejlseBc736SYkIw33rmsUVCf-ThDCwz/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH014",
@@ -12537,20 +11868,7 @@
           "url": "https://drive.google.com/file/d/1K5NO2fr2nxp8CzeGEEcmEEaqZ8akDgoS/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青波, 青菊"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -12679,20 +11997,7 @@
           "url": "https://drive.google.com/file/d/1at1NqEgyOsY0yJjt7fpEntU5XQeg6PQr/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "併用"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH015",
@@ -12708,6 +12013,103 @@
         "CO032",
         "CO033",
         "CO018"
+      ]
+    },
+    {
+      "id": "SH037",
+      "brand": "かっちゃん",
+      "name": "仕込み_卓上用ラー油",
+      "furigana": "シコミ_タクジョウヨウラーユ",
+      "category": "仕込み",
+      "time": "5分",
+      "yieldAmt": 675,
+      "yieldUnit": "g",
+      "appOrder": 37,
+      "ingredients": [
+        {
+          "label": "フライドガーリック",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "一味",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味の素",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣調味料",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "マー油",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ラー油",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "各種計量しておく",
+          "note": false
+        },
+        {
+          "text": "計量する容器は水などが付いていない事\n水分が入るとカビが生えたり腐ったりしやすくなる為",
+          "note": true
+        },
+        {
+          "text": "混ぜる用のボウルにフライドガーリック３０ｇを手で潰しながら入れる\n荒潰しでいい",
+          "note": false
+        },
+        {
+          "text": "残りの材料を順番に入れる",
+          "note": false
+        },
+        {
+          "text": "よく混ぜる。\n油と液体の分離が無くなり一体化すればOK",
+          "note": false
+        },
+        {
+          "text": "ラー油入れにレードルなどを使い移す。",
+          "note": false
+        },
+        {
+          "text": "ラー油入れには大体60㏄目安で入れるとこぼれないです",
+          "note": true
+        },
+        {
+          "text": "余った分は清潔な容器に入れて常温保管",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH021",
+        "SH031",
+        "SH033",
+        "CO008"
       ]
     },
     {
@@ -12866,24 +12268,7 @@
           "url": "https://drive.google.com/file/d/1MmCQPGPi1Jwm6LIoYHTqxXmvjGkGjGek/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル20"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH016",
@@ -12995,20 +12380,7 @@
           "url": "https://drive.google.com/file/d/1ZchQ6b-C7nxFOC61Sn9uRPXNQrcmWu7d/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -13086,16 +12458,7 @@
           "url": "https://drive.google.com/file/d/1dN9I5-rGlV1gs-s_7T1Ot4udWoyE4abF/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "お通し"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH017",
@@ -13255,24 +12618,7 @@
           "url": "https://drive.google.com/file/d/11xoJikf5XfftT_RU9ywnl_cBV7ZeZUHm/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒鉢"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "＃18ディッシャー"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH018",
@@ -13314,7 +12660,13 @@
           "linkId": ""
         }
       ],
-      "allergens": [],
+      "allergens": [
+        "小麦",
+        "豚肉",
+        "ゼラチン",
+        "大豆",
+        "ごま"
+      ],
       "steps": [
         {
           "text": "よくお湯が沸いた蒸器を用意しておく",
@@ -13371,16 +12723,7 @@
           "url": "https://drive.google.com/file/d/1Vbjh4C72n5bEXICfVYNS5PtFRCk_6RFm/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "セイロ"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -13507,28 +12850,7 @@
           "url": "https://drive.google.com/file/d/1F8M0iP97ZgZIoc7-zPN5Zm45ey8SXzTD/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "レードル",
-          "content": "400ml"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "3分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH011",
@@ -13663,24 +12985,7 @@
           "url": "https://drive.google.com/file/d/1x_R8OpHW9Sz7RHb1sAy95iCfS1X3Lenm/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "1分半, 2分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -13801,20 +13106,7 @@
           "url": "https://drive.google.com/file/d/1o2KFcHpsJ0MJdrH1blvmEbYYuVNpN2EK/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH022",
@@ -13907,16 +13199,7 @@
           "url": "https://drive.google.com/file/d/1emd51eoOFXLt_tvc5lT3YA5DUkNOhvBc/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青菊"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH023",
@@ -14044,20 +13327,7 @@
           "url": "https://drive.google.com/file/d/1lPKyWV9zSAoB4w5fvFIjf9FoIvQAv2D2/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "7分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -14210,24 +13480,7 @@
           "url": "https://drive.google.com/file/d/1YzjjNHwLvlXJJgu61Oa66F-edvtcbBTz/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "緑鉢, 青波"
-        },
-        {
-          "item": "ソース容器",
-          "content": "Kポット 19.5㎝"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル120・30"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH003",
@@ -14360,24 +13613,7 @@
           "url": "https://drive.google.com/file/d/1lz4n4sxqsKGerzhRkRvi4gJkJ7D6VwjN/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "緑鉢, 青波"
-        },
-        {
-          "item": "ソース容器",
-          "content": "Kポット 19.5㎝"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル120・30"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH016",
@@ -14455,12 +13691,7 @@
           "url": "https://drive.google.com/file/d/1wKpfhJ4H2P2CfPrJW3nP4l1qaIZkjoNZ/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH024",
@@ -14570,16 +13801,7 @@
           "url": "https://drive.google.com/file/d/1LoP_K6ZnP8_SGKMl0gfUvgUE_BH7BxJF/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH025",
@@ -14708,24 +13930,7 @@
           "url": "https://drive.google.com/file/d/1MbD7egIEPMGUAVN63wda6c9yo7dVPx1w/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・小"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル10"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -14838,20 +14043,7 @@
           "url": "https://drive.google.com/file/d/1UroUx8rbgLsvhowehoKryEAo96lNp8DM/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "＃14ディッシャー"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH027",
@@ -14977,20 +14169,7 @@
           "url": "https://drive.google.com/file/d/1j7giQJ2Z4vyWTlgu07qB6YXeJ4VJYFUr/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "専用容器"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -15120,24 +14299,7 @@
           "url": "https://drive.google.com/file/d/11dmVbVqrftuPVGUrw9XR4BNCQcKoJCJd/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀バット, 青菊"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "5分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH028",
@@ -15286,20 +14448,7 @@
           "url": "https://drive.google.com/file/d/1QvVr4RTfdsmqB7XWnrblEP0pR_yw4J-m/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "白黒"
-        },
-        {
-          "item": "揚げ時間",
-          "content": "3分"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH010",
@@ -15333,6 +14482,9 @@
         }
       ],
       "allergens": [
+        "小麦",
+        "乳成分",
+        "大豆",
         "鶏肉"
       ],
       "steps": [
@@ -15347,12 +14499,7 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -15476,20 +14623,7 @@
           "url": "https://drive.google.com/file/d/1AS4-AF80-iKKlvjcyUgm2KXQk8rtLLfS/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー赤"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH011",
@@ -15600,20 +14734,7 @@
           "url": "https://drive.google.com/file/d/1ZJWNeVC42jiPHCSyjC1rJRQQ5f6Fa9x9/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "Kポット 16.5㎝"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH011",
@@ -15754,20 +14875,7 @@
           "url": "https://drive.google.com/file/d/1RkpCbscAb_AoaqCpH2h8SoamD_rV2KJ-/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "セイロ, 黒丸"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー黄"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -15911,20 +15019,7 @@
           "url": "https://drive.google.com/file/d/1oj2w8RvFuPASEreEX_xQFEbF7ItWs5TT/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青波, 青菊"
-        },
-        {
-          "item": "ソース容器",
-          "content": "1P醬油ボトル"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -16046,20 +15141,7 @@
           "url": "https://drive.google.com/file/d/1A4o9D9mgLnRy6ZbsDweA_oVXucv4evd9/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "青波, 青菊"
-        },
-        {
-          "item": "ソース容器",
-          "content": "中子バット"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -16185,20 +15267,7 @@
           "url": "https://drive.google.com/file/d/1nW9FRkbb0lnF7F08q3i3dvfzcAGKc0o2/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -16341,24 +15410,7 @@
           "url": "https://drive.google.com/file/d/19XivKNWaMtgxYnWyNqvHM1Z_gocXzhUj/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "レードル10"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH008",
@@ -16526,24 +15578,7 @@
           "url": "https://drive.google.com/file/d/1WPWnvQ2akLDPDvUIUpE2sJoWZA3eyt0s/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "銀皿・大"
-        },
-        {
-          "item": "ソース容器",
-          "content": "水マス500ml"
-        },
-        {
-          "item": "レードル",
-          "content": "＃18ディッシャー"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "焼き・〆"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH030",
@@ -16591,12 +15626,7 @@
       ],
       "steps": [],
       "media": [],
-      "plating": [
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -16710,20 +15740,7 @@
           "url": "https://drive.google.com/file/d/1la4a8eTBPl1tT7Es5k_PKAxp39L-gD7Y/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "きせと"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "冷製"
-        }
-      ],
+      "plating": [],
       "related": [
         {
           "id": "SH010",
@@ -16874,20 +15891,7 @@
           "url": "https://drive.google.com/file/d/1pZg1LMSBqCKULFGmaosPL2_bQRy9uF2I/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "パフェグラス"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -17023,20 +16027,7 @@
           "url": "https://drive.google.com/file/d/1sjaqs9aGhR8RDWy_Sfp4Qkcxwn744fGI/view?usp=sharing"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "パフェグラス"
-        },
-        {
-          "item": "ソース容器",
-          "content": "ディスペンサー白"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "餃子"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -17157,16 +16148,7 @@
           "url": "https://drive.google.com/file/d/1ShRQTAnFZoF-1E2pFTqq4_IVL-kUQJL2/view?usp=drive_link"
         }
       ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "黒角"
-        },
-        {
-          "item": "カテゴリ",
-          "content": "揚げ"
-        }
-      ],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
@@ -17426,10 +16408,10 @@
       ],
       "allergens": [
         "小麦",
-        "ごま",
         "大豆",
-        "鶏肉",
-        "豚肉"
+        "豚肉",
+        "ごま",
+        "鶏肉"
       ],
       "steps": [],
       "media": [
@@ -17493,10 +16475,10 @@
       ],
       "allergens": [
         "小麦",
-        "ごま",
         "大豆",
-        "鶏肉",
-        "豚肉"
+        "豚肉",
+        "ごま",
+        "鶏肉"
       ],
       "steps": [],
       "media": [
