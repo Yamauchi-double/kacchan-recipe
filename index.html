@@ -861,7 +861,7 @@ function renderRelated(r){
 /* ===== 初期化（データ読み込み後に実行）===== */
 function initApp(){
   RECIPES.forEach(function(r){
-    r._doc = (r.ingredients||[]).map(function(i){return i.label;}).join(' ')+' '+r.name+' '+r.category+' '+(r.allergens||[]).join(' ');
+    r._doc = (r.ingredients||[]).map(function(i){return i.label;}).join(' ')+' '+r.name+' '+(r.furigana||'')+' '+r.category+' '+(r.allergens||[]).join(' ');
   });
   fuse=new Fuse(RECIPES,{includeScore:true,threshold:0.42,ignoreLocation:true,minMatchCharLength:1,keys:[{name:'name',weight:.5},{name:'_doc',weight:.5}]});
   buildTabs();
