@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T23:31:20.131Z",
+  "generatedAt": "2026-07-08T11:29:06.499Z",
   "count": 144,
   "recipes": [
     {
@@ -3509,126 +3509,6 @@
       ]
     },
     {
-      "id": "CU007",
-      "brand": "かっちゃん",
-      "name": "切り物_サーモンカット",
-      "furigana": "キリモノ_サーモンカット",
-      "category": "切り物",
-      "time": "8分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 7,
-      "ingredients": [
-        {
-          "label": "サーモン",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "さけ"
-      ],
-      "steps": [
-        {
-          "text": "詳細はpdfや動画参照",
-          "note": false
-        },
-        {
-          "text": "まずは3等分にする",
-          "note": false
-        },
-        {
-          "text": "3番部分の尻尾側の端に合わせて①、②を切り分ける",
-          "note": false
-        },
-        {
-          "text": "各部分の推奨の使い方は画像参照。出数のバランスもあると思うので、サーモンキムチ用で刺身を作ってもユッケを作ってもOKです",
-          "note": false
-        },
-        {
-          "text": "刺身用のカット。なるべく同じ包丁の動きをすれば同じカットになる部分を選択すると切りやすいです",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの６番補足：5～7mm厚を目安にカットする",
-          "note": false
-        },
-        {
-          "text": "画像のような感じで3枚並べそこにもたれさせるように2枚盛るとバランスが取れてキレイに盛りやすいです",
-          "note": false
-        },
-        {
-          "text": "ユッケ用のカット。白い（腹膜）は付いたままでもＯＫですユッケ用で小さくカットするのでそれほど口残りしないです。",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの８番補足：4等分の長さは5cm以内にカットするイメージ",
-          "note": false
-        },
-        {
-          "text": "板状にスライスした後に細切りイメージとして割り箸の先の方の細さ感が限界のサイズです。それより大きくならないように注意長さ感は５cm以内",
-          "note": false
-        },
-        {
-          "text": "サーモンキムチ用。サイズによりますが３～４等分",
-          "note": false
-        },
-        {
-          "text": "向きを変えてサイコロ状にカット",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの１１番補足：1.5cm角をイメージ",
-          "note": false
-        },
-        {
-          "text": "保存期間：開封後冷蔵保存：3日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1i8Bs7sgu-tiD3UpThtm9mhTEYEMGaE0P/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1HSeLQJspgKy8RPTPj2B0v6e7Pzj4WG-0/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1d7VlIeEnethNH1pV3w71o4lpJ6RpaiKR/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1AxYG2tU3bb5sxKz9JsHGLtoAR90jZrZ4/view?usp=sharing"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1x13nU7pOR7ba_TDgtR1PBAt3qcLV7YPr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1eV6mS0dW3c0bKsusWTCufJxOVNZXUPjr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/13gFoSzu2hgDTvnXm-5IKBgiNhXfWQqf8/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH025",
-        "CO062",
-        "CO063",
-        "CU001",
-        "CU002"
-      ]
-    },
-    {
       "id": "LU007",
       "brand": "かっちゃん",
       "name": "ランチ_春巻き",
@@ -3860,6 +3740,122 @@
         "SH004",
         "SH006",
         "SH013"
+      ]
+    },
+    {
+      "id": "CU007",
+      "brand": "かっちゃん",
+      "name": "切り物_サーモンカット",
+      "furigana": "キリモノ_サーモンカット",
+      "category": "切り物",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 7,
+      "ingredients": [
+        {
+          "label": "サーモン",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "さけ"
+      ],
+      "steps": [
+        {
+          "text": "詳細はpdfや動画参照",
+          "note": false
+        },
+        {
+          "text": "まずは3等分にする",
+          "note": false
+        },
+        {
+          "text": "3番部分の尻尾側の端に合わせて①、②を切り分ける",
+          "note": false
+        },
+        {
+          "text": "各部分の推奨の使い方は画像参照。出数のバランスもあると思うので、サーモンキムチ用で刺身を作ってもユッケを作ってもOKです",
+          "note": false
+        },
+        {
+          "text": "刺身用のカット。なるべく同じ包丁の動きをすれば同じカットになる部分を選択すると切りやすいです",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの６番補足：5～7mm厚を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "画像のような感じで3枚並べそこにもたれさせるように2枚盛るとバランスが取れてキレイに盛りやすいです",
+          "note": false
+        },
+        {
+          "text": "ユッケ用のカット。白い（腹膜）は付いたままでもＯＫですユッケ用で小さくカットするのでそれほど口残りしないです。",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの８番補足：4等分の長さは5cm以内にカットするイメージ",
+          "note": false
+        },
+        {
+          "text": "板状にスライスした後に細切りイメージとして割り箸の先の方の細さ感が限界のサイズです。それより大きくならないように注意長さ感は５cm以内",
+          "note": false
+        },
+        {
+          "text": "サーモンキムチ用。サイズによりますが３～４等分",
+          "note": false
+        },
+        {
+          "text": "向きを変えてサイコロ状にカット",
+          "note": false
+        },
+        {
+          "text": "調理工程pdfの１１番補足：1.5cm角をイメージ",
+          "note": false
+        },
+        {
+          "text": "保存期間：開封後冷蔵保存：3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1RpXhI6HUZYZgNHn42ZUXbFuDNVF9PvCz/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/17tK_Fm5jX7UunIkOY5VJatJJtSy2eZ8I/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1m8uoNWKbxQTfYa9x0hlpDEnrGn7mD_3C/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1QJEAI3s-aAN3lOTFV0dOyTqkDaQ3Q_4F/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1st3vsLcQBNXrx1fq3ZoGDeS3lNmAYi-S/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Hhunmlu1XSI2njIKqys3trMmOz5ivuSL/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH025",
+        "CO062",
+        "CO063",
+        "CU001",
+        "CU002"
       ]
     },
     {
