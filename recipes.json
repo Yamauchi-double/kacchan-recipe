@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-07T11:16:12.933Z",
-  "count": 145,
+  "generatedAt": "2026-07-08T11:37:05.655Z",
+  "count": 144,
   "recipes": [
     {
       "id": "CO001",
       "brand": "かっちゃん",
       "name": "人気No.1 かっちゃん餃子",
-      "furigana": "",
+      "furigana": "ニンキナンバーワンカッチャンギョウザ",
       "category": "調理",
       "time": "8分",
       "yieldAmt": null,
@@ -160,7 +160,7 @@
       "id": "CU001",
       "brand": "かっちゃん",
       "name": "切り物_ニラカット",
-      "furigana": "",
+      "furigana": "キリモノ_ニラカット",
       "category": "切り物",
       "time": "1分",
       "yieldAmt": null,
@@ -246,7 +246,7 @@
       "id": "LU001",
       "brand": "かっちゃん",
       "name": "ランチ_エビチリ",
-      "furigana": "",
+      "furigana": "ランチ_エビチリ",
       "category": "ランチ",
       "time": "4分",
       "yieldAmt": null,
@@ -384,7 +384,7 @@
       "id": "OT001",
       "brand": "かっちゃん",
       "name": "他_皿画像",
-      "furigana": "",
+      "furigana": "ホカ_サラガゾウ",
       "category": "他",
       "time": "",
       "yieldAmt": null,
@@ -426,7 +426,7 @@
       "id": "SH001",
       "brand": "かっちゃん",
       "name": "仕込み_ネギ塩",
-      "furigana": "",
+      "furigana": "シコミ_ネギシオ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -553,7 +553,7 @@
       "id": "CO002",
       "brand": "かっちゃん",
       "name": "旨味爆弾！じゅ～しぃ餃子",
-      "furigana": "",
+      "furigana": "ウマミバクダンジューシーギョウザ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -693,7 +693,7 @@
       "id": "CU002",
       "brand": "かっちゃん",
       "name": "切り物_マンゴーカット",
-      "furigana": "",
+      "furigana": "キリモノ_マンゴーカット",
       "category": "切り物",
       "time": "3分",
       "yieldAmt": null,
@@ -783,7 +783,7 @@
       "id": "LU002",
       "brand": "かっちゃん",
       "name": "ランチ_麻婆豆腐",
-      "furigana": "",
+      "furigana": "ランチ_マーボードウフ",
       "category": "ランチ",
       "time": "",
       "yieldAmt": null,
@@ -912,7 +912,7 @@
       "id": "OT002",
       "brand": "かっちゃん",
       "name": "他_かっちゃん弁当",
-      "furigana": "",
+      "furigana": "ホカ_カッチャンベントウ",
       "category": "他",
       "time": "10分",
       "yieldAmt": null,
@@ -1061,7 +1061,7 @@
       "id": "SH002",
       "brand": "かっちゃん",
       "name": "仕込み_チーズソース",
-      "furigana": "",
+      "furigana": "シコミ_チーズソース",
       "category": "仕込み",
       "time": "20分",
       "yieldAmt": null,
@@ -1171,7 +1171,7 @@
       "id": "CO003",
       "brand": "かっちゃん",
       "name": "おとこは黙って,,,漢餃子",
-      "furigana": "",
+      "furigana": "オトコハダマッテオトコギョウザ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -1311,7 +1311,7 @@
       "id": "CU003",
       "brand": "かっちゃん",
       "name": "切り物_白ネギカット",
-      "furigana": "",
+      "furigana": "キリモノ_シロネギカット",
       "category": "切り物",
       "time": "5分",
       "yieldAmt": null,
@@ -1393,7 +1393,7 @@
       "id": "LU003",
       "brand": "かっちゃん",
       "name": "ランチ_豚キムチ",
-      "furigana": "",
+      "furigana": "ランチ_ブタキムチ",
       "category": "ランチ",
       "time": "4分",
       "yieldAmt": null,
@@ -1570,7 +1570,7 @@
       "id": "OT003",
       "brand": "かっちゃん",
       "name": "他_から揚げ弁当",
-      "furigana": "",
+      "furigana": "ホカ_カラアゲベントウ",
       "category": "他",
       "time": "5分",
       "yieldAmt": null,
@@ -1702,7 +1702,7 @@
       "id": "SH003",
       "brand": "かっちゃん",
       "name": "仕込み_麻婆ソース",
-      "furigana": "",
+      "furigana": "シコミ_マーボーソース",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -1846,7 +1846,7 @@
       "id": "CO004",
       "brand": "かっちゃん",
       "name": "かっちゃん特製！ネギ塩餃子",
-      "furigana": "",
+      "furigana": "カッチャントクセイネギシオギョウザ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -2016,7 +2016,7 @@
       "id": "CU004",
       "brand": "かっちゃん",
       "name": "切り物_エリンギカット",
-      "furigana": "",
+      "furigana": "キリモノ_エリンギカット",
       "category": "切り物",
       "time": "3分",
       "yieldAmt": null,
@@ -2102,7 +2102,7 @@
       "id": "LU004",
       "brand": "かっちゃん",
       "name": "ランチ_油淋鶏",
-      "furigana": "",
+      "furigana": "ランチ_ユーリンチー",
       "category": "ランチ",
       "time": "3分",
       "yieldAmt": null,
@@ -2201,7 +2201,7 @@
       "id": "OT004",
       "brand": "かっちゃん",
       "name": "他_持ち帰り用餃子",
-      "furigana": "",
+      "furigana": "ホカ_モチカエリヨウギョウザ",
       "category": "他",
       "time": "10分",
       "yieldAmt": null,
@@ -2271,7 +2271,7 @@
       "id": "SH004",
       "brand": "かっちゃん",
       "name": "仕込み_白湯ベース",
-      "furigana": "",
+      "furigana": "シコミ_パイタンベース",
       "category": "仕込み",
       "time": "1分",
       "yieldAmt": null,
@@ -2376,7 +2376,7 @@
       "id": "CO005",
       "brand": "かっちゃん",
       "name": "女子受けNo.1とろ～り濃厚チーズ餃子",
-      "furigana": "",
+      "furigana": "ジョシウケナンバーワントローリノウコウチーズギョウザ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -2547,7 +2547,7 @@
       "id": "CU005",
       "brand": "かっちゃん",
       "name": "切り物_エイヒレカット",
-      "furigana": "",
+      "furigana": "キリモノ_エイヒレカット",
       "category": "切り物",
       "time": "10分",
       "yieldAmt": null,
@@ -2645,7 +2645,7 @@
       "id": "LU005",
       "brand": "かっちゃん",
       "name": "ランチ_メンマ",
-      "furigana": "",
+      "furigana": "ランチ_メンマ",
       "category": "ランチ",
       "time": "1分",
       "yieldAmt": null,
@@ -2715,7 +2715,7 @@
       "id": "OT005",
       "brand": "かっちゃん",
       "name": "他_持ち帰り用から揚げ",
-      "furigana": "",
+      "furigana": "ホカ_モチカエリヨウカラアゲ",
       "category": "他",
       "time": "5分",
       "yieldAmt": null,
@@ -2792,7 +2792,7 @@
       "id": "SH005",
       "brand": "かっちゃん",
       "name": "仕込み_トマト白湯ベース",
-      "furigana": "",
+      "furigana": "シコミ_トマトパイタンベース",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -2898,7 +2898,7 @@
       "id": "CO006",
       "brand": "かっちゃん",
       "name": "最強コラボ！麻婆餃子",
-      "furigana": "",
+      "furigana": "サイキョウコラボマーボーギョウザ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -3070,7 +3070,7 @@
       "id": "CU006",
       "brand": "かっちゃん",
       "name": "切り物_むね刺しカット",
-      "furigana": "",
+      "furigana": "キリモノ_ムネサシカット",
       "category": "切り物",
       "time": "5分",
       "yieldAmt": null,
@@ -3170,7 +3170,7 @@
       "id": "LU006",
       "brand": "かっちゃん",
       "name": "ランチ_焼売",
-      "furigana": "",
+      "furigana": "ランチ_シューマイ",
       "category": "ランチ",
       "time": "16分",
       "yieldAmt": null,
@@ -3268,7 +3268,7 @@
       "id": "SH006",
       "brand": "かっちゃん",
       "name": "仕込み_きゅうりの浅漬け",
-      "furigana": "",
+      "furigana": "シコミ_キュウリノアサヅケ",
       "category": "仕込み",
       "time": "8分",
       "yieldAmt": null,
@@ -3397,7 +3397,7 @@
       "id": "CO007",
       "brand": "かっちゃん",
       "name": "パリパリ揚げ餃子",
-      "furigana": "",
+      "furigana": "パリパリアゲギョウザ",
       "category": "調理",
       "time": "7分",
       "yieldAmt": null,
@@ -3509,130 +3509,10 @@
       ]
     },
     {
-      "id": "CU007",
-      "brand": "かっちゃん",
-      "name": "切り物_サーモンカット",
-      "furigana": "",
-      "category": "切り物",
-      "time": "8分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 7,
-      "ingredients": [
-        {
-          "label": "サーモン",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "さけ"
-      ],
-      "steps": [
-        {
-          "text": "詳細はpdfや動画参照",
-          "note": false
-        },
-        {
-          "text": "まずは3等分にする",
-          "note": false
-        },
-        {
-          "text": "3番部分の尻尾側の端に合わせて①、②を切り分ける",
-          "note": false
-        },
-        {
-          "text": "各部分の推奨の使い方は画像参照。出数のバランスもあると思うので、サーモンキムチ用で刺身を作ってもユッケを作ってもOKです",
-          "note": false
-        },
-        {
-          "text": "刺身用のカット。なるべく同じ包丁の動きをすれば同じカットになる部分を選択すると切りやすいです",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの６番補足：5～7mm厚を目安にカットする",
-          "note": false
-        },
-        {
-          "text": "画像のような感じで3枚並べそこにもたれさせるように2枚盛るとバランスが取れてキレイに盛りやすいです",
-          "note": false
-        },
-        {
-          "text": "ユッケ用のカット。白い（腹膜）は付いたままでもＯＫですユッケ用で小さくカットするのでそれほど口残りしないです。",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの８番補足：4等分の長さは5cm以内にカットするイメージ",
-          "note": false
-        },
-        {
-          "text": "板状にスライスした後に細切りイメージとして割り箸の先の方の細さ感が限界のサイズです。それより大きくならないように注意長さ感は５cm以内",
-          "note": false
-        },
-        {
-          "text": "サーモンキムチ用。サイズによりますが３～４等分",
-          "note": false
-        },
-        {
-          "text": "向きを変えてサイコロ状にカット",
-          "note": false
-        },
-        {
-          "text": "調理工程pdfの１１番補足：1.5cm角をイメージ",
-          "note": false
-        },
-        {
-          "text": "保存期間：開封後冷蔵保存：3日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1i8Bs7sgu-tiD3UpThtm9mhTEYEMGaE0P/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1HSeLQJspgKy8RPTPj2B0v6e7Pzj4WG-0/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1d7VlIeEnethNH1pV3w71o4lpJ6RpaiKR/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1AxYG2tU3bb5sxKz9JsHGLtoAR90jZrZ4/view?usp=sharing"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1x13nU7pOR7ba_TDgtR1PBAt3qcLV7YPr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1eV6mS0dW3c0bKsusWTCufJxOVNZXUPjr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/13gFoSzu2hgDTvnXm-5IKBgiNhXfWQqf8/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH025",
-        "CO062",
-        "CO063",
-        "CU001",
-        "CU002"
-      ]
-    },
-    {
       "id": "LU007",
       "brand": "かっちゃん",
       "name": "ランチ_春巻き",
-      "furigana": "",
+      "furigana": "ランチ_ハルマキ",
       "category": "ランチ",
       "time": "8分",
       "yieldAmt": null,
@@ -3714,7 +3594,7 @@
       "id": "SH007",
       "brand": "かっちゃん",
       "name": "仕込み_うずらの煮卵",
-      "furigana": "",
+      "furigana": "シコミ_ウズラノニタマゴ",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -3863,10 +3743,130 @@
       ]
     },
     {
+      "id": "CU007",
+      "brand": "かっちゃん",
+      "name": "切り物_サーモンカット",
+      "furigana": "キリモノ_サーモンカット",
+      "category": "切り物",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 7,
+      "ingredients": [
+        {
+          "label": "サーモン",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "さけ"
+      ],
+      "steps": [
+        {
+          "text": "詳細は動画参照してください",
+          "note": false
+        },
+        {
+          "text": "まずは腹部分（身厚が薄い部分）を落とします",
+          "note": false
+        },
+        {
+          "text": "上記の腹部分は主にユッケ用に使用してください",
+          "note": true
+        },
+        {
+          "text": "縦に5cm幅にカット",
+          "note": false
+        },
+        {
+          "text": "目盛付きのまな板を使用してサイズの参考にしてください\n上下のメモリの長い線が1cm単位、短い線が5mm単位です",
+          "note": true
+        },
+        {
+          "text": "尻尾側から10cm前後を切り落とす",
+          "note": false
+        },
+        {
+          "text": "上記は尻尾側部分は主に生キムチ用で使用してください",
+          "note": true
+        },
+        {
+          "text": "腹側、背側共に1cm幅を目安にカットしていく",
+          "note": false
+        },
+        {
+          "text": "上記刺身用のカットです",
+          "note": true
+        },
+        {
+          "text": "腹部分（身厚の薄いところ）を5cm幅にカットする",
+          "note": false
+        },
+        {
+          "text": "上記でカットした部分を90度回転させて細切りにしていく",
+          "note": false
+        },
+        {
+          "text": "上記ユッケ用のサーモンです",
+          "note": true
+        },
+        {
+          "text": "尻尾側を1.5cm角を目安にサイコロ状にカットする",
+          "note": false
+        },
+        {
+          "text": "上記は生キムチ用です",
+          "note": true
+        },
+        {
+          "text": "保存期間：開封後冷蔵保存：3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1RpXhI6HUZYZgNHn42ZUXbFuDNVF9PvCz/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/17tK_Fm5jX7UunIkOY5VJatJJtSy2eZ8I/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1m8uoNWKbxQTfYa9x0hlpDEnrGn7mD_3C/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1QJEAI3s-aAN3lOTFV0dOyTqkDaQ3Q_4F/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1st3vsLcQBNXrx1fq3ZoGDeS3lNmAYi-S/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Hhunmlu1XSI2njIKqys3trMmOz5ivuSL/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH025",
+        "CO062",
+        "CO063",
+        "CU001",
+        "CU002"
+      ]
+    },
+    {
       "id": "CO008",
       "brand": "かっちゃん",
       "name": "ぷるもちっ水餃子",
-      "furigana": "",
+      "furigana": "プルモチッスイギョウザ",
       "category": "調理",
       "time": "6分",
       "yieldAmt": null,
@@ -4019,7 +4019,7 @@
       "id": "CU008",
       "brand": "かっちゃん",
       "name": "切り物_豚バラカット",
-      "furigana": "",
+      "furigana": "キリモノ_ブタバラカット",
       "category": "切り物",
       "time": "",
       "yieldAmt": null,
@@ -4044,7 +4044,7 @@
       "id": "LU008",
       "brand": "かっちゃん",
       "name": "ランチ_タレむね",
-      "furigana": "",
+      "furigana": "ランチ_タレムネ",
       "category": "ランチ",
       "time": "4分",
       "yieldAmt": null,
@@ -4140,7 +4140,7 @@
       "id": "SH008",
       "brand": "かっちゃん",
       "name": "仕込み_もも唐揚げ",
-      "furigana": "",
+      "furigana": "シコミ_モモカラアゲ",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -4276,7 +4276,7 @@
       "id": "CO009",
       "brand": "かっちゃん",
       "name": "イタリアン炊き餃子",
-      "furigana": "",
+      "furigana": "イタリアンタキギョウザ",
       "category": "調理",
       "time": "8分",
       "yieldAmt": null,
@@ -4441,7 +4441,7 @@
       "id": "LU009",
       "brand": "かっちゃん",
       "name": "ランチ_米",
-      "furigana": "",
+      "furigana": "ランチ_コメ",
       "category": "ランチ",
       "time": "60分",
       "yieldAmt": null,
@@ -4533,7 +4533,7 @@
       "id": "SH009",
       "brand": "かっちゃん",
       "name": "仕込み_むね唐揚げ",
-      "furigana": "",
+      "furigana": "シコミ_ムネカラアゲ",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -4669,7 +4669,7 @@
       "id": "CO010",
       "brand": "かっちゃん",
       "name": "海老のぷりぷり餃子",
-      "furigana": "",
+      "furigana": "エビノプリプリギョウザ",
       "category": "調理",
       "time": "12分",
       "yieldAmt": null,
@@ -4776,7 +4776,7 @@
       "id": "LU010",
       "brand": "かっちゃん",
       "name": "ランチ_スープ",
-      "furigana": "",
+      "furigana": "ランチ_スープ",
       "category": "ランチ",
       "time": "2分",
       "yieldAmt": null,
@@ -4865,7 +4865,7 @@
       "id": "SH010",
       "brand": "かっちゃん",
       "name": "仕込み_明太マヨ",
-      "furigana": "",
+      "furigana": "シコミ_メンタイマヨ",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -4965,7 +4965,7 @@
       "id": "CO011",
       "brand": "かっちゃん",
       "name": "とりあえず枝豆",
-      "furigana": "",
+      "furigana": "トリアエズエダマメ",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -5055,7 +5055,7 @@
       "id": "LU011",
       "brand": "かっちゃん",
       "name": "ランチ_エビマヨ",
-      "furigana": "",
+      "furigana": "ランチ_エビマヨ",
       "category": "ランチ",
       "time": "5分",
       "yieldAmt": null,
@@ -5197,7 +5197,7 @@
       "id": "SH011",
       "brand": "かっちゃん",
       "name": "仕込み_サラダベース",
-      "furigana": "",
+      "furigana": "シコミ_サラダベース",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -5329,7 +5329,7 @@
       "id": "CO012",
       "brand": "かっちゃん",
       "name": "たこわさ",
-      "furigana": "",
+      "furigana": "タコワサ",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -5414,7 +5414,7 @@
       "id": "LU012",
       "brand": "かっちゃん",
       "name": "ランチ_餃子定食",
-      "furigana": "",
+      "furigana": "ランチ_ギョウザテイショク",
       "category": "ランチ",
       "time": "",
       "yieldAmt": null,
@@ -5523,7 +5523,7 @@
       "id": "SH012",
       "brand": "かっちゃん",
       "name": "仕込み_タンステーキ",
-      "furigana": "",
+      "furigana": "シコミ_タンステーキ",
       "category": "仕込み",
       "time": "10分",
       "yieldAmt": null,
@@ -5645,7 +5645,7 @@
       "id": "CO013",
       "brand": "かっちゃん",
       "name": "さっぱり！きゅうりの浅漬け",
-      "furigana": "",
+      "furigana": "サッパリキュウリノアサヅケ",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -5745,7 +5745,7 @@
       "id": "LU013",
       "brand": "かっちゃん",
       "name": "ランチ_混ぜそば定食",
-      "furigana": "",
+      "furigana": "ランチ_マゼソバテイショク",
       "category": "ランチ",
       "time": "",
       "yieldAmt": null,
@@ -5899,7 +5899,7 @@
       "id": "SH013",
       "brand": "かっちゃん",
       "name": "仕込み_豚キムたれ",
-      "furigana": "",
+      "furigana": "シコミ_ブタキムタレ",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -6008,7 +6008,7 @@
       "id": "CO014",
       "brand": "かっちゃん",
       "name": "ごちゃまぜキムチ",
-      "furigana": "",
+      "furigana": "ゴチャマゼキムチ",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -6094,7 +6094,7 @@
       "id": "LU014",
       "brand": "かっちゃん",
       "name": "ランチ_炙り焼豚",
-      "furigana": "",
+      "furigana": "ランチ_アブリチャーシュー",
       "category": "ランチ",
       "time": "3分",
       "yieldAmt": null,
@@ -6199,7 +6199,7 @@
       "id": "SH014",
       "brand": "かっちゃん",
       "name": "仕込み_どて煮",
-      "furigana": "",
+      "furigana": "シコミ_ドテニ",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -6335,7 +6335,7 @@
       "id": "CO015",
       "brand": "かっちゃん",
       "name": "うずらの煮卵",
-      "furigana": "",
+      "furigana": "ウズラノニタマゴ",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -6432,7 +6432,7 @@
       "id": "LU015",
       "brand": "かっちゃん",
       "name": "ランチ_八宝菜",
-      "furigana": "",
+      "furigana": "ランチ_ハッポウサイ",
       "category": "ランチ",
       "time": "3分",
       "yieldAmt": null,
@@ -6591,7 +6591,7 @@
       "id": "SH015",
       "brand": "かっちゃん",
       "name": "仕込み_ヤゲン",
-      "furigana": "",
+      "furigana": "シコミ_ヤゲン",
       "category": "仕込み",
       "time": "30分",
       "yieldAmt": null,
@@ -6707,7 +6707,7 @@
       "id": "CO016",
       "brand": "かっちゃん",
       "name": "チャンジャ",
-      "furigana": "",
+      "furigana": "チャンジャ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -6796,7 +6796,7 @@
       "id": "LU016",
       "brand": "かっちゃん",
       "name": "ランチ_肉もやし炒め",
-      "furigana": "",
+      "furigana": "ランチ_ニクモヤシイタメ",
       "category": "ランチ",
       "time": "4分",
       "yieldAmt": null,
@@ -6894,7 +6894,7 @@
       "id": "SH016",
       "brand": "かっちゃん",
       "name": "仕込み_ホルモンタレ",
-      "furigana": "",
+      "furigana": "シコミ_ホルモンタレ",
       "category": "仕込み",
       "time": "2分",
       "yieldAmt": null,
@@ -7015,7 +7015,7 @@
       "id": "CO017",
       "brand": "かっちゃん",
       "name": "冷やしトマト",
-      "furigana": "",
+      "furigana": "ヒヤシトマト",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -7125,7 +7125,7 @@
       "id": "LU017",
       "brand": "かっちゃん",
       "name": "ランチ_回鍋肉",
-      "furigana": "",
+      "furigana": "ランチ_ホイコウロウ",
       "category": "ランチ",
       "time": "5分",
       "yieldAmt": null,
@@ -7257,7 +7257,7 @@
       "id": "SH017",
       "brand": "かっちゃん",
       "name": "仕込み_コブクロ",
-      "furigana": "",
+      "furigana": "シコミ_コブクロ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -7349,7 +7349,7 @@
       "id": "CO018",
       "brand": "かっちゃん",
       "name": "やみつきキャベツ",
-      "furigana": "",
+      "furigana": "ヤミツキキャベツ",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -7455,7 +7455,7 @@
       "id": "LU018",
       "brand": "かっちゃん",
       "name": "ランチ_かっちゃんラーメンセット",
-      "furigana": "",
+      "furigana": "ランチ_カッチャンラーメンセット",
       "category": "ランチ",
       "time": "3分",
       "yieldAmt": null,
@@ -7600,7 +7600,7 @@
       "id": "SH018",
       "brand": "かっちゃん",
       "name": "仕込み_混ぜそばベース",
-      "furigana": "",
+      "furigana": "シコミ_マゼソバベース",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -7708,14 +7708,14 @@
         "SH013",
         "SH020",
         "SH021",
-        "SH033"
+        "LU002"
       ]
     },
     {
       "id": "CO019",
       "brand": "かっちゃん",
       "name": "特製ダレもも肉から揚げ",
-      "furigana": "",
+      "furigana": "トクセイダレモモニクカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -7822,7 +7822,7 @@
       "id": "LU019",
       "brand": "かっちゃん",
       "name": "ランチ_きくらげと卵の炒め物",
-      "furigana": "",
+      "furigana": "ランチ_キクラゲトタマゴノイタメモノ",
       "category": "ランチ",
       "time": "5分",
       "yieldAmt": null,
@@ -7967,7 +7967,7 @@
       "id": "SH019",
       "brand": "かっちゃん",
       "name": "仕込み_エビマヨソース",
-      "furigana": "",
+      "furigana": "シコミ_エビマヨソース",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -8095,7 +8095,7 @@
       "id": "CO020",
       "brand": "かっちゃん",
       "name": "特製ダレむね肉から揚げ",
-      "furigana": "",
+      "furigana": "トクセイダレムネニクカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -8202,7 +8202,7 @@
       "id": "LU020",
       "brand": "かっちゃん",
       "name": "ランチ_かっちゃんラーメン",
-      "furigana": "",
+      "furigana": "ランチ_カッチャンラーメン",
       "category": "ランチ",
       "time": "3分",
       "yieldAmt": null,
@@ -8327,7 +8327,7 @@
       "id": "SH020",
       "brand": "かっちゃん",
       "name": "仕込み_油淋鶏ソース",
-      "furigana": "",
+      "furigana": "シコミ_ユーリンチーソース",
       "category": "仕込み",
       "time": "4分",
       "yieldAmt": null,
@@ -8449,17 +8449,17 @@
       "comments": [],
       "suggested": [
         "SH021",
-        "SH033",
         "LU019",
         "CO064",
-        "SH001"
+        "SH001",
+        "SH016"
       ]
     },
     {
       "id": "CO021",
       "brand": "かっちゃん",
       "name": "もも肉から揚げ",
-      "furigana": "",
+      "furigana": "モモニクカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -8553,7 +8553,7 @@
       "id": "SH021",
       "brand": "かっちゃん",
       "name": "仕込み_よだれ鶏タレ",
-      "furigana": "",
+      "furigana": "シコミ_ヨダレドリタレ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -8662,18 +8662,18 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH033",
         "SH020",
         "SH018",
         "SH019",
-        "SH037"
+        "SH037",
+        "OT005"
       ]
     },
     {
       "id": "CO022",
       "brand": "かっちゃん",
       "name": "むね肉から揚げ",
-      "furigana": "",
+      "furigana": "ムネニクカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -8767,7 +8767,7 @@
       "id": "SH022",
       "brand": "かっちゃん",
       "name": "仕込み_よだれ鶏",
-      "furigana": "",
+      "furigana": "シコミ_ヨダレドリ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -8889,7 +8889,7 @@
       "id": "CO023",
       "brand": "かっちゃん",
       "name": "ネギ塩から揚げ",
-      "furigana": "",
+      "furigana": "ネギシオカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -9008,7 +9008,7 @@
       "id": "SH023",
       "brand": "かっちゃん",
       "name": "仕込み_ピリ辛メンマ",
-      "furigana": "",
+      "furigana": "シコミ_ピリカラメンマ",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -9114,7 +9114,7 @@
       "id": "CO024",
       "brand": "かっちゃん",
       "name": "タルタルから揚げ",
-      "furigana": "",
+      "furigana": "タルタルカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -9232,7 +9232,7 @@
       "id": "SH024",
       "brand": "かっちゃん",
       "name": "仕込み_鶏むねクラゲ",
-      "furigana": "",
+      "furigana": "シコミ_トリムネクラゲ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -9288,7 +9288,7 @@
       "id": "CO025",
       "brand": "かっちゃん",
       "name": "ヤンニョムから揚げ",
-      "furigana": "",
+      "furigana": "ヤンニョムカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -9407,7 +9407,7 @@
       "id": "SH025",
       "brand": "かっちゃん",
       "name": "仕込み_サーモンキムチ",
-      "furigana": "",
+      "furigana": "シコミ_サーモンキムチ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -9505,7 +9505,7 @@
       "id": "CO026",
       "brand": "かっちゃん",
       "name": "チーズから揚げ",
-      "furigana": "",
+      "furigana": "チーズカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -9624,7 +9624,7 @@
       "id": "SH026",
       "brand": "かっちゃん",
       "name": "仕込み_キムチベース",
-      "furigana": "",
+      "furigana": "シコミ_キムチベース",
       "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
@@ -9757,7 +9757,7 @@
       "id": "CO027",
       "brand": "かっちゃん",
       "name": "明太マヨから揚げ",
-      "furigana": "",
+      "furigana": "メンタイマヨカラアゲ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -9878,7 +9878,7 @@
       "id": "SH027",
       "brand": "かっちゃん",
       "name": "仕込み_トロたく",
-      "furigana": "",
+      "furigana": "シコミ_トロタク",
       "category": "仕込み",
       "time": "2分",
       "yieldAmt": null,
@@ -9974,7 +9974,7 @@
       "id": "CO028",
       "brand": "かっちゃん",
       "name": "ミニチョレギサラダ",
-      "furigana": "",
+      "furigana": "ミニチョレギサラダ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -10092,7 +10092,7 @@
       "id": "SH028",
       "brand": "かっちゃん",
       "name": "仕込み_ソースマヨ",
-      "furigana": "",
+      "furigana": "シコミ_ソースマヨ",
       "category": "仕込み",
       "time": "2分",
       "yieldAmt": null,
@@ -10196,7 +10196,7 @@
       "id": "CO029",
       "brand": "かっちゃん",
       "name": "仕上げはお願い！鉢ポテサラ",
-      "furigana": "",
+      "furigana": "シアゲハオネガイバチポテサラ",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -10352,7 +10352,7 @@
       "id": "SH029",
       "brand": "かっちゃん",
       "name": "仕込み_焼きラーメンダレ",
-      "furigana": "",
+      "furigana": "シコミ_ヤキラーメンダレ",
       "category": "仕込み",
       "time": "2分",
       "yieldAmt": null,
@@ -10449,7 +10449,7 @@
       "id": "CO030",
       "brand": "かっちゃん",
       "name": "つくね卵黄",
-      "furigana": "",
+      "furigana": "ツクネランオウ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -10577,7 +10577,7 @@
       "id": "SH030",
       "brand": "かっちゃん",
       "name": "仕込み_豚肉下茹で",
-      "furigana": "",
+      "furigana": "シコミ_ブタニクシタユデ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -10616,7 +10616,7 @@
       "id": "CO031",
       "brand": "かっちゃん",
       "name": "馬刺しユッケ",
-      "furigana": "",
+      "furigana": "バサシユッケ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -10741,7 +10741,7 @@
       "id": "SH031",
       "brand": "かっちゃん",
       "name": "仕込み_もやしナムル",
-      "furigana": "",
+      "furigana": "シコミ_モヤシナムル",
       "category": "仕込み",
       "time": "60分",
       "yieldAmt": null,
@@ -10887,7 +10887,7 @@
       "id": "CO032",
       "brand": "かっちゃん",
       "name": "ころころタンステーキ",
-      "furigana": "",
+      "furigana": "コロコロタンステーキ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -11044,7 +11044,7 @@
       "id": "SH032",
       "brand": "かっちゃん",
       "name": "仕込み_勝ジロー鍋出汁",
-      "furigana": "",
+      "furigana": "シコミ_カツジローナベダシ",
       "category": "仕込み",
       "time": "5分",
       "yieldAmt": null,
@@ -11120,7 +11120,7 @@
       "id": "CO033",
       "brand": "かっちゃん",
       "name": "エリンギバター",
-      "furigana": "",
+      "furigana": "エリンギバター",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -11253,110 +11253,10 @@
       ]
     },
     {
-      "id": "SH033",
-      "brand": "かっちゃん",
-      "name": "仕込み_よだれ鶏タレ仮",
-      "furigana": "",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 33,
-      "ingredients": [
-        {
-          "label": "特製ダレ",
-          "amt": "150",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣だれ",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ラー油",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "酢",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "牛肉",
-        "乳製品",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "考え中",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵14日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：白ディスペンサー（320ml）",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1vCdIc49_iW-eqCh-7Oq1_3OCmPBW7iOW/view?usp=sharing"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1hujPuc42AOumAYRsaR7xuhr-UDE4AEYq/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1xoB53tf8QWQd7V8GYaItFZjFjBu-0bhC/view?usp=sharing"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1IrPMaqOTaHhQG03jlJ6pdp51MtMs6ypD/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1lH48Q6nHVIfYYopaQqlIpu-xYZkAKnfH/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1jQdbseQnv-SEeN9pBvB6kUM_FlFT3kxR/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/11uFYCT-ess1PZivoApvMweN0eERwm73A/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH021",
-        "SH020",
-        "SH037",
-        "SH018",
-        "SH019"
-      ]
-    },
-    {
       "id": "CO034",
       "brand": "かっちゃん",
       "name": "豚キムチ",
-      "furigana": "",
+      "furigana": "ブタキムチ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -11512,7 +11412,7 @@
       "id": "SH034",
       "brand": "かっちゃん",
       "name": "仕込み_八宝菜のたれ",
-      "furigana": "",
+      "furigana": "シコミ_ハッポウサイノタレ",
       "category": "仕込み",
       "time": "",
       "yieldAmt": null,
@@ -11589,7 +11489,7 @@
       "id": "CO035",
       "brand": "かっちゃん",
       "name": "関西風の牛すじどて煮",
-      "furigana": "",
+      "furigana": "カンサイフウノギュウスジドテニ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -11681,7 +11581,7 @@
       "id": "SH035",
       "brand": "かっちゃん",
       "name": "仕込み_かっちゃんラーメンベース",
-      "furigana": "",
+      "furigana": "シコミ_カッチャンラーメンベース",
       "category": "仕込み",
       "time": "",
       "yieldAmt": null,
@@ -11738,7 +11638,7 @@
       "id": "CO036",
       "brand": "かっちゃん",
       "name": "旨味凝縮！鶏のたたき",
-      "furigana": "",
+      "furigana": "ウマミギョウシュクトリノタタキ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -11883,7 +11783,7 @@
       "id": "SH036",
       "brand": "かっちゃん",
       "name": "仕込み_戻しきくらげ",
-      "furigana": "",
+      "furigana": "シコミ_モドシキクラゲ",
       "category": "仕込み",
       "time": "1分",
       "yieldAmt": null,
@@ -11943,7 +11843,7 @@
       "id": "CO037",
       "brand": "かっちゃん",
       "name": "ヤゲン軟骨の塩炒め",
-      "furigana": "",
+      "furigana": "ヤゲンナンコツノシオイタメ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -12033,14 +11933,14 @@
           "linkId": ""
         },
         {
-          "label": "一味",
-          "amt": "30",
+          "label": "味の素",
+          "amt": "10",
           "unit": "g",
           "linkId": ""
         },
         {
-          "label": "味の素",
-          "amt": "15",
+          "label": "一味",
+          "amt": "30",
           "unit": "g",
           "linkId": ""
         },
@@ -12104,25 +12004,54 @@
         {
           "text": "余った分は清潔な容器に入れて常温保管",
           "note": false
+        },
+        {
+          "text": "保存方法：常温（高温多湿をなるべく避ける）\n保存期間：3カ月",
+          "note": false
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1Vcoogs_X9xy0EeY2AaFfngYOLCFOldS4/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1yUwHC7-2ZyEuvmQrTBkk3y78ZanWe4Fr/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1shNuP9WfFQYJao8LY4woHPQPdmMA3pq7/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1LDUJSEdT5pej5B_dWREeoAQrMRLNHLft/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1jlQ1fZlH-Xsp2a_xT2YgB_-Zkt-xV9VG/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1mKJnVlpWsGUBKNdgPozRGWlpBg8ioPBV/view?usp=sharing"
+        }
+      ],
       "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH033",
         "SH019",
         "SH021",
         "SH031",
-        "CO008"
+        "CO008",
+        "LU018"
       ]
     },
     {
       "id": "CO038",
       "brand": "かっちゃん",
       "name": "大阪ホルモン野菜炒め",
-      "furigana": "",
+      "furigana": "オオサカホルモンヤサイイタメ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -12293,7 +12222,7 @@
       "id": "CO039",
       "brand": "かっちゃん",
       "name": "THE★チヂミ",
-      "furigana": "",
+      "furigana": "ザチヂミ",
       "category": "調理",
       "time": "6分",
       "yieldAmt": null,
@@ -12401,7 +12330,7 @@
       "id": "CO040",
       "brand": "かっちゃん",
       "name": "コブクロのピリ辛和え",
-      "furigana": "",
+      "furigana": "コブクロノピリカラアエ",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -12483,7 +12412,7 @@
       "id": "CO041",
       "brand": "かっちゃん",
       "name": "四川風 担々混ぜそば",
-      "furigana": "",
+      "furigana": "シセンフウタンタンマゼソバ",
       "category": "調理",
       "time": "6分",
       "yieldAmt": null,
@@ -12646,7 +12575,7 @@
       "id": "CO042",
       "brand": "かっちゃん",
       "name": "餃子もいいけど豚焼売",
-      "furigana": "",
+      "furigana": "ギョウザモイイケドブタシューマイ",
       "category": "調理",
       "time": "16分",
       "yieldAmt": null,
@@ -12744,7 +12673,7 @@
       "id": "CO043",
       "brand": "かっちゃん",
       "name": "ピリ辛 大人のエビマヨ",
-      "furigana": "",
+      "furigana": "ピリカラオトナノエビマヨ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -12878,7 +12807,7 @@
       "id": "CO044",
       "brand": "かっちゃん",
       "name": "ネギ油香る 油淋鶏",
-      "furigana": "",
+      "furigana": "ネギアブラカオルユーリンチー",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -13013,7 +12942,7 @@
       "id": "CO045",
       "brand": "かっちゃん",
       "name": "よだれ鶏",
-      "furigana": "",
+      "furigana": "ヨダレドリ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -13134,7 +13063,7 @@
       "id": "CO046",
       "brand": "かっちゃん",
       "name": "おつまみメンマ",
-      "furigana": "",
+      "furigana": "オツマミメンマ",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -13224,7 +13153,7 @@
       "id": "CO047",
       "brand": "かっちゃん",
       "name": "春巻き",
-      "furigana": "",
+      "furigana": "ハルマキ",
       "category": "調理",
       "time": "9分",
       "yieldAmt": null,
@@ -13348,7 +13277,7 @@
       "id": "CO048",
       "brand": "かっちゃん",
       "name": "こぼれ麻婆豆腐",
-      "furigana": "",
+      "furigana": "コボレマーボードウフ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -13505,7 +13434,7 @@
       "id": "CO049",
       "brand": "かっちゃん",
       "name": "シャキシャキにんにく豆苗炒め",
-      "furigana": "",
+      "furigana": "シャキシャキニンニクトウミョウイタメ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -13638,7 +13567,7 @@
       "id": "CO050",
       "brand": "かっちゃん",
       "name": "くらげキムチとむね肉",
-      "furigana": "",
+      "furigana": "クラゲキムチトムネニク",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -13716,7 +13645,7 @@
       "id": "CO051",
       "brand": "かっちゃん",
       "name": "サーモンの生キムチ",
-      "furigana": "",
+      "furigana": "サーモンノナマキムチ",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -13826,7 +13755,7 @@
       "id": "CO052",
       "brand": "かっちゃん",
       "name": "イカ焼き",
-      "furigana": "",
+      "furigana": "イカヤキ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -13951,7 +13880,7 @@
       "id": "CO053",
       "brand": "かっちゃん",
       "name": "トロたく",
-      "furigana": "",
+      "furigana": "トロタク",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -14068,7 +13997,7 @@
       "id": "CO054",
       "brand": "かっちゃん",
       "name": "炙ったエイヒレ",
-      "furigana": "",
+      "furigana": "アブッタエイヒレ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -14190,7 +14119,7 @@
       "id": "CO055",
       "brand": "かっちゃん",
       "name": "オカン特製ハム玉カツ",
-      "furigana": "",
+      "furigana": "オカントクセイハムタマカツ",
       "category": "調理",
       "time": "7分",
       "yieldAmt": null,
@@ -14324,7 +14253,7 @@
       "id": "CO056",
       "brand": "かっちゃん",
       "name": "ポテトフライ",
-      "furigana": "",
+      "furigana": "ポテトフライ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -14473,7 +14402,7 @@
       "id": "CO057",
       "brand": "かっちゃん",
       "name": "軟骨唐揚げ",
-      "furigana": "",
+      "furigana": "ナンコツカラアゲ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -14520,7 +14449,7 @@
       "id": "CO058",
       "brand": "かっちゃん",
       "name": "チーズスティック",
-      "furigana": "",
+      "furigana": "チーズスティック",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -14648,7 +14577,7 @@
       "id": "CO059",
       "brand": "かっちゃん",
       "name": "ささみ梅しそ巻き",
-      "furigana": "",
+      "furigana": "ササミウメシソマキ",
       "category": "調理",
       "time": "7分",
       "yieldAmt": null,
@@ -14759,7 +14688,7 @@
       "id": "CO060",
       "brand": "かっちゃん",
       "name": "どか盛ネギたこ焼き",
-      "furigana": "",
+      "furigana": "ドカモリネギタコヤキ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -14896,7 +14825,7 @@
       "id": "CO061",
       "brand": "かっちゃん",
       "name": "糀漬け若鳥むね肉の刺身風",
-      "furigana": "",
+      "furigana": "コウジツケワカドリムネニクノサシミフウ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -15040,7 +14969,7 @@
       "id": "CO062",
       "brand": "かっちゃん",
       "name": "サーモン刺身",
-      "furigana": "",
+      "furigana": "サーモンサシミ",
       "category": "調理",
       "time": "3分",
       "yieldAmt": null,
@@ -15162,7 +15091,7 @@
       "id": "CO063",
       "brand": "かっちゃん",
       "name": "サーモンユッケ",
-      "furigana": "",
+      "furigana": "サーモンユッケ",
       "category": "調理",
       "time": "4分",
       "yieldAmt": null,
@@ -15288,7 +15217,7 @@
       "id": "CO064",
       "brand": "かっちゃん",
       "name": "おっちゃんの炒飯",
-      "furigana": "",
+      "furigana": "オッチャンノチャーハン",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -15435,7 +15364,7 @@
       "id": "CO065",
       "brand": "かっちゃん",
       "name": "生まれ変わった焼きラーメン",
-      "furigana": "",
+      "furigana": "ウマレカワッタヤキラーメン",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -15606,7 +15535,7 @@
       "id": "CO066",
       "brand": "かっちゃん",
       "name": "昔懐かしい”あの”カップ麺",
-      "furigana": "",
+      "furigana": "ムカシナツカシイアノカップメン",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -15647,7 +15576,7 @@
       "id": "CO067",
       "brand": "かっちゃん",
       "name": "明太マヨ焼きおにぎり",
-      "furigana": "",
+      "furigana": "メンタイマヨヤキオニギリ",
       "category": "調理",
       "time": "5分",
       "yieldAmt": null,
@@ -15765,7 +15694,7 @@
       "id": "CO068",
       "brand": "かっちゃん",
       "name": "ぷちチョコチュロス",
-      "furigana": "",
+      "furigana": "プチチョコチュロス",
       "category": "調理",
       "time": "6分",
       "yieldAmt": null,
@@ -15912,7 +15841,7 @@
       "id": "CO069",
       "brand": "かっちゃん",
       "name": "マンゴープリンパフェ",
-      "furigana": "",
+      "furigana": "マンゴープリンパフェ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -16048,7 +15977,7 @@
       "id": "CO070",
       "brand": "かっちゃん",
       "name": "かっちゃんチョコパイ",
-      "furigana": "",
+      "furigana": "カッチャンチョコパイ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -16169,7 +16098,7 @@
       "id": "CO071",
       "brand": "かっちゃん",
       "name": "もやしナムル",
-      "furigana": "",
+      "furigana": "モヤシナムル",
       "category": "調理",
       "time": "1分",
       "yieldAmt": null,
@@ -16267,7 +16196,7 @@
       "id": "CO072",
       "brand": "かっちゃん",
       "name": "えびせん",
-      "furigana": "",
+      "furigana": "エビセン",
       "category": "調理",
       "time": "2分",
       "yieldAmt": null,
@@ -16374,7 +16303,7 @@
       "id": "CO073",
       "brand": "かっちゃん",
       "name": "マシ",
-      "furigana": "",
+      "furigana": "マシ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -16441,7 +16370,7 @@
       "id": "CO074",
       "brand": "かっちゃん",
       "name": "マシマシ",
-      "furigana": "",
+      "furigana": "マシマシ",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
@@ -16508,7 +16437,7 @@
       "id": "CO075",
       "brand": "かっちゃん",
       "name": "つるつる麺",
-      "furigana": "",
+      "furigana": "ツルツルメン",
       "category": "調理",
       "time": "10分",
       "yieldAmt": null,
