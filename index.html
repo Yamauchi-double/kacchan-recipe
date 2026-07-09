@@ -24,7 +24,7 @@ button{font-family:inherit}img{display:block}
 .topbar .logo{height:84px;width:auto;cursor:pointer}.topbar .sp{flex:1}
 .topbar .sbtn{width:40px;height:40px;border:none;background:transparent;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink)}
 .topbar .sbtn:active{background:var(--chip)}
-.searchrow{display:none;padding:10px 14px;gap:10px;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:var(--tbh,101px);background:#fff;z-index:29}
+.searchrow{display:flex;padding:10px 14px;gap:10px;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:var(--tbh,101px);background:#fff;z-index:29}
 .searchrow.show{display:flex}
 .searchrow input{flex:1;border:1px solid var(--line);border-radius:22px;padding:11px 16px;font-family:inherit;font-size:15px;font-weight:500;outline:none;background:#fff}
 .searchrow input:focus{border-color:#1d9bf0;box-shadow:0 0 0 1px #1d9bf0}
@@ -517,8 +517,8 @@ function buildTabsUI(){
 }
 
 const sbtn=document.getElementById('sbtn'),searchrow=document.getElementById('searchrow'),qEl=document.getElementById('q'),segEl=document.getElementById('seg');
-sbtn.onclick=function(){searchrow.classList.toggle('show');if(searchrow.classList.contains('show'))qEl.focus();else{qEl.value='';segEl.textContent='';renderHome();}};
-qEl.addEventListener('input',function(){var tk=tokens(qEl.value.trim());segEl.textContent=qEl.value.trim()&&tk.length?'→ '+tk.join(' / '):'';renderHome();});
+sbtn.onclick=function(){qEl.focus();};
+qEl.addEventListener('input',function(){if(document.getElementById('watch').classList.contains('show')){closeWatch();}var tk=tokens(qEl.value.trim());segEl.textContent=qEl.value.trim()&&tk.length?'→ '+tk.join(' / '):'';renderHome();});
 
 /* ===== ホーム ===== */
 const grid=document.getElementById('grid');
@@ -598,12 +598,11 @@ function openWatch(id){
       '</div></div>'
     : '';
 
-  // メディア欄（PDF＝画像付き調理工程）
+  // メディア欄（PDF＝画像付き調理工程）。登録無しなら欄ごと非表示
   var pdf=mediaUrl(r,'PDF'), pdfId=driveId(pdf);
-  var pdfBtn = pdfId
-    ? '<a class="mbtn" target="_blank" href="https://drive.google.com/file/d/'+pdfId+'/view">🖼 画像付き調理工程を見る</a>'
-    : '<span class="mbtn disabled">🖼 画像付き調理工程なし</span>';
-  var mediaSec='<div class="sec"><div class="sech">メディア</div><div class="mediabtns">'+pdfBtn+'</div></div>';
+  var mediaSec = pdfId
+    ? '<div class="sec"><div class="sech">メディア</div><div class="mediabtns"><a class="mbtn" target="_blank" href="https://drive.google.com/file/d/'+pdfId+'/view">🖼 画像付き調理工程を見る</a></div></div>'
+    : '';
 
   // アレルゲン
   var aller=(r.allergens&&r.allergens.length)
