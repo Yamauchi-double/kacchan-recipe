@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:40:50.687Z",
+  "generatedAt": "2026-07-10T12:48:28.984Z",
   "count": 144,
   "recipes": [
     {
@@ -11838,82 +11838,6 @@
       ]
     },
     {
-      "id": "CO037",
-      "brand": "かっちゃん",
-      "name": "ヤゲン軟骨の塩炒め",
-      "furigana": "ヤゲンナンコツノシオイタメ",
-      "category": "調理",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 37,
-      "ingredients": [
-        {
-          "label": "仕込み_ヤゲン",
-          "amt": "90",
-          "unit": "g",
-          "linkId": "SH015"
-        },
-        {
-          "label": "味塩コショー",
-          "amt": "適量",
-          "unit": "",
-          "linkId": ""
-        },
-        {
-          "label": "塩だれ",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "10",
-          "unit": "g",
-          "linkId": "SH011"
-        },
-        {
-          "label": "レモン",
-          "amt": "1/8",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "鶏肉",
-        "小麦",
-        "乳製品",
-        "ごま",
-        "大豆",
-        "ゼラチン",
-        "豚肉"
-      ],
-      "steps": [],
-      "media": [
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1at1NqEgyOsY0yJjt7fpEntU5XQeg6PQr/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH015",
-          "reason": "使用する仕込み（仕込み_ヤゲン）"
-        },
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO032",
-        "CO033",
-        "CO018"
-      ]
-    },
-    {
       "id": "SH037",
       "brand": "かっちゃん",
       "name": "仕込み_卓上用ラー油",
@@ -12043,6 +11967,139 @@
         "SH031",
         "CO008",
         "LU018"
+      ]
+    },
+    {
+      "id": "CO037",
+      "brand": "かっちゃん",
+      "name": "ヤゲン軟骨の塩炒め",
+      "furigana": "ヤゲンナンコツノシオイタメ",
+      "category": "調理",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 37,
+      "ingredients": [
+        {
+          "label": "仕込み_ヤゲン",
+          "amt": "90",
+          "unit": "g",
+          "linkId": "SH015"
+        },
+        {
+          "label": "味塩コショー",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "塩だれ",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_サラダベース",
+          "amt": "10",
+          "unit": "g",
+          "linkId": "SH011"
+        },
+        {
+          "label": "レモン",
+          "amt": "1/8",
+          "unit": "個",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉",
+        "小麦",
+        "乳製品",
+        "ごま",
+        "大豆",
+        "ゼラチン",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "軽く温めたフライパンに油を引く",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいたヤゲン軟骨を入れて炒める",
+          "note": false
+        },
+        {
+          "text": "軽く塩コショウを振る",
+          "note": false
+        },
+        {
+          "text": "中～強火で焼き色を付けるように炒める",
+          "note": false
+        },
+        {
+          "text": "フライパンをあまり動かし過ぎない方が焼き目が付きやすいです",
+          "note": true
+        },
+        {
+          "text": "焼き色が付いたら塩だれ10㏄を入れて絡める",
+          "note": false
+        },
+        {
+          "text": "塩だれを入れた後は火を止めることを推奨",
+          "note": true
+        },
+        {
+          "text": "お皿にサラダベース10gを盛る",
+          "note": false
+        },
+        {
+          "text": "炒め終わったヤゲン軟骨を入れてフライパンの中に余ったソースをかける",
+          "note": false
+        },
+        {
+          "text": "カットレモンを添えて完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1px-FWsK76Pvme5bGMYqBIynDPVwwrImB/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1at1NqEgyOsY0yJjt7fpEntU5XQeg6PQr/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1UeLemKKOPF8xH2uEzX2MzpVS4ddyTo-T/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1r6PP7aozl7ucuf3SoqK2pHVlRwtfsZxU/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1SIPnr2UKem40H13MZja-BwLki46gxGl1/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH015",
+          "reason": "手動"
+        },
+        {
+          "id": "SH011",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO032",
+        "CO033",
+        "CO018"
       ]
     },
     {
