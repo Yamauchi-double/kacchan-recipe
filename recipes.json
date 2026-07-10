@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:19:46.002Z",
+  "generatedAt": "2026-07-10T08:24:15.473Z",
   "count": 144,
   "recipes": [
     {
@@ -4273,171 +4273,6 @@
       ]
     },
     {
-      "id": "CO009",
-      "brand": "かっちゃん",
-      "name": "イタリアン炊き餃子",
-      "furigana": "イタリアンタキギョウザ",
-      "category": "調理",
-      "time": "8分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 9,
-      "ingredients": [
-        {
-          "label": "かっちゃん餃子",
-          "amt": "3",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "かっちゃん餃子",
-          "amt": "6",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_トマト白湯ベース",
-          "amt": "100",
-          "unit": "g",
-          "linkId": "SH005"
-        },
-        {
-          "label": "粉チーズ",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "バジルソース",
-          "amt": "3",
-          "unit": "箇所",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "ごま",
-        "大豆",
-        "豚肉",
-        "ゼラチン",
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "鶏肉",
-        "りんご",
-        "アーモンド"
-      ],
-      "steps": [
-        {
-          "text": "沸騰したお湯の中に餃子を入れる",
-          "note": false
-        },
-        {
-          "text": "4分を目安に茹でる",
-          "note": true
-        },
-        {
-          "text": "餃子が浮き上がって少し経ったら火が通った目安",
-          "note": false
-        },
-        {
-          "text": "餃子を茹でている間にトマト白湯ベース：100gを軽く沸かしておく",
-          "note": false
-        },
-        {
-          "text": "沸騰しているベースの中に別鍋で茹でておいた餃子を入れる",
-          "note": false
-        },
-        {
-          "text": "30秒ほど鍋の中で炊く",
-          "note": false
-        },
-        {
-          "text": "中火前後で炊く",
-          "note": true
-        },
-        {
-          "text": "お皿に盛り付け鍋の中のソースを入れる",
-          "note": false
-        },
-        {
-          "text": "粉チーズ：20gをなるべく餃子にかからないように盛る",
-          "note": false
-        },
-        {
-          "text": "バジルソースを3カ所に盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "餃子は冷凍状態からの茹で時間",
-          "note": false
-        },
-        {
-          "text": "冷蔵状態からなら2～3分前後を目安にしてください",
-          "note": false
-        },
-        {
-          "text": "必ずトマト白湯ベースの中で茹で上がった餃子を炊くこと",
-          "note": false
-        },
-        {
-          "text": "トマト白湯ベースで餃子を炊かない事",
-          "note": false
-        },
-        {
-          "text": "トマト白湯ベースで炊いてる時はたまに鍋をゆすって鍋底に張り付くのを防ぐ",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/13ichOJDUDmRBx6E-Y2SxQBOSg9vvoj_v/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1NeScgkqlSC-6Fn0VypAQbRcniAxSbQCw/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1UsBlklMNTMef8BkNLRU7cZlLGwK5aARK/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1ZMG34VBxMlHjbLatKVeY5dGoiIq0lL0-/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1kdp-UbWTgbLmnHoOG71yxHvkyl-uSIjS/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1LdI5aSNtTKlo4CS_2LuykgwC6mEJHwCE/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH005",
-          "reason": "使用する仕込み（仕込み_トマト白湯ベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO001",
-        "CO004",
-        "CO005",
-        "CO006"
-      ]
-    },
-    {
       "id": "LU009",
       "brand": "かっちゃん",
       "name": "ランチ_米",
@@ -4663,6 +4498,167 @@
         "SH002",
         "SH003",
         "SH004"
+      ]
+    },
+    {
+      "id": "CO009",
+      "brand": "かっちゃん",
+      "name": "イタリアン炊き餃子",
+      "furigana": "イタリアンタキギョウザ",
+      "category": "調理",
+      "time": "8分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 9,
+      "ingredients": [
+        {
+          "label": "かっちゃん餃子",
+          "amt": "3",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "かっちゃん餃子",
+          "amt": "6",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_トマト白湯ベース",
+          "amt": "100",
+          "unit": "g",
+          "linkId": "SH005"
+        },
+        {
+          "label": "粉チーズ",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "バジルソース",
+          "amt": "3",
+          "unit": "箇所",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "ごま",
+        "大豆",
+        "豚肉",
+        "ゼラチン",
+        "小麦",
+        "乳製品",
+        "牛肉",
+        "鶏肉",
+        "りんご",
+        "アーモンド"
+      ],
+      "steps": [
+        {
+          "text": "沸騰したお湯の中に餃子を入れる",
+          "note": false
+        },
+        {
+          "text": "4分を目安に茹でる",
+          "note": true
+        },
+        {
+          "text": "餃子が浮き上がって少し経ったら火が通った目安",
+          "note": false
+        },
+        {
+          "text": "餃子を茹でている間にトマト白湯ベース：100gを軽く沸かしておく",
+          "note": false
+        },
+        {
+          "text": "沸騰しているベースの中に別鍋で茹でておいた餃子を入れる",
+          "note": false
+        },
+        {
+          "text": "30秒ほど鍋の中で炊く",
+          "note": false
+        },
+        {
+          "text": "中火前後で炊く",
+          "note": true
+        },
+        {
+          "text": "お皿に盛り付け鍋の中のソースを入れる",
+          "note": false
+        },
+        {
+          "text": "粉チーズ：20gをなるべく餃子にかからないように盛る",
+          "note": false
+        },
+        {
+          "text": "バジルソースを3カ所に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "餃子は冷凍状態からの茹で時間",
+          "note": true
+        },
+        {
+          "text": "冷蔵状態からなら2～3分前後を目安にしてください",
+          "note": true
+        },
+        {
+          "text": "必ずトマト白湯ベースの中で茹で上がった餃子を軽く炊くこと",
+          "note": true
+        },
+        {
+          "text": "トマト白湯ベースで炊いてる時はたまに鍋をゆすって鍋底に張り付くのを防ぐ",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/13ichOJDUDmRBx6E-Y2SxQBOSg9vvoj_v/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1NeScgkqlSC-6Fn0VypAQbRcniAxSbQCw/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1UsBlklMNTMef8BkNLRU7cZlLGwK5aARK/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1ZMG34VBxMlHjbLatKVeY5dGoiIq0lL0-/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1kdp-UbWTgbLmnHoOG71yxHvkyl-uSIjS/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1LdI5aSNtTKlo4CS_2LuykgwC6mEJHwCE/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH005",
+          "reason": "使用する仕込み（仕込み_トマト白湯ベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO001",
+        "CO004",
+        "CO005",
+        "CO006"
       ]
     },
     {
