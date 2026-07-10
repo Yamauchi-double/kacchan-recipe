@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T23:31:22.572Z",
+  "generatedAt": "2026-07-10T08:18:51.135Z",
   "count": 144,
   "recipes": [
     {
@@ -3863,159 +3863,6 @@
       ]
     },
     {
-      "id": "CO008",
-      "brand": "かっちゃん",
-      "name": "ぷるもちっ水餃子",
-      "furigana": "プルモチッスイギョウザ",
-      "category": "調理",
-      "time": "6分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [
-        {
-          "label": "かっちゃん餃子",
-          "amt": "3",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "かっちゃん餃子",
-          "amt": "6",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_白湯ベース",
-          "amt": "100",
-          "unit": "g",
-          "linkId": "SH004"
-        },
-        {
-          "label": "カットネギ",
-          "amt": "2",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "適量",
-          "unit": "",
-          "linkId": ""
-        },
-        {
-          "label": "ラー油",
-          "amt": "3",
-          "unit": "プッシュ",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "ごま",
-        "大豆",
-        "豚肉",
-        "ゼラチン",
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "鶏肉"
-      ],
-      "steps": [
-        {
-          "text": "沸騰したお湯の中に餃子を入れる",
-          "note": false
-        },
-        {
-          "text": "4分を目安に茹でる",
-          "note": true
-        },
-        {
-          "text": "餃子が浮き上がって少し経ったら火が通った目安",
-          "note": false
-        },
-        {
-          "text": "お皿に餃子を盛り付ける",
-          "note": false
-        },
-        {
-          "text": "別鍋で沸かしておいた白湯ベース：100gを入れる",
-          "note": false
-        },
-        {
-          "text": "青ネギ：2gを盛る餃子の上に盛る",
-          "note": false
-        },
-        {
-          "text": "ラー油を3プッシュ入れる",
-          "note": false
-        },
-        {
-          "text": "白ごまを振って完成",
-          "note": false
-        },
-        {
-          "text": "餃子は冷凍状態からの茹で時間",
-          "note": false
-        },
-        {
-          "text": "冷蔵状態からなら2～3分前後を目安にしてください",
-          "note": false
-        },
-        {
-          "text": "白湯ベースの中で餃子を炊かない事",
-          "note": false
-        },
-        {
-          "text": "白湯ベースで餃子を茹でない事",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1osKRb1fk4iQtaNxWMdoVQ3iIzy6xc2TT/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1NeScgkqlSC-6Fn0VypAQbRcniAxSbQCw/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/17aPNG4T6hRxLSj12wPv263hpBYDUgUiz/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1q2DtOS1aHlh8Qtcl3kJaILyHV2MsGtdK/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1qtOssgw1LsgWL0hdDo74PS4jndL3CVxO/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1osKRb1fk4iQtaNxWMdoVQ3iIzy6xc2TT/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH004",
-          "reason": "使用する仕込み（仕込み_白湯ベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU012",
-        "LU010",
-        "LU013",
-        "CO007"
-      ]
-    },
-    {
       "id": "CU008",
       "brand": "かっちゃん",
       "name": "切り物_豚バラカット",
@@ -4270,6 +4117,159 @@
         "SH002",
         "SH003",
         "SH004"
+      ]
+    },
+    {
+      "id": "CO008",
+      "brand": "かっちゃん",
+      "name": "ぷるもちっ水餃子",
+      "furigana": "プルモチッスイギョウザ",
+      "category": "調理",
+      "time": "6分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
+      "ingredients": [
+        {
+          "label": "かっちゃん餃子",
+          "amt": "3",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "かっちゃん餃子",
+          "amt": "6",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_白湯ベース",
+          "amt": "100",
+          "unit": "g",
+          "linkId": "SH004"
+        },
+        {
+          "label": "カットネギ",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "ラー油",
+          "amt": "3",
+          "unit": "プッシュ",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "ごま",
+        "大豆",
+        "豚肉",
+        "ゼラチン",
+        "小麦",
+        "乳製品",
+        "牛肉",
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "沸騰したお湯の中に餃子を入れる",
+          "note": false
+        },
+        {
+          "text": "4分を目安に茹でる",
+          "note": true
+        },
+        {
+          "text": "餃子が浮き上がって少し経ったら火が通った目安",
+          "note": false
+        },
+        {
+          "text": "お皿に餃子を盛り付ける",
+          "note": false
+        },
+        {
+          "text": "別鍋で沸かしておいた白湯ベース：100gを入れる",
+          "note": false
+        },
+        {
+          "text": "青ネギ：2gを盛る餃子の上に盛る",
+          "note": false
+        },
+        {
+          "text": "ラー油を3プッシュ入れる",
+          "note": false
+        },
+        {
+          "text": "白ごまを振って完成",
+          "note": false
+        },
+        {
+          "text": "餃子は冷凍状態からの茹で時間",
+          "note": true
+        },
+        {
+          "text": "冷蔵状態からなら2～3分前後を目安にしてください",
+          "note": true
+        },
+        {
+          "text": "白湯ベースの中で餃子を炊かない事",
+          "note": true
+        },
+        {
+          "text": "白湯ベースで餃子を茹でない事",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1osKRb1fk4iQtaNxWMdoVQ3iIzy6xc2TT/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1NeScgkqlSC-6Fn0VypAQbRcniAxSbQCw/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/17aPNG4T6hRxLSj12wPv263hpBYDUgUiz/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1q2DtOS1aHlh8Qtcl3kJaILyHV2MsGtdK/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1qtOssgw1LsgWL0hdDo74PS4jndL3CVxO/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1osKRb1fk4iQtaNxWMdoVQ3iIzy6xc2TT/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU010",
+        "LU013",
+        "CO007"
       ]
     },
     {
@@ -7518,8 +7518,9 @@
         }
       ],
       "allergens": [
-        "大豆",
         "小麦",
+        "卵",
+        "大豆",
         "ごま",
         "鶏肉",
         "豚肉",
@@ -8253,8 +8254,9 @@
         }
       ],
       "allergens": [
-        "大豆",
         "小麦",
+        "卵",
+        "大豆",
         "ごま",
         "鶏肉",
         "豚肉",
