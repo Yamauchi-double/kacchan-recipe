@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:24:15.473Z",
+  "generatedAt": "2026-07-10T08:26:09.691Z",
   "count": 144,
   "recipes": [
     {
@@ -4662,113 +4662,6 @@
       ]
     },
     {
-      "id": "CO010",
-      "brand": "かっちゃん",
-      "name": "海老のぷりぷり餃子",
-      "furigana": "エビノプリプリギョウザ",
-      "category": "調理",
-      "time": "12分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 10,
-      "ingredients": [
-        {
-          "label": "海老餃子",
-          "amt": "2",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "セイロ用シート",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "えび",
-        "小麦",
-        "卵",
-        "ごま",
-        "大豆",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "蒸し器をきちんと沸かしておく",
-          "note": false
-        },
-        {
-          "text": "セイロシートを敷いたセイロに海老餃子：2個を入れて蓋をする",
-          "note": false
-        },
-        {
-          "text": "さっきのセイロを蒸器に入れて蒸し器の蓋をする",
-          "note": false
-        },
-        {
-          "text": "蒸し時間10分",
-          "note": true
-        },
-        {
-          "text": "10分経ったら蒸器を開けてセイロごと取り出す",
-          "note": false
-        },
-        {
-          "text": "蒸し器から取り出したら白黒皿にのせて蓋をしたまま提供",
-          "note": false
-        },
-        {
-          "text": "蒸し器にたっぷりの沸いたお湯が入ってる事を確認する",
-          "note": false
-        },
-        {
-          "text": "蒸し器からの出し入れは上記による火傷に注意",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1KQKHdxUB8vDXqo9fwxcy1OH7GkTnX2dk/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Gie6WaV6qVwCkR77nScJFxsHSLu6Wr1P/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1-1pLlsCwHl7l0PDPfZjMmbZjrkxBmkYj/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1u967KArfOuyRL_qm_JOJxJ5d8u72kG0b/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1uZZ_tWIp20ke_q7ysTWB0WlzZZrdMlrU/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1vCVolYe8mx1HizHc6zUlb_4Ltf4yByA2/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1uynJwXEO1kJxkMHdtg_2LjX9ZwGkfmb-/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO042",
-        "LU006",
-        "CO001",
-        "CO002",
-        "CO003"
-      ]
-    },
-    {
       "id": "LU010",
       "brand": "かっちゃん",
       "name": "ランチ_スープ",
@@ -4955,6 +4848,113 @@
         "LU014",
         "CO017",
         "CO029"
+      ]
+    },
+    {
+      "id": "CO010",
+      "brand": "かっちゃん",
+      "name": "海老のぷりぷり餃子",
+      "furigana": "エビノプリプリギョウザ",
+      "category": "調理",
+      "time": "12分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 10,
+      "ingredients": [
+        {
+          "label": "海老餃子",
+          "amt": "2",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "セイロ用シート",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "えび",
+        "小麦",
+        "卵",
+        "ごま",
+        "大豆",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "蒸し器をきちんと沸かしておく",
+          "note": false
+        },
+        {
+          "text": "蒸し器にたっぷりの沸いたお湯が入ってる事を確認する",
+          "note": true
+        },
+        {
+          "text": "セイロシートを敷いたセイロに海老餃子：2個を入れて蓋をする",
+          "note": false
+        },
+        {
+          "text": "上記のセイロを蒸器に入れて蒸し器の蓋をする",
+          "note": false
+        },
+        {
+          "text": "蒸し時間10分",
+          "note": true
+        },
+        {
+          "text": "10分経ったら蒸器を開けてセイロごと取り出す",
+          "note": false
+        },
+        {
+          "text": "蒸し器からの出し入れは蒸気による火傷に注意",
+          "note": true
+        },
+        {
+          "text": "蒸し器から取り出したら白黒皿にのせて蓋をしたまま提供",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1KQKHdxUB8vDXqo9fwxcy1OH7GkTnX2dk/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Gie6WaV6qVwCkR77nScJFxsHSLu6Wr1P/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1-1pLlsCwHl7l0PDPfZjMmbZjrkxBmkYj/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1u967KArfOuyRL_qm_JOJxJ5d8u72kG0b/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1uZZ_tWIp20ke_q7ysTWB0WlzZZrdMlrU/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1vCVolYe8mx1HizHc6zUlb_4Ltf4yByA2/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1uynJwXEO1kJxkMHdtg_2LjX9ZwGkfmb-/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO042",
+        "LU006",
+        "CO001",
+        "CO002",
+        "CO003"
       ]
     },
     {
