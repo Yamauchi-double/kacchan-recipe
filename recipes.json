@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T09:24:57.921Z",
+  "generatedAt": "2026-07-10T09:37:55.549Z",
   "count": 144,
   "recipes": [
     {
@@ -14438,6 +14438,10 @@
         {
           "type": "料理写真",
           "url": "https://drive.google.com/file/d/1ImORG3HjTFr41Fq6DciClkogEliIBXD4/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=sharing"
         },
         {
           "type": "工程写真",
