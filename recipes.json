@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:26:09.691Z",
+  "generatedAt": "2026-07-10T09:24:57.921Z",
   "count": 144,
   "recipes": [
     {
@@ -14422,14 +14422,30 @@
       ],
       "steps": [
         {
-          "text": "フライヤー温度：170～175°",
+          "text": "170～175°に熱しておいたフライヤーに軟骨唐揚げを75ｇ入れて4分揚げる",
+          "note": false
+        },
+        {
+          "text": "4分経ったらフライヤーから取り出していく",
+          "note": false
+        },
+        {
+          "text": "お皿に盛って完成",
           "note": false
         }
       ],
       "media": [
         {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1ImORG3HjTFr41Fq6DciClkogEliIBXD4/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1xLLvq78-XsU9FSCF8GVxmZco9cT6eQnm/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1tVpEbz_AQarNX2h2un3KWb5vhvAuVfP2/view?usp=sharing"
         }
       ],
       "plating": [],
