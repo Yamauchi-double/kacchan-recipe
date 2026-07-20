@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:31:19.224Z",
+  "generatedAt": "2026-07-20T13:08:02.598Z",
   "count": 144,
   "recipes": [
     {
@@ -6050,96 +6050,6 @@
       ]
     },
     {
-      "id": "CO014",
-      "brand": "かっちゃん",
-      "name": "ごちゃまぜキムチ",
-      "furigana": "ゴチャマゼキムチ",
-      "category": "調理",
-      "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 14,
-      "ingredients": [
-        {
-          "label": "キムチ",
-          "amt": "60",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "適量",
-          "unit": "",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "えび",
-        "大豆",
-        "さけ",
-        "さば",
-        "ごま"
-      ],
-      "steps": [
-        {
-          "text": "お皿を用意する",
-          "note": false
-        },
-        {
-          "text": "キムチ：60ｇを盛る",
-          "note": false
-        },
-        {
-          "text": "白ごまを振って完成",
-          "note": false
-        },
-        {
-          "text": "盛り置き推奨",
-          "note": true
-        },
-        {
-          "text": "盛り置き推奨",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/19mq5v_2lF72V9gxUEb-aFbeHblYnK899/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1Y4HG2dl2Ht9yDPILnSWaxl0nOD1ZTksz/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1697-d7KckocLNYTylClDyoikJTkiZyfc/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "CO008",
-        "CO012",
-        "CO013",
-        "CO015"
-      ]
-    },
-    {
       "id": "LU014",
       "brand": "かっちゃん",
       "name": "ランチ_炙り焼豚",
@@ -6378,6 +6288,96 @@
         "SH003",
         "SH004",
         "SH005"
+      ]
+    },
+    {
+      "id": "CO014",
+      "brand": "かっちゃん",
+      "name": "ごちゃまぜキムチ",
+      "furigana": "ゴチャマゼキムチ",
+      "category": "調理",
+      "time": "2分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 14,
+      "ingredients": [
+        {
+          "label": "キムチ",
+          "amt": "60",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "えび",
+        "大豆",
+        "さけ",
+        "さば",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "お皿を用意する",
+          "note": false
+        },
+        {
+          "text": "キムチ：60ｇを盛る",
+          "note": false
+        },
+        {
+          "text": "白ごまを振って完成",
+          "note": false
+        },
+        {
+          "text": "盛り置き推奨",
+          "note": true
+        },
+        {
+          "text": "盛り置き推奨",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/19mq5v_2lF72V9gxUEb-aFbeHblYnK899/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1y9B_2S5OeourVuz2lGTLDQNN59gYOLP9/view?usp=sharing"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1697-d7KckocLNYTylClDyoikJTkiZyfc/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO015"
       ]
     },
     {
