@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T13:10:09.343Z",
-  "count": 144,
+  "generatedAt": "2026-07-29T23:31:20.226Z",
+  "count": 140,
   "recipes": [
     {
       "id": "CO001",
@@ -429,8 +429,8 @@
       "furigana": "シコミ_ネギシオ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 635,
+      "yieldUnit": "g",
       "appOrder": 1,
       "ingredients": [
         {
@@ -1068,8 +1068,8 @@
       "furigana": "シコミ_チーズソース",
       "category": "仕込み",
       "time": "20分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 2200,
+      "yieldUnit": "g",
       "appOrder": 2,
       "ingredients": [
         {
@@ -1304,11 +1304,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "CO073",
-        "CO074",
         "CO001",
         "CO002",
-        "CO004"
+        "CO004",
+        "CO005",
+        "CO006"
       ]
     },
     {
@@ -1719,8 +1719,8 @@
       "furigana": "シコミ_マーボーソース",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1800,
+      "yieldUnit": "g",
       "appOrder": 3,
       "ingredients": [
         {
@@ -1852,8 +1852,8 @@
         "SH004",
         "SH006",
         "SH007",
-        "SH032",
-        "SH034"
+        "SH034",
+        "SH035"
       ]
     },
     {
@@ -2293,8 +2293,8 @@
       "furigana": "シコミ_パイタンベース",
       "category": "仕込み",
       "time": "1分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 2000,
+      "yieldUnit": "g",
       "appOrder": 4,
       "ingredients": [
         {
@@ -2384,11 +2384,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH032",
         "SH003",
         "SH006",
         "SH007",
-        "SH029"
+        "SH029",
+        "SH034"
       ]
     },
     {
@@ -2820,8 +2820,8 @@
       "furigana": "シコミ_トマトパイタンベース",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1500,
+      "yieldUnit": "g",
       "appOrder": 5,
       "ingredients": [
         {
@@ -3414,8 +3414,8 @@
         "SH003",
         "SH004",
         "SH007",
-        "SH032",
-        "SH034"
+        "SH034",
+        "SH035"
       ]
     },
     {
@@ -3534,6 +3534,126 @@
       ]
     },
     {
+      "id": "CU007",
+      "brand": "かっちゃん",
+      "name": "切り物_サーモンカット",
+      "furigana": "キリモノ_サーモンカット",
+      "category": "切り物",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 7,
+      "ingredients": [
+        {
+          "label": "サーモン",
+          "amt": "1",
+          "unit": "枚",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "さけ"
+      ],
+      "steps": [
+        {
+          "text": "詳細は動画参照してください",
+          "note": false
+        },
+        {
+          "text": "まずは腹部分（身厚が薄い部分）を落とします",
+          "note": false
+        },
+        {
+          "text": "上記の腹部分は主にユッケ用に使用してください",
+          "note": true
+        },
+        {
+          "text": "縦に5cm幅にカット",
+          "note": false
+        },
+        {
+          "text": "目盛付きのまな板を使用してサイズの参考にしてください\n上下のメモリの長い線が1cm単位、短い線が5mm単位です",
+          "note": true
+        },
+        {
+          "text": "尻尾側から10cm前後を切り落とす",
+          "note": false
+        },
+        {
+          "text": "上記は尻尾側部分は主に生キムチ用で使用してください",
+          "note": true
+        },
+        {
+          "text": "腹側、背側共に1cm幅を目安にカットしていく",
+          "note": false
+        },
+        {
+          "text": "上記刺身用のカットです",
+          "note": true
+        },
+        {
+          "text": "腹部分（身厚の薄いところ）を5cm幅にカットする",
+          "note": false
+        },
+        {
+          "text": "上記でカットした部分を90度回転させて細切りにしていく",
+          "note": false
+        },
+        {
+          "text": "上記ユッケ用のサーモンです",
+          "note": true
+        },
+        {
+          "text": "尻尾側を1.5cm角を目安にサイコロ状にカットする",
+          "note": false
+        },
+        {
+          "text": "上記は生キムチ用です",
+          "note": true
+        },
+        {
+          "text": "保存期間：開封後冷蔵保存：3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1RpXhI6HUZYZgNHn42ZUXbFuDNVF9PvCz/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/17tK_Fm5jX7UunIkOY5VJatJJtSy2eZ8I/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1m8uoNWKbxQTfYa9x0hlpDEnrGn7mD_3C/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1QJEAI3s-aAN3lOTFV0dOyTqkDaQ3Q_4F/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1st3vsLcQBNXrx1fq3ZoGDeS3lNmAYi-S/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Hhunmlu1XSI2njIKqys3trMmOz5ivuSL/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH025",
+        "CO062",
+        "CO063",
+        "CU001",
+        "CU002"
+      ]
+    },
+    {
       "id": "LU007",
       "brand": "かっちゃん",
       "name": "ランチ_春巻き",
@@ -3622,8 +3742,8 @@
       "furigana": "シコミ_ウズラノニタマゴ",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 110,
+      "yieldUnit": "個",
       "appOrder": 7,
       "ingredients": [
         {
@@ -3760,403 +3880,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH032",
         "SH003",
         "SH004",
         "SH006",
-        "SH013"
-      ]
-    },
-    {
-      "id": "CU007",
-      "brand": "かっちゃん",
-      "name": "切り物_サーモンカット",
-      "furigana": "キリモノ_サーモンカット",
-      "category": "切り物",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 7,
-      "ingredients": [
-        {
-          "label": "サーモン",
-          "amt": "1",
-          "unit": "枚",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "さけ"
-      ],
-      "steps": [
-        {
-          "text": "詳細は動画参照してください",
-          "note": false
-        },
-        {
-          "text": "まずは腹部分（身厚が薄い部分）を落とします",
-          "note": false
-        },
-        {
-          "text": "上記の腹部分は主にユッケ用に使用してください",
-          "note": true
-        },
-        {
-          "text": "縦に5cm幅にカット",
-          "note": false
-        },
-        {
-          "text": "目盛付きのまな板を使用してサイズの参考にしてください\n上下のメモリの長い線が1cm単位、短い線が5mm単位です",
-          "note": true
-        },
-        {
-          "text": "尻尾側から10cm前後を切り落とす",
-          "note": false
-        },
-        {
-          "text": "上記は尻尾側部分は主に生キムチ用で使用してください",
-          "note": true
-        },
-        {
-          "text": "腹側、背側共に1cm幅を目安にカットしていく",
-          "note": false
-        },
-        {
-          "text": "上記刺身用のカットです",
-          "note": true
-        },
-        {
-          "text": "腹部分（身厚の薄いところ）を5cm幅にカットする",
-          "note": false
-        },
-        {
-          "text": "上記でカットした部分を90度回転させて細切りにしていく",
-          "note": false
-        },
-        {
-          "text": "上記ユッケ用のサーモンです",
-          "note": true
-        },
-        {
-          "text": "尻尾側を1.5cm角を目安にサイコロ状にカットする",
-          "note": false
-        },
-        {
-          "text": "上記は生キムチ用です",
-          "note": true
-        },
-        {
-          "text": "保存期間：開封後冷蔵保存：3日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1RpXhI6HUZYZgNHn42ZUXbFuDNVF9PvCz/view?usp=sharing"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/17tK_Fm5jX7UunIkOY5VJatJJtSy2eZ8I/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1m8uoNWKbxQTfYa9x0hlpDEnrGn7mD_3C/view?usp=sharing"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1QJEAI3s-aAN3lOTFV0dOyTqkDaQ3Q_4F/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1st3vsLcQBNXrx1fq3ZoGDeS3lNmAYi-S/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Hhunmlu1XSI2njIKqys3trMmOz5ivuSL/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH025",
-        "CO062",
-        "CO063",
-        "CU001",
-        "CU002"
-      ]
-    },
-    {
-      "id": "CU008",
-      "brand": "かっちゃん",
-      "name": "切り物_豚バラカット",
-      "furigana": "キリモノ_ブタバラカット",
-      "category": "切り物",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [],
-      "allergens": [],
-      "steps": [],
-      "media": [],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU004",
-        "CU005"
-      ]
-    },
-    {
-      "id": "LU008",
-      "brand": "かっちゃん",
-      "name": "ランチ_タレむね",
-      "furigana": "ランチ_タレムネ",
-      "category": "ランチ",
-      "time": "4分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [
-        {
-          "label": "仕込み_むね唐揚げ",
-          "amt": "2",
-          "unit": "個",
-          "linkId": "SH009"
-        },
-        {
-          "label": "仕込み_サラダベース",
-          "amt": "2",
-          "unit": "g",
-          "linkId": "SH011"
-        },
-        {
-          "label": "特製ダレ",
-          "amt": "適量",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "鶏肉",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "前揚げしておいたむねから揚げを2個、1分は揚げる",
-          "note": false
-        },
-        {
-          "text": "お皿にサラダベースを盛る",
-          "note": false
-        },
-        {
-          "text": "揚がったむねから揚げを特製ダレの中に入れてタレをしっかりと絡ませる",
-          "note": false
-        },
-        {
-          "text": "お皿に盛る",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "動画などは後日入力します",
-          "note": true
-        },
-        {
-          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
-          "note": true
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1klqqLNehj4Kre9uVMe3yu44ovT_FYKYe/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH009",
-          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
-        },
-        {
-          "id": "SH011",
-          "reason": "使用する仕込み（仕込み_サラダベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU014",
-        "OT005",
-        "CO020"
-      ]
-    },
-    {
-      "id": "SH008",
-      "brand": "かっちゃん",
-      "name": "仕込み_もも唐揚げ",
-      "furigana": "シコミ_モモカラアゲ",
-      "category": "仕込み",
-      "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [
-        {
-          "label": "もも唐",
-          "amt": "5000",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "まぶし粉",
-          "amt": "750",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "鶏肉",
-        "牛肉",
-        "ごま",
-        "大豆",
-        "ゼラチン",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "清潔なザルとボウルに解凍された鶏もも肉を入れる",
-          "note": false
-        },
-        {
-          "text": "別のボウルにまぶし粉を入れる",
-          "note": false
-        },
-        {
-          "text": "もも肉にまぶし粉を打っていく",
-          "note": false
-        },
-        {
-          "text": "余分な粉を落とし広げず丸めて仕込む",
-          "note": false
-        },
-        {
-          "text": "小さい物は合体させて使う",
-          "note": false
-        },
-        {
-          "text": "極端に大きなものはハサミなどで切り適切な大きさにする",
-          "note": false
-        },
-        {
-          "text": "1個目安重量→35g前後",
-          "note": true
-        },
-        {
-          "text": "170～175°に熱したフライヤーに入れていく",
-          "note": false
-        },
-        {
-          "text": "入れすぎ注意！！",
-          "note": true
-        },
-        {
-          "text": "くっついている物があれば剥がす",
-          "note": false
-        },
-        {
-          "text": "前揚げ時間：1分30秒",
-          "note": false
-        },
-        {
-          "text": "1分経過で全て取り出し揚げ網の上などで油を切る",
-          "note": false
-        },
-        {
-          "text": "油が切れたらタッパに移し常温保存",
-          "note": false
-        },
-        {
-          "text": "から揚げの熱が取れるまで蓋はしない（腐りやすくなります）",
-          "note": false
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        },
-        {
-          "text": "前揚げ後保存期間：2日（熱が取れたら冷蔵保存）",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：ハイパック角型大型タイプS-33",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1i1Va1Bq7ZbvwEZKvPGuoplQUfi6U2oy-/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/10Q3hAxOVOGvfVIWeuek_yxRvEIkgd5Ak/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1RW9_cpSp01jmiqrCBXjIkk3j5F79sMUV/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1AgJrbgXBTc-ubPZ4qWfmLa6oHE4aEx8L/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1jxvpy42rOofIBPWoPwd4-J2-VGPdoi44/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1xySZ5fzX9kky4bLN5hlmtRnCrMeZjY3r/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1KyDlLA1ZOk2RjuS_Pr02sdViuOf2PYsM/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH009",
-        "SH001",
-        "SH002",
-        "SH003",
-        "SH004"
+        "SH013",
+        "SH034"
       ]
     },
     {
@@ -4313,57 +4041,85 @@
       ]
     },
     {
-      "id": "LU009",
+      "id": "CU008",
       "brand": "かっちゃん",
-      "name": "ランチ_米",
-      "furigana": "ランチ_コメ",
-      "category": "ランチ",
-      "time": "60分",
+      "name": "切り物_豚バラカット",
+      "furigana": "キリモノ_ブタバラカット",
+      "category": "切り物",
+      "time": "",
       "yieldAmt": null,
       "yieldUnit": "",
-      "appOrder": 9,
+      "appOrder": 8,
+      "ingredients": [],
+      "allergens": [],
+      "steps": [],
+      "media": [],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CU001",
+        "CU002",
+        "CU003",
+        "CU004",
+        "CU005"
+      ]
+    },
+    {
+      "id": "LU008",
+      "brand": "かっちゃん",
+      "name": "ランチ_タレむね",
+      "furigana": "ランチ_タレムネ",
+      "category": "ランチ",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
       "ingredients": [
         {
-          "label": "ランチ用米",
-          "amt": "230",
-          "unit": "g",
-          "linkId": ""
+          "label": "仕込み_むね唐揚げ",
+          "amt": "2",
+          "unit": "個",
+          "linkId": "SH009"
         },
         {
-          "label": "ランチ用米",
-          "amt": "140",
+          "label": "仕込み_サラダベース",
+          "amt": "2",
+          "unit": "g",
+          "linkId": "SH011"
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "適量",
           "unit": "g",
           "linkId": ""
         }
       ],
-      "allergens": [],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "鶏肉",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "豚肉"
+      ],
       "steps": [
         {
-          "text": "米を計量する（1合=約160g）",
+          "text": "前揚げしておいたむねから揚げを2個、1分は揚げる",
           "note": false
         },
         {
-          "text": "米をたっぷりの水でよく研ぎ洗う",
+          "text": "お皿にサラダベースを盛る",
           "note": false
         },
         {
-          "text": "水を軽く切る",
+          "text": "揚がったむねから揚げを特製ダレの中に入れてタレをしっかりと絡ませる",
           "note": false
         },
         {
-          "text": "米1合に対し、190gの水を用意する",
-          "note": false
-        },
-        {
-          "text": "1升（10合）炊く場合は1,900gの水）",
-          "note": true
-        },
-        {
-          "text": "米と水を合わせ炊飯器に入れて炊飯ボタンを押す",
-          "note": false
-        },
-        {
-          "text": "炊き上がった米の分量で1人前230g、ハーフなら140gで盛り付ける",
+          "text": "お皿に盛る",
           "note": false
         },
         {
@@ -4373,50 +4129,57 @@
         {
           "text": "動画などは後日入力します",
           "note": true
+        },
+        {
+          "text": "レギュラーサイズはディナーと同じレシピでお願いします",
+          "note": true
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
         }
       ],
       "media": [
         {
           "type": "料理写真",
-          "url": "https://drive.google.com/file/d/19Jd_j1SUnuEhfySnDT0VDGTdWSB-72Kf/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1klqqLNehj4Kre9uVMe3yu44ovT_FYKYe/view?usp=drive_link"
         },
         {
           "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1zUQcXQVe-JLFV-iTgYGe72E2Eeiw2W9o/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1kLSs-6HpQos3pAVHZw4Cw14GhYLjY0_g/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1ET6pDOm_8o6brGUN7iwKA9Jdr8SQI99L/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "SH009",
+          "reason": "使用する仕込み（仕込み_むね唐揚げ）"
+        },
+        {
+          "id": "SH011",
+          "reason": "使用する仕込み（仕込み_サラダベース）"
+        }
+      ],
       "comments": [],
       "suggested": [
-        "LU012",
-        "LU018",
-        "OT002",
-        "OT003",
-        "LU001"
+        "LU014",
+        "OT005",
+        "CO020"
       ]
     },
     {
-      "id": "SH009",
+      "id": "SH008",
       "brand": "かっちゃん",
-      "name": "仕込み_むね唐揚げ",
-      "furigana": "シコミ_ムネカラアゲ",
+      "name": "仕込み_もも唐揚げ",
+      "furigana": "シコミ_モモカラアゲ",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 9,
+      "yieldAmt": 150,
+      "yieldUnit": "個",
+      "appOrder": 8,
       "ingredients": [
         {
-          "label": "むね唐",
+          "label": "もも唐",
           "amt": "5000",
           "unit": "g",
           "linkId": ""
@@ -4434,13 +4197,13 @@
         "鶏肉",
         "牛肉",
         "ごま",
-        "ゼラチン",
         "大豆",
+        "ゼラチン",
         "豚肉"
       ],
       "steps": [
         {
-          "text": "清潔なザルとボウルに解凍された鶏むね肉を入れる",
+          "text": "清潔なザルとボウルに解凍された鶏もも肉を入れる",
           "note": false
         },
         {
@@ -4448,11 +4211,11 @@
           "note": false
         },
         {
-          "text": "むね肉にまぶし粉を打っていく",
+          "text": "もも肉にまぶし粉を打っていく",
           "note": false
         },
         {
-          "text": "余分な粉を落とし広げて丸めないようにする",
+          "text": "余分な粉を落とし広げず丸めて仕込む",
           "note": false
         },
         {
@@ -4511,7 +4274,7 @@
       "media": [
         {
           "type": "料理写真",
-          "url": "https://drive.google.com/file/d/17EO_JJB0-oCNfU1eKg7pk8AD6opp5tv2/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1i1Va1Bq7ZbvwEZKvPGuoplQUfi6U2oy-/view?usp=drive_link"
         },
         {
           "type": "お皿写真",
@@ -4519,30 +4282,30 @@
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1FlSJsaPQC1w0TFUkGIgl1nBeu9D4ScZt/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1RW9_cpSp01jmiqrCBXjIkk3j5F79sMUV/view?usp=drive_link"
         },
         {
           "type": "動画",
-          "url": "https://drive.google.com/file/d/1eLakJ48p0-RE9bFhQpwCva3iim6htyf7/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1AgJrbgXBTc-ubPZ4qWfmLa6oHE4aEx8L/view?usp=drive_link"
         },
         {
           "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B9GB4JIt_nDJP13G4iCJYM3JcovO_cjb/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1jxvpy42rOofIBPWoPwd4-J2-VGPdoi44/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1Eu6pt3Sma5tZZ87VBel_Z_zfVGwylKjU/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1xySZ5fzX9kky4bLN5hlmtRnCrMeZjY3r/view?usp=drive_link"
         },
         {
           "type": "工程写真",
-          "url": "https://drive.google.com/file/d/129VevpQDlB1unTu-pxhlykOPdXtBIiNk/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1KyDlLA1ZOk2RjuS_Pr02sdViuOf2PYsM/view?usp=drive_link"
         }
       ],
       "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH008",
+        "SH009",
         "SH001",
         "SH002",
         "SH003",
@@ -4711,58 +4474,57 @@
       ]
     },
     {
-      "id": "LU010",
+      "id": "LU009",
       "brand": "かっちゃん",
-      "name": "ランチ_スープ",
-      "furigana": "ランチ_スープ",
+      "name": "ランチ_米",
+      "furigana": "ランチ_コメ",
       "category": "ランチ",
-      "time": "2分",
+      "time": "60分",
       "yieldAmt": null,
       "yieldUnit": "",
-      "appOrder": 10,
+      "appOrder": 9,
       "ingredients": [
         {
-          "label": "仕込み_白湯ベース",
-          "amt": "150",
-          "unit": "g",
-          "linkId": "SH004"
-        },
-        {
-          "label": "カットネギ",
-          "amt": "1",
+          "label": "ランチ用米",
+          "amt": "230",
           "unit": "g",
           "linkId": ""
         },
         {
-          "label": "白ごま",
-          "amt": "適量",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "適量",
+          "label": "ランチ用米",
+          "amt": "140",
           "unit": "g",
           "linkId": ""
         }
       ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "鶏肉",
-        "豚肉"
-      ],
+      "allergens": [],
       "steps": [
         {
-          "text": "お皿にカットネギ、白ごま、ごま油を入れておく",
+          "text": "米を計量する（1合=約160g）",
           "note": false
         },
         {
-          "text": "沸かした白湯ベースを150gお皿に入れる",
+          "text": "米をたっぷりの水でよく研ぎ洗う",
+          "note": false
+        },
+        {
+          "text": "水を軽く切る",
+          "note": false
+        },
+        {
+          "text": "米1合に対し、190gの水を用意する",
+          "note": false
+        },
+        {
+          "text": "1升（10合）炊く場合は1,900gの水）",
+          "note": true
+        },
+        {
+          "text": "米と水を合わせ炊飯器に入れて炊飯ボタンを押す",
+          "note": false
+        },
+        {
+          "text": "炊き上がった米の分量で1人前230g、ハーフなら140gで盛り付ける",
           "note": false
         },
         {
@@ -4777,126 +4539,175 @@
       "media": [
         {
           "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/19Jd_j1SUnuEhfySnDT0VDGTdWSB-72Kf/view?usp=drive_link"
         },
         {
           "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Zl96NMfRb0wsohJTbRqaRaRtJZCFiSER/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "SH004",
-          "reason": "使用する仕込み（仕込み_白湯ベース）"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU012",
-        "LU003",
-        "CO008",
-        "LU013"
-      ]
-    },
-    {
-      "id": "SH010",
-      "brand": "かっちゃん",
-      "name": "仕込み_明太マヨ",
-      "furigana": "シコミ_メンタイマヨ",
-      "category": "仕込み",
-      "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 10,
-      "ingredients": [
-        {
-          "label": "明太子",
-          "amt": "125",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "マヨネーズ",
-          "amt": "250",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "卵"
-      ],
-      "steps": [
-        {
-          "text": "上記をそれぞれ計量しておく",
-          "note": false
-        },
-        {
-          "text": "マヨネーズに明太子を入れてよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "全体的に均一な色になったら混ぜ終わりの目安",
-          "note": false
-        },
-        {
-          "text": "容器に入れて保存",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵7日、常温4日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：ディスペンサー白",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1rAE8kgjPGs6k-tmEdrtq7UkTzNCenNC7/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1MzM2OK9hPrkw3kaKpQFWNBx9iSVHSg-a/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1e--fLasptzenBPAMbdB8cpCNeOFV2PlJ/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1zUQcXQVe-JLFV-iTgYGe72E2Eeiw2W9o/view?usp=drive_link"
         },
         {
           "type": "動画",
-          "url": "https://drive.google.com/file/d/1DAYzjX59Vl4x6QISl9S8y1JuYLyIJocL/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1kLSs-6HpQos3pAVHZw4Cw14GhYLjY0_g/view?usp=drive_link"
         },
         {
           "type": "PDF",
-          "url": "https://drive.google.com/file/d/1lZI59twh-uC5JDM5r_0oynAWqkufnFeI/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1WWA4uv-VLlGx0XfUpQlNLPf0NhxtO1RG/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1pwzcck-DvmH-XNIcHqfSMFcRc85RCoYi/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1ET6pDOm_8o6brGUN7iwKA9Jdr8SQI99L/view?usp=drive_link"
         }
       ],
       "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH019",
-        "SH028",
-        "LU014",
-        "CO017",
-        "CO029"
+        "LU012",
+        "LU018",
+        "OT002",
+        "OT003",
+        "LU001"
+      ]
+    },
+    {
+      "id": "SH009",
+      "brand": "かっちゃん",
+      "name": "仕込み_むね唐揚げ",
+      "furigana": "シコミ_ムネカラアゲ",
+      "category": "仕込み",
+      "time": "30分",
+      "yieldAmt": 150,
+      "yieldUnit": "個",
+      "appOrder": 9,
+      "ingredients": [
+        {
+          "label": "むね唐",
+          "amt": "5000",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "まぶし粉",
+          "amt": "750",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "鶏肉",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "清潔なザルとボウルに解凍された鶏むね肉を入れる",
+          "note": false
+        },
+        {
+          "text": "別のボウルにまぶし粉を入れる",
+          "note": false
+        },
+        {
+          "text": "むね肉にまぶし粉を打っていく",
+          "note": false
+        },
+        {
+          "text": "余分な粉を落とし広げて丸めないようにする",
+          "note": false
+        },
+        {
+          "text": "小さい物は合体させて使う",
+          "note": false
+        },
+        {
+          "text": "極端に大きなものはハサミなどで切り適切な大きさにする",
+          "note": false
+        },
+        {
+          "text": "1個目安重量→35g前後",
+          "note": true
+        },
+        {
+          "text": "170～175°に熱したフライヤーに入れていく",
+          "note": false
+        },
+        {
+          "text": "入れすぎ注意！！",
+          "note": true
+        },
+        {
+          "text": "くっついている物があれば剥がす",
+          "note": false
+        },
+        {
+          "text": "前揚げ時間：1分30秒",
+          "note": false
+        },
+        {
+          "text": "1分経過で全て取り出し揚げ網の上などで油を切る",
+          "note": false
+        },
+        {
+          "text": "油が切れたらタッパに移し常温保存",
+          "note": false
+        },
+        {
+          "text": "から揚げの熱が取れるまで蓋はしない（腐りやすくなります）",
+          "note": false
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        },
+        {
+          "text": "前揚げ後保存期間：2日（熱が取れたら冷蔵保存）",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：ハイパック角型大型タイプS-33",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/17EO_JJB0-oCNfU1eKg7pk8AD6opp5tv2/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/10Q3hAxOVOGvfVIWeuek_yxRvEIkgd5Ak/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1FlSJsaPQC1w0TFUkGIgl1nBeu9D4ScZt/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1eLakJ48p0-RE9bFhQpwCva3iim6htyf7/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1B9GB4JIt_nDJP13G4iCJYM3JcovO_cjb/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1Eu6pt3Sma5tZZ87VBel_Z_zfVGwylKjU/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/129VevpQDlB1unTu-pxhlykOPdXtBIiNk/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH008",
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
       ]
     },
     {
@@ -5004,6 +4815,195 @@
         "CO001",
         "CO002",
         "CO003"
+      ]
+    },
+    {
+      "id": "LU010",
+      "brand": "かっちゃん",
+      "name": "ランチ_スープ",
+      "furigana": "ランチ_スープ",
+      "category": "ランチ",
+      "time": "2分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 10,
+      "ingredients": [
+        {
+          "label": "仕込み_白湯ベース",
+          "amt": "150",
+          "unit": "g",
+          "linkId": "SH004"
+        },
+        {
+          "label": "カットネギ",
+          "amt": "1",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "鶏肉",
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "お皿にカットネギ、白ごま、ごま油を入れておく",
+          "note": false
+        },
+        {
+          "text": "沸かした白湯ベースを150gお皿に入れる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "動画などは後日入力します",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1KNQBGaVHe2wGGjcVvYkJPNuvlBSb5M7N/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Zl96NMfRb0wsohJTbRqaRaRtJZCFiSER/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH004",
+          "reason": "使用する仕込み（仕込み_白湯ベース）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU012",
+        "LU003",
+        "CO008",
+        "LU013"
+      ]
+    },
+    {
+      "id": "SH010",
+      "brand": "かっちゃん",
+      "name": "仕込み_明太マヨ",
+      "furigana": "シコミ_メンタイマヨ",
+      "category": "仕込み",
+      "time": "3分",
+      "yieldAmt": 375,
+      "yieldUnit": "g",
+      "appOrder": 10,
+      "ingredients": [
+        {
+          "label": "明太子",
+          "amt": "125",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "マヨネーズ",
+          "amt": "250",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆",
+        "卵"
+      ],
+      "steps": [
+        {
+          "text": "上記をそれぞれ計量しておく",
+          "note": false
+        },
+        {
+          "text": "マヨネーズに明太子を入れてよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "全体的に均一な色になったら混ぜ終わりの目安",
+          "note": false
+        },
+        {
+          "text": "容器に入れて保存",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵7日、常温4日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：ディスペンサー白",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1rAE8kgjPGs6k-tmEdrtq7UkTzNCenNC7/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1MzM2OK9hPrkw3kaKpQFWNBx9iSVHSg-a/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1e--fLasptzenBPAMbdB8cpCNeOFV2PlJ/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1DAYzjX59Vl4x6QISl9S8y1JuYLyIJocL/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1lZI59twh-uC5JDM5r_0oynAWqkufnFeI/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1WWA4uv-VLlGx0XfUpQlNLPf0NhxtO1RG/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1pwzcck-DvmH-XNIcHqfSMFcRc85RCoYi/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH028",
+        "LU014",
+        "CO017",
+        "CO029"
       ]
     },
     {
@@ -5245,8 +5245,8 @@
       "furigana": "シコミ_サラダベース",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1150,
+      "yieldUnit": "g",
       "appOrder": 11,
       "ingredients": [
         {
@@ -5571,8 +5571,8 @@
       "furigana": "シコミ_タンステーキ",
       "category": "仕込み",
       "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 600,
+      "yieldUnit": "g",
       "appOrder": 12,
       "ingredients": [
         {
@@ -5947,8 +5947,8 @@
       "furigana": "シコミ_ブタキムタレ",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 400,
+      "yieldUnit": "g",
       "appOrder": 13,
       "ingredients": [
         {
@@ -6047,6 +6047,96 @@
         "SH018",
         "SH019",
         "SH026"
+      ]
+    },
+    {
+      "id": "CO014",
+      "brand": "かっちゃん",
+      "name": "ごちゃまぜキムチ",
+      "furigana": "ゴチャマゼキムチ",
+      "category": "調理",
+      "time": "2分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 14,
+      "ingredients": [
+        {
+          "label": "キムチ",
+          "amt": "60",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "えび",
+        "大豆",
+        "さけ",
+        "さば",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "お皿を用意する",
+          "note": false
+        },
+        {
+          "text": "キムチ：60ｇを盛る",
+          "note": false
+        },
+        {
+          "text": "白ごまを振って完成",
+          "note": false
+        },
+        {
+          "text": "盛り置き推奨",
+          "note": true
+        },
+        {
+          "text": "盛り置き推奨",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/19mq5v_2lF72V9gxUEb-aFbeHblYnK899/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1y9B_2S5OeourVuz2lGTLDQNN59gYOLP9/view?usp=sharing"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1697-d7KckocLNYTylClDyoikJTkiZyfc/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CO008",
+        "CO012",
+        "CO013",
+        "CO015"
       ]
     },
     {
@@ -6161,8 +6251,8 @@
       "furigana": "シコミ_ドテニ",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1500,
+      "yieldUnit": "g",
       "appOrder": 14,
       "ingredients": [
         {
@@ -6288,96 +6378,6 @@
         "SH003",
         "SH004",
         "SH005"
-      ]
-    },
-    {
-      "id": "CO014",
-      "brand": "かっちゃん",
-      "name": "ごちゃまぜキムチ",
-      "furigana": "ゴチャマゼキムチ",
-      "category": "調理",
-      "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 14,
-      "ingredients": [
-        {
-          "label": "キムチ",
-          "amt": "60",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白ごま",
-          "amt": "適量",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "えび",
-        "大豆",
-        "さけ",
-        "さば",
-        "ごま"
-      ],
-      "steps": [
-        {
-          "text": "お皿を用意する",
-          "note": false
-        },
-        {
-          "text": "キムチ：60ｇを盛る",
-          "note": false
-        },
-        {
-          "text": "白ごまを振って完成",
-          "note": false
-        },
-        {
-          "text": "盛り置き推奨",
-          "note": true
-        },
-        {
-          "text": "盛り置き推奨",
-          "note": true
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/19mq5v_2lF72V9gxUEb-aFbeHblYnK899/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1y9B_2S5OeourVuz2lGTLDQNN59gYOLP9/view?usp=sharing"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1697-d7KckocLNYTylClDyoikJTkiZyfc/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/10xjb2seygff3dD6JgY7QGB3vGVdbiV66/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "CO008",
-        "CO012",
-        "CO013",
-        "CO015"
       ]
     },
     {
@@ -6643,8 +6643,8 @@
       "furigana": "シコミ_ヤゲン",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 2000,
+      "yieldUnit": "g",
       "appOrder": 15,
       "ingredients": [
         {
@@ -6946,8 +6946,8 @@
       "furigana": "シコミ_ホルモンタレ",
       "category": "仕込み",
       "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 550,
+      "yieldUnit": "g",
       "appOrder": 16,
       "ingredients": [
         {
@@ -7054,10 +7054,10 @@
       "comments": [],
       "suggested": [
         "SH026",
-        "SH032",
         "SH013",
         "SH020",
-        "SH023"
+        "SH023",
+        "SH031"
       ]
     },
     {
@@ -7309,8 +7309,8 @@
       "furigana": "シコミ_コブクロ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 600,
+      "yieldUnit": "g",
       "appOrder": 17,
       "ingredients": [
         {
@@ -7659,8 +7659,8 @@
       "furigana": "シコミ_マゼソバベース",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 655,
+      "yieldUnit": "g",
       "appOrder": 18,
       "ingredients": [
         {
@@ -8032,8 +8032,8 @@
       "furigana": "シコミ_エビマヨソース",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 320,
+      "yieldUnit": "g",
       "appOrder": 19,
       "ingredients": [
         {
@@ -8399,8 +8399,8 @@
       "furigana": "シコミ_ユーリンチーソース",
       "category": "仕込み",
       "time": "4分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 300,
+      "yieldUnit": "g",
       "appOrder": 20,
       "ingredients": [
         {
@@ -8634,8 +8634,8 @@
       "furigana": "シコミ_ヨダレドリタレ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 300,
+      "yieldUnit": "g",
       "appOrder": 21,
       "ingredients": [
         {
@@ -8857,8 +8857,8 @@
       "furigana": "シコミ_ヨダレドリ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1350,
+      "yieldUnit": "g",
       "appOrder": 22,
       "ingredients": [
         {
@@ -9101,8 +9101,8 @@
       "furigana": "シコミ_ピリカラメンマ",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 600,
+      "yieldUnit": "g",
       "appOrder": 23,
       "ingredients": [
         {
@@ -9331,8 +9331,8 @@
       "furigana": "シコミ_トリムネクラゲ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 750,
+      "yieldUnit": "g",
       "appOrder": 24,
       "ingredients": [
         {
@@ -9516,8 +9516,8 @@
       "furigana": "シコミ_サーモンキムチ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 450,
+      "yieldUnit": "g",
       "appOrder": 25,
       "ingredients": [
         {
@@ -9740,8 +9740,8 @@
       "furigana": "シコミ_キムチベース",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 750,
+      "yieldUnit": "g",
       "appOrder": 26,
       "ingredients": [
         {
@@ -10000,8 +10000,8 @@
       "furigana": "シコミ_トロタク",
       "category": "仕込み",
       "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 500,
+      "yieldUnit": "g",
       "appOrder": 27,
       "ingredients": [
         {
@@ -10214,8 +10214,8 @@
       "furigana": "シコミ_ソースマヨ",
       "category": "仕込み",
       "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 450,
+      "yieldUnit": "g",
       "appOrder": 28,
       "ingredients": [
         {
@@ -10474,8 +10474,8 @@
       "furigana": "シコミ_ヤキラーメンダレ",
       "category": "仕込み",
       "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 400,
+      "yieldUnit": "g",
       "appOrder": 29,
       "ingredients": [
         {
@@ -10559,9 +10559,9 @@
       "suggested": [
         "SH001",
         "SH004",
-        "SH032",
         "CO018",
-        "CO032"
+        "CO032",
+        "CO037"
       ]
     },
     {
@@ -10701,8 +10701,8 @@
       "furigana": "シコミ_ブタニクシタユデ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1000,
+      "yieldUnit": "g",
       "appOrder": 30,
       "ingredients": [
         {
@@ -10865,8 +10865,8 @@
       "furigana": "シコミ_モヤシナムル",
       "category": "仕込み",
       "time": "60分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 3000,
+      "yieldUnit": "g",
       "appOrder": 31,
       "ingredients": [
         {
@@ -11159,82 +11159,6 @@
         "CO037",
         "CO018",
         "CO028"
-      ]
-    },
-    {
-      "id": "SH032",
-      "brand": "かっちゃん",
-      "name": "仕込み_勝ジロー鍋出汁",
-      "furigana": "シコミ_カツジローナベダシ",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 32,
-      "ingredients": [
-        {
-          "label": "水",
-          "amt": "250",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白湯",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "にんにく塩だれ",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "濃い口しょうゆ",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "おろしにんにく",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "かに"
-      ],
-      "steps": [
-        {
-          "text": "1本→12カット目安",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH004",
-        "SH007",
-        "SH016",
-        "SH003",
-        "SH006"
       ]
     },
     {
@@ -11535,9 +11459,9 @@
       "name": "仕込み_八宝菜のたれ",
       "furigana": "シコミ_ハッポウサイノタレ",
       "category": "仕込み",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "time": "5分",
+      "yieldAmt": 400,
+      "yieldUnit": "g",
       "appOrder": 34,
       "ingredients": [
         {
@@ -11704,9 +11628,9 @@
       "name": "仕込み_かっちゃんラーメンベース",
       "furigana": "シコミ_カッチャンラーメンベース",
       "category": "仕込み",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "time": "3分",
+      "yieldAmt": 3200,
+      "yieldUnit": "g",
       "appOrder": 35,
       "ingredients": [
         {
@@ -11752,7 +11676,7 @@
         "SH004",
         "SH006",
         "SH007",
-        "SH032"
+        "SH034"
       ]
     },
     {
@@ -11907,8 +11831,8 @@
       "furigana": "シコミ_モドシキクラゲ",
       "category": "仕込み",
       "time": "1分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 400,
+      "yieldUnit": "g",
       "appOrder": 36,
       "ingredients": [
         {
@@ -11957,139 +11881,7 @@
         "SH004",
         "SH006",
         "SH007",
-        "SH032"
-      ]
-    },
-    {
-      "id": "SH037",
-      "brand": "かっちゃん",
-      "name": "仕込み_卓上用ラー油",
-      "furigana": "シコミ_タクジョウヨウラーユ",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": 675,
-      "yieldUnit": "g",
-      "appOrder": 37,
-      "ingredients": [
-        {
-          "label": "フライドガーリック",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "味の素",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "一味",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣だれ",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "マー油",
-          "amt": "15",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ラー油",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "大豆",
-        "小麦",
-        "鶏肉",
-        "豚肉",
-        "牛肉",
-        "乳製品",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "各種計量しておく",
-          "note": false
-        },
-        {
-          "text": "計量する容器は水などが付いていない事\n水分が入るとカビが生えたり腐ったりしやすくなる為",
-          "note": true
-        },
-        {
-          "text": "混ぜる用のボウルにフライドガーリック３０ｇを手で潰しながら入れる\n荒潰しでいい",
-          "note": false
-        },
-        {
-          "text": "残りの材料を順番に入れる",
-          "note": false
-        },
-        {
-          "text": "よく混ぜる。\n油と液体の分離が無くなり一体化すればOK",
-          "note": false
-        },
-        {
-          "text": "ラー油入れにレードルなどを使い移す。",
-          "note": false
-        },
-        {
-          "text": "ラー油入れには大体60㏄目安で入れるとこぼれないです",
-          "note": true
-        },
-        {
-          "text": "余った分は清潔な容器に入れて常温保管",
-          "note": false
-        },
-        {
-          "text": "保存方法：常温（高温多湿をなるべく避ける）\n保存期間：3カ月",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1Vcoogs_X9xy0EeY2AaFfngYOLCFOldS4/view?usp=sharing"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1yUwHC7-2ZyEuvmQrTBkk3y78ZanWe4Fr/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1shNuP9WfFQYJao8LY4woHPQPdmMA3pq7/view?usp=sharing"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1LDUJSEdT5pej5B_dWREeoAQrMRLNHLft/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1jlQ1fZlH-Xsp2a_xT2YgB_-Zkt-xV9VG/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1mKJnVlpWsGUBKNdgPozRGWlpBg8ioPBV/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH019",
-        "SH021",
-        "SH031",
-        "CO008",
-        "LU018"
+        "SH034"
       ]
     },
     {
@@ -12223,6 +12015,138 @@
         "CO032",
         "CO033",
         "CO018"
+      ]
+    },
+    {
+      "id": "SH037",
+      "brand": "かっちゃん",
+      "name": "仕込み_卓上用ラー油",
+      "furigana": "シコミ_タクジョウヨウラーユ",
+      "category": "仕込み",
+      "time": "5分",
+      "yieldAmt": 675,
+      "yieldUnit": "g",
+      "appOrder": 37,
+      "ingredients": [
+        {
+          "label": "フライドガーリック",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味の素",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "一味",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣だれ",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "マー油",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ラー油",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "大豆",
+        "小麦",
+        "鶏肉",
+        "豚肉",
+        "牛肉",
+        "乳製品",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "各種計量しておく",
+          "note": false
+        },
+        {
+          "text": "計量する容器は水などが付いていない事\n水分が入るとカビが生えたり腐ったりしやすくなる為",
+          "note": true
+        },
+        {
+          "text": "混ぜる用のボウルにフライドガーリック３０ｇを手で潰しながら入れる\n荒潰しでいい",
+          "note": false
+        },
+        {
+          "text": "残りの材料を順番に入れる",
+          "note": false
+        },
+        {
+          "text": "よく混ぜる。\n油と液体の分離が無くなり一体化すればOK",
+          "note": false
+        },
+        {
+          "text": "ラー油入れにレードルなどを使い移す。",
+          "note": false
+        },
+        {
+          "text": "ラー油入れには大体60㏄目安で入れるとこぼれないです",
+          "note": true
+        },
+        {
+          "text": "余った分は清潔な容器に入れて常温保管",
+          "note": false
+        },
+        {
+          "text": "保存方法：常温（高温多湿をなるべく避ける）\n保存期間：3カ月",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1Vcoogs_X9xy0EeY2AaFfngYOLCFOldS4/view?usp=sharing"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1yUwHC7-2ZyEuvmQrTBkk3y78ZanWe4Fr/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1shNuP9WfFQYJao8LY4woHPQPdmMA3pq7/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1LDUJSEdT5pej5B_dWREeoAQrMRLNHLft/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1jlQ1fZlH-Xsp2a_xT2YgB_-Zkt-xV9VG/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1mKJnVlpWsGUBKNdgPozRGWlpBg8ioPBV/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH019",
+        "SH021",
+        "SH031",
+        "CO008",
+        "LU018"
       ]
     },
     {
@@ -16516,180 +16440,6 @@
         "CO056",
         "SH031",
         "CO001"
-      ]
-    },
-    {
-      "id": "CO073",
-      "brand": "かっちゃん",
-      "name": "マシ",
-      "furigana": "マシ",
-      "category": "調理",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 73,
-      "ingredients": [
-        {
-          "label": "キャベツ",
-          "amt": "130",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "焼豚",
-          "amt": "50",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "漢餃子",
-          "amt": "4",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "背脂",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "もやし",
-          "amt": "190",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "豚肉",
-        "ごま",
-        "鶏肉"
-      ],
-      "steps": [],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO074",
-        "CO034",
-        "CO038",
-        "LU003",
-        "LU015"
-      ]
-    },
-    {
-      "id": "CO074",
-      "brand": "かっちゃん",
-      "name": "マシマシ",
-      "furigana": "マシマシ",
-      "category": "調理",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 74,
-      "ingredients": [
-        {
-          "label": "キャベツ",
-          "amt": "250",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "焼豚",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "漢餃子",
-          "amt": "6",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "背脂",
-          "amt": "80",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "もやし",
-          "amt": "370",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "大豆",
-        "豚肉",
-        "ごま",
-        "鶏肉"
-      ],
-      "steps": [],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO073",
-        "CO034",
-        "CO038",
-        "LU003",
-        "LU015"
-      ]
-    },
-    {
-      "id": "CO075",
-      "brand": "かっちゃん",
-      "name": "つるつる麺",
-      "furigana": "ツルツルメン",
-      "category": "調理",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 75,
-      "ingredients": [
-        {
-          "label": "冷凍麺",
-          "amt": "1",
-          "unit": "玉",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "卵"
-      ],
-      "steps": [],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO041",
-        "CO065",
-        "LU013",
-        "CO001",
-        "CO002"
       ]
     }
   ]
