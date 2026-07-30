@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T09:13:17.884Z",
+  "generatedAt": "2026-07-30T10:10:09.829Z",
   "count": 142,
   "recipes": [
     {
@@ -14437,7 +14437,7 @@
         },
         {
           "type": "動画",
-          "url": "https://drive.google.com/file/d/14NWeP6tjrIq5gdNavOjYxlFxYBW4Lpwl/view?usp=drive_link"
+          "url": "https://drive.google.com/file/d/1PpUm44QQPmJFj8yUsOmFN979O34RKU0V/view?usp=drivesdk"
         },
         {
           "type": "PDF",
@@ -14452,7 +14452,12 @@
           "url": "https://drive.google.com/file/d/1QvVr4RTfdsmqB7XWnrblEP0pR_yw4J-m/view?usp=drive_link"
         }
       ],
-      "plating": [],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "白黒"
+        }
+      ],
       "related": [
         {
           "id": "CO076",
@@ -16537,8 +16542,38 @@
           "note": false
         }
       ],
-      "media": [],
-      "plating": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1lNoF6-an6SZBO6_coh-_oTyBeE9ZUUyJ/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1dnqBui3ET2MWJjRpcntrqgia8y5ZWQ_h/view?usp=drivesdk"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1kBaQy0swimyQCqSvA93pd243LiA3hqsl/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1f5fQY3ylDIsy8eKWOBpCy38dHn4aNg21/view?usp=drivesdk"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1qhzuKmvIkyOTPSd4o_k3HOOE6_cbksiT/view?usp=drivesdk"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1fmEzYaWfu6U1UAgxG21xLCo8H_rKsYv_/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "白黒"
+        }
+      ],
       "related": [
         {
           "id": "SH010",
