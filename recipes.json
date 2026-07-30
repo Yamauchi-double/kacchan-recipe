@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T23:31:20.226Z",
-  "count": 140,
+  "generatedAt": "2026-07-30T08:55:56.034Z",
+  "count": 142,
   "recipes": [
     {
       "id": "CO001",
@@ -9990,7 +9990,7 @@
       "suggested": [
         "CO024",
         "CO026",
-        "CO056"
+        "CO077"
       ]
     },
     {
@@ -14393,32 +14393,13 @@
           "linkId": ""
         },
         {
-          "label": "バター醤油",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "仕込み_明太マヨ",
-          "amt": "25",
-          "unit": "g",
-          "linkId": "SH010"
-        },
-        {
           "label": "パセリ",
           "amt": "適量",
           "unit": "g",
           "linkId": ""
         }
       ],
-      "allergens": [
-        "乳製品",
-        "小麦",
-        "牛肉",
-        "大豆",
-        "ゼラチン",
-        "卵"
-      ],
+      "allergens": [],
       "steps": [
         {
           "text": "170~175°に温めたフライヤーにポテトフライ180gを入れる",
@@ -14433,11 +14414,7 @@
           "note": false
         },
         {
-          "text": "～ 塩 or バター醤油の場合 ～",
-          "note": false
-        },
-        {
-          "text": "揚がったポテトに塩 or バター醤油を全体的に振る",
+          "text": "揚がったポテトに塩を全体的に振る",
           "note": false
         },
         {
@@ -14446,30 +14423,6 @@
         },
         {
           "text": "パセリを振って完成",
-          "note": false
-        },
-        {
-          "text": "～明太マヨの場合 ～",
-          "note": false
-        },
-        {
-          "text": "揚がったポテトをお皿に盛る",
-          "note": false
-        },
-        {
-          "text": "ポテトに明太マヨをかける",
-          "note": false
-        },
-        {
-          "text": "パセリを振って完成",
-          "note": false
-        },
-        {
-          "text": "揚げ時間：3分",
-          "note": false
-        },
-        {
-          "text": "フライヤー温度：170～175°",
           "note": false
         }
       ],
@@ -14504,18 +14457,14 @@
         }
       ],
       "plating": [],
-      "related": [
-        {
-          "id": "SH010",
-          "reason": "使用する仕込み（仕込み_明太マヨ）"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
-        "CO027",
+        "CO077",
         "CO005",
         "CO011",
-        "CO017"
+        "CO017",
+        "CO024"
       ]
     },
     {
@@ -15830,7 +15779,7 @@
         "CO027",
         "CO028",
         "CO053",
-        "CO056"
+        "CO077"
       ]
     },
     {
@@ -16440,6 +16389,159 @@
         "CO056",
         "SH031",
         "CO001"
+      ]
+    },
+    {
+      "id": "CO076",
+      "brand": "かっちゃん",
+      "name": "ポテトフライ バター醤油",
+      "furigana": "ポテトフライバター醤油",
+      "category": "調理",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 76,
+      "ingredients": [
+        {
+          "label": "ポテトフライ",
+          "amt": "180",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "バター醤油",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "乳製品",
+        "小麦",
+        "牛肉",
+        "大豆",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "170~175°に温めたフライヤーにポテトフライ180gを入れる",
+          "note": false
+        },
+        {
+          "text": "揚げ時間3分",
+          "note": true
+        },
+        {
+          "text": "3分経過したらポテトをフライヤーから取り出す",
+          "note": false
+        },
+        {
+          "text": "揚がったポテトにバター醤油を全体的に振る",
+          "note": false
+        },
+        {
+          "text": "お皿に盛る",
+          "note": false
+        },
+        {
+          "text": "パセリを振って完成",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [
+        {
+          "id": "CO056",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO077",
+        "CO001",
+        "CO002",
+        "CO003"
+      ]
+    },
+    {
+      "id": "CO077",
+      "brand": "かっちゃん",
+      "name": "ポテトフライ 明太マヨ",
+      "furigana": "ポテトフライ明太マヨ",
+      "category": "調理",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 77,
+      "ingredients": [
+        {
+          "label": "ポテトフライ",
+          "amt": "180",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_明太マヨ",
+          "amt": "20",
+          "unit": "g",
+          "linkId": "SH010"
+        },
+        {
+          "label": "パセリ",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "大豆",
+        "卵"
+      ],
+      "steps": [
+        {
+          "text": "170~175°に温めたフライヤーにポテトフライ180gを入れる",
+          "note": false
+        },
+        {
+          "text": "揚げ時間3分",
+          "note": true
+        },
+        {
+          "text": "3分経過したらポテトをフライヤーから取り出す",
+          "note": false
+        },
+        {
+          "text": "揚がったポテトをお皿に盛る",
+          "note": false
+        },
+        {
+          "text": "ポテトに明太マヨをかける",
+          "note": false
+        },
+        {
+          "text": "パセリを振って完成",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [
+        {
+          "id": "CO056",
+          "reason": "手動"
+        },
+        {
+          "id": "SH010",
+          "reason": "使用する仕込み（仕込み_明太マヨ）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO027",
+        "CO005",
+        "CO024"
       ]
     }
   ]
