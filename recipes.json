@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:55:56.034Z",
+  "generatedAt": "2026-07-30T09:13:17.884Z",
   "count": 142,
   "recipes": [
     {
@@ -672,10 +672,6 @@
         {
           "type": "動画",
           "url": "https://drive.google.com/file/d/1G09GeA-Md5sBh4rMOUF_BnLuVJgYwbsQ/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://nigami17.com/"
         }
       ],
       "plating": [],
@@ -14457,14 +14453,21 @@
         }
       ],
       "plating": [],
-      "related": [],
+      "related": [
+        {
+          "id": "CO076",
+          "reason": "手動"
+        },
+        {
+          "id": "CO077",
+          "reason": "手動"
+        }
+      ],
       "comments": [],
       "suggested": [
-        "CO077",
         "CO005",
         "CO011",
-        "CO017",
-        "CO024"
+        "CO017"
       ]
     },
     {
@@ -16413,6 +16416,12 @@
           "amt": "10",
           "unit": "g",
           "linkId": ""
+        },
+        {
+          "label": "パセリ",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
         }
       ],
       "allergens": [
@@ -16454,14 +16463,17 @@
         {
           "id": "CO056",
           "reason": "手動"
+        },
+        {
+          "id": "CO077",
+          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
-        "CO077",
-        "CO001",
-        "CO002",
-        "CO003"
+        "CO005",
+        "CO024",
+        "CO026"
       ]
     },
     {
@@ -16529,19 +16541,22 @@
       "plating": [],
       "related": [
         {
+          "id": "SH010",
+          "reason": "手動"
+        },
+        {
           "id": "CO056",
           "reason": "手動"
         },
         {
-          "id": "SH010",
-          "reason": "使用する仕込み（仕込み_明太マヨ）"
+          "id": "CO076",
+          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
         "CO027",
-        "CO005",
-        "CO024"
+        "CO005"
       ]
     }
   ]
