@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T23:31:20.635Z",
+  "generatedAt": "2026-08-22T05:52:09.228Z",
   "count": 142,
   "recipes": [
     {
@@ -10317,162 +10317,6 @@
       ]
     },
     {
-      "id": "CO029",
-      "brand": "かっちゃん",
-      "name": "仕上げはお願い！鉢ポテサラ",
-      "furigana": "シアゲハオネガイバチポテサラ",
-      "category": "調理",
-      "time": "2分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 29,
-      "ingredients": [
-        {
-          "label": "乱切りポテト",
-          "amt": "7",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "煮卵",
-          "amt": "1/2",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "マヨネーズ",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "パセリ",
-          "amt": "適量",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "豚肉",
-        "大豆",
-        "小麦",
-        "ごま",
-        "卵"
-      ],
-      "steps": [
-        {
-          "text": "煮卵を1/2にカットしておく",
-          "note": false
-        },
-        {
-          "text": "挟むように持ちながらカットすると黄身が崩れにくい",
-          "note": true
-        },
-        {
-          "text": "約2～3分、170～175°のフライヤーで乱切りポテトを上げる。",
-          "note": false
-        },
-        {
-          "text": "2～3分揚げた乱切りポテトをフライヤーから取り出す",
-          "note": false
-        },
-        {
-          "text": "揚げた置いたポテトを7個盛る",
-          "note": false
-        },
-        {
-          "text": "肉味噌：20gを盛る",
-          "note": false
-        },
-        {
-          "text": "ここまでの仕込みを推奨",
-          "note": true
-        },
-        {
-          "text": "その後レンジで10秒ほど温める",
-          "note": false
-        },
-        {
-          "text": "1/2カットしておいた煮卵を1つ盛る",
-          "note": false
-        },
-        {
-          "text": "マヨネーズ：30gを絞る",
-          "note": false
-        },
-        {
-          "text": "マヨネーズの上にパセリを振り、すりこぎ棒と一緒に提供",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "フライヤー温度：170～175°",
-          "note": false
-        },
-        {
-          "text": "⑦まで仕込み推奨",
-          "note": false
-        },
-        {
-          "text": "ラップして置いておく",
-          "note": false
-        },
-        {
-          "text": "すりこぎ棒と一緒に提供するとを忘れないように",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1LhxoZbopE_XFrD0UUW0mXBWPccFyo1OQ/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1A9k4SSv2u8oRjgDy8pT-_KfexcXzIgx7/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/19iuYptiPdN5SPYI7lGabmMuUMHDow483/view?usp=sharing"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1OcWzzCCiM0RrBgLyvEFLgeB2JEoDTr_9/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/12UC9RvNF8SNyUKqeuSDV1rGpmbyXR-4K/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ICN21ICBbZC8PAFHBq2E3q9RFSzZsw20/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1VBKe0v21QKaTpPX3JR_qVL_JDea5iGBp/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO005",
-        "CO017",
-        "CO024",
-        "CO026",
-        "CO027"
-      ]
-    },
-    {
       "id": "SH029",
       "brand": "かっちゃん",
       "name": "仕込み_焼きラーメンダレ",
@@ -10567,6 +10411,162 @@
         "CO018",
         "CO032",
         "CO037"
+      ]
+    },
+    {
+      "id": "CO029",
+      "brand": "かっちゃん",
+      "name": "仕上げはお願い！鉢ポテサラ",
+      "furigana": "シアゲハオネガイバチポテサラ",
+      "category": "調理",
+      "time": "2分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 29,
+      "ingredients": [
+        {
+          "label": "乱切りポテト",
+          "amt": "7",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "煮卵",
+          "amt": "1/2",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "マヨネーズ",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "パセリ",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "大豆",
+        "小麦",
+        "ごま",
+        "卵"
+      ],
+      "steps": [
+        {
+          "text": "煮卵を1/2にカットしておく",
+          "note": false
+        },
+        {
+          "text": "玉子を挟むように持ちながらカットすると黄身が崩れにくい",
+          "note": true
+        },
+        {
+          "text": "約2～3分、170～175°のフライヤーで乱切りポテトを上げる。",
+          "note": false
+        },
+        {
+          "text": "2～3分揚げた乱切りポテトをフライヤーから取り出す",
+          "note": false
+        },
+        {
+          "text": "揚げた置いたポテトを7個盛る",
+          "note": false
+        },
+        {
+          "text": "肉味噌：20gを盛る",
+          "note": false
+        },
+        {
+          "text": "＊盛り置き推奨",
+          "note": true
+        },
+        {
+          "text": "その後レンジで10秒ほど温める",
+          "note": false
+        },
+        {
+          "text": "1/2カットしておいた煮卵を1つ盛る",
+          "note": false
+        },
+        {
+          "text": "マヨネーズ：30gを絞る",
+          "note": false
+        },
+        {
+          "text": "マヨネーズの上にパセリを振り、すりこぎ棒と一緒に提供",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "フライヤー温度：170～175°",
+          "note": false
+        },
+        {
+          "text": "⑦まで仕込み推奨",
+          "note": false
+        },
+        {
+          "text": "ラップして置いておく",
+          "note": false
+        },
+        {
+          "text": "すりこぎ棒と一緒に提供するとを忘れないように",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1LhxoZbopE_XFrD0UUW0mXBWPccFyo1OQ/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1A9k4SSv2u8oRjgDy8pT-_KfexcXzIgx7/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/19iuYptiPdN5SPYI7lGabmMuUMHDow483/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1OcWzzCCiM0RrBgLyvEFLgeB2JEoDTr_9/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/12UC9RvNF8SNyUKqeuSDV1rGpmbyXR-4K/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1ICN21ICBbZC8PAFHBq2E3q9RFSzZsw20/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1VBKe0v21QKaTpPX3JR_qVL_JDea5iGBp/view?usp=sharing"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO005",
+        "CO017",
+        "CO024",
+        "CO026",
+        "CO027"
       ]
     },
     {
