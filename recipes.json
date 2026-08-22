@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T11:41:43.267Z",
-  "count": 142,
+  "generatedAt": "2026-08-22T23:31:19.928Z",
+  "count": 143,
   "recipes": [
     {
       "id": "CO001",
@@ -7653,8 +7653,8 @@
       "comments": [],
       "suggested": [
         "LU020",
-        "LU012",
-        "OT002"
+        "LU021",
+        "LU012"
       ]
     },
     {
@@ -8393,8 +8393,8 @@
       "comments": [],
       "suggested": [
         "LU018",
-        "LU003",
-        "LU010"
+        "LU021",
+        "LU003"
       ]
     },
     {
@@ -8630,6 +8630,90 @@
         "CO023",
         "CO024",
         "CO025"
+      ]
+    },
+    {
+      "id": "LU021",
+      "brand": "かっちゃん",
+      "name": "ランチ_かっちゃんラーメン_レギュラー",
+      "furigana": "ランチ_カッチャンラーメン_レギュラー",
+      "category": "ランチ",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 21,
+      "ingredients": [
+        {
+          "label": "生麺",
+          "amt": "1",
+          "unit": "玉",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_かっちゃんラーメンベース",
+          "amt": "520",
+          "unit": "g",
+          "linkId": "SH035"
+        },
+        {
+          "label": "仕込み_もやしナムル",
+          "amt": "30",
+          "unit": "g",
+          "linkId": "SH031"
+        },
+        {
+          "label": "焼豚",
+          "amt": "2",
+          "unit": "枚",
+          "linkId": ""
+        },
+        {
+          "label": "マー油",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "鶏油",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "4",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "卵",
+        "大豆",
+        "ごま",
+        "鶏肉",
+        "豚肉",
+        "乳製品",
+        "ゼラチン"
+      ],
+      "steps": [],
+      "media": [],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH035",
+          "reason": "使用する仕込み（仕込み_かっちゃんラーメンベース）"
+        },
+        {
+          "id": "SH031",
+          "reason": "使用する仕込み（仕込み_もやしナムル）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU018",
+        "LU020",
+        "LU003"
       ]
     },
     {
