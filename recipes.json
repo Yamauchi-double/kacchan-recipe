@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:52:09.228Z",
+  "generatedAt": "2026-08-22T11:41:43.267Z",
   "count": 142,
   "recipes": [
     {
@@ -10317,103 +10317,6 @@
       ]
     },
     {
-      "id": "SH029",
-      "brand": "かっちゃん",
-      "name": "仕込み_焼きラーメンダレ",
-      "furigana": "シコミ_ヤキラーメンダレ",
-      "category": "仕込み",
-      "time": "2分",
-      "yieldAmt": 400,
-      "yieldUnit": "g",
-      "appOrder": 29,
-      "ingredients": [
-        {
-          "label": "塩だれ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白湯",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳製品",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "ゼラチン",
-        "豚肉",
-        "牛肉"
-      ],
-      "steps": [
-        {
-          "text": "上記を計量する",
-          "note": false
-        },
-        {
-          "text": "2つを合わせてよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵14日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：水マス500ml",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/14eYMhytJ6z-0hTWBn7OHFbWrLICuzL0W/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1oGNFroemZBEk4-SvGgI2NTy5c2xVsg-J/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1UR2ziztvFEsTmAM8qqVkW1KlVaMgK9ji/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1iRHuDI8aaSYHGx009jAR1_QCb_1EjoOl/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1AY1bbxq7oRP_y9eKMlJX1LnFr5f8ntAY/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/14eYMhytJ6z-0hTWBn7OHFbWrLICuzL0W/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH001",
-        "SH004",
-        "CO018",
-        "CO032",
-        "CO037"
-      ]
-    },
-    {
       "id": "CO029",
       "brand": "かっちゃん",
       "name": "仕上げはお願い！鉢ポテサラ",
@@ -10567,6 +10470,108 @@
         "CO024",
         "CO026",
         "CO027"
+      ]
+    },
+    {
+      "id": "SH029",
+      "brand": "かっちゃん",
+      "name": "仕込み_焼きラーメンダレ",
+      "furigana": "シコミ_ヤキラーメンダレ",
+      "category": "仕込み",
+      "time": "2分",
+      "yieldAmt": 400,
+      "yieldUnit": "g",
+      "appOrder": 29,
+      "ingredients": [
+        {
+          "label": "塩だれ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白湯",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳製品",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "ゼラチン",
+        "豚肉",
+        "牛肉"
+      ],
+      "steps": [
+        {
+          "text": "上記を計量する",
+          "note": false
+        },
+        {
+          "text": "2つを合わせてよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵14日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：水マス500ml",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/14eYMhytJ6z-0hTWBn7OHFbWrLICuzL0W/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ltJ0YUs2IK5kC-jzP0opx6apOOckxVv4/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1oGNFroemZBEk4-SvGgI2NTy5c2xVsg-J/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1UR2ziztvFEsTmAM8qqVkW1KlVaMgK9ji/view?usp=drive_link"
+        },
+        {
+          "type": "PDF",
+          "url": "https://drive.google.com/file/d/1iRHuDI8aaSYHGx009jAR1_QCb_1EjoOl/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1AY1bbxq7oRP_y9eKMlJX1LnFr5f8ntAY/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/14eYMhytJ6z-0hTWBn7OHFbWrLICuzL0W/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "",
+          "content": ""
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH004",
+        "CO018",
+        "CO032",
+        "CO037"
       ]
     },
     {
@@ -14472,8 +14477,8 @@
       ],
       "plating": [
         {
-          "item": "皿",
-          "content": "白黒"
+          "item": "",
+          "content": ""
         }
       ],
       "related": [
@@ -16588,8 +16593,8 @@
       ],
       "plating": [
         {
-          "item": "皿",
-          "content": "白黒"
+          "item": "",
+          "content": ""
         }
       ],
       "related": [
