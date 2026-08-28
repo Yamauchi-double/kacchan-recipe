@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T23:31:12.305Z",
+  "generatedAt": "2026-08-28T23:31:19.267Z",
   "count": 143,
   "recipes": [
     {
@@ -916,7 +916,7 @@
       "appOrder": 2,
       "ingredients": [
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "250",
           "unit": "g",
           "linkId": ""
@@ -1581,7 +1581,7 @@
       "appOrder": 3,
       "ingredients": [
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "250",
           "unit": "g",
           "linkId": ""
@@ -4478,13 +4478,13 @@
       "appOrder": 9,
       "ingredients": [
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "230",
           "unit": "g",
           "linkId": ""
         },
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "140",
           "unit": "g",
           "linkId": ""
@@ -5484,7 +5484,7 @@
           "linkId": ""
         },
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "230",
           "unit": "g",
           "linkId": ""
@@ -7565,7 +7565,7 @@
           "linkId": ""
         },
         {
-          "label": "ランチ用米",
+          "label": "米",
           "amt": "140",
           "unit": "g",
           "linkId": ""
