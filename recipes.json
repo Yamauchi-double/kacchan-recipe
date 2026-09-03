@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T13:14:22.522Z",
-  "count": 145,
+  "generatedAt": "2026-09-03T13:22:46.193Z",
+  "count": 146,
   "recipes": [
     {
       "id": "CO001",
@@ -16798,11 +16798,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT003",
         "LU019",
         "SH034",
         "LU001",
-        "LU003",
-        "SH003"
+        "LU003"
       ]
     },
     {
@@ -16910,6 +16910,98 @@
         "CO017",
         "SH037",
         "CO056"
+      ]
+    },
+    {
+      "id": "LT003",
+      "brand": "かっちゃん",
+      "name": "仕込み_出汁巻きの素",
+      "furigana": "シコミ_ダシマキノモト",
+      "category": "限定",
+      "time": "3分",
+      "yieldAmt": 1,
+      "yieldUnit": "人前",
+      "appOrder": 85,
+      "ingredients": [
+        {
+          "label": "玉子",
+          "amt": "3",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "白だし",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "水",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "卵",
+        "小麦",
+        "さば",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "玉子を3個割ってボウルに入れる",
+          "note": false
+        },
+        {
+          "text": "白だし15g、水30gをボウルに入れる",
+          "note": false
+        },
+        {
+          "text": "しっかりと混ぜる",
+          "note": false
+        },
+        {
+          "text": "ザルで濾す",
+          "note": false
+        },
+        {
+          "text": "容器に入れて冷蔵保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1B4sERO1_lu88OvCYPxkzqjc42GZkyPrU/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1EAOSvtv7hsd__aUnL3lalBmDqd6vUcnZ/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "キッチンポット：13.5cm"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LT001",
+        "SH003",
+        "SH004",
+        "SH006",
+        "SH007"
       ]
     }
   ]
