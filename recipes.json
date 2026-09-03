@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T14:13:35.146Z",
-  "count": 151,
+  "generatedAt": "2026-09-03T14:23:51.926Z",
+  "count": 152,
   "recipes": [
     {
       "id": "CO001",
@@ -10366,10 +10366,10 @@
       "comments": [],
       "suggested": [
         "CO060",
+        "LT009",
         "SH010",
         "SH019",
-        "LU014",
-        "CO017"
+        "LU014"
       ]
     },
     {
@@ -14990,11 +14990,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT009",
         "SH028",
         "CO007",
         "CO008",
-        "CO017",
-        "CO029"
+        "CO017"
       ]
     },
     {
@@ -16801,8 +16801,8 @@
         "LT003",
         "LU019",
         "SH034",
-        "LU001",
-        "LU003"
+        "LT009",
+        "LU001"
       ]
     },
     {
@@ -16998,10 +16998,10 @@
       "comments": [],
       "suggested": [
         "LT001",
+        "LT009",
         "SH003",
         "SH004",
-        "SH006",
-        "SH007"
+        "SH006"
       ]
     },
     {
@@ -17463,6 +17463,141 @@
         "CO034",
         "CO036",
         "CO038"
+      ]
+    },
+    {
+      "id": "LT009",
+      "brand": "かっちゃん",
+      "name": "鶏とん平焼き",
+      "furigana": "トリトンペイヤキ",
+      "category": "限定",
+      "time": "7分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 92,
+      "ingredients": [
+        {
+          "label": "玉子",
+          "amt": "2",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "とりもも",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "お好みソース",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "マヨネーズ",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "卵",
+        "鶏肉",
+        "小麦",
+        "大豆",
+        "豚肉",
+        "もも",
+        "りんご"
+      ],
+      "steps": [
+        {
+          "text": "玉子2個を割ってよく混ぜて卵を溶いておく",
+          "note": false
+        },
+        {
+          "text": "玉子焼き器で鶏もも40gを炒める",
+          "note": false
+        },
+        {
+          "text": "鶏ももは事前に10～20gにカットしておく",
+          "note": true
+        },
+        {
+          "text": "鶏ももが焼けたら溶いておいた卵2個の半量を流し入れる",
+          "note": false
+        },
+        {
+          "text": "玉子焼きを焼くように全体に玉子を広げる",
+          "note": false
+        },
+        {
+          "text": "鶏ももは奥に1列にしてる方が後で巻きやすいです",
+          "note": true
+        },
+        {
+          "text": "奥から手前に向かって巻いていく",
+          "note": false
+        },
+        {
+          "text": "巻けたら奥に玉子を寄せてもう一度軽く油をなじませる",
+          "note": false
+        },
+        {
+          "text": "残りの玉子を流し入れる",
+          "note": false
+        },
+        {
+          "text": "薄くのばし焼けたら奥から手前に向かい玉子を巻いていく",
+          "note": false
+        },
+        {
+          "text": "巻きあがったらお皿に移す",
+          "note": false
+        },
+        {
+          "text": "銀皿（小）に移しお好みソース、マヨネーズをかける",
+          "note": false
+        },
+        {
+          "text": "カットネギを盛って完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/19fQIBR6DEgTGeMHg9A7Xf7grNdWm-H04/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZNHvKxWzGXQ-t2I09ET7bzaZJCF053L_/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1gB3dWs17qdgFrTmr9I4UUL0NwJwzFfaX/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "銀皿：小"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO060",
+        "LU013",
+        "SH028",
+        "CO030",
+        "CO031"
       ]
     }
   ]
