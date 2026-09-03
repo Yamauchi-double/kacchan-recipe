@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T14:36:50.780Z",
-  "count": 153,
+  "generatedAt": "2026-09-03T14:54:30.617Z",
+  "count": 154,
   "recipes": [
     {
       "id": "CO001",
@@ -17713,6 +17713,101 @@
         "LU003",
         "CO034",
         "CO036"
+      ]
+    },
+    {
+      "id": "LT011",
+      "brand": "かっちゃん",
+      "name": "仕込み_出汁巻き玉子",
+      "furigana": "シコミ_ダシマキタマゴ",
+      "category": "限定",
+      "time": "6分",
+      "yieldAmt": 1,
+      "yieldUnit": "人前",
+      "appOrder": 94,
+      "ingredients": [
+        {
+          "label": "仕込み_出汁巻きの素",
+          "amt": "160",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "仕込んでおいた出汁巻きの素160gを用意する",
+          "note": false
+        },
+        {
+          "text": "玉子焼き器を温める",
+          "note": false
+        },
+        {
+          "text": "リードペーパーに油を染み込ませて玉子焼き器全体に油をなじませる",
+          "note": false
+        },
+        {
+          "text": "出汁巻きの素を薄く流す",
+          "note": false
+        },
+        {
+          "text": "表面が焼けたら手前から奥に向かって巻いていく",
+          "note": false
+        },
+        {
+          "text": "A：もう一度リードの油を全体になじませる",
+          "note": false
+        },
+        {
+          "text": "B：もう一度出汁巻きの素を薄く流し奥から手前に巻いていく",
+          "note": false
+        },
+        {
+          "text": "A、Bの工程を出汁巻きの素を160g使うまで繰り返す",
+          "note": false
+        },
+        {
+          "text": "少なければ3回、多くても4回繰り返せば大丈夫です",
+          "note": true
+        },
+        {
+          "text": "お皿に移して粗熱を取り、ラップして冷蔵保管",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵2日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1lI_sTGDBFkqb-sRIWoJheYL67MAJUH1y/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1XDqwymSZg-UZl-vchYIS8iIzYxo3J1RL/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "ラップ"
+        }
+      ],
+      "related": [
+        {
+          "id": "LT003",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LT001",
+        "LT002",
+        "LT004",
+        "LT005"
       ]
     }
   ]
