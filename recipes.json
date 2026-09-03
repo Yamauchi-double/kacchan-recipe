@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T13:32:24.430Z",
-  "count": 147,
+  "generatedAt": "2026-09-03T13:41:46.984Z",
+  "count": 148,
   "recipes": [
     {
       "id": "CO001",
@@ -17080,7 +17080,113 @@
       "suggested": [
         "LT001",
         "LT002",
-        "LT003"
+        "LT003",
+        "LT005"
+      ]
+    },
+    {
+      "id": "LT005",
+      "brand": "かっちゃん",
+      "name": "コーンバター焼き",
+      "furigana": "コーンバターヤキ",
+      "category": "限定",
+      "time": "4分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 88,
+      "ingredients": [
+        {
+          "label": "コーン",
+          "amt": "120",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "バター",
+          "amt": "2",
+          "unit": "切",
+          "linkId": ""
+        },
+        {
+          "label": "パセリ",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "乳製品"
+      ],
+      "steps": [
+        {
+          "text": "フライパンと鉄板を温め油を引く",
+          "note": false
+        },
+        {
+          "text": "フライパンは中火、鉄板は弱火を推奨",
+          "note": true
+        },
+        {
+          "text": "油を入れすぎるとコーンが弾けやすいので注意！",
+          "note": true
+        },
+        {
+          "text": "ポーションしておいたコーンを炒める",
+          "note": false
+        },
+        {
+          "text": "コーンが少し弾けるようになってきたら醤油を2～3回しくらい入れる",
+          "note": false
+        },
+        {
+          "text": "そのまま少し炒める",
+          "note": false
+        },
+        {
+          "text": "鉄板にコーンを盛る",
+          "note": false
+        },
+        {
+          "text": "バター2切をコーンの上に盛る",
+          "note": false
+        },
+        {
+          "text": "鉄板を木板に移す",
+          "note": false
+        },
+        {
+          "text": "パセリをかけて完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1aGk7RV0DT3NfdpnGVjYlp88xNoEHrErF/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1uSAlNrHGoevc0bxCTmXMNbHFDAJAHjo1/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1z-fS5Ueb1gYPIG0u-pdpbjo6H-86IZis/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "鉄板"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO005",
+        "LU011",
+        "CO024",
+        "CO026",
+        "CO027"
       ]
     }
   ]
