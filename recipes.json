@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T13:22:46.193Z",
-  "count": 146,
+  "generatedAt": "2026-09-03T13:30:00.726Z",
+  "count": 147,
   "recipes": [
     {
       "id": "CO001",
@@ -17002,6 +17002,81 @@
         "SH004",
         "SH006",
         "SH007"
+      ]
+    },
+    {
+      "id": "LT004",
+      "brand": "かっちゃん",
+      "name": "切り物_豚トロ",
+      "furigana": "キリモノ_トントロ",
+      "category": "限定",
+      "time": "10分",
+      "yieldAmt": 12,
+      "yieldUnit": "人前前後",
+      "appOrder": 86,
+      "ingredients": [
+        {
+          "label": "豚トロ",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "前日に豚トロを解凍しておく",
+          "note": false
+        },
+        {
+          "text": "パックを開けて豚トロをカットしていく",
+          "note": false
+        },
+        {
+          "text": "80gになる様にカット",
+          "note": false
+        },
+        {
+          "text": "小さくなった場合は40gと40g。といった感じで組み合わせて使う",
+          "note": true
+        },
+        {
+          "text": "80gで1人前ラップポーションする",
+          "note": false
+        },
+        {
+          "text": "必要数を冷蔵保存、過剰分は冷凍保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日\n保存期間：冷凍14日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1tCGG2j7JJmmIqrW3bip9fpna4UIde_X0/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1yKn3yhpST1yGyzNJlRRW1C2OveJ4qscV/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "保存用",
+          "content": "ラップ＆ポーション袋"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LT001",
+        "LT002",
+        "LT003"
       ]
     }
   ]
