@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T13:41:46.984Z",
-  "count": 148,
+  "generatedAt": "2026-09-03T13:57:34.747Z",
+  "count": 149,
   "recipes": [
     {
       "id": "CO001",
@@ -17081,7 +17081,8 @@
         "LT001",
         "LT002",
         "LT003",
-        "LT005"
+        "LT005",
+        "LT006"
       ]
     },
     {
@@ -17187,6 +17188,91 @@
         "CO024",
         "CO026",
         "CO027"
+      ]
+    },
+    {
+      "id": "LT006",
+      "brand": "かっちゃん",
+      "name": "とろろ鉄板焼き",
+      "furigana": "トロロテッパンヤキ",
+      "category": "限定",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 89,
+      "ingredients": [
+        {
+          "label": "仕込み_とろろベース",
+          "amt": "150",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "きざみのり",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "鉄板を軽く温め油を引く",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいたとろろベースを150g鉄板に流す",
+          "note": false
+        },
+        {
+          "text": "約10分ほど焼く",
+          "note": false
+        },
+        {
+          "text": "弱火推奨",
+          "note": true
+        },
+        {
+          "text": "10分ほど経過して全体に生っぽい部分が無くなってきたら火を止め木板に鉄板を移す",
+          "note": false
+        },
+        {
+          "text": "中央にきざみのりを盛って完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1nUvwPfVJTs-OVBwRxPoD8eHSfiBcHdPm/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1xVctw1jz7t1zkP2tRSbdq4vpl0OIINao/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1bz0N1n1omjEh4BMX2Xg7Zes1HhiPvO7K/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "鉄板"
+        }
+      ],
+      "related": [
+        {
+          "id": "LT001",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LT002",
+        "LT003",
+        "LT004",
+        "LT005"
       ]
     }
   ]
