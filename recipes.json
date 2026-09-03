@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T14:54:30.617Z",
-  "count": 154,
+  "generatedAt": "2026-09-03T15:04:21.294Z",
+  "count": 155,
   "recipes": [
     {
       "id": "CO001",
@@ -17808,6 +17808,90 @@
         "LT002",
         "LT004",
         "LT005"
+      ]
+    },
+    {
+      "id": "LT012",
+      "brand": "かっちゃん",
+      "name": "出汁巻き玉子",
+      "furigana": "ダシマキタマゴ",
+      "category": "限定",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 95,
+      "ingredients": [
+        {
+          "label": "仕込み_出汁巻き玉子",
+          "amt": "1",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "マヨネーズ",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "卵",
+        "小麦",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "仕込んでおいた出汁巻きをレンジにかける",
+          "note": false
+        },
+        {
+          "text": "600w/40秒",
+          "note": true
+        },
+        {
+          "text": "温まったら6等分してお皿に盛る",
+          "note": false
+        },
+        {
+          "text": "マヨネーズを20g盛って完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1uYqhhzJ9G4EurGSaDg-7glIexLAxPUcI/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1d2s9PsetvjcpZglgr3H0E3DJzW1RL03f/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1Qx1D1cL2c_Q3FWIyarOEd9tgDyRx9kUu/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "黒角"
+        }
+      ],
+      "related": [
+        {
+          "id": "LT003",
+          "reason": "手動"
+        },
+        {
+          "id": "LT011",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LT009",
+        "SH010",
+        "LU014"
       ]
     }
   ]
