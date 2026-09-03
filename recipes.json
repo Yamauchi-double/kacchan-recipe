@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T14:07:22.873Z",
-  "count": 150,
+  "generatedAt": "2026-09-03T14:13:35.146Z",
+  "count": 151,
   "recipes": [
     {
       "id": "CO001",
@@ -8127,7 +8127,7 @@
         "SH018",
         "LU014",
         "CO054",
-        "SH010"
+        "LT008"
       ]
     },
     {
@@ -17348,6 +17348,121 @@
         "LU003",
         "CO008",
         "LU010"
+      ]
+    },
+    {
+      "id": "LT008",
+      "brand": "かっちゃん",
+      "name": "鶏もも鉄板焼き",
+      "furigana": "トリモモテッパンヤキ",
+      "category": "限定",
+      "time": "8分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 91,
+      "ingredients": [
+        {
+          "label": "とりもも",
+          "amt": "120",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "キャベツ",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味塩コショー",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "柚子胡椒",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉",
+        "小麦",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "フライパンと鉄板を温めてそれぞれに油を引く",
+          "note": false
+        },
+        {
+          "text": "鶏もも120gをフライパンで炒める",
+          "note": false
+        },
+        {
+          "text": "鶏ももは事前に10～20gにカットしておく",
+          "note": true
+        },
+        {
+          "text": "鉄板にキャベツ30gを盛る",
+          "note": false
+        },
+        {
+          "text": "鶏ももが焼きあがったら特製ダレ40gを入れる",
+          "note": false
+        },
+        {
+          "text": "タレを軽く煮詰める",
+          "note": false
+        },
+        {
+          "text": "鉄板を木板に移す",
+          "note": false
+        },
+        {
+          "text": "キャベツの上に炒めた鶏ももを盛る",
+          "note": false
+        },
+        {
+          "text": "柚子胡椒を添えて完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1rKAofF8MUhAdV6Aq5mEKf-vzKKxD3zGQ/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1uSAlNrHGoevc0bxCTmXMNbHFDAJAHjo1/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1NVkl0TnOKQqRNraYsfvItuc2VuIG-D29/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "鉄板"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "SH019",
+        "CO034",
+        "CO036",
+        "CO038"
       ]
     }
   ]
