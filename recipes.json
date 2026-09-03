@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T10:26:27.641Z",
-  "count": 144,
+  "generatedAt": "2026-09-03T13:04:58.103Z",
+  "count": 145,
   "recipes": [
     {
       "id": "CO001",
@@ -5058,7 +5058,7 @@
         "CO056",
         "CO072",
         "SH031",
-        "CO001"
+        "LT002"
       ]
     },
     {
@@ -11064,10 +11064,10 @@
       "comments": [],
       "suggested": [
         "LU003",
+        "LT002",
         "SH016",
         "SH020",
-        "SH023",
-        "SH026"
+        "SH023"
       ]
     },
     {
@@ -16474,7 +16474,7 @@
         "CO017",
         "CO056",
         "SH031",
-        "CO001"
+        "LT002"
       ]
     },
     {
@@ -16727,6 +16727,9 @@
         }
       ],
       "allergens": [
+        "小麦",
+        "さば",
+        "大豆",
         "卵",
         "ごま"
       ],
@@ -16800,6 +16803,113 @@
         "LU001",
         "LU003",
         "SH003"
+      ]
+    },
+    {
+      "id": "LT002",
+      "brand": "かっちゃん",
+      "name": "仕込み_ピーマン",
+      "furigana": "シコミ＿ピーマン",
+      "category": "限定",
+      "time": "8分",
+      "yieldAmt": 3,
+      "yieldUnit": "人前前後",
+      "appOrder": 84,
+      "ingredients": [
+        {
+          "label": "ピーマン",
+          "amt": "1",
+          "unit": "PC",
+          "linkId": ""
+        },
+        {
+          "label": "食塩",
+          "amt": "カットしたピーマン重量の2",
+          "unit": "%",
+          "linkId": ""
+        },
+        {
+          "label": "味の素",
+          "amt": "カットしたピーマン重量の2",
+          "unit": "%",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "ピーマンのヘタを切り落とす",
+          "note": false
+        },
+        {
+          "text": "中の種とワタを外す",
+          "note": false
+        },
+        {
+          "text": "なるべく薄くスライスする",
+          "note": false
+        },
+        {
+          "text": "スライサーで切ってもいいですが少し切りにくいのでケガに注意！",
+          "note": true
+        },
+        {
+          "text": "カットしたピーマンを軽く水で洗う",
+          "note": false
+        },
+        {
+          "text": "水気をよく切ってボウルに移してピーマンの重さを計る",
+          "note": false
+        },
+        {
+          "text": "ピーマンの重さの2%の塩と味の素を計量する",
+          "note": false
+        },
+        {
+          "text": "カットしたピーマンが100gなら、塩と味の素は2gずつ",
+          "note": true
+        },
+        {
+          "text": "全て混ぜ合わせる",
+          "note": false
+        },
+        {
+          "text": "容器に入れて冷蔵保管",
+          "note": false
+        },
+        {
+          "text": "保管期限：冷蔵2日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1MpkbTV3_6CVw-bCYffJcmEo7caVnsOIA/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZXawHec5Ki24MtnGvitmG8EU8kB4wJJ0/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1PW6T9053zyVybYo1D7K2iCWWriSVjgWs/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "",
+          "content": ""
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH031",
+        "CO011",
+        "CO017",
+        "SH037",
+        "CO056"
       ]
     }
   ]
