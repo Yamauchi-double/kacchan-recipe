@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T23:31:21.487Z",
-  "count": 143,
+  "generatedAt": "2026-09-03T10:26:27.641Z",
+  "count": 144,
   "recipes": [
     {
       "id": "CO001",
@@ -11598,11 +11598,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT001",
         "SH003",
         "SH004",
         "SH006",
-        "SH007",
-        "SH016"
+        "SH007"
       ]
     },
     {
@@ -16670,6 +16670,136 @@
       "suggested": [
         "CO027",
         "CO005"
+      ]
+    },
+    {
+      "id": "LT001",
+      "brand": "かっちゃん",
+      "name": "仕込み_とろろ鉄板ベース",
+      "furigana": "シコミ＿トロロテッパンベース",
+      "category": "限定",
+      "time": "10分",
+      "yieldAmt": 5,
+      "yieldUnit": "人前",
+      "appOrder": 83,
+      "ingredients": [
+        {
+          "label": "長芋",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "かつお節",
+          "amt": "3",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白だし",
+          "amt": "45",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "玉子",
+          "amt": "3",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "6",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "たこ焼き粉",
+          "amt": "90",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "水",
+          "amt": "210",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "卵",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "長芋の皮をむき300g計る",
+          "note": false
+        },
+        {
+          "text": "長芋を一口大にカットする",
+          "note": false
+        },
+        {
+          "text": "かつお節3g、たこ焼き粉90gを計量して同じ容器に入れておく",
+          "note": false
+        },
+        {
+          "text": "白だし45g、ごま油6g、水210gを計量し同じ容器に玉子3個を割り入れる",
+          "note": false
+        },
+        {
+          "text": "カットした長芋、それぞれ計量した物。それぞれおおよそ半量をブレンダーに入れて混ぜる",
+          "note": false
+        },
+        {
+          "text": "大きな固形物無くなれば容器に移す",
+          "note": false
+        },
+        {
+          "text": "残りも同様にブレンダーで混ぜる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "冷蔵保存：3日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1foEjUt-OAm4q4d-ApVC3bvuMtx3qCStT/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drivesdk"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1WVx4q5rV0zykUGlc8Lsh0XCp_R93FWZx/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1Pj7bI3QYLHmw4Tx-klFmSOmlLjc2iZ9Y/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "",
+          "content": ""
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU019",
+        "SH034",
+        "LU001",
+        "LU003",
+        "SH003"
       ]
     }
   ]
