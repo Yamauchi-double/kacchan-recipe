@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T08:53:27.509Z",
+  "generatedAt": "2026-09-05T08:54:17.258Z",
   "count": 155,
   "recipes": [
     {
@@ -6266,7 +6266,7 @@
           "note": false
         },
         {
-          "text": "4分：600w",
+          "text": "6分：600w",
           "note": true
         },
         {
@@ -11618,7 +11618,7 @@
       "ingredients": [
         {
           "label": "仕込み_どて煮",
-          "amt": "100",
+          "amt": "120",
           "unit": "g",
           "linkId": "SH014"
         },
