@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T02:48:55.826Z",
-  "count": 155,
+  "generatedAt": "2026-09-07T05:15:40.429Z",
+  "count": 156,
   "recipes": [
     {
       "id": "CO001",
@@ -3845,11 +3845,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT013",
         "SH003",
         "SH004",
         "SH006",
-        "SH013",
-        "SH034"
+        "SH013"
       ]
     },
     {
@@ -4271,10 +4271,10 @@
       "comments": [],
       "suggested": [
         "SH009",
+        "LT013",
         "SH001",
         "SH002",
-        "SH003",
-        "SH004"
+        "SH003"
       ]
     },
     {
@@ -4669,10 +4669,10 @@
       "comments": [],
       "suggested": [
         "SH008",
+        "LT013",
         "SH001",
         "SH002",
-        "SH003",
-        "SH004"
+        "SH003"
       ]
     },
     {
@@ -6013,11 +6013,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT013",
         "SH007",
         "SH016",
         "SH018",
-        "SH019",
-        "SH026"
+        "SH019"
       ]
     },
     {
@@ -7025,10 +7025,10 @@
       "comments": [],
       "suggested": [
         "SH026",
+        "LT013",
         "SH013",
         "SH020",
-        "SH023",
-        "SH031"
+        "SH023"
       ]
     },
     {
@@ -9920,11 +9920,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "LT013",
         "SH016",
         "SH023",
         "SH013",
-        "SH020",
-        "SH031"
+        "SH020"
       ]
     },
     {
@@ -11065,9 +11065,9 @@
       "suggested": [
         "LU003",
         "LT002",
+        "LT013",
         "SH016",
-        "SH020",
-        "SH023"
+        "SH020"
       ]
     },
     {
@@ -16802,7 +16802,7 @@
         "LU019",
         "SH034",
         "LT009",
-        "LU001"
+        "LT013"
       ]
     },
     {
@@ -16906,10 +16906,10 @@
       "comments": [],
       "suggested": [
         "SH031",
+        "LT013",
         "CO011",
         "CO017",
-        "SH037",
-        "CO056"
+        "SH037"
       ]
     },
     {
@@ -17463,10 +17463,10 @@
       "comments": [],
       "suggested": [
         "LT010",
+        "LT013",
         "LU003",
         "SH019",
-        "CO034",
-        "CO036"
+        "CO034"
       ]
     },
     {
@@ -17892,6 +17892,180 @@
         "LT009",
         "SH010",
         "LU014"
+      ]
+    },
+    {
+      "id": "LT013",
+      "brand": "かっちゃん",
+      "name": "仕込み_手仕込みもも唐揚げ",
+      "furigana": "シコミ＿テジコミモモカラアゲ",
+      "category": "限定",
+      "time": "6分",
+      "yieldAmt": 60,
+      "yieldUnit": "個",
+      "appOrder": 97,
+      "ingredients": [
+        {
+          "label": "とりもも",
+          "amt": "1",
+          "unit": "PC",
+          "linkId": ""
+        },
+        {
+          "label": "おろしにんにく",
+          "amt": "3",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "おろし生姜",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味の素",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "鶏ガラスープ",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味塩コショー",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "濃い口しょうゆ",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "料理酒",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "みりん",
+          "amt": "15",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "まぶし粉",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉",
+        "小麦",
+        "大豆",
+        "ごま"
+      ],
+      "steps": [
+        {
+          "text": "前日にもも肉を必要分冷蔵解凍しておく",
+          "note": false
+        },
+        {
+          "text": "解凍したもも肉をカットしていく",
+          "note": false
+        },
+        {
+          "text": "30～35g/個。を目安にする",
+          "note": false
+        },
+        {
+          "text": "全て切り終えたら調味料と合わせていく",
+          "note": false
+        },
+        {
+          "text": "おろしにんにく3g、おろし生姜5g、味の素5g、鶏ガラスープ15g、塩コショウ2g。を入れてよく混ぜ合わせる",
+          "note": false
+        },
+        {
+          "text": "上記でよく混ぜて、もも肉と馴染んだら次は液体系の調味料を入れていく",
+          "note": false
+        },
+        {
+          "text": "濃い口しょうゆ30g、料理酒15g、みりん15g、ごま油10g。を入れてよく混ぜ合わせる",
+          "note": false
+        },
+        {
+          "text": "こちらも同様によく混ぜて味が馴染んだら粉を打っていく",
+          "note": false
+        },
+        {
+          "text": "まぶし粉300g（目安）を用意してもも肉に粉を打ち軽く丸める",
+          "note": false
+        },
+        {
+          "text": "全て完成したら前揚げをしていく",
+          "note": false
+        },
+        {
+          "text": "前揚げに関しては【仕込み_もも唐揚げ】の項目を参考にしてください",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵2日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1oLPGJvT37LeZYf9ciHPOwFc6SOuCGyhZ/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1cNt7MX-H3rx7gja9mqsebC18RucoX3KJ/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1OldnqbKysohViDnQ23Pl3iPbriOmoWth/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：12,800ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH008",
+          "reason": "手動"
+        },
+        {
+          "id": "CO019",
+          "reason": "手動"
+        },
+        {
+          "id": "CO020",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "SH007",
+        "SH026"
       ]
     }
   ]
