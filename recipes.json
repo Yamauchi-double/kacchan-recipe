@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T23:31:21.541Z",
+  "generatedAt": "2026-09-07T02:48:55.826Z",
   "count": 155,
   "recipes": [
     {
@@ -6222,8 +6222,8 @@
       "furigana": "シコミ_ドテニ",
       "category": "仕込み",
       "time": "30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1200,
+      "yieldUnit": "g",
       "appOrder": 14,
       "ingredients": [
         {
