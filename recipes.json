@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:15:40.429Z",
+  "generatedAt": "2026-09-07T05:25:48.490Z",
   "count": 156,
   "recipes": [
     {
@@ -18060,13 +18060,38 @@
         {
           "id": "CO020",
           "reason": "手動"
+        },
+        {
+          "id": "CO021",
+          "reason": "手動"
+        },
+        {
+          "id": "CO022",
+          "reason": "手動"
+        },
+        {
+          "id": "CO023",
+          "reason": "手動"
+        },
+        {
+          "id": "CO024",
+          "reason": "手動"
+        },
+        {
+          "id": "CO025",
+          "reason": "手動"
+        },
+        {
+          "id": "CO026",
+          "reason": "手動"
+        },
+        {
+          "id": "CO027",
+          "reason": "手動"
         }
       ],
       "comments": [],
-      "suggested": [
-        "SH007",
-        "SH026"
-      ]
+      "suggested": []
     }
   ]
 }
