@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:31:24.739Z",
+  "generatedAt": "2026-09-14T04:47:15.866Z",
   "count": 156,
   "recipes": [
     {
@@ -3845,11 +3845,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "LT013",
         "SH003",
         "SH004",
         "SH006",
-        "SH013"
+        "SH013",
+        "SH034"
       ]
     },
     {
@@ -4271,10 +4271,10 @@
       "comments": [],
       "suggested": [
         "SH009",
-        "LT013",
         "SH001",
         "SH002",
-        "SH003"
+        "SH003",
+        "SH004"
       ]
     },
     {
@@ -4669,10 +4669,10 @@
       "comments": [],
       "suggested": [
         "SH008",
-        "LT013",
         "SH001",
         "SH002",
-        "SH003"
+        "SH003",
+        "SH004"
       ]
     },
     {
@@ -4966,9 +4966,9 @@
       "suggested": [
         "SH019",
         "SH028",
+        "LT012",
         "LU014",
-        "CO017",
-        "CO029"
+        "CO017"
       ]
     },
     {
@@ -5058,7 +5058,7 @@
         "CO056",
         "CO072",
         "SH031",
-        "LT002"
+        "CO001"
       ]
     },
     {
@@ -6013,11 +6013,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "LT013",
         "SH007",
         "SH016",
         "SH018",
-        "SH019"
+        "SH019",
+        "SH026"
       ]
     },
     {
@@ -7025,10 +7025,10 @@
       "comments": [],
       "suggested": [
         "SH026",
-        "LT013",
         "SH013",
         "SH020",
-        "SH023"
+        "SH023",
+        "SH031"
       ]
     },
     {
@@ -9920,11 +9920,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "LT013",
         "SH016",
         "SH023",
         "SH013",
-        "SH020"
+        "SH020",
+        "SH031"
       ]
     },
     {
@@ -10369,7 +10369,7 @@
         "LT009",
         "SH010",
         "SH019",
-        "LU014"
+        "LT012"
       ]
     },
     {
@@ -11064,10 +11064,10 @@
       "comments": [],
       "suggested": [
         "LU003",
-        "LT002",
-        "LT013",
         "SH016",
-        "SH020"
+        "SH020",
+        "SH023",
+        "SH026"
       ]
     },
     {
@@ -11598,11 +11598,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "LT001",
         "SH003",
         "SH004",
         "SH006",
-        "SH007"
+        "SH007",
+        "SH016"
       ]
     },
     {
@@ -16474,7 +16474,7 @@
         "CO017",
         "CO056",
         "SH031",
-        "LT002"
+        "CO001"
       ]
     },
     {
@@ -16673,251 +16673,61 @@
       ]
     },
     {
-      "id": "LT001",
+      "id": "SH039",
       "brand": "かっちゃん",
       "name": "仕込み_とろろ鉄板ベース",
       "furigana": "シコミ＿トロロテッパンベース",
-      "category": "限定",
+      "category": "仕込み",
       "time": "10分",
       "yieldAmt": 5,
       "yieldUnit": "人前",
       "appOrder": 83,
-      "ingredients": [
-        {
-          "label": "長芋",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "かつお節",
-          "amt": "3",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白だし",
-          "amt": "45",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "玉子",
-          "amt": "3",
-          "unit": "個",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "6",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "たこ焼き粉",
-          "amt": "90",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "水",
-          "amt": "210",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "さば",
-        "大豆",
-        "卵",
-        "ごま"
-      ],
-      "steps": [
-        {
-          "text": "長芋の皮をむき300g計る",
-          "note": false
-        },
-        {
-          "text": "長芋を一口大にカットする",
-          "note": false
-        },
-        {
-          "text": "かつお節3g、たこ焼き粉90gを計量して同じ容器に入れておく",
-          "note": false
-        },
-        {
-          "text": "白だし45g、ごま油6g、水210gを計量し同じ容器に玉子3個を割り入れる",
-          "note": false
-        },
-        {
-          "text": "カットした長芋、それぞれ計量した物。それぞれおおよそ半量をブレンダーに入れて混ぜる",
-          "note": false
-        },
-        {
-          "text": "大きな固形物無くなれば容器に移す",
-          "note": false
-        },
-        {
-          "text": "残りも同様にブレンダーで混ぜる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "冷蔵保存：3日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1foEjUt-OAm4q4d-ApVC3bvuMtx3qCStT/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drivesdk"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1WVx4q5rV0zykUGlc8Lsh0XCp_R93FWZx/view?usp=drivesdk"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1Pj7bI3QYLHmw4Tx-klFmSOmlLjc2iZ9Y/view?usp=drivesdk"
-        }
-      ],
-      "plating": [
-        {
-          "item": "ソース容器",
-          "content": "キッチンポット：13.5cm"
-        }
-      ],
+      "ingredients": [],
+      "allergens": [],
+      "steps": [],
+      "media": [],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "LT003",
-        "LU019",
-        "SH034",
-        "LT009",
-        "LT013"
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
       ]
     },
     {
-      "id": "LT002",
+      "id": "SH040",
       "brand": "かっちゃん",
       "name": "仕込み_ピーマン",
       "furigana": "シコミ＿ピーマン",
-      "category": "限定",
+      "category": "仕込み",
       "time": "8分",
       "yieldAmt": 3,
       "yieldUnit": "人前前後",
       "appOrder": 84,
-      "ingredients": [
-        {
-          "label": "ピーマン",
-          "amt": "1",
-          "unit": "PC",
-          "linkId": ""
-        },
-        {
-          "label": "食塩",
-          "amt": "カットしたピーマン重量の2",
-          "unit": "%",
-          "linkId": ""
-        },
-        {
-          "label": "味の素",
-          "amt": "カットしたピーマン重量の2",
-          "unit": "%",
-          "linkId": ""
-        }
-      ],
+      "ingredients": [],
       "allergens": [],
-      "steps": [
-        {
-          "text": "ピーマンのヘタを切り落とす",
-          "note": false
-        },
-        {
-          "text": "中の種とワタを外す",
-          "note": false
-        },
-        {
-          "text": "なるべく薄くスライスする",
-          "note": false
-        },
-        {
-          "text": "スライサーで切ってもいいですが少し切りにくいのでケガに注意！",
-          "note": true
-        },
-        {
-          "text": "カットしたピーマンを軽く水で洗う",
-          "note": false
-        },
-        {
-          "text": "水気をよく切ってボウルに移してピーマンの重さを計る",
-          "note": false
-        },
-        {
-          "text": "ピーマンの重さの2%の塩と味の素を計量する",
-          "note": false
-        },
-        {
-          "text": "カットしたピーマンが100gなら、塩と味の素は2gずつ",
-          "note": true
-        },
-        {
-          "text": "全て混ぜ合わせる",
-          "note": false
-        },
-        {
-          "text": "容器に入れて冷蔵保管",
-          "note": false
-        },
-        {
-          "text": "保管期限：冷蔵2日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1MpkbTV3_6CVw-bCYffJcmEo7caVnsOIA/view?usp=drivesdk"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ZXawHec5Ki24MtnGvitmG8EU8kB4wJJ0/view?usp=drivesdk"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1PW6T9053zyVybYo1D7K2iCWWriSVjgWs/view?usp=drivesdk"
-        }
-      ],
-      "plating": [
-        {
-          "item": "ソース容器",
-          "content": "タッパ：1,550ml"
-        }
-      ],
+      "steps": [],
+      "media": [],
+      "plating": [],
       "related": [],
       "comments": [],
       "suggested": [
-        "SH031",
-        "LT013",
-        "CO011",
-        "CO017",
-        "SH037"
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
       ]
     },
     {
-      "id": "LT003",
+      "id": "SH041",
       "brand": "かっちゃん",
       "name": "仕込み_出汁巻きの素",
       "furigana": "シコミ_ダシマキノモト",
-      "category": "限定",
+      "category": "仕込み",
       "time": "3分",
       "yieldAmt": 1,
       "yieldUnit": "人前",
@@ -16994,11 +16804,18 @@
           "content": "キッチンポット：13.5cm"
         }
       ],
-      "related": [],
+      "related": [
+        {
+          "id": "LT012",
+          "reason": "手動"
+        },
+        {
+          "id": "SH042",
+          "reason": "手動"
+        }
+      ],
       "comments": [],
       "suggested": [
-        "LT001",
-        "LT009",
         "SH003",
         "SH004",
         "SH006"
@@ -17079,10 +16896,10 @@
       "comments": [],
       "suggested": [
         "LT010",
-        "LT001",
-        "LT002",
-        "LT003",
-        "LT005"
+        "LT005",
+        "LT006",
+        "LT007",
+        "LT008"
       ]
     },
     {
@@ -17263,16 +17080,16 @@
       ],
       "related": [
         {
-          "id": "LT001",
-          "reason": "手動"
+          "id": "",
+          "reason": ""
         }
       ],
       "comments": [],
       "suggested": [
-        "LT002",
-        "LT003",
         "LT004",
-        "LT005"
+        "LT005",
+        "LT007",
+        "LT008"
       ]
     },
     {
@@ -17336,18 +17153,14 @@
           "content": "白角"
         }
       ],
-      "related": [
-        {
-          "id": "LT002",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "LU002",
         "LU003",
         "CO008",
-        "LU010"
+        "LU010",
+        "CO012"
       ]
     },
     {
@@ -17463,10 +17276,10 @@
       "comments": [],
       "suggested": [
         "LT010",
-        "LT013",
         "LU003",
         "SH019",
-        "CO034"
+        "CO034",
+        "CO036"
       ]
     },
     {
@@ -17701,26 +17514,22 @@
           "content": "鉄板"
         }
       ],
-      "related": [
-        {
-          "id": "LT004",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "LT008",
         "LU003",
         "CO034",
-        "CO036"
+        "CO036",
+        "CO038"
       ]
     },
     {
-      "id": "LT011",
+      "id": "SH042",
       "brand": "かっちゃん",
       "name": "仕込み_出汁巻き玉子",
       "furigana": "シコミ_ダシマキタマゴ",
-      "category": "限定",
+      "category": "仕込み",
       "time": "6分",
       "yieldAmt": 1,
       "yieldUnit": "人前",
@@ -17796,18 +17605,14 @@
           "content": "ラップ"
         }
       ],
-      "related": [
-        {
-          "id": "LT003",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
-        "LT001",
-        "LT002",
-        "LT004",
-        "LT005"
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
       ]
     },
     {
@@ -17815,7 +17620,7 @@
       "brand": "かっちゃん",
       "name": "出汁巻き玉子",
       "furigana": "ダシマキタマゴ",
-      "category": "限定",
+      "category": "仕込み",
       "time": "3分",
       "yieldAmt": null,
       "yieldUnit": "",
@@ -17825,7 +17630,7 @@
           "label": "仕込み_出汁巻き玉子",
           "amt": "1",
           "unit": "個",
-          "linkId": ""
+          "linkId": "SH042"
         },
         {
           "label": "マヨネーズ",
@@ -17879,219 +17684,45 @@
       ],
       "related": [
         {
-          "id": "LT003",
+          "id": "SH041",
           "reason": "手動"
         },
         {
-          "id": "LT011",
+          "id": "SH042",
           "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
-        "LT009",
         "SH010",
-        "LU014"
+        "SH019",
+        "SH028"
       ]
     },
     {
-      "id": "LT013",
+      "id": "SH038",
       "brand": "かっちゃん",
       "name": "仕込み_手仕込みもも唐揚げ",
       "furigana": "シコミ＿テジコミモモカラアゲ",
-      "category": "限定",
+      "category": "仕込み",
       "time": "6分",
       "yieldAmt": 50,
       "yieldUnit": "個",
       "appOrder": 97,
-      "ingredients": [
-        {
-          "label": "とりもも",
-          "amt": "1",
-          "unit": "PC",
-          "linkId": ""
-        },
-        {
-          "label": "おろしにんにく",
-          "amt": "3",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "おろし生姜",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "味の素",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "鶏ガラスープ",
-          "amt": "15",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "味塩コショー",
-          "amt": "2",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "濃い口しょうゆ",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "料理酒",
-          "amt": "15",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "みりん",
-          "amt": "15",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "まぶし粉",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "鶏肉",
-        "小麦",
-        "大豆",
-        "ごま"
-      ],
-      "steps": [
-        {
-          "text": "前日にもも肉を必要分冷蔵解凍しておく",
-          "note": false
-        },
-        {
-          "text": "解凍したもも肉をカットしていく",
-          "note": false
-        },
-        {
-          "text": "30～35g/個。を目安にする",
-          "note": false
-        },
-        {
-          "text": "全て切り終えたら調味料と合わせていく",
-          "note": false
-        },
-        {
-          "text": "おろしにんにく3g、おろし生姜5g、味の素5g、鶏ガラスープ15g、塩コショウ2g。を入れてよく混ぜ合わせる",
-          "note": false
-        },
-        {
-          "text": "上記でよく混ぜて、もも肉と馴染んだら次は液体系の調味料を入れていく",
-          "note": false
-        },
-        {
-          "text": "濃い口しょうゆ30g、料理酒15g、みりん15g、ごま油10g。を入れてよく混ぜ合わせる",
-          "note": false
-        },
-        {
-          "text": "こちらも同様によく混ぜて味が馴染んだら粉を打っていく",
-          "note": false
-        },
-        {
-          "text": "まぶし粉300g（目安）を用意してもも肉に粉を打ち軽く丸める",
-          "note": false
-        },
-        {
-          "text": "全て完成したら前揚げをしていく",
-          "note": false
-        },
-        {
-          "text": "前揚げに関しては【仕込み_もも唐揚げ】の項目を参考にしてください",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵2日",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1oLPGJvT37LeZYf9ciHPOwFc6SOuCGyhZ/view?usp=drivesdk"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1cNt7MX-H3rx7gja9mqsebC18RucoX3KJ/view?usp=drivesdk"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1OldnqbKysohViDnQ23Pl3iPbriOmoWth/view?usp=drivesdk"
-        }
-      ],
-      "plating": [
-        {
-          "item": "ソース容器",
-          "content": "タッパ：12,800ml"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH008",
-          "reason": "手動"
-        },
-        {
-          "id": "CO019",
-          "reason": "手動"
-        },
-        {
-          "id": "CO020",
-          "reason": "手動"
-        },
-        {
-          "id": "CO021",
-          "reason": "手動"
-        },
-        {
-          "id": "CO022",
-          "reason": "手動"
-        },
-        {
-          "id": "CO023",
-          "reason": "手動"
-        },
-        {
-          "id": "CO024",
-          "reason": "手動"
-        },
-        {
-          "id": "CO025",
-          "reason": "手動"
-        },
-        {
-          "id": "CO026",
-          "reason": "手動"
-        },
-        {
-          "id": "CO027",
-          "reason": "手動"
-        }
-      ],
+      "ingredients": [],
+      "allergens": [],
+      "steps": [],
+      "media": [],
+      "plating": [],
+      "related": [],
       "comments": [],
-      "suggested": []
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
+      ]
     }
   ]
 }
