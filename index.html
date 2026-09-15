@@ -935,6 +935,20 @@ function manItem(t, b){
 /* ---------- 図解用のダミー値（実データは一切触らない）---------- */
 var MAN_R = { name:'鶏の唐揚げ', category:'調理' };   // emojiFor に渡すだけのダミー
 
+/* ブランド名・店舗名・本部名はハードコードせず実データから引く。
+   両ブランド（かっちゃん／坊っちゃん）でこのマニュアル部分を同じコードのまま使うため。 */
+function manBrand(){ return (typeof RECIPES!=='undefined' && RECIPES.length && RECIPES[0].brand) || ''; }
+function manAva(){ return (manBrand()||'　')[0]; }
+function manStore(){ return (typeof STORES!=='undefined' && STORES.length && STORES[0].name) || '店舗名'; }
+function manHQ(){ return (typeof HQ_NAME!=='undefined' && HQ_NAME) || '本部'; }
+/* 皿一覧のように「PDFだけが中身」のレシピ。無いブランドではその節ごと出さない。 */
+function manSara(){
+  if(typeof RECIPES==='undefined') return null;
+  return RECIPES.find(function(r){
+    return /皿/.test(r.name||'') && (r.media||[]).some(function(m){ return m.type==='PDF'; });
+  }) || null;
+}
+
 function manDemoTabs(on){
   /* タブはカテゴリが増えると変わるので、実データ（TABS）からそのまま作る */
   var src = (typeof TABS!=='undefined' && TABS.length)
@@ -947,9 +961,9 @@ function manDemoTabs(on){
 function manDemoCard(){
   return '<div class="vgrid"><div class="vcard">'+
     '<div class="vthumb">'+emojiFor(MAN_R)+'<span class="dur">⏱15分</span></div>'+
-    '<div class="vinfo"><div class="ava">か</div><div class="vmeta">'+
+    '<div class="vinfo"><div class="ava">'+manAva()+'</div><div class="vmeta">'+
     '<div class="vtitle">鶏の唐揚げ</div>'+
-    '<div class="vsub">かっちゃん<br>調理・上がり10個</div></div></div></div></div>';
+    '<div class="vsub">'+manBrand()+'<br>調理・上がり10個</div></div></div></div></div>';
 }
 function manDemoSearch(){
   return '<div class="searchrow"><input type="search" value="からあげ" readonly tabindex="-1">'+
@@ -995,10 +1009,10 @@ function manDemoSteps(){
 }
 function manDemoComment(){
   return '<div class="cbar"><span class="ct">質問・コメント</span><span class="cnum">2件</span></div>'+
-    '<div class="cmt"><div class="head"><span class="who">餃子のかっちゃん　大阪福島</span>'+
+    '<div class="cmt"><div class="head"><span class="who">'+manStore()+'</span>'+
     '<span class="time">2026-09-01 10:20</span></div>'+
     '<div class="txt">揚げ時間は冷凍のままでも同じですか？</div></div>'+
-    '<div class="cmt hqcmt"><div class="head"><span class="who hq">商品開発部</span>'+
+    '<div class="cmt hqcmt"><div class="head"><span class="who hq">'+manHQ()+'</span>'+
     '<span class="time">2026-09-01 15:40</span></div>'+
     '<div class="txt">冷凍からの場合は30秒足してください。</div></div>';
 }
@@ -1030,8 +1044,8 @@ function manualHtml(){
     '<li><b>材料・分量・アレルゲンを見る</b>：上部で店舗を選ぶと、材料ごとに'+
       '<b>インフォマートの発注名</b>も出ます。ボタンひとつでコピーできます。</li>'+
     '<li><b>PDF（画像付き調理工程）を開く</b>：写真入りの詳しい工程です。'+
-      '<b>皿の一覧もPDFにあります</b>（③をご覧ください）。</li>'+
-    '<li><b>質問・コメントを送る</b>：レシピの下から商品開発部に質問できます。</li>'+
+      (manSara()? '<b>皿の一覧もPDFにあります</b>（③をご覧ください）。' : '')+'</li>'+
+    '<li><b>質問・コメントを送る</b>：レシピの下から'+manHQ()+'に質問できます。</li>'+
     '</ul>');
   h.push('</div>');
 
@@ -1079,7 +1093,7 @@ function manualHtml(){
     '<li><b>メディア</b>：PDFが登録されているときだけ出る欄です（③）。</li>'+
     '<li><b>アレルゲン</b>：材料から<b>自動判定</b>しています。'+
       '何も無いレシピには「特定原材料なし」と出ます。'+
-      'お客様へのご案内は、最終的に商品開発部にご確認ください。</li>'+
+      'お客様へのご案内は、最終的に'+manHQ()+'にご確認ください。</li>'+
     '</ul>');
   h.push('<p class="man-p">材料の欄は、左がレシピ上の名前、右が分量です。'+
     '画面のいちばん上で<b>店舗を選ぶ</b>と、その店舗が使っている業者の'+
@@ -1090,7 +1104,7 @@ function manualHtml(){
     '<li>名前に<b>下線</b>が付いているものは仕込み品です。押すとその仕込みレシピに飛びます。</li>'+
     '<li><b>▲ 店舗を選択すると発注名表示</b>：まだ店舗を選んでいません。上部のプルダウンで選んでください。</li>'+
     '<li><b>この店舗では取扱業者なし</b>：その材料を扱う業者が、選んだ店舗に登録されていません。</li>'+
-    '<li><b>商品マスタ未登録</b>／<b>（発注名未登録）</b>：本部側のマスタが未整備です。商品開発部までご連絡ください。</li>'+
+    '<li><b>商品マスタ未登録</b>／<b>（発注名未登録）</b>：本部側のマスタが未整備です。'+manHQ()+'までご連絡ください。</li>'+
     '<li><b>仕込み品（店舗で作成）</b>：発注せず、店舗で作るものです。</li>'+
     '</ul>');
   h.push('<p class="man-p">作り方は、はじめは閉じています。'+
@@ -1099,8 +1113,8 @@ function manualHtml(){
   h.push(manDemo('作り方（開いた状態）', manDemoSteps()));
   h.push('<p class="man-p">いちばん下は質問・コメントです。'+
     '上部で店舗を選ぶと投稿できます。'+
-    '投稿した内容はすぐには出ません。<b>商品開発部の確認のうえ掲載</b>されます。'+
-    '赤い枠が商品開発部からの回答です。</p>');
+    '投稿した内容はすぐには出ません。<b>'+manHQ()+'の確認のうえ掲載</b>されます。'+
+    '赤い枠が'+manHQ()+'からの回答です。</p>');
   h.push(manDemo('質問・コメント', manDemoComment()));
 
   /* 2-4 動画再生 */
@@ -1146,21 +1160,25 @@ function manualHtml(){
     '<li>PDFのタブは開いたままでも問題ありません。レシピのタブは閉じずに残っています。</li>'+
     '</ul>');
 
-  h.push('<div class="man-h3">皿の一覧はPDFにあります</div>');
-  h.push('<p class="man-p">お皿の一覧も、レシピと同じようにPDFで見られます。場所は次のとおりです。</p>');
-  h.push('<ul class="man-ul">'+
-    '<li>一覧の上のタブを右にスワイプして <b>「他」</b> を押す</li>'+
-    '<li><b>「他_皿画像」</b> を開く</li>'+
-    '<li><b>「🖼 画像付き調理工程を見る」</b> を押すとPDFが開きます</li>'+
-    '</ul>');
-  h.push(manDemo('「他」タブから開きます', manDemoTabs('他')+
-    '<div class="vgrid" style="margin-top:12px"><div class="vcard">'+
-    '<div class="vthumb">'+emojiFor({name:'他_皿画像',category:'他'})+'<span class="dur">⏱-</span></div>'+
-    '<div class="vinfo"><div class="ava">か</div><div class="vmeta">'+
-    '<div class="vtitle">他_皿画像</div><div class="vsub">かっちゃん<br>他</div>'+
-    '</div></div></div></div>'));
-  h.push('<p class="man-p">このPDFには、<b>インフォマートの検索名・皿の画像・使用用途</b>が'+
-    'まとめて載っています。発注する皿を確認するときに使ってください。</p>');
+  /* 皿一覧はレシピとして登録されているブランドだけに出す */
+  var sara = manSara();
+  if(sara){
+    h.push('<div class="man-h3">皿の一覧はPDFにあります</div>');
+    h.push('<p class="man-p">お皿の一覧も、レシピと同じようにPDFで見られます。場所は次のとおりです。</p>');
+    h.push('<ul class="man-ul">'+
+      '<li>一覧の上のタブを右にスワイプして <b>「'+sara.category+'」</b> を押す</li>'+
+      '<li><b>「'+sara.name+'」</b> を開く</li>'+
+      '<li><b>「🖼 画像付き調理工程を見る」</b> を押すとPDFが開きます</li>'+
+      '</ul>');
+    h.push(manDemo('「'+sara.category+'」タブから開きます', manDemoTabs(sara.category)+
+      '<div class="vgrid" style="margin-top:12px"><div class="vcard">'+
+      '<div class="vthumb">'+emojiFor(sara)+'<span class="dur">⏱'+(sara.time||'-')+'</span></div>'+
+      '<div class="vinfo"><div class="ava">'+manAva()+'</div><div class="vmeta">'+
+      '<div class="vtitle">'+sara.name+'</div><div class="vsub">'+manBrand()+'<br>'+sara.category+'</div>'+
+      '</div></div></div></div>'));
+    h.push('<p class="man-p">このPDFには、<b>インフォマートの検索名・皿の画像・使用用途</b>が'+
+      'まとめて載っています。発注する皿を確認するときに使ってください。</p>');
+  }
   h.push('</div>');
 
   /* ===== ④ 困ったとき ===== */
@@ -1180,7 +1198,7 @@ function manualHtml(){
     '（画面を上から下に引っぱると再読み込みできます）<br>'+
     '本部のスプレッドシートを直した場合、アプリに反映されるのは'+
     '<b>翌朝の自動取り込みのあと</b>です。当日中には反映されません。'+
-    'お急ぎのときは商品開発部までご連絡ください。'));
+    'お急ぎのときは'+manHQ()+'までご連絡ください。'));
 
   h.push(manItem('検索しても目当てのレシピが出てこない',
     '<b>タブで絞り込まれている</b>ことがほとんどです。'+
@@ -1199,16 +1217,16 @@ function manualHtml(){
     'まず画面上部の<b>店舗のプルダウン</b>で、自分の店舗が選ばれているかご確認ください。'+
     '選ぶまで発注名は出ません。<br>'+
     '店舗を選んでも「この店舗では取扱業者なし」「商品マスタ未登録」と出る場合は、'+
-    '本部側のマスタが未整備です。商品開発部までご連絡ください。'));
+    '本部側のマスタが未整備です。'+manHQ()+'までご連絡ください。'));
 
   h.push(manItem('送ったコメントが表示されない',
-    'コメントは<b>承認制</b>です。送信したあと、商品開発部が確認してから掲載されます。'+
+    'コメントは<b>承認制</b>です。送信したあと、'+manHQ()+'が確認してから掲載されます。'+
     '送信直後は画面に出ませんが、届いていますのでご安心ください。'));
 
   h.push(manItem('「データの読み込みに失敗しました」と出た',
     '通信が切れているか、配信側で一時的な不具合が起きています。'+
     '通信を確認してから<b>再読み込み</b>してください。'+
-    '何度も出るときは商品開発部までご連絡ください。'));
+    '何度も出るときは'+manHQ()+'までご連絡ください。'));
 
   h.push('</div>');
 
