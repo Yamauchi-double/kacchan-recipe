@@ -213,8 +213,8 @@ button{font-family:inherit}img{display:block}
 .man-h1{font-size:19px;font-weight:800;line-height:1.4}
 .man-lead{font-size:12.5px;font-weight:500;color:var(--ink-soft);margin-top:5px;line-height:1.7}
 .man-toc{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 4px}
-.man-toc a{background:var(--chip);border-radius:8px;padding:6px 11px;font-size:12.5px;font-weight:700;color:var(--ink);text-decoration:none}
-.man-toc a:active{background:#e5e5e5}
+.man-toc button{font-family:inherit;border:none;cursor:pointer;background:var(--chip);border-radius:8px;padding:7px 11px;font-size:12.5px;font-weight:700;color:var(--ink)}
+.man-toc button:active{background:#e5e5e5}
 .man-sec{margin-top:30px;scroll-margin-top:calc(var(--tbh,101px) + 10px)}
 .man-h2{font-size:16.5px;font-weight:800;line-height:1.4;border-left:4px solid var(--red);padding-left:10px;margin-bottom:11px}
 .man-h3{font-size:14.5px;font-weight:800;margin:22px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
@@ -229,7 +229,6 @@ button{font-family:inherit}img{display:block}
 .man-item:last-child{border-bottom:1px solid var(--line)}
 .man-item-t{font-size:13.5px;font-weight:800;margin-bottom:4px}
 .man-item-b{font-size:13px;font-weight:500;line-height:1.75}
-.man-tbd{display:inline-block;background:#FFF4E5;border:1px solid #FFE0B2;color:#B25E00;border-radius:6px;padding:0 6px;font-size:10.5px;font-weight:800;margin-left:4px;vertical-align:1px;white-space:nowrap}
 .man-close{width:100%;margin-top:26px;border:none;background:var(--ink);color:#fff;border-radius:10px;padding:14px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
 .man-close:active{opacity:.85}
 /* 図解の中では、貼り付き・全幅系の指定だけ外す（見た目そのものは実画面と共通） */
@@ -925,7 +924,6 @@ function initApp(){
    ダミー値を流して図解する。UIを変えたときに、マニュアルの図も自動で同じ見た目になるようにするため。 */
 
 var MAN_PREV = 'home';           // マニュアルを開く前にどの画面にいたか
-var MAN_TBD  = '<span class="man-tbd">要確認</span>';
 
 function manDemo(cap, inner){
   return '<div class="man-demo"><div class="man-demo-cap">'+cap+'</div><div class="man-demo-body">'+inner+'</div></div>';
@@ -1012,11 +1010,13 @@ function manualHtml(){
   h.push('<div class="man-h1">このアプリの使い方</div>');
   h.push('<div class="man-lead">レシピの探し方と画面の見方をまとめています。'+
          '読み終わったら、右上の × を押すともとの画面に戻ります。</div>');
+  /* 目次はアンカー（#man1 など）にしない。フラグメント移動で popstate が発火し、
+     既存の戻る処理がマニュアルを閉じてしまうため。履歴を触らずスクロールだけする。 */
   h.push('<div class="man-toc">'+
-    '<a href="#man1">① できること</a>'+
-    '<a href="#man2">② 画面の見方</a>'+
-    '<a href="#man3">③ PDFの見方</a>'+
-    '<a href="#man4">④ 困ったとき</a></div>');
+    '<button type="button" data-man-jump="man1">① できること</button>'+
+    '<button type="button" data-man-jump="man2">② 画面の見方</button>'+
+    '<button type="button" data-man-jump="man3">③ PDFの見方</button>'+
+    '<button type="button" data-man-jump="man4">④ 困ったとき</button></div>');
 
   /* ===== ① できること ===== */
   h.push('<div class="man-sec" id="man1">');
@@ -1033,10 +1033,6 @@ function manualHtml(){
       '<b>皿の一覧もPDFにあります</b>（③をご覧ください）。</li>'+
     '<li><b>質問・コメントを送る</b>：レシピの下から商品開発部に質問できます。</li>'+
     '</ul>');
-  h.push('<div class="man-note">早見表について'+MAN_TBD+'<br>'+
-    '現在のアプリには「早見表」という名前の画面はありません。'+
-    'ご覧になりたい早見表がどれを指すか（PDFの中の表なのか、別に作る画面なのか）を'+
-    '商品開発部までお知らせください。</div>');
   h.push('</div>');
 
   /* ===== ② 画面の見方 ===== */
@@ -1165,10 +1161,6 @@ function manualHtml(){
     '</div></div></div></div>'));
   h.push('<p class="man-p">このPDFには、<b>インフォマートの検索名・皿の画像・使用用途</b>が'+
     'まとめて載っています。発注する皿を確認するときに使ってください。</p>');
-  h.push('<div class="man-note">規格書について'+MAN_TBD+'<br>'+
-    '現在アプリから開けるPDFは、各レシピの「画像付き調理工程」と、上の「他_皿画像」です。'+
-    'これとは別に規格書のPDFが必要な場合は、どのレシピに付けるかを'+
-    '商品開発部までお知らせください。</div>');
   h.push('</div>');
 
   /* ===== ④ 困ったとき ===== */
@@ -1187,7 +1179,7 @@ function manualHtml(){
     'まず<b>ページを再読み込み</b>してください。'+
     '（画面を上から下に引っぱると再読み込みできます）<br>'+
     '本部のスプレッドシートを直した場合、アプリに反映されるのは'+
-    '<b>翌朝の自動取り込みのあと</b>です'+MAN_TBD+'。'+
+    '<b>翌朝の自動取り込みのあと</b>です。当日中には反映されません。'+
     'お急ぎのときは商品開発部までご連絡ください。'));
 
   h.push(manItem('検索しても目当てのレシピが出てこない',
@@ -1276,6 +1268,13 @@ window.addEventListener('popstate', function(){
   if(m && m.classList.contains('show')){ closeManual(true); }
 });
 document.getElementById('helpbtn').addEventListener('click', toggleManual);
+/* 目次ボタン → その節までスクロール（履歴は一切触らない） */
+document.getElementById('manual').addEventListener('click', function(e){
+  var b = e.target && e.target.closest ? e.target.closest('[data-man-jump]') : null;
+  if(!b) return;
+  var el = document.getElementById(b.getAttribute('data-man-jump'));
+  if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+});
 
 loadData();
 </script>
