@@ -938,9 +938,12 @@ function manItem(t, b){
 var MAN_R = { name:'鶏の唐揚げ', category:'調理' };   // emojiFor に渡すだけのダミー
 
 function manDemoTabs(on){
-  var cats=['調理','ランチ','仕込み','切り物','他','すべて'];
-  return '<div class="tabs">'+cats.map(function(c){
-    return '<button class="tab'+(c===on?' on':'')+'">'+c+'</button>';
+  /* タブはカテゴリが増えると変わるので、実データ（TABS）からそのまま作る */
+  var src = (typeof TABS!=='undefined' && TABS.length)
+    ? TABS
+    : ['調理','ランチ','仕込み','切り物','他','すべて'].map(function(c){return {k:c,l:c};});
+  return '<div class="tabs">'+src.map(function(t){
+    return '<button class="tab'+(t.k===on?' on':'')+'">'+t.l+'</button>';
   }).join('')+'</div>';
 }
 function manDemoCard(){
