@@ -207,6 +207,55 @@ button{font-family:inherit}img{display:block}
 .copybtn.copied{ background:#1a9c4c; }
 .ord-hint{ font-size:11.5px; color:#999; margin-top:7px; }
 .ord-hint.store-need{ color:#cc7700; font-weight:600; }
+/* ===== アプリ内マニュアル（追加のみ・既存セレクタは変更なし）===== */
+.manual{display:none;padding:16px 14px 90px;max-width:760px;margin:0 auto;animation:fade .2s}
+.manual.show{display:block}
+.man-h1{font-size:19px;font-weight:800;line-height:1.4}
+.man-lead{font-size:12.5px;font-weight:500;color:var(--ink-soft);margin-top:5px;line-height:1.7}
+.man-toc{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 4px}
+.man-toc a{background:var(--chip);border-radius:8px;padding:6px 11px;font-size:12.5px;font-weight:700;color:var(--ink);text-decoration:none}
+.man-toc a:active{background:#e5e5e5}
+.man-sec{margin-top:30px;scroll-margin-top:calc(var(--tbh,101px) + 10px)}
+.man-h2{font-size:16.5px;font-weight:800;line-height:1.4;border-left:4px solid var(--red);padding-left:10px;margin-bottom:11px}
+.man-h3{font-size:14.5px;font-weight:800;margin:22px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.man-p{font-size:13.5px;font-weight:500;line-height:1.8;margin-bottom:9px}
+.man-ul{margin:0 0 10px;padding-left:20px}
+.man-ul li{font-size:13.5px;font-weight:500;line-height:1.8;margin-bottom:4px}
+.man-demo{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:11px 0 13px;background:#fff}
+.man-demo-cap{background:var(--chip);color:var(--ink-soft);font-size:11px;font-weight:700;padding:5px 11px}
+.man-demo-body{padding:12px}
+.man-note{background:var(--red-soft);border-radius:10px;padding:10px 12px;font-size:12.5px;font-weight:600;line-height:1.75;margin:9px 0}
+.man-item{border-top:1px solid var(--line);padding:12px 0}
+.man-item:last-child{border-bottom:1px solid var(--line)}
+.man-item-t{font-size:13.5px;font-weight:800;margin-bottom:4px}
+.man-item-b{font-size:13px;font-weight:500;line-height:1.75}
+.man-tbd{display:inline-block;background:#FFF4E5;border:1px solid #FFE0B2;color:#B25E00;border-radius:6px;padding:0 6px;font-size:10.5px;font-weight:800;margin-left:4px;vertical-align:1px;white-space:nowrap}
+.man-close{width:100%;margin-top:26px;border:none;background:var(--ink);color:#fff;border-radius:10px;padding:14px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer}
+.man-close:active{opacity:.85}
+/* 図解の中では、貼り付き・全幅系の指定だけ外す（見た目そのものは実画面と共通） */
+.man-demo-body .tabs,.man-demo-body .searchrow,.man-demo-body .player{position:static;top:auto;z-index:auto}
+.man-demo-body .tabs,.man-demo-body .searchrow{padding:0;border-bottom:none;margin-bottom:0}
+.man-demo-body .searchrow input{font-size:14px}
+.man-demo-body .player{aspect-ratio:16/9;border-radius:10px}
+.man-demo-body .wmain{padding:0}
+.man-demo-body .sec:first-child{margin-top:0}
+.man-demo-body .backbar{margin-bottom:10px}
+.man-demo-body .vcard{animation:none;cursor:default}
+.man-demo-body .rcard{cursor:default}
+.man-demo-body .vgrid{gap:0}
+/* 「？」ボタンを足したぶん、狭い画面でヘッダーが横に溢れないよう余白を詰める
+   （元々わずかに溢れていたので、追加後もそれより狭くなるように調整）*/
+@media(max-width:480px){
+  .topbar{gap:6px;padding-left:10px;padding-right:10px}
+  .topbar .sbtn{width:34px;height:34px}
+  .storesel{max-width:146px;font-size:12px;padding:6px 8px}
+}
+@media(max-width:400px){
+  .topbar{gap:4px;padding-left:8px;padding-right:8px}
+  .topbar .sbtn{width:32px;height:32px}
+  .storesel{max-width:138px}
+}
+
 </style>
 </head>
 <body>
@@ -216,6 +265,7 @@ button{font-family:inherit}img{display:block}
   <div class="sp"></div>
   <select id="storeSelect" class="storesel"><option value="">店舗を選択</option></select>
   <button class="sbtn" id="sbtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
+  <button class="sbtn" id="helpbtn" aria-label="使い方"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.2a2.8 2.8 0 0 1 5.4.9c0 1.9-2.7 2.3-2.7 4"/><path d="M12 17.3h.01"/></svg></button>
 </div>
 <div class="searchrow" id="searchrow"><input id="q" type="search" inputmode="search" autocomplete="off" placeholder="料理名・食材・「〇〇の作り方」"><span class="seg" id="seg"></span></div>
 
@@ -228,6 +278,8 @@ button{font-family:inherit}img{display:block}
   <div class="player" id="player"></div>
   <div class="wlayout"><div class="wmain" id="wmain"></div><div class="waside" id="waside"></div></div>
 </div>
+
+<div class="manual" id="manual"></div>
 
 <script>// TinySegmenter 0.1 -- Super compact Japanese tokenizer in Javascript
 // (c) 2008 Taku Kudo <taku@chasen.org>
@@ -867,6 +919,360 @@ function initApp(){
   buildTabsUI();
   renderHome();
 }
+
+/* ===== アプリ内マニュアル（追加のみ。既存の画面・機能・データ取得には非干渉）=====
+   スクショは貼らず、実アプリと同じクラス（tab / vcard / searchrow / mbtn / ing / acc / cmt …）に
+   ダミー値を流して図解する。UIを変えたときに、マニュアルの図も自動で同じ見た目になるようにするため。 */
+
+var MAN_PREV = 'home';           // マニュアルを開く前にどの画面にいたか
+var MAN_TBD  = '<span class="man-tbd">要確認</span>';
+
+function manDemo(cap, inner){
+  return '<div class="man-demo"><div class="man-demo-cap">'+cap+'</div><div class="man-demo-body">'+inner+'</div></div>';
+}
+function manItem(t, b){
+  return '<div class="man-item"><div class="man-item-t">'+t+'</div><div class="man-item-b">'+b+'</div></div>';
+}
+
+/* ---------- 図解用のダミー値（実データは一切触らない）---------- */
+var MAN_R = { name:'鶏の唐揚げ', category:'調理' };   // emojiFor に渡すだけのダミー
+
+function manDemoTabs(on){
+  var cats=['調理','ランチ','仕込み','切り物','他','すべて'];
+  return '<div class="tabs">'+cats.map(function(c){
+    return '<button class="tab'+(c===on?' on':'')+'">'+c+'</button>';
+  }).join('')+'</div>';
+}
+function manDemoCard(){
+  return '<div class="vgrid"><div class="vcard">'+
+    '<div class="vthumb">'+emojiFor(MAN_R)+'<span class="dur">⏱15分</span></div>'+
+    '<div class="vinfo"><div class="ava">か</div><div class="vmeta">'+
+    '<div class="vtitle">鶏の唐揚げ</div>'+
+    '<div class="vsub">かっちゃん<br>調理・上がり10個</div></div></div></div></div>';
+}
+function manDemoSearch(){
+  return '<div class="searchrow"><input type="search" value="からあげ" readonly tabindex="-1">'+
+    '<span class="seg">→ からあげ</span></div>';
+}
+function manDemoPlayer(){
+  return '<div class="player"><div class="ph"><div class="e">▶</div><div>動画がここで再生されます</div></div>'+
+    '<div class="closebar"><span class="wclose">'+
+    '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>'+
+    '</span></div></div>';
+}
+function manDemoDetail(){
+  return '<div class="wmain">'+
+    '<div class="backbar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg><span>一覧に戻る</span></div>'+
+    '<div class="wtitle">鶏の唐揚げ</div>'+
+    '<div class="wmetarow"><span class="pill cat">調理</span><span class="pill">⏱<b>15分</b></span>'+
+    '<span class="pill">上がり<b>10個</b></span></div>'+
+    '<div class="sec"><div class="sech">メディア</div><div class="mediabtns">'+
+    '<span class="mbtn">🖼 画像付き調理工程を見る</span></div></div>'+
+    '<div class="sec"><div class="sech">アレルゲン</div><div class="allergens">'+
+    '<span class="abadge">小麦</span><span class="abadge">大豆</span><span class="abadge">鶏肉</span></div>'+
+    '<div class="auto-note">※ 材料から<b>自動判定</b></div></div>'+
+    '</div>';
+}
+function manDemoIng(){
+  return '<div class="ing">'+
+    '<div class="row"><div class="rowtop"><div class="nm">鶏もも肉</div><div class="amt">150g</div></div>'+
+      '<div class="ord-line"><div class="ord-im"><span class="ord-vendor">◯◯食品株式会社</span>ブラジル産 鶏もも正肉 2kg</div>'+
+      '<span class="copybtn">コピー</span></div></div>'+
+    '<div class="row"><div class="rowtop"><div class="nm link">仕込み_唐揚げ下味</div><div class="amt">30g</div></div></div>'+
+    '<div class="row"><div class="rowtop"><div class="nm">から揚げ粉</div><div class="amt">適量</div></div>'+
+      '<div class="ord-hint store-need">▲ 店舗を選択すると発注名表示</div></div>'+
+    '</div>';
+}
+function manDemoSteps(){
+  return '<div class="acc open"><div class="acc-h"><span>調理工程を見る</span><span class="ct">全2工程</span>'+
+    '<span class="chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></span></div>'+
+    '<div class="acc-c"><div class="steps">'+
+    '<div class="step"><div class="n">1</div><div class="tx">下味に30分漬ける</div></div>'+
+    '<div class="step note"><div class="n">·</div><div class="tx">漬けすぎると塩辛くなるので注意</div></div>'+
+    '<div class="step"><div class="n">2</div><div class="tx">170℃で4分30秒揚げる</div></div>'+
+    '</div></div></div>';
+}
+function manDemoComment(){
+  return '<div class="cbar"><span class="ct">質問・コメント</span><span class="cnum">2件</span></div>'+
+    '<div class="cmt"><div class="head"><span class="who">餃子のかっちゃん　大阪福島</span>'+
+    '<span class="time">2026-09-01 10:20</span></div>'+
+    '<div class="txt">揚げ時間は冷凍のままでも同じですか？</div></div>'+
+    '<div class="cmt hqcmt"><div class="head"><span class="who hq">商品開発部</span>'+
+    '<span class="time">2026-09-01 15:40</span></div>'+
+    '<div class="txt">冷凍からの場合は30秒足してください。</div></div>';
+}
+
+/* ---------- 本文 ---------- */
+function manualHtml(){
+  var h = [];
+
+  h.push('<div class="man-h1">このアプリの使い方</div>');
+  h.push('<div class="man-lead">レシピの探し方と画面の見方をまとめています。'+
+         '読み終わったら、右上の × を押すともとの画面に戻ります。</div>');
+  h.push('<div class="man-toc">'+
+    '<a href="#man1">① できること</a>'+
+    '<a href="#man2">② 画面の見方</a>'+
+    '<a href="#man3">③ PDFの見方</a>'+
+    '<a href="#man4">④ 困ったとき</a></div>');
+
+  /* ===== ① できること ===== */
+  h.push('<div class="man-sec" id="man1">');
+  h.push('<div class="man-h2">① このアプリでできること</div>');
+  h.push('<p class="man-p">店舗でその場で開いて、レシピを確認するためのアプリです。'+
+    '内容は本部のスプレッドシートから自動で取り込まれるので、'+
+    'アプリ側で書き換えることはできません。</p>');
+  h.push('<ul class="man-ul">'+
+    '<li><b>レシピを探す</b>：料理名や食材のことばで検索できます。カテゴリのタブでも絞れます。</li>'+
+    '<li><b>動画で手順を確認する</b>：動画が登録されているレシピは、画面の上で再生できます。</li>'+
+    '<li><b>材料・分量・アレルゲンを見る</b>：上部で店舗を選ぶと、材料ごとに'+
+      '<b>インフォマートの発注名</b>も出ます。ボタンひとつでコピーできます。</li>'+
+    '<li><b>PDF（画像付き調理工程）を開く</b>：写真入りの詳しい工程です。'+
+      '<b>皿の一覧もPDFにあります</b>（③をご覧ください）。</li>'+
+    '<li><b>質問・コメントを送る</b>：レシピの下から商品開発部に質問できます。</li>'+
+    '</ul>');
+  h.push('<div class="man-note">早見表について'+MAN_TBD+'<br>'+
+    '現在のアプリには「早見表」という名前の画面はありません。'+
+    'ご覧になりたい早見表がどれを指すか（PDFの中の表なのか、別に作る画面なのか）を'+
+    '商品開発部までお知らせください。</div>');
+  h.push('</div>');
+
+  /* ===== ② 画面の見方 ===== */
+  h.push('<div class="man-sec" id="man2">');
+  h.push('<div class="man-h2">② 画面の見方</div>');
+  h.push('<p class="man-p">画面は大きく「一覧」と「レシピ詳細」の2つだけです。'+
+    'レシピを選ぶと詳細が開き、「一覧に戻る」で戻ります。</p>');
+
+  /* 2-1 一覧 */
+  h.push('<div class="man-h3">1. 一覧（最初に出る画面）</div>');
+  h.push('<p class="man-p">上に並んでいるのがカテゴリのタブです。'+
+    '横にスワイプすると、隠れているタブも出てきます。'+
+    '最初は<b>「調理」</b>が選ばれています。すべて見たいときは<b>「すべて」</b>を押してください。</p>');
+  h.push(manDemo('タブ（黒くなっているものが選択中）', manDemoTabs('調理')));
+  h.push('<p class="man-p">その下にレシピが並びます。カードの見方は次のとおりです。</p>');
+  h.push(manDemo('レシピのカード', manDemoCard()));
+  h.push('<ul class="man-ul">'+
+    '<li>大きい四角＝料理写真。写真が未登録のレシピは絵文字が出ます。</li>'+
+    '<li>右下の <b>⏱</b> ＝ 調理時間の目安。</li>'+
+    '<li>下の1行目＝ブランド名、2行目＝カテゴリと上がり量。</li>'+
+    '<li>カードのどこを押しても、レシピ詳細が開きます。</li>'+
+    '</ul>');
+
+  /* 2-2 検索 */
+  h.push('<div class="man-h3">2. 検索</div>');
+  h.push('<p class="man-p">いちばん上の入力欄に、料理名・食材・「◯◯の作り方」のように入れてください。'+
+    '1文字入れるたびに結果が絞り込まれます。'+
+    '右側に出る「→ …」は、入力を検索用の単語に区切った結果です。'+
+    'ひらがなだけでも、多少の言いまちがいでも拾うようにしてあります。</p>');
+  h.push(manDemo('検索欄', manDemoSearch()));
+  h.push('<div class="man-note">検索と<b>タブは同時にかかります</b>。'+
+    '「調理」タブのまま仕込みのレシピを探しても出てきません。'+
+    '見つからないときは、まず<b>「すべて」タブ</b>を押してからもう一度お試しください。</div>');
+  h.push('<p class="man-p">レシピを開いたまま検索欄に入力すると、自動で一覧に戻ります。'+
+    '虫めがねのボタンは、入力欄にカーソルを移すためのものです。</p>');
+
+  /* 2-3 レシピ詳細 */
+  h.push('<div class="man-h3">3. レシピ詳細</div>');
+  h.push('<p class="man-p">上から順に、動画（または写真）・タイトル・メディア・アレルゲン・材料・作り方、'+
+    'いちばん下に質問コメントと関連レシピが並びます。</p>');
+  h.push(manDemo('タイトルまわり', manDemoDetail()));
+  h.push('<ul class="man-ul">'+
+    '<li><b>一覧に戻る</b>：押すと一覧に戻ります。スマホの戻る操作でも戻れます。</li>'+
+    '<li><b>メディア</b>：PDFが登録されているときだけ出る欄です（③）。</li>'+
+    '<li><b>アレルゲン</b>：材料から<b>自動判定</b>しています。'+
+      '何も無いレシピには「特定原材料なし」と出ます。'+
+      'お客様へのご案内は、最終的に商品開発部にご確認ください。</li>'+
+    '</ul>');
+  h.push('<p class="man-p">材料の欄は、左がレシピ上の名前、右が分量です。'+
+    '画面のいちばん上で<b>店舗を選ぶ</b>と、その店舗が使っている業者の'+
+    '<b>発注名（インフォマートの登録名）</b>が下に出ます。'+
+    '「コピー」を押すと発注名がコピーされるので、そのまま検索欄に貼れます。</p>');
+  h.push(manDemo('材料（上：店舗を選んだとき／下：選んでいないとき）', manDemoIng()));
+  h.push('<ul class="man-ul">'+
+    '<li>名前に<b>下線</b>が付いているものは仕込み品です。押すとその仕込みレシピに飛びます。</li>'+
+    '<li><b>▲ 店舗を選択すると発注名表示</b>：まだ店舗を選んでいません。上部のプルダウンで選んでください。</li>'+
+    '<li><b>この店舗では取扱業者なし</b>：その材料を扱う業者が、選んだ店舗に登録されていません。</li>'+
+    '<li><b>商品マスタ未登録</b>／<b>（発注名未登録）</b>：本部側のマスタが未整備です。商品開発部までご連絡ください。</li>'+
+    '<li><b>仕込み品（店舗で作成）</b>：発注せず、店舗で作るものです。</li>'+
+    '</ul>');
+  h.push('<p class="man-p">作り方は、はじめは閉じています。'+
+    '<b>「調理工程を見る」</b>を押すと開きます。'+
+    '番号が付いた行が工程、灰色の「·」の行は補足です。</p>');
+  h.push(manDemo('作り方（開いた状態）', manDemoSteps()));
+  h.push('<p class="man-p">いちばん下は質問・コメントです。'+
+    '上部で店舗を選ぶと投稿できます。'+
+    '投稿した内容はすぐには出ません。<b>商品開発部の確認のうえ掲載</b>されます。'+
+    '赤い枠が商品開発部からの回答です。</p>');
+  h.push(manDemo('質問・コメント', manDemoComment()));
+
+  /* 2-4 動画再生 */
+  h.push('<div class="man-h3">4. 動画の再生</div>');
+  h.push('<p class="man-p">レシピを開くと、いちばん上の黒い枠で動画が再生できます。'+
+    '真ん中の▶で再生、右下のボタンで全画面になります。'+
+    '下にスクロールしても動画は画面の上に貼り付いたままなので、'+
+    '材料や工程を見ながら再生できます。</p>');
+  h.push(manDemo('動画のあるレシピ', manDemoPlayer()));
+  h.push('<ul class="man-ul">'+
+    '<li>枠の左上の <b>×</b> でも一覧に戻れます。</li>'+
+    '<li>動画が無く写真があるレシピは、ここに<b>写真</b>が出ます。</li>'+
+    '<li>どちらも無いレシピは<b>「準備中」</b>と出ます。</li>'+
+    '<li>写真が複数あるレシピは、タイトルの下に「写真」欄が出ます。'+
+      '横にスワイプでき、押すと大きい画像が別のタブで開きます。</li>'+
+    '</ul>');
+  h.push('</div>');
+
+  /* ===== ③ PDFの見方 ===== */
+  h.push('<div class="man-sec" id="man3">');
+  h.push('<div class="man-h2">③ PDFの見方</div>');
+  h.push('<p class="man-p">PDFは<b>写真入りの詳しい調理工程</b>です。'+
+    '動画や画面の工程だけでは分かりにくいときに開いてください。</p>');
+
+  h.push('<div class="man-h3">PDFが付いているレシピの見分け方</div>');
+  h.push('<p class="man-p">レシピを開いて、タイトルの下に<b>「メディア」</b>という欄があれば、'+
+    'そのレシピにはPDFが付いています。'+
+    'PDFが無いレシピには、この欄そのものが出ません。</p>');
+  h.push(manDemo('この欄があればPDF付き', '<div class="sec"><div class="sech">メディア</div>'+
+    '<div class="mediabtns"><span class="mbtn">🖼 画像付き調理工程を見る</span></div></div>'));
+
+  h.push('<div class="man-h3">開き方</div>');
+  h.push('<p class="man-p"><b>「🖼 画像付き調理工程を見る」</b>を押すと、'+
+    '<b>別のタブ</b>でGoogleドライブが開き、そこにPDFが表示されます。'+
+    '読み込みに少し時間がかかることがあります。</p>');
+
+  h.push('<div class="man-h3">スマホで開いたあと、アプリに戻るには</div>');
+  h.push('<ul class="man-ul">'+
+    '<li><b>iPhone（Safari）</b>：画面右下のタブのボタン（四角が2つ重なったマーク）を押して、'+
+      'レシピのタブに切り替えます。または画面左下の「＜」で戻ります。</li>'+
+    '<li><b>Android（Chrome）</b>：端末の戻る操作（画面の端からスワイプ、または◁）で戻ります。'+
+      'それでも戻らないときは、上のタブ切り替えからレシピのタブを選んでください。</li>'+
+    '<li>PDFのタブは開いたままでも問題ありません。レシピのタブは閉じずに残っています。</li>'+
+    '</ul>');
+
+  h.push('<div class="man-h3">皿の一覧はPDFにあります</div>');
+  h.push('<p class="man-p">お皿の一覧も、レシピと同じようにPDFで見られます。場所は次のとおりです。</p>');
+  h.push('<ul class="man-ul">'+
+    '<li>一覧の上のタブを右にスワイプして <b>「他」</b> を押す</li>'+
+    '<li><b>「他_皿画像」</b> を開く</li>'+
+    '<li><b>「🖼 画像付き調理工程を見る」</b> を押すとPDFが開きます</li>'+
+    '</ul>');
+  h.push(manDemo('「他」タブから開きます', manDemoTabs('他')+
+    '<div class="vgrid" style="margin-top:12px"><div class="vcard">'+
+    '<div class="vthumb">'+emojiFor({name:'他_皿画像',category:'他'})+'<span class="dur">⏱-</span></div>'+
+    '<div class="vinfo"><div class="ava">か</div><div class="vmeta">'+
+    '<div class="vtitle">他_皿画像</div><div class="vsub">かっちゃん<br>他</div>'+
+    '</div></div></div></div>'));
+  h.push('<p class="man-p">このPDFには、<b>インフォマートの検索名・皿の画像・使用用途</b>が'+
+    'まとめて載っています。発注する皿を確認するときに使ってください。</p>');
+  h.push('<div class="man-note">規格書について'+MAN_TBD+'<br>'+
+    '現在アプリから開けるPDFは、各レシピの「画像付き調理工程」と、上の「他_皿画像」です。'+
+    'これとは別に規格書のPDFが必要な場合は、どのレシピに付けるかを'+
+    '商品開発部までお知らせください。</div>');
+  h.push('</div>');
+
+  /* ===== ④ 困ったとき ===== */
+  h.push('<div class="man-sec" id="man4">');
+  h.push('<div class="man-h2">④ 困ったとき</div>');
+
+  h.push(manItem('動画が出ない・真っ黒のまま',
+    'まず通信状況をご確認ください。店舗のWi-Fiが不安定なときは、'+
+    '読み込みに時間がかかることがあります。'+
+    'それでも出ないときは、ページを<b>再読み込み</b>してもう一度開いてください。<br>'+
+    'なお、動画が登録されていないレシピもあります。'+
+    'その場合は写真か「準備中」の表示になります（動画の不具合ではありません）。'));
+
+  h.push(manItem('レシピが古い／直したはずの内容が反映されない',
+    '表示している内容は、いちど読み込んだものをそのまま使っています。'+
+    'まず<b>ページを再読み込み</b>してください。'+
+    '（画面を上から下に引っぱると再読み込みできます）<br>'+
+    '本部のスプレッドシートを直した場合、アプリに反映されるのは'+
+    '<b>翌朝の自動取り込みのあと</b>です'+MAN_TBD+'。'+
+    'お急ぎのときは商品開発部までご連絡ください。'));
+
+  h.push(manItem('検索しても目当てのレシピが出てこない',
+    '<b>タブで絞り込まれている</b>ことがほとんどです。'+
+    'タブを<b>「すべて」</b>にしてから、もう一度検索してください。<br>'+
+    'それでも出ないときは、ことばを短くしてお試しください。'+
+    '「◯◯の作り方」より「◯◯」だけのほうが当たりやすいです。'));
+
+  h.push(manItem('PDFが開かない',
+    'PDFは<b>別のタブ</b>で開きます。'+
+    'ブラウザが新しいタブをブロックしていると開かないので、'+
+    '画面の上や下に「ポップアップをブロックしました」と出ていないかご確認ください。'+
+    '出ていれば「許可」を選んでから、もう一度押してください。<br>'+
+    'PDFはGoogleドライブで開くため、通信が不安定だと表示に時間がかかります。'));
+
+  h.push(manItem('発注名が出ない・コピーできない',
+    'まず画面上部の<b>店舗のプルダウン</b>で、自分の店舗が選ばれているかご確認ください。'+
+    '選ぶまで発注名は出ません。<br>'+
+    '店舗を選んでも「この店舗では取扱業者なし」「商品マスタ未登録」と出る場合は、'+
+    '本部側のマスタが未整備です。商品開発部までご連絡ください。'));
+
+  h.push(manItem('送ったコメントが表示されない',
+    'コメントは<b>承認制</b>です。送信したあと、商品開発部が確認してから掲載されます。'+
+    '送信直後は画面に出ませんが、届いていますのでご安心ください。'));
+
+  h.push(manItem('「データの読み込みに失敗しました」と出た',
+    '通信が切れているか、配信側で一時的な不具合が起きています。'+
+    '通信を確認してから<b>再読み込み</b>してください。'+
+    '何度も出るときは商品開発部までご連絡ください。'));
+
+  h.push('</div>');
+
+  h.push('<button class="man-close" onclick="closeManual()">閉じる</button>');
+
+  return h.join('');
+}
+
+/* ---------- 開閉 ---------- */
+function manIcon(open){
+  var b = document.getElementById('helpbtn');
+  if(!b) return;
+  b.innerHTML = open
+    ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>'
+    : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.2a2.8 2.8 0 0 1 5.4.9c0 1.9-2.7 2.3-2.7 4"/><path d="M12 17.3h.01"/></svg>';
+  b.setAttribute('aria-label', open ? 'マニュアルを閉じる' : '使い方');
+}
+function toggleManual(){
+  var m = document.getElementById('manual');
+  if(m.classList.contains('show')) closeManual(); else openManual();
+}
+function openManual(){
+  var m = document.getElementById('manual');
+  if(!m.getAttribute('data-built')){ m.innerHTML = manualHtml(); m.setAttribute('data-built','1'); }
+  MAN_PREV = document.getElementById('watch').classList.contains('show') ? 'watch' : 'home';
+  if(MAN_PREV==='watch') document.getElementById('watch').classList.remove('show');
+  else document.getElementById('home').style.display='none';
+  document.getElementById('searchrow').style.display='none';
+  m.classList.add('show');
+  manIcon(true);
+  window.scrollTo(0,0);
+  /* 履歴：レシピ詳細から開いたときは #recipe を置き換える。
+     戻すときに history.back() を使うと、既存の popstate 処理がレシピごと閉じてしまうため。 */
+  try{
+    if(MAN_PREV==='watch') history.replaceState({manual:true}, '', '#manual');
+    else                   history.pushState({manual:true}, '', '#manual');
+  }catch(e){}
+}
+function closeManual(fromPop){
+  var m = document.getElementById('manual');
+  if(!m.classList.contains('show')) return;
+  m.classList.remove('show');
+  document.getElementById('searchrow').style.display='';
+  if(MAN_PREV==='watch') document.getElementById('watch').classList.add('show');
+  else document.getElementById('home').style.display='block';
+  manIcon(false);
+  window.scrollTo(0,0);
+  if(fromPop) return;
+  try{
+    if(MAN_PREV==='watch') history.replaceState({watch:true}, '', '#recipe');
+    else if(location.hash==='#manual') history.back();
+  }catch(e){}
+}
+/* 端末の戻る操作でもマニュアルを閉じる（既存の popstate 処理はそのまま） */
+window.addEventListener('popstate', function(){
+  var m = document.getElementById('manual');
+  if(m && m.classList.contains('show')){ closeManual(true); }
+});
+document.getElementById('helpbtn').addEventListener('click', toggleManual);
 
 loadData();
 </script>
