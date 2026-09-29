@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:33:08.151Z",
+  "generatedAt": "2026-09-29T12:34:57.959Z",
   "count": 160,
   "recipes": [
     {
@@ -16714,13 +16714,7 @@
           "linkId": ""
         },
         {
-          "label": "むきニンニク",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "背脂",
+          "label": "仕込み_にんにく背脂",
           "amt": "50",
           "unit": "g",
           "linkId": ""
