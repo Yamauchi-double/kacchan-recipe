@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T12:25:12.588Z",
-  "count": 159,
+  "generatedAt": "2026-09-29T12:32:01.267Z",
+  "count": 160,
   "recipes": [
     {
       "id": "CO001",
@@ -18522,6 +18522,92 @@
         "CU001",
         "CU002",
         "CU003"
+      ]
+    },
+    {
+      "id": "SH045",
+      "brand": "かっちゃん",
+      "name": "仕込み_にんにく背脂",
+      "furigana": "シコミ_ニンニクセアブラ",
+      "category": "仕込み",
+      "time": "15分",
+      "yieldAmt": 700,
+      "yieldUnit": "g",
+      "appOrder": 101,
+      "ingredients": [
+        {
+          "label": "むきニンニク",
+          "amt": "200",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "背脂",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "にんにくを細かく刻む",
+          "note": false
+        },
+        {
+          "text": "鍋かフライパンに背脂を入れる",
+          "note": false
+        },
+        {
+          "text": "刻んだにんにくを入れる",
+          "note": false
+        },
+        {
+          "text": "中火にかけてにんにくの香りを出していく",
+          "note": false
+        },
+        {
+          "text": "時々鍋を揺らしたりかき混ぜたりしながらにんにくの火の通りを均一になる様にする",
+          "note": false
+        },
+        {
+          "text": "少し色づききつね色になってきたら火を止める",
+          "note": false
+        },
+        {
+          "text": "余熱でも火が色付いていくので早めに火を止める方がいいです",
+          "note": true
+        },
+        {
+          "text": "粗熱が取れたら容器に移して冷蔵保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵30日\n保存期間：冷凍90日",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "キッチンポット：13.5cm"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO078",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004"
       ]
     }
   ]
