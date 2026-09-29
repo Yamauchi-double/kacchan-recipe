@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T11:30:11.685Z",
-  "count": 157,
+  "generatedAt": "2026-09-29T11:34:19.306Z",
+  "count": 156,
   "recipes": [
     {
       "id": "CO001",
@@ -6511,10 +6511,10 @@
       "appOrder": 15,
       "ingredients": [
         {
-          "label": "仕込み_豚肉下茹で",
+          "label": "仕込み_豚バラボイル",
           "amt": "20",
           "unit": "g",
-          "linkId": "SH030"
+          "linkId": "SH043"
         },
         {
           "label": "キャベツ",
@@ -6643,8 +6643,8 @@
       "plating": [],
       "related": [
         {
-          "id": "SH030",
-          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+          "id": "SH043",
+          "reason": "使用する仕込み（仕込み_豚バラボイル）"
         },
         {
           "id": "SH034",
@@ -7204,10 +7204,10 @@
       "appOrder": 17,
       "ingredients": [
         {
-          "label": "仕込み_豚肉下茹で",
+          "label": "仕込み_豚バラボイル",
           "amt": "30",
           "unit": "g",
-          "linkId": "SH030"
+          "linkId": "SH043"
         },
         {
           "label": "キャベツ",
@@ -7312,8 +7312,8 @@
       "plating": [],
       "related": [
         {
-          "id": "SH030",
-          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+          "id": "SH043",
+          "reason": "使用する仕込み（仕込み_豚バラボイル）"
         }
       ],
       "comments": [],
@@ -10812,45 +10812,6 @@
       ]
     },
     {
-      "id": "SH030",
-      "brand": "かっちゃん",
-      "name": "仕込み_豚肉下茹で",
-      "furigana": "シコミ_ブタニクシタユデ",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": 1000,
-      "yieldUnit": "g",
-      "appOrder": 30,
-      "ingredients": [
-        {
-          "label": "豚バラ",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "豚肉"
-      ],
-      "steps": [],
-      "media": [
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH043",
-        "LU003",
-        "SH001",
-        "SH002",
-        "SH003"
-      ]
-    },
-    {
       "id": "CO031",
       "brand": "かっちゃん",
       "name": "馬刺しユッケ",
@@ -11426,10 +11387,10 @@
       "appOrder": 34,
       "ingredients": [
         {
-          "label": "仕込み_豚肉下茹で",
+          "label": "仕込み_豚バラボイル",
           "amt": "40",
           "unit": "g",
-          "linkId": "SH030"
+          "linkId": "SH043"
         },
         {
           "label": "味塩コショー",
@@ -11564,8 +11525,8 @@
       "plating": [],
       "related": [
         {
-          "id": "SH030",
-          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+          "id": "SH043",
+          "reason": "使用する仕込み（仕込み_豚バラボイル）"
         },
         {
           "id": "SH013",
@@ -15608,10 +15569,10 @@
           "linkId": ""
         },
         {
-          "label": "仕込み_豚肉下茹で",
+          "label": "仕込み_豚バラボイル",
           "amt": "20",
           "unit": "g",
-          "linkId": "SH030"
+          "linkId": "SH043"
         },
         {
           "label": "キャベツ",
@@ -15746,8 +15707,8 @@
       "plating": [],
       "related": [
         {
-          "id": "SH030",
-          "reason": "使用する仕込み（仕込み_豚肉下茹で）"
+          "id": "SH043",
+          "reason": "使用する仕込み（仕込み_豚バラボイル）"
         },
         {
           "id": "SH029",
@@ -18087,6 +18048,12 @@
       "yieldUnit": "g",
       "appOrder": 98,
       "ingredients": [
+        {
+          "label": "豚バラ",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        },
         {
           "label": "豚バラ",
           "amt": "1",
