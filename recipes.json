@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T11:34:19.306Z",
-  "count": 156,
+  "generatedAt": "2026-09-29T11:50:21.680Z",
+  "count": 157,
   "recipes": [
     {
       "id": "CO001",
@@ -7792,7 +7792,7 @@
         "SH013",
         "SH020",
         "SH021",
-        "LU002"
+        "SH044"
       ]
     },
     {
@@ -8856,7 +8856,7 @@
         "SH018",
         "SH019",
         "SH037",
-        "OT005"
+        "SH044"
       ]
     },
     {
@@ -9974,8 +9974,8 @@
         "SH038",
         "SH016",
         "SH023",
-        "SH013",
-        "SH020"
+        "SH044",
+        "SH013"
       ]
     },
     {
@@ -18151,6 +18151,161 @@
         "SH003",
         "SH004",
         "SH006"
+      ]
+    },
+    {
+      "id": "SH044",
+      "brand": "かっちゃん",
+      "name": "仕込み_勝ジローチャーシュー",
+      "furigana": "シコミ_カツジローチャーシュー",
+      "category": "仕込み",
+      "time": "1時間30分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 99,
+      "ingredients": [
+        {
+          "label": "豚バラブロック",
+          "amt": "2",
+          "unit": "kg",
+          "linkId": ""
+        },
+        {
+          "label": "おろしにんにく",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "おろし生姜",
+          "amt": "25",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "特製ダレ",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "水",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "小麦",
+        "大豆"
+      ],
+      "steps": [
+        {
+          "text": "解凍しておいた豚バラをカットする",
+          "note": false
+        },
+        {
+          "text": "圧力鍋に入るサイズならカットサイズはこだわらないですが、小さすぎると炊いた後にチヂミ過ぎるので後で使いにくいです",
+          "note": true
+        },
+        {
+          "text": "カットした豚バラを圧力鍋に入れる",
+          "note": false
+        },
+        {
+          "text": "おろしにんにく、おろし生姜を圧力鍋に入れる",
+          "note": false
+        },
+        {
+          "text": "特製ダレ、水を圧力鍋に入れる",
+          "note": false
+        },
+        {
+          "text": "圧力鍋の釜を圧力鍋本体に入れる",
+          "note": false
+        },
+        {
+          "text": "釜の底が濡れていると壊れやすいので濡れていたらよく拭く",
+          "note": true
+        },
+        {
+          "text": "蓋をしてしっかりとロックする",
+          "note": false
+        },
+        {
+          "text": "蓋に【おもり】（黒い物）、【圧力調整ピン】（赤い物）、【調整ピンカバー】（赤い物に付ける半透明の物）、【パッキン】（蓋裏に付ける半透明の輪っか）\n全て付いている事を確認する",
+          "note": true
+        },
+        {
+          "text": "手動調理→圧力調理→30分→決定。の順にボタン操作する",
+          "note": false
+        },
+        {
+          "text": "蓋のおもりが密封にセットされている事を確認する",
+          "note": false
+        },
+        {
+          "text": "約1時間で炊き上がるので炊き上がったら粗熱を取る",
+          "note": false
+        },
+        {
+          "text": "粗熱取れたら容器にタレごと移しタレに漬けたまま冷蔵保管",
+          "note": false
+        },
+        {
+          "text": "冷凍で保管する場合はタレに漬けたまま翌日まで冷蔵保存。\nその後、タレから引き揚げてしっかりとラップして冷凍保存。",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1p5buz3khuUowRGcQviZCVU3EL1sXAWYQ/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drivesdk"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1CJRQgZ1mXMMbk431aL2HIZXXOwhpMiud/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/19PG5DKySNK6xyFUPwM1MKA3jUo7uk7d7/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1goOUoP3r9SeJAniFq-oCPVFp6khOxTTI/view?usp=sharing"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1V4KGjGR-0womdflsCqG743cbc4eE245a/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1WI5TzLewIxnlaNP5_1ttFWf4AP0l2sgs/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO078",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "SH026",
+        "SH038",
+        "SH003",
+        "SH004"
       ]
     }
   ]
