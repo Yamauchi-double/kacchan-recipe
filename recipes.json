@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T12:10:36.283Z",
-  "count": 158,
+  "generatedAt": "2026-09-29T12:25:12.588Z",
+  "count": 159,
   "recipes": [
     {
       "id": "CO001",
@@ -18456,6 +18456,72 @@
         "SH038",
         "SH003",
         "SH004"
+      ]
+    },
+    {
+      "id": "CU010",
+      "brand": "かっちゃん",
+      "name": "切り物_勝ジローチャーシュー",
+      "furigana": "キリモノ_カツジローチャーシュー",
+      "category": "切り物",
+      "time": "5分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 100,
+      "ingredients": [
+        {
+          "label": "仕込み_勝ジローチャーシュー",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "25g/個を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "カットできたものはタレに漬けたまま冷蔵保存",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1nlaJFGBdJxqtNwoy3gLFmTzoQrvowChr/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1-tnYabAG5QTtqmVDRdyWTuBODHBcsbvF/view?usp=drivesdk"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH044",
+          "reason": "手動"
+        },
+        {
+          "id": "CO078",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CU001",
+        "CU002",
+        "CU003"
       ]
     }
   ]
