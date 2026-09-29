@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:46:55.897Z",
+  "generatedAt": "2026-09-29T12:48:46.057Z",
   "count": 161,
   "recipes": [
     {
@@ -11304,15 +11304,24 @@
           "url": "https://drive.google.com/file/d/1B6KN0P8W0CFWe5YRX0ZHSKtf4Z4xrLb_/view?usp=sharing"
         }
       ],
-      "plating": [],
-      "related": [],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "キッチンポット：13.5cm"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO078",
+          "reason": "手動"
+        }
+      ],
       "comments": [],
       "suggested": [
         "SH004",
         "SH007",
         "SH016",
-        "SH038",
-        "SH044"
+        "SH038"
       ]
     },
     {
