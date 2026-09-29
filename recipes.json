@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T11:54:34.813Z",
-  "count": 157,
+  "generatedAt": "2026-09-29T12:10:36.283Z",
+  "count": 158,
   "recipes": [
     {
       "id": "CO001",
@@ -1292,11 +1292,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "CO078",
         "CO001",
         "CO002",
         "CO004",
-        "CO005",
-        "CO006"
+        "CO005"
       ]
     },
     {
@@ -16682,6 +16682,156 @@
       "suggested": [
         "CO027",
         "CO005"
+      ]
+    },
+    {
+      "id": "CO078",
+      "brand": "かっちゃん",
+      "name": "勝ジロー鍋",
+      "furigana": "カツジローナベ",
+      "category": "調理",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 78,
+      "ingredients": [
+        {
+          "label": "キャベツ",
+          "amt": "250",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_勝ジローチャーシュー",
+          "amt": "200",
+          "unit": "g",
+          "linkId": "SH044"
+        },
+        {
+          "label": "漢餃子",
+          "amt": "4",
+          "unit": "個",
+          "linkId": ""
+        },
+        {
+          "label": "むきニンニク",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "背脂",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "もやし",
+          "amt": "370",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "糸唐辛子",
+          "amt": "適量",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_勝ジロー鍋出汁",
+          "amt": "340",
+          "unit": "g",
+          "linkId": "SH032"
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "小麦",
+        "大豆",
+        "ごま",
+        "鶏肉"
+      ],
+      "steps": [
+        {
+          "text": "ボイルしたキャベツを鍋に敷き詰める",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいた背脂を盛る",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいたチャーシューをキャベツの上に盛る",
+          "note": false
+        },
+        {
+          "text": "チャーシューの横に漢餃子を盛る",
+          "note": false
+        },
+        {
+          "text": "もやしを盛る",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいた勝ジローの鍋出汁を入れる",
+          "note": false
+        },
+        {
+          "text": "糸唐辛子をもやしの上に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "お客様のテーブルにカセットコンロを置きその上に鍋を乗せる",
+          "note": false
+        },
+        {
+          "text": "火にかけて15分前後で食べれるようになりますが、餃子だけは中が生なので火の通りを確認してから召し上がる様には促して欲しいです。",
+          "note": true
+        },
+        {
+          "text": "火力は強火から少し戻した辺りが扱いやすい火加減だと思います。\n沸いたら中火より少し弱めくらいを目安にしてもらってください",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1E2YXdDz4K55l5fesDimVvmlpgB4M6EfA/view?usp=drivesdk"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1DM2aR0XTgcfloyrg66QglL0FCGzhjoOP/view?usp=drivesdk"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1Ya8e47W5kZmsqBkJGkGKleo6kQNTJE1h/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "勝ジロー鍋"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH032",
+          "reason": "手動"
+        },
+        {
+          "id": "SH044",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO034",
+        "CO038",
+        "LU003"
       ]
     },
     {
