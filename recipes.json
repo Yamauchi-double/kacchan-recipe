@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:50:21.680Z",
+  "generatedAt": "2026-09-29T11:54:34.813Z",
   "count": 157,
   "recipes": [
     {
@@ -18160,8 +18160,8 @@
       "furigana": "シコミ_カツジローチャーシュー",
       "category": "仕込み",
       "time": "1時間30分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 1800,
+      "yieldUnit": "g",
       "appOrder": 99,
       "ingredients": [
         {
