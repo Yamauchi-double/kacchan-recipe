@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:53:41.678Z",
+  "generatedAt": "2026-09-30T11:58:06.003Z",
   "count": 161,
   "recipes": [
     {
@@ -83,32 +83,8 @@
       ],
       "media": [
         {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1rdLKZwN6v3dpUK-joPyJJCXs3AZ_lk5e/view?usp=drive_link"
-        },
-        {
           "type": "お皿写真",
           "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1FH8CyHHLGjhVd3CoPx9sQxHDIiwimF0G/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1CD7JhPdRW1rSppaxXsFx8r42TYsqdG4p/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1keOrxw41gvBC7LMJWfzMq2u4iYDGSPhA/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1ouUzDUvKrEtWz20m6n_CN5aiRxy1145I/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1KgN0hMlOC1GHg7iBngp7NN33YOECcvgQ/view?usp=drive_link"
         }
       ],
       "plating": [],
@@ -1239,32 +1215,8 @@
       ],
       "media": [
         {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1ylpYi214drTdXXfoRK9NYScQVfNwfRaq/view?usp=drive_link"
-        },
-        {
           "type": "お皿写真",
           "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1_5kLW78g51CPUMKyxEJDJ--AJ8oXQDIT/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1Ch1gc_s8XyjNahHZ58yxEqIU1XHwAP0V/view?usp=drive_link"
-        },
-        {
-          "type": "PDF",
-          "url": "https://drive.google.com/file/d/1SMs_-cEMGDJvrv4IisJdzDZTlNaImeV5/view?usp=drive_link"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1fbOlpqg0swOqWWvdq6QgrSnxmcod0qlN/view?usp=sharing"
-        },
-        {
-          "type": "工程写真",
-          "url": "https://drive.google.com/file/d/1BcSZAJiMDXB3hUhC8vQhBYpB3b-lMInx/view?usp=sharing"
         }
       ],
       "plating": [],
@@ -5946,7 +5898,7 @@
       "suggested": [
         "CO041",
         "LU002",
-        "CO048"
+        "LU012"
       ]
     },
     {
@@ -13543,18 +13495,6 @@
           "linkId": ""
         },
         {
-          "label": "花椒油",
-          "amt": "2~3",
-          "unit": "滴",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣スパイス",
-          "amt": "2~3",
-          "unit": "振り",
-          "linkId": ""
-        },
-        {
           "label": "カット白ネギ",
           "amt": "5",
           "unit": "g",
@@ -13617,10 +13557,6 @@
           "note": false
         },
         {
-          "text": "花椒油2，3滴、麻辣スパイス2，3振り",
-          "note": false
-        },
-        {
           "text": "白髪ねぎ5ｇ、糸唐辛子を緑鉢から垂らすように盛る",
           "note": false
         },
@@ -13673,9 +13609,9 @@
       "comments": [],
       "suggested": [
         "LU002",
-        "LU013",
         "CO006",
-        "CO041"
+        "CO041",
+        "CO044"
       ]
     },
     {
