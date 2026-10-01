@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T06:42:57.419Z",
-  "count": 162,
+  "generatedAt": "2026-10-01T08:30:45.974Z",
+  "count": 163,
   "recipes": [
     {
       "id": "SH001",
@@ -16747,7 +16747,7 @@
           "note": false
         },
         {
-          "text": "もやしを盛る",
+          "text": "ボイルしておいたもやしを盛る",
           "note": false
         },
         {
@@ -16803,13 +16803,16 @@
         {
           "id": "SH044",
           "reason": "手動"
+        },
+        {
+          "id": "SH045",
+          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
-        "CO034",
-        "CO038",
-        "LU003"
+        "CO094",
+        "CO034"
       ]
     },
     {
@@ -18497,9 +18500,9 @@
       ],
       "comments": [],
       "suggested": [
+        "CO094",
         "CU001",
-        "CU002",
-        "CU003"
+        "CU002"
       ]
     },
     {
@@ -18672,6 +18675,143 @@
         "SH003",
         "SH004",
         "SH005"
+      ]
+    },
+    {
+      "id": "CO094",
+      "brand": "かっちゃん",
+      "name": "モツジロー/2人前分",
+      "furigana": "モツジローニニンマエブン",
+      "category": "調理",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 103,
+      "ingredients": [
+        {
+          "label": "キャベツ",
+          "amt": "250",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_勝ジローチャーシュー",
+          "amt": "100",
+          "unit": "g",
+          "linkId": "SH044"
+        },
+        {
+          "label": "仕込み_モツボイル",
+          "amt": "200",
+          "unit": "g",
+          "linkId": "SH000"
+        },
+        {
+          "label": "もやし",
+          "amt": "370",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "仕込み_勝ジロー鍋出汁",
+          "amt": "340",
+          "unit": "g",
+          "linkId": "SH032"
+        },
+        {
+          "label": "糸唐辛子",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "小麦",
+        "大豆",
+        "乳成分",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "鶏肉",
+        "かに"
+      ],
+      "steps": [
+        {
+          "text": "ボイルしたキャベツを鍋に敷き詰める",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいたチャーシューをキャベツの上に盛る",
+          "note": false
+        },
+        {
+          "text": "チャーシューの横にボイルしたモツを盛る",
+          "note": false
+        },
+        {
+          "text": "ボイルしておいたもやしを盛る",
+          "note": false
+        },
+        {
+          "text": "仕込んでおいた勝ジローの鍋出汁を入れる",
+          "note": false
+        },
+        {
+          "text": "糸唐辛子をもやしの上に盛る",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "火にかけて15分前後で食べれるようになりますが、餃子だけは中が生なので火の通りを確認してから召し上がる様には促して欲しいです。",
+          "note": true
+        },
+        {
+          "text": "火力は強火から少し戻した辺りが扱いやすい火加減だと思います。\n沸いたら中火より少し弱めくらいを目安にしてもらってください",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1guZjPAnI30phEtjj-lKQ7RM2VDxEy4ZG/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1DM2aR0XTgcfloyrg66QglL0FCGzhjoOP/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/16WzEmlrk_1xzZJAUFjUnDdkhQoQBojCq/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "勝ジロー鍋"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH044",
+          "reason": "使用する仕込み（仕込み_勝ジローチャーシュー）"
+        },
+        {
+          "id": "SH000",
+          "reason": "使用する仕込み（仕込み_モツボイル）"
+        },
+        {
+          "id": "SH032",
+          "reason": "使用する仕込み（仕込み_勝ジロー鍋出汁）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO078",
+        "CO034"
       ]
     }
   ]
