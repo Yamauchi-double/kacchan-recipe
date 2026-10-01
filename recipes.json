@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T08:46:05.026Z",
-  "count": 163,
+  "generatedAt": "2026-10-01T09:07:09.000Z",
+  "count": 164,
   "recipes": [
     {
       "id": "SH001",
@@ -18817,6 +18817,103 @@
         "CO078",
         "CO034"
       ]
+    },
+    {
+      "id": "CU011",
+      "brand": "かっちゃん",
+      "name": "切り物_キャベツ",
+      "furigana": "キリモノキャベツ",
+      "category": "切り物",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 104,
+      "ingredients": [
+        {
+          "label": "キャベツ",
+          "amt": "1",
+          "unit": "玉",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "キャベツの葉っぱを3枚前後むいて捨てる",
+          "note": false
+        },
+        {
+          "text": "半分に切る",
+          "note": false
+        },
+        {
+          "text": "もう一度半分に切る",
+          "note": false
+        },
+        {
+          "text": "芯を切り落として捨てる",
+          "note": false
+        },
+        {
+          "text": "キャベツを5枚前後めくって一口大に切る",
+          "note": false
+        },
+        {
+          "text": "もう一度同じ様にする",
+          "note": false
+        },
+        {
+          "text": "最後に残った部分を同じくらいの大きさに切る",
+          "note": false
+        },
+        {
+          "text": "残りのキャベツも同じようにカットしていく",
+          "note": false
+        },
+        {
+          "text": "このようにカットした方がキャベツの大きさが揃うので炒め物などの火の通りが均一になりスムーズに仕上がる",
+          "note": true
+        },
+        {
+          "text": "軽く水で洗う",
+          "note": false
+        },
+        {
+          "text": "水を切って容器に入れて保管",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO038",
+          "reason": "手動"
+        },
+        {
+          "id": "CO034",
+          "reason": "手動"
+        },
+        {
+          "id": "CO065",
+          "reason": "手動"
+        },
+        {
+          "id": "CO018",
+          "reason": "手動"
+        },
+        {
+          "id": "CO078",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": []
     }
   ]
 }
