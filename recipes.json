@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:31:19.834Z",
+  "generatedAt": "2026-10-01T04:18:06.717Z",
   "count": 161,
   "recipes": [
     {
@@ -1138,99 +1138,6 @@
       ]
     },
     {
-      "id": "SH003",
-      "brand": "かっちゃん",
-      "name": "仕込み_麻婆ソース",
-      "furigana": "シコミ_マーボーソース",
-      "category": "仕込み",
-      "time": "30分",
-      "yieldAmt": 1800,
-      "yieldUnit": "g",
-      "appOrder": 3,
-      "ingredients": [
-        {
-          "label": "水",
-          "amt": "400",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB麻婆",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
-          "amt": "500",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣だれ",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "牛肉",
-        "乳成分",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "上記材料を計量する",
-          "note": false
-        },
-        {
-          "text": "水は沸かした後に計量する",
-          "note": true
-        },
-        {
-          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
-          "note": false
-        },
-        {
-          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵3日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：キッチンポット19.5cm",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH004",
-        "SH006",
-        "SH007",
-        "SH032",
-        "SH034"
-      ]
-    },
-    {
       "id": "OT003",
       "brand": "かっちゃん",
       "name": "他_から揚げ弁当",
@@ -1761,6 +1668,107 @@
         "CO002",
         "CO004",
         "CO005"
+      ]
+    },
+    {
+      "id": "SH003",
+      "brand": "かっちゃん",
+      "name": "仕込み_麻婆ソース",
+      "furigana": "シコミ_マーボーソース",
+      "category": "仕込み",
+      "time": "30分",
+      "yieldAmt": 1940,
+      "yieldUnit": "g",
+      "appOrder": 3,
+      "ingredients": [
+        {
+          "label": "水",
+          "amt": "400",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB麻婆",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣だれ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "牛肉",
+        "乳成分",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "上記材料を計量する",
+          "note": false
+        },
+        {
+          "text": "水は沸かした後に計量する",
+          "note": true
+        },
+        {
+          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
+          "note": false
+        },
+        {
+          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：キッチンポット19.5cm",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1G3VWxEuxXukddQQXoualeFk0DuMQV-H8/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/12-SoaSz7IB1QZeBDfK0AwO4s0tRvahiw/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032",
+        "SH034"
       ]
     },
     {
