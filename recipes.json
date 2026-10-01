@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:14:18.927Z",
+  "generatedAt": "2026-10-01T06:15:40.996Z",
   "count": 161,
   "recipes": [
     {
@@ -1130,107 +1130,6 @@
       ]
     },
     {
-      "id": "SH003",
-      "brand": "かっちゃん",
-      "name": "仕込み_麻婆ソース",
-      "furigana": "シコミ_マーボーソース",
-      "category": "仕込み",
-      "time": "30分",
-      "yieldAmt": 1940,
-      "yieldUnit": "g",
-      "appOrder": 3,
-      "ingredients": [
-        {
-          "label": "水",
-          "amt": "400",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB麻婆",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
-          "amt": "500",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣だれ",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "牛肉",
-        "乳成分",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "上記材料を計量する",
-          "note": false
-        },
-        {
-          "text": "水は沸かした後に計量する",
-          "note": true
-        },
-        {
-          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
-          "note": false
-        },
-        {
-          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵3日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：キッチンポット19.5cm",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1G3VWxEuxXukddQQXoualeFk0DuMQV-H8/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/12-SoaSz7IB1QZeBDfK0AwO4s0tRvahiw/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH004",
-        "SH006",
-        "SH007",
-        "SH032",
-        "SH034"
-      ]
-    },
-    {
       "id": "OT003",
       "brand": "かっちゃん",
       "name": "他_から揚げ弁当",
@@ -1764,6 +1663,111 @@
       ]
     },
     {
+      "id": "SH003",
+      "brand": "かっちゃん",
+      "name": "仕込み_麻婆ソース",
+      "furigana": "シコミ_マーボーソース",
+      "category": "仕込み",
+      "time": "30分",
+      "yieldAmt": 1940,
+      "yieldUnit": "g",
+      "appOrder": 3,
+      "ingredients": [
+        {
+          "label": "沸騰したお湯",
+          "amt": "400",
+          "unit": "g",
+          "linkId": "SH999"
+        },
+        {
+          "label": "PB麻婆",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣だれ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "牛肉",
+        "乳成分",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "上記材料を計量する",
+          "note": false
+        },
+        {
+          "text": "水は沸かした後に計量する",
+          "note": true
+        },
+        {
+          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
+          "note": false
+        },
+        {
+          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：キッチンポット19.5cm",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1G3VWxEuxXukddQQXoualeFk0DuMQV-H8/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/12-SoaSz7IB1QZeBDfK0AwO4s0tRvahiw/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [
+        {
+          "id": "SH999",
+          "reason": "使用する仕込み（沸騰したお湯）"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "SH037",
+        "LU016",
+        "CO029",
+        "SH001"
+      ]
+    },
+    {
       "id": "SH004",
       "brand": "かっちゃん",
       "name": "仕込み_白湯ベース",
@@ -1862,10 +1866,10 @@
       "comments": [],
       "suggested": [
         "SH032",
-        "SH003",
         "SH006",
         "SH007",
-        "SH029"
+        "SH029",
+        "SH034"
       ]
     },
     {
@@ -2934,11 +2938,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH003",
         "SH004",
         "SH007",
         "SH032",
-        "SH034"
+        "SH034",
+        "SH035"
       ]
     },
     {
@@ -3460,9 +3464,9 @@
       "suggested": [
         "SH038",
         "SH032",
-        "SH003",
         "SH004",
-        "SH006"
+        "SH006",
+        "SH013"
       ]
     },
     {
@@ -11463,10 +11467,10 @@
       "comments": [],
       "suggested": [
         "SH039",
-        "SH003",
         "SH004",
         "SH006",
-        "SH007"
+        "SH007",
+        "SH016"
       ]
     },
     {
@@ -11684,11 +11688,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH003",
         "SH004",
         "SH006",
         "SH007",
-        "SH032"
+        "SH032",
+        "SH034"
       ]
     },
     {
@@ -11836,11 +11840,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH003",
         "SH004",
         "SH006",
         "SH007",
-        "SH032"
+        "SH032",
+        "SH034"
       ]
     },
     {
@@ -16942,7 +16946,7 @@
         "SH041",
         "SH034",
         "LU019",
-        "SH003"
+        "SH004"
       ]
     },
     {
@@ -17151,8 +17155,8 @@
       "comments": [],
       "suggested": [
         "SH039",
-        "SH003",
-        "SH004"
+        "SH004",
+        "SH006"
       ]
     },
     {
@@ -18272,9 +18276,9 @@
       ],
       "comments": [],
       "suggested": [
-        "SH003",
         "SH004",
-        "SH006"
+        "SH006",
+        "SH007"
       ]
     },
     {
@@ -18429,7 +18433,7 @@
         "SH026",
         "SH032",
         "SH038",
-        "SH003"
+        "SH004"
       ]
     },
     {
