@@ -1,110 +1,7 @@
 {
-  "generatedAt": "2026-10-01T04:18:06.717Z",
+  "generatedAt": "2026-10-01T05:20:11.979Z",
   "count": 161,
   "recipes": [
-    {
-      "id": "SH001",
-      "brand": "かっちゃん",
-      "name": "仕込み_ネギ塩",
-      "furigana": "シコミ_ネギシオ",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": 635,
-      "yieldUnit": "g",
-      "appOrder": 1,
-      "ingredients": [
-        {
-          "label": "カットネギ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "カット白ネギ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "大葉",
-          "amt": "20",
-          "unit": "枚",
-          "linkId": ""
-        },
-        {
-          "label": "塩だれ",
-          "amt": "200",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳成分",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "ゼラチン",
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "白ねぎ：100gをまな板全体に広げる",
-          "note": false
-        },
-        {
-          "text": "縦横に5cm角前後になる様にカットしていく",
-          "note": false
-        },
-        {
-          "text": "カット出来たらボウルに移す",
-          "note": false
-        },
-        {
-          "text": "大葉：20枚を縦に4等分、横は1cm間隔を目安にカットしてボウルに移す",
-          "note": false
-        },
-        {
-          "text": "青ネギ：100gもボウルに入れよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "その後、塩だれ200gを入れてしっかりと混ぜて完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：翌日廃棄",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：UK18-8角型キッチンポット 13.5ｃｍ手無",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [
-        {
-          "id": "CO023",
-          "reason": "上がけ用"
-        },
-        {
-          "id": "CO004",
-          "reason": "上がけ用"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "CO065",
-        "SH017",
-        "SH020"
-      ]
-    },
     {
       "id": "OT001",
       "brand": "かっちゃん",
@@ -523,6 +420,101 @@
       "suggested": [
         "CO007",
         "CO008"
+      ]
+    },
+    {
+      "id": "SH001",
+      "brand": "かっちゃん",
+      "name": "仕込み_ネギ塩",
+      "furigana": "シコミ_ネギシオ",
+      "category": "仕込み",
+      "time": "5分",
+      "yieldAmt": 420,
+      "yieldUnit": "g",
+      "appOrder": 1,
+      "ingredients": [
+        {
+          "label": "カットネギ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カット白ネギ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "大葉",
+          "amt": "20",
+          "unit": "枚",
+          "linkId": ""
+        },
+        {
+          "label": "ネギ塩だれ",
+          "amt": "200",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉",
+        "小麦",
+        "乳成分",
+        "大豆",
+        "ごま",
+        "オレンジ"
+      ],
+      "steps": [
+        {
+          "text": "白ねぎ：100gをまな板全体に広げる",
+          "note": false
+        },
+        {
+          "text": "縦横に5cm角前後になる様にカットしていく",
+          "note": false
+        },
+        {
+          "text": "カット出来たらボウルに移す",
+          "note": false
+        },
+        {
+          "text": "大葉：20枚を縦に4等分、横は1cm間隔を目安にカットしてボウルに移す",
+          "note": false
+        },
+        {
+          "text": "青ネギ：100gもボウルに入れよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "その後、塩だれ200gを入れてしっかりと混ぜて完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：翌日廃棄",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：UK18-8角型キッチンポット 13.5ｃｍ手無",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO065",
+        "SH017",
+        "SH020",
+        "LU002",
+        "LU003"
       ]
     },
     {
@@ -2191,9 +2183,10 @@
         "大豆",
         "豚肉",
         "ゼラチン",
+        "鶏肉",
         "小麦",
         "乳成分",
-        "鶏肉"
+        "オレンジ"
       ],
       "steps": [
         {
@@ -9162,7 +9155,8 @@
         "ごま",
         "大豆",
         "ゼラチン",
-        "豚肉"
+        "豚肉",
+        "オレンジ"
       ],
       "steps": [
         {
@@ -10456,11 +10450,11 @@
       "related": [],
       "comments": [],
       "suggested": [
-        "SH001",
         "SH004",
         "SH032",
         "CO018",
-        "CO032"
+        "CO032",
+        "CO037"
       ]
     },
     {
@@ -18572,11 +18566,24 @@
           "note": false
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1CfNemWvf1h7LsltRKB8zqb-18I3ntWfr/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1I-u-_1BpJl4MTL2B1B1SQaVMmNvSKYcX/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1_mb6k4EZx_9hc8B1rR-kMNoDWztfKu6V/view?usp=drive_link"
+        }
+      ],
       "plating": [
         {
           "item": "ソース容器",
-          "content": "キッチンポット：13.5cm"
+          "content": "キッチンポット：12cm"
         }
       ],
       "related": [
