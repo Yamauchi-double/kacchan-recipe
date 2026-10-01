@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T09:13:35.157Z",
+  "generatedAt": "2026-10-01T09:37:11.861Z",
   "count": 165,
   "recipes": [
     {
@@ -18883,11 +18883,24 @@
           "note": false
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1vRZA4KK7GAJRHjB3Lm2HO3JcpLlG1N7C/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1JhTZUW-_q4qhxPTLRxgM_DFB57RdehRL/view?usp=drive_link"
+        }
+      ],
       "plating": [
         {
           "item": "ソース容器",
-          "content": "タッパ：2,440ml"
+          "content": "キッチンポット：13.5cm"
         }
       ],
       "related": [
