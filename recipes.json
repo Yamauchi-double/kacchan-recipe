@@ -1,7 +1,102 @@
 {
-  "generatedAt": "2026-10-01T05:20:11.979Z",
+  "generatedAt": "2026-10-01T06:04:59.154Z",
   "count": 161,
   "recipes": [
+    {
+      "id": "SH001",
+      "brand": "かっちゃん",
+      "name": "仕込み_ネギ塩",
+      "furigana": "シコミ_ネギシオ",
+      "category": "仕込み",
+      "time": "5分",
+      "yieldAmt": 420,
+      "yieldUnit": "g",
+      "appOrder": 1,
+      "ingredients": [
+        {
+          "label": "カットネギ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カット白ネギ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "大葉",
+          "amt": "20",
+          "unit": "枚",
+          "linkId": ""
+        },
+        {
+          "label": "ネギ塩だれ",
+          "amt": "200",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "鶏肉",
+        "小麦",
+        "乳成分",
+        "大豆",
+        "ごま",
+        "オレンジ"
+      ],
+      "steps": [
+        {
+          "text": "白ねぎ：100gをまな板全体に広げる",
+          "note": false
+        },
+        {
+          "text": "縦横に5cm角前後になる様にカットしていく",
+          "note": false
+        },
+        {
+          "text": "カット出来たらボウルに移す",
+          "note": false
+        },
+        {
+          "text": "大葉：20枚を縦に4等分、横は1cm間隔を目安にカットしてボウルに移す",
+          "note": false
+        },
+        {
+          "text": "青ネギ：100gもボウルに入れよく混ぜる",
+          "note": false
+        },
+        {
+          "text": "その後、塩だれ200gを入れてしっかりと混ぜて完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：翌日廃棄",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：UK18-8角型キッチンポット 13.5ｃｍ手無",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "CO065",
+        "SH017",
+        "SH020",
+        "LU002",
+        "LU003"
+      ]
+    },
     {
       "id": "OT001",
       "brand": "かっちゃん",
@@ -420,101 +515,6 @@
       "suggested": [
         "CO007",
         "CO008"
-      ]
-    },
-    {
-      "id": "SH001",
-      "brand": "かっちゃん",
-      "name": "仕込み_ネギ塩",
-      "furigana": "シコミ_ネギシオ",
-      "category": "仕込み",
-      "time": "5分",
-      "yieldAmt": 420,
-      "yieldUnit": "g",
-      "appOrder": 1,
-      "ingredients": [
-        {
-          "label": "カットネギ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "カット白ネギ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "大葉",
-          "amt": "20",
-          "unit": "枚",
-          "linkId": ""
-        },
-        {
-          "label": "ネギ塩だれ",
-          "amt": "200",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "鶏肉",
-        "小麦",
-        "乳成分",
-        "大豆",
-        "ごま",
-        "オレンジ"
-      ],
-      "steps": [
-        {
-          "text": "白ねぎ：100gをまな板全体に広げる",
-          "note": false
-        },
-        {
-          "text": "縦横に5cm角前後になる様にカットしていく",
-          "note": false
-        },
-        {
-          "text": "カット出来たらボウルに移す",
-          "note": false
-        },
-        {
-          "text": "大葉：20枚を縦に4等分、横は1cm間隔を目安にカットしてボウルに移す",
-          "note": false
-        },
-        {
-          "text": "青ネギ：100gもボウルに入れよく混ぜる",
-          "note": false
-        },
-        {
-          "text": "その後、塩だれ200gを入れてしっかりと混ぜて完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：翌日廃棄",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：UK18-8角型キッチンポット 13.5ｃｍ手無",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CO065",
-        "SH017",
-        "SH020",
-        "LU002",
-        "LU003"
       ]
     },
     {
@@ -1130,6 +1130,107 @@
       ]
     },
     {
+      "id": "SH003",
+      "brand": "かっちゃん",
+      "name": "仕込み_麻婆ソース",
+      "furigana": "シコミ_マーボーソース",
+      "category": "仕込み",
+      "time": "30分",
+      "yieldAmt": 1940,
+      "yieldUnit": "g",
+      "appOrder": 3,
+      "ingredients": [
+        {
+          "label": "水",
+          "amt": "400",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB麻婆",
+          "amt": "1000",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "PB肉味噌",
+          "amt": "500",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "麻辣だれ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "牛肉",
+        "乳成分",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "上記材料を計量する",
+          "note": false
+        },
+        {
+          "text": "水は沸かした後に計量する",
+          "note": true
+        },
+        {
+          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
+          "note": false
+        },
+        {
+          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
+          "note": false
+        },
+        {
+          "text": "完成",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日",
+          "note": false
+        },
+        {
+          "text": "保存推奨容器：キッチンポット19.5cm",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1G3VWxEuxXukddQQXoualeFk0DuMQV-H8/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/12-SoaSz7IB1QZeBDfK0AwO4s0tRvahiw/view?usp=drive_link"
+        }
+      ],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH004",
+        "SH006",
+        "SH007",
+        "SH032",
+        "SH034"
+      ]
+    },
+    {
       "id": "OT003",
       "brand": "かっちゃん",
       "name": "他_から揚げ弁当",
@@ -1660,107 +1761,6 @@
         "CO002",
         "CO004",
         "CO005"
-      ]
-    },
-    {
-      "id": "SH003",
-      "brand": "かっちゃん",
-      "name": "仕込み_麻婆ソース",
-      "furigana": "シコミ_マーボーソース",
-      "category": "仕込み",
-      "time": "30分",
-      "yieldAmt": 1940,
-      "yieldUnit": "g",
-      "appOrder": 3,
-      "ingredients": [
-        {
-          "label": "水",
-          "amt": "400",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB麻婆",
-          "amt": "1000",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "PB肉味噌",
-          "amt": "500",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "麻辣だれ",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "ごま",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "牛肉",
-        "乳成分",
-        "ゼラチン"
-      ],
-      "steps": [
-        {
-          "text": "上記材料を計量する",
-          "note": false
-        },
-        {
-          "text": "水は沸かした後に計量する",
-          "note": true
-        },
-        {
-          "text": "ボウルに麻婆ベース、肉味噌、麻辣だれを入れる",
-          "note": false
-        },
-        {
-          "text": "沸かしてから計量したお湯を混ぜながら少しずつ入れる",
-          "note": false
-        },
-        {
-          "text": "完成",
-          "note": false
-        },
-        {
-          "text": "保存期間：冷蔵3日",
-          "note": false
-        },
-        {
-          "text": "保存推奨容器：キッチンポット19.5cm",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1G3VWxEuxXukddQQXoualeFk0DuMQV-H8/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1Qld9fw9RZY8GCpH6ajKB4s5bL5Q96i-i/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/12-SoaSz7IB1QZeBDfK0AwO4s0tRvahiw/view?usp=drive_link"
-        }
-      ],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "SH004",
-        "SH006",
-        "SH007",
-        "SH032",
-        "SH034"
       ]
     },
     {
@@ -14106,7 +14106,6 @@
       "allergens": [
         "小麦",
         "大豆",
-        "千切沢庵 2kg ふるかわﾌｰｽﾞ",
         "ごま"
       ],
       "steps": [
@@ -14773,8 +14772,7 @@
       "allergens": [
         "小麦",
         "大豆",
-        "鶏肉",
-        "ｻｻﾐの竜田揚（梅しそ巻）約27g30入 味の素"
+        "鶏肉"
       ],
       "steps": [
         {
@@ -15432,8 +15430,7 @@
         "ゼラチン",
         "豚肉",
         "かに",
-        "卵",
-        "魚醤"
+        "卵"
       ],
       "steps": [
         {
@@ -16060,7 +16057,7 @@
         "小麦",
         "アーモンド",
         "りんご",
-        "クルミ",
+        "くるみ",
         "ごま"
       ],
       "steps": [
