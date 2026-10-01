@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T06:15:40.996Z",
-  "count": 161,
+  "generatedAt": "2026-10-01T06:42:57.419Z",
+  "count": 162,
   "recipes": [
     {
       "id": "SH001",
@@ -18599,6 +18599,79 @@
         "SH002",
         "SH003",
         "SH004"
+      ]
+    },
+    {
+      "id": "SH000",
+      "brand": "かっちゃん",
+      "name": "仕込み_モツボイル",
+      "furigana": "シコミ_モツボイル",
+      "category": "仕込み",
+      "time": "10分",
+      "yieldAmt": 700,
+      "yieldUnit": "g",
+      "appOrder": 102,
+      "ingredients": [
+        {
+          "label": "もつ",
+          "amt": "1",
+          "unit": "kg",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "解凍したモツを流水で軽く洗う",
+          "note": false
+        },
+        {
+          "text": "沸いたお湯にモツを入れて軽くボイルする",
+          "note": false
+        },
+        {
+          "text": "ボイル時間目安3分",
+          "note": true
+        },
+        {
+          "text": "3～5cm幅を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "カット出来てる商品で納品される店舗に関してはカットは無しでいい",
+          "note": true
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1IdDUbk5ZKKMEUfZtgHFyvrMjllqf1drL/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=sharing"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1XDc-z4FnuptilDp3ZRKIyaQD1MljeIpL/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "SH001",
+        "SH002",
+        "SH003",
+        "SH004",
+        "SH005"
       ]
     }
   ]
