@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:11:11.905Z",
+  "generatedAt": "2026-10-03T12:31:56.499Z",
   "count": 165,
   "recipes": [
     {
@@ -136,22 +136,12 @@
           "content": ""
         }
       ],
-      "related": [
-        {
-          "id": "CO004",
-          "reason": "ベース"
-        },
-        {
-          "id": "CO005",
-          "reason": "ベース"
-        },
-        {
-          "id": "CO006",
-          "reason": "ベース"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
+        "CO004",
+        "CO005",
+        "CO006",
         "CO007",
         "CO008"
       ]
@@ -447,7 +437,7 @@
         },
         {
           "label": "大葉",
-          "amt": "10",
+          "amt": "20",
           "unit": "枚",
           "linkId": ""
         },
@@ -502,19 +492,39 @@
       ],
       "media": [
         {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1nfbg06L6c1ZQxlarXaiNZBXqG3esiyOJ/view?usp=drive_link"
+        },
+        {
           "type": "お皿写真",
           "url": "https://drive.google.com/file/d/1qeyT4wP642vi4HpABCwrQogWCGxFk-Ma/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1I4DFk1qFHKCJ9qmA_SrqoQWZTDHnkQrf/view?usp=drive_link"
         }
       ],
-      "plating": [],
-      "related": [],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "キッチンポット：12cm"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO004",
+          "reason": "手動"
+        },
+        {
+          "id": "CO023",
+          "reason": "手動"
+        }
+      ],
       "comments": [],
       "suggested": [
         "CO065",
         "SH017",
-        "SH020",
-        "LU002",
-        "CU003"
+        "SH020"
       ]
     },
     {
@@ -1921,21 +1931,15 @@
       "related": [
         {
           "id": "SH001",
-          "reason": "上がけ用"
-        },
-        {
-          "id": "CO023",
-          "reason": "ネギ塩被り"
-        },
-        {
-          "id": "CO001",
-          "reason": "ベース"
+          "reason": "使用する仕込み（仕込み_ネギ塩）"
         }
       ],
       "comments": [],
       "suggested": [
+        "CO001",
         "CO005",
-        "CO006"
+        "CO006",
+        "CO007"
       ]
     },
     {
@@ -2461,10 +2465,6 @@
       "plating": [],
       "related": [
         {
-          "id": "CO001",
-          "reason": "ベース"
-        },
-        {
           "id": "SH002",
           "reason": "使用する仕込み（仕込み_チーズソース）"
         }
@@ -2472,6 +2472,7 @@
       "comments": [],
       "suggested": [
         "CO026",
+        "CO001",
         "CO004",
         "CO006"
       ]
@@ -2975,10 +2976,6 @@
       "plating": [],
       "related": [
         {
-          "id": "CO001",
-          "reason": "ベース"
-        },
-        {
           "id": "SH003",
           "reason": "使用する仕込み（仕込み_麻婆ソース）"
         }
@@ -2987,7 +2984,8 @@
       "suggested": [
         "CO048",
         "LU002",
-        "LU013"
+        "LU013",
+        "CO001"
       ]
     },
     {
@@ -11250,18 +11248,14 @@
           "content": "キッチンポット：13.5cm"
         }
       ],
-      "related": [
-        {
-          "id": "CO078",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH004",
         "SH007",
         "SH016",
-        "SH038"
+        "SH038",
+        "SH044"
       ]
     },
     {
@@ -12115,11 +12109,11 @@
       "related": [
         {
           "id": "SH015",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_ヤゲン）"
         },
         {
           "id": "SH011",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_サラダベース）"
         }
       ],
       "comments": [],
@@ -14535,18 +14529,11 @@
           "content": ""
         }
       ],
-      "related": [
-        {
-          "id": "CO076",
-          "reason": "手動"
-        },
-        {
-          "id": "CO077",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
+        "CO076",
+        "CO077",
         "CO005",
         "CO011",
         "CO017"
@@ -16538,18 +16525,11 @@
       ],
       "media": [],
       "plating": [],
-      "related": [
-        {
-          "id": "CO056",
-          "reason": "手動"
-        },
-        {
-          "id": "CO077",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
+        "CO056",
+        "CO077",
         "CO005",
         "CO024",
         "CO026"
@@ -16651,20 +16631,14 @@
       "related": [
         {
           "id": "SH010",
-          "reason": "手動"
-        },
-        {
-          "id": "CO056",
-          "reason": "手動"
-        },
-        {
-          "id": "CO076",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_明太マヨ）"
         }
       ],
       "comments": [],
       "suggested": [
         "CO027",
+        "CO056",
+        "CO076",
         "CO005"
       ]
     },
@@ -16801,22 +16775,19 @@
       ],
       "related": [
         {
-          "id": "SH032",
-          "reason": "手動"
-        },
-        {
           "id": "SH044",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_勝ジローチャーシュー）"
         },
         {
-          "id": "SH045",
-          "reason": "手動"
+          "id": "SH032",
+          "reason": "使用する仕込み（仕込み_勝ジロー鍋出汁）"
         }
       ],
       "comments": [],
       "suggested": [
         "CO095",
-        "CO094"
+        "CO094",
+        "CO034"
       ]
     },
     {
@@ -16942,18 +16913,14 @@
           "content": "キッチンポット：13.5cm"
         }
       ],
-      "related": [
-        {
-          "id": "LT006",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH041",
         "SH034",
         "LU019",
-        "SH004"
+        "SH004",
+        "SH006"
       ]
     },
     {
@@ -17053,18 +17020,14 @@
           "content": "タッパ：1,550ml"
         }
       ],
-      "related": [
-        {
-          "id": "LT007",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH031",
         "SH037",
         "SH038",
-        "CO011"
+        "CO011",
+        "CO017"
       ]
     },
     {
@@ -17149,21 +17112,14 @@
           "content": "キッチンポット：13.5cm"
         }
       ],
-      "related": [
-        {
-          "id": "LT012",
-          "reason": "手動"
-        },
-        {
-          "id": "SH042",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH039",
         "SH004",
-        "SH006"
+        "SH006",
+        "SH007",
+        "SH032"
       ]
     },
     {
@@ -17376,7 +17332,7 @@
       "related": [
         {
           "id": "SH039",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_とろろベース）"
         }
       ],
       "comments": [],
@@ -17451,7 +17407,7 @@
       "related": [
         {
           "id": "SH040",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_ピーマン）"
         }
       ],
       "comments": [],
@@ -17993,19 +17949,16 @@
       ],
       "related": [
         {
-          "id": "SH041",
-          "reason": "手動"
-        },
-        {
           "id": "SH042",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_出汁巻き玉子）"
         }
       ],
       "comments": [],
       "suggested": [
         "LT009",
         "SH010",
-        "LU014"
+        "LU014",
+        "CO017"
       ]
     },
     {
@@ -18271,21 +18224,14 @@
           "content": "タッパ：2,440ml"
         }
       ],
-      "related": [
-        {
-          "id": "CO034",
-          "reason": "手動"
-        },
-        {
-          "id": "CO065",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH004",
         "SH006",
-        "SH007"
+        "SH007",
+        "SH032",
+        "SH034"
       ]
     },
     {
@@ -18429,18 +18375,14 @@
           "content": "タッパ：2,440ml"
         }
       ],
-      "related": [
-        {
-          "id": "CO078",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH026",
         "SH032",
         "SH038",
-        "SH004"
+        "SH004",
+        "SH006"
       ]
     },
     {
@@ -18492,21 +18434,14 @@
           "content": "タッパ：2,440ml"
         }
       ],
-      "related": [
-        {
-          "id": "SH044",
-          "reason": "手動"
-        },
-        {
-          "id": "CO078",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
+        "CO078",
         "CO094",
         "CO095",
-        "CU001"
+        "CU001",
+        "CU002"
       ]
     },
     {
@@ -18594,18 +18529,14 @@
           "content": "キッチンポット：12cm"
         }
       ],
-      "related": [
-        {
-          "id": "CO078",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH001",
         "SH002",
         "SH003",
-        "SH004"
+        "SH004",
+        "SH005"
       ]
     },
     {
@@ -18903,30 +18834,15 @@
           "content": "キッチンポット：13.5cm"
         }
       ],
-      "related": [
-        {
-          "id": "CO038",
-          "reason": "手動"
-        },
-        {
-          "id": "CO034",
-          "reason": "手動"
-        },
-        {
-          "id": "CO065",
-          "reason": "手動"
-        },
-        {
-          "id": "CO018",
-          "reason": "手動"
-        },
-        {
-          "id": "CO078",
-          "reason": "手動"
-        }
-      ],
+      "related": [],
       "comments": [],
-      "suggested": []
+      "suggested": [
+        "LU003",
+        "LU015",
+        "LU017",
+        "CO018",
+        "CO034"
+      ]
     },
     {
       "id": "CO095",
@@ -19071,28 +18987,23 @@
       ],
       "related": [
         {
-          "id": "CO078",
-          "reason": "手動"
-        },
-        {
-          "id": "CU010",
-          "reason": "手動"
-        },
-        {
           "id": "SH044",
-          "reason": "手動"
-        },
-        {
-          "id": "SH032",
-          "reason": "手動"
+          "reason": "使用する仕込み（仕込み_勝ジローチャーシュー）"
         },
         {
           "id": "SH045",
           "reason": "使用する仕込み（仕込み_にんにく背脂）"
+        },
+        {
+          "id": "SH032",
+          "reason": "使用する仕込み（仕込み_勝ジロー鍋出汁）"
         }
       ],
       "comments": [],
-      "suggested": []
+      "suggested": [
+        "CO078",
+        "CO094"
+      ]
     }
   ]
 }
