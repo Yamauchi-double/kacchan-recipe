@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T23:31:21.993Z",
+  "generatedAt": "2026-10-03T09:09:28.751Z",
   "count": 165,
   "recipes": [
     {
@@ -19049,7 +19049,20 @@
           "note": true
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1dKm6oZI463jHqRspjOyabvSW9cux1saE/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1DM2aR0XTgcfloyrg66QglL0FCGzhjoOP/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1b78aI1jWI_2kDGmjsGM7tXOowAPiQECa/view?usp=drive_link"
+        }
+      ],
       "plating": [
         {
           "item": "皿",
