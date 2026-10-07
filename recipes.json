@@ -1,7 +1,105 @@
 {
-  "generatedAt": "2026-10-07T05:32:24.979Z",
-  "count": 165,
+  "generatedAt": "2026-10-07T05:41:25.971Z",
+  "count": 166,
   "recipes": [
+    {
+      "id": "CO096",
+      "brand": "かっちゃん",
+      "name": "酢もつ",
+      "furigana": "スモツ",
+      "category": "調理",
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 0,
+      "ingredients": [
+        {
+          "label": "仕込み_酢モツ用ホルモンボイルカット",
+          "amt": "40",
+          "unit": "g",
+          "linkId": "SH000"
+        },
+        {
+          "label": "大根おろし",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "至福ポン酢",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "一味",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉",
+        "小麦",
+        "大豆",
+        "りんご"
+      ],
+      "steps": [
+        {
+          "text": "仕込んでおいた酢もつ用のホルモンをお皿に盛る",
+          "note": false
+        },
+        {
+          "text": "大根おろしを盛る",
+          "note": false
+        },
+        {
+          "text": "合わせネギを盛る",
+          "note": false
+        },
+        {
+          "text": "ポン酢をかける",
+          "note": false
+        },
+        {
+          "text": "一味をかけて完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1gv4AChPqUDMPB8tW1JXUZOo3BpfFMeCz/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1TVRkYNY2ntSs_rtMWNOZpawhutlmRj6G/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1uQTLexIL25Y1-PwyFWgrS-3WrENM6Kpe/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "白角"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH000",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO007",
+        "CO036",
+        "CO052",
+        "CO054"
+      ]
+    },
     {
       "id": "CO001",
       "brand": "かっちゃん",
@@ -656,11 +754,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO003",
         "CO004",
-        "CO005",
-        "CO006"
+        "CO005"
       ]
     },
     {
@@ -1274,9 +1372,9 @@
       "suggested": [
         "CO078",
         "CO095",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO004"
+        "CO002"
       ]
     },
     {
@@ -3427,7 +3525,7 @@
         "LU012",
         "LU013",
         "LU018",
-        "CO001"
+        "CO096"
       ]
     },
     {
@@ -4760,9 +4858,9 @@
       "suggested": [
         "CO042",
         "LU006",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO003"
+        "CO002"
       ]
     },
     {
@@ -8891,8 +8989,8 @@
       "suggested": [
         "CO020",
         "LU008",
-        "CO001",
-        "CO002"
+        "CO096",
+        "CO001"
       ]
     },
     {
@@ -12616,10 +12714,10 @@
       ],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
-        "CO003",
-        "CO004"
+        "CO003"
       ]
     },
     {
@@ -12860,9 +12958,9 @@
       "suggested": [
         "LU006",
         "CO010",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO003"
+        "CO002"
       ]
     },
     {
@@ -13346,9 +13444,9 @@
       "comments": [],
       "suggested": [
         "LU005",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO003"
+        "CO002"
       ]
     },
     {
@@ -13470,9 +13568,9 @@
       "suggested": [
         "CO058",
         "LU007",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO003"
+        "CO002"
       ]
     },
     {
@@ -13828,10 +13926,10 @@
       ],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
-        "CO003",
-        "CO004"
+        "CO003"
       ]
     },
     {
@@ -14065,8 +14163,8 @@
         "SH019",
         "CO054",
         "LU014",
-        "CO017",
-        "CO019"
+        "CO096",
+        "CO017"
       ]
     },
     {
@@ -14302,9 +14400,9 @@
       "suggested": [
         "CO052",
         "SH019",
+        "CO096",
         "CO017",
-        "CO029",
-        "CO060"
+        "CO029"
       ]
     },
     {
@@ -14430,10 +14528,10 @@
       ],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
-        "CO003",
-        "CO004"
+        "CO003"
       ]
     },
     {
@@ -14599,11 +14697,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
@@ -15727,11 +15825,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
@@ -15992,10 +16090,10 @@
       "comments": [],
       "suggested": [
         "CO069",
+        "CO096",
         "CO001",
         "CO002",
-        "CO003",
-        "CO004"
+        "CO003"
       ]
     },
     {
@@ -16129,9 +16227,9 @@
       "suggested": [
         "CO068",
         "CU002",
+        "CO096",
         "CO001",
-        "CO002",
-        "CO003"
+        "CO002"
       ]
     },
     {
@@ -16248,11 +16346,11 @@
       "related": [],
       "comments": [],
       "suggested": [
+        "CO096",
         "CO001",
         "CO002",
         "CO003",
-        "CO004",
-        "CO005"
+        "CO004"
       ]
     },
     {
