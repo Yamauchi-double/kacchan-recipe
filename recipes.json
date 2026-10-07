@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:27:50.928Z",
+  "generatedAt": "2026-10-07T07:30:08.138Z",
   "count": 166,
   "recipes": [
     {
@@ -24,6 +24,12 @@
           "amt": "30",
           "unit": "g",
           "linkId": ""
+        },
+        {
+          "label": "仕込み_酢モツ用合わせネギ",
+          "amt": "20",
+          "unit": "g",
+          "linkId": "SH000"
         },
         {
           "label": "至福ポン酢",
@@ -89,14 +95,17 @@
         {
           "id": "SH000",
           "reason": "手動"
+        },
+        {
+          "id": "SH000",
+          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
         "CO007",
         "CO036",
-        "CO052",
-        "CO054"
+        "CO052"
       ]
     },
     {
