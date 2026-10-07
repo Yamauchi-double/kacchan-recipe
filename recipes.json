@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:26:33.919Z",
+  "generatedAt": "2026-10-07T07:27:16.082Z",
   "count": 166,
   "recipes": [
     {
@@ -19036,9 +19036,9 @@
       "furigana": "シコミスモツヨウアワセネギ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 107,
+      "yieldAmt": 110,
+      "yieldUnit": "g",
+      "appOrder": 108,
       "ingredients": [
         {
           "label": "カット白ネギ",
