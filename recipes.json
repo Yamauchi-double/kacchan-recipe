@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:31:20.002Z",
+  "generatedAt": "2026-10-08T13:25:16.355Z",
   "count": 166,
   "recipes": [
     {
@@ -17238,19 +17238,63 @@
       "yieldAmt": 12,
       "yieldUnit": "人前前後",
       "appOrder": 87,
-      "ingredients": [],
-      "allergens": [],
-      "steps": [],
-      "media": [],
-      "plating": [],
-      "related": [],
+      "ingredients": [
+        {
+          "label": "豚トロ",
+          "amt": "1000",
+          "unit": "kg",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "解凍しておいた豚トロを80g目安にカットする",
+          "note": false
+        },
+        {
+          "text": "ラップをして保存",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日\n保存期間：冷凍30日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1NtkWjXczCAIe1InMpXeeKT7TjEGUIJ6y/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1yKn3yhpST1yGyzNJlRRW1C2OveJ4qscV/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "LT010",
+          "reason": "手動"
+        }
+      ],
       "comments": [],
       "suggested": [
+        "CO009",
         "LT005",
         "LT006",
-        "LT007",
-        "LT008",
-        "LT009"
+        "LT007"
       ]
     },
     {
