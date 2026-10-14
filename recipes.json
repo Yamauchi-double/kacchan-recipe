@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:10:29.231Z",
+  "generatedAt": "2026-10-14T10:12:11.043Z",
   "count": 168,
   "recipes": [
     {
@@ -19299,8 +19299,8 @@
       "furigana": "シコミスモツ用アワセネギ",
       "category": "仕込み",
       "time": "3分",
-      "yieldAmt": null,
-      "yieldUnit": "",
+      "yieldAmt": 100,
+      "yieldUnit": "g",
       "appOrder": 111,
       "ingredients": [
         {
