@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T04:40:18.955Z",
+  "generatedAt": "2026-10-14T04:49:34.285Z",
   "count": 167,
   "recipes": [
     {
@@ -17,7 +17,7 @@
           "label": "仕込み_酢モツ用ホルモンボイルカット",
           "amt": "40",
           "unit": "g",
-          "linkId": ""
+          "linkId": "SH000"
         },
         {
           "label": "大根おろし",
@@ -29,7 +29,7 @@
           "label": "仕込み_酢モツ用合わせネギ",
           "amt": "20",
           "unit": "g",
-          "linkId": "SH000"
+          "linkId": ""
         },
         {
           "label": "至福ポン酢",
@@ -45,7 +45,6 @@
         }
       ],
       "allergens": [
-        "豚肉",
         "小麦",
         "大豆",
         "りんご"
@@ -100,13 +99,16 @@
         {
           "id": "SH000",
           "reason": "手動"
+        },
+        {
+          "id": "SH000",
+          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
         "CO007",
-        "CO036",
-        "CO052"
+        "CO036"
       ]
     },
     {
@@ -629,9 +631,9 @@
       ],
       "comments": [],
       "suggested": [
+        "SH000",
         "CO065",
-        "CO097",
-        "SH017"
+        "CO097"
       ]
     },
     {
@@ -4045,6 +4047,77 @@
       ]
     },
     {
+      "id": "CU008",
+      "brand": "かっちゃん",
+      "name": "切り物_豚バラカット",
+      "furigana": "キリモノ_ブタバラカット",
+      "category": "切り物",
+      "time": "",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
+      "ingredients": [
+        {
+          "label": "豚バラ",
+          "amt": "",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "解凍した豚バラを5cm幅を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "同様に全て出来たら完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/18dlQGlDGZrJsr753VampbJlnkXJiBnIU/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1FjXSyK_r-UGW91km3JN0dZQCb5MgYqer/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH043",
+          "reason": "手動"
+        },
+        {
+          "id": "CO065",
+          "reason": "手動"
+        },
+        {
+          "id": "CO034",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CU001"
+      ]
+    },
+    {
       "id": "LU008",
       "brand": "かっちゃん",
       "name": "ランチ_タレむね",
@@ -4289,77 +4362,6 @@
         "SH001",
         "SH002",
         "SH003"
-      ]
-    },
-    {
-      "id": "CU008",
-      "brand": "かっちゃん",
-      "name": "切り物_豚バラカット",
-      "furigana": "キリモノ_ブタバラカット",
-      "category": "切り物",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [
-        {
-          "label": "豚バラ",
-          "amt": "",
-          "unit": "",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "解凍した豚バラを5cm幅を目安にカットする",
-          "note": false
-        },
-        {
-          "text": "同様に全て出来たら完成",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/18dlQGlDGZrJsr753VampbJlnkXJiBnIU/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1FjXSyK_r-UGW91km3JN0dZQCb5MgYqer/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "ソース容器",
-          "content": "タッパ：2,440ml"
-        }
-      ],
-      "related": [
-        {
-          "id": "SH043",
-          "reason": "手動"
-        },
-        {
-          "id": "CO065",
-          "reason": "手動"
-        },
-        {
-          "id": "CO034",
-          "reason": "手動"
-        }
-      ],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "CU001"
       ]
     },
     {
@@ -7502,10 +7504,10 @@
       "comments": [],
       "suggested": [
         "SH001",
+        "SH000",
         "LU003",
         "CO007",
-        "CO008",
-        "LU010"
+        "CO008"
       ]
     },
     {
@@ -18573,7 +18575,15 @@
         }
       ],
       "related": [],
-      "comments": [],
+      "comments": [
+        {
+          "id": "C0002",
+          "parent": "",
+          "store": "餃子のかっちゃん　福島栄町",
+          "body": "保存期間は冷蔵庫で何日でしょうか？",
+          "at": "2026/10/13 19:24"
+        }
+      ],
       "suggested": [
         "SH026",
         "SH032",
@@ -19274,47 +19284,41 @@
     {
       "id": "SH000",
       "brand": "かっちゃん",
-      "name": "仕込み_酢モツ用ホルモンボイル",
-      "furigana": "シコミスモツヨウホルモンボイル",
+      "name": "仕込み_酢モツ用合わせネギ",
+      "furigana": "シコミスモツ用アワセネギ",
       "category": "仕込み",
-      "time": "8分",
-      "yieldAmt": 300,
-      "yieldUnit": "g",
-      "appOrder": 110,
+      "time": "3分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 111,
       "ingredients": [
         {
-          "label": "ホルモン",
-          "amt": "500",
+          "label": "カット白ネギ",
+          "amt": "50",
           "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "50",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "大葉",
+          "amt": "5",
+          "unit": "枚",
           "linkId": ""
         }
       ],
-      "allergens": [
-        "豚肉"
-      ],
+      "allergens": [],
       "steps": [
         {
-          "text": "ホルモンを軽く水洗いして水を入れた鍋に入れる",
+          "text": "大葉を千切りにして他食材と合わせる",
           "note": false
         },
         {
-          "text": "水から火にかけて沸いたら5分間ボイルする",
-          "note": false
-        },
-        {
-          "text": "5分経過したら火から外す",
-          "note": false
-        },
-        {
-          "text": "ボイル後のホルモンは軽く水洗いをする",
-          "note": false
-        },
-        {
-          "text": "ホルモンの大きなものは細くカットしていく",
-          "note": false
-        },
-        {
-          "text": "大きなものが無くなれば完成。容器に入れて保存",
+          "text": "完成",
           "note": false
         },
         {
@@ -19322,20 +19326,7 @@
           "note": false
         }
       ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/1l0MsIHhYCO6-EpZT9wBVbekc7BE4OCMy/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1ZXawHec5Ki24MtnGvitmG8EU8kB4wJJ0/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1SxTNbWlFldw6rKlg3U_IBvKjrCD4XH9r/view?usp=drive_link"
-        }
-      ],
+      "media": [],
       "plating": [
         {
           "item": "ソース容器",
@@ -19346,17 +19337,14 @@
         {
           "id": "CO096",
           "reason": "手動"
-        },
-        {
-          "id": "SH000",
-          "reason": "手動"
         }
       ],
       "comments": [],
       "suggested": [
-        "CO038",
         "SH001",
-        "SH002"
+        "CO065",
+        "CO097",
+        "SH017"
       ]
     }
   ]
