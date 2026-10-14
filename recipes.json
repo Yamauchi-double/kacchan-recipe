@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T04:28:24.159Z",
+  "generatedAt": "2026-10-14T04:32:53.055Z",
   "count": 167,
   "recipes": [
     {
@@ -4044,31 +4044,6 @@
       ]
     },
     {
-      "id": "CU008",
-      "brand": "かっちゃん",
-      "name": "切り物_豚バラカット",
-      "furigana": "キリモノ_ブタバラカット",
-      "category": "切り物",
-      "time": "",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 8,
-      "ingredients": [],
-      "allergens": [],
-      "steps": [],
-      "media": [],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "CU001",
-        "CU002",
-        "CU003",
-        "CU004",
-        "CU005"
-      ]
-    },
-    {
       "id": "LU008",
       "brand": "かっちゃん",
       "name": "ランチ_タレむね",
@@ -4313,6 +4288,77 @@
         "SH001",
         "SH002",
         "SH003"
+      ]
+    },
+    {
+      "id": "CU008",
+      "brand": "かっちゃん",
+      "name": "切り物_豚バラカット",
+      "furigana": "キリモノ_ブタバラカット",
+      "category": "切り物",
+      "time": "",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 8,
+      "ingredients": [
+        {
+          "label": "豚バラ",
+          "amt": "",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "解凍した豚バラを5cm幅を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "同様に全て出来たら完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/18dlQGlDGZrJsr753VampbJlnkXJiBnIU/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1jKHyTvY-pVCiUPe6P2_BXiAR8SWlrns1/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1FjXSyK_r-UGW91km3JN0dZQCb5MgYqer/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：2,440ml"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH043",
+          "reason": "手動"
+        },
+        {
+          "id": "CO065",
+          "reason": "手動"
+        },
+        {
+          "id": "CO034",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CU001"
       ]
     },
     {
