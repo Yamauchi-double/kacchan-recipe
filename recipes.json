@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:59:11.297Z",
+  "generatedAt": "2026-10-14T10:07:58.193Z",
   "count": 168,
   "recipes": [
     {
@@ -1800,7 +1800,7 @@
           "label": "沸騰したお湯",
           "amt": "400",
           "unit": "g",
-          "linkId": "SH000"
+          "linkId": ""
         },
         {
           "label": "PB麻婆",
@@ -1876,18 +1876,14 @@
         }
       ],
       "plating": [],
-      "related": [
-        {
-          "id": "SH000",
-          "reason": "使用する仕込み（沸騰したお湯）"
-        }
-      ],
+      "related": [],
       "comments": [],
       "suggested": [
         "SH037",
         "LU016",
         "CO029",
-        "CO095"
+        "CO095",
+        "SH001"
       ]
     },
     {
