@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T23:31:12.339Z",
-  "count": 166,
+  "generatedAt": "2026-10-14T04:28:24.159Z",
+  "count": 167,
   "recipes": [
     {
       "id": "CO096",
@@ -630,7 +630,7 @@
       "suggested": [
         "SH000",
         "CO065",
-        "SH017"
+        "CO097"
       ]
     },
     {
@@ -977,9 +977,9 @@
       "comments": [],
       "suggested": [
         "CO048",
+        "CO097",
         "LU013",
-        "LU004",
-        "LU017"
+        "LU004"
       ]
     },
     {
@@ -3089,9 +3089,9 @@
       "comments": [],
       "suggested": [
         "CO048",
+        "CO097",
         "LU002",
-        "LU013",
-        "CO001"
+        "LU013"
       ]
     },
     {
@@ -13242,7 +13242,7 @@
       "suggested": [
         "LU004",
         "CO048",
-        "LU002"
+        "CO097"
       ]
     },
     {
@@ -13718,10 +13718,10 @@
       ],
       "comments": [],
       "suggested": [
+        "CO097",
         "LU002",
         "CO006",
-        "CO041",
-        "CO044"
+        "CO041"
       ]
     },
     {
@@ -13854,7 +13854,7 @@
         "CO038",
         "CO045",
         "CO048",
-        "LU002"
+        "CO097"
       ]
     },
     {
@@ -19145,8 +19145,150 @@
       "suggested": [
         "SH001",
         "CO065",
-        "SH017",
-        "SH020"
+        "CO097",
+        "SH017"
+      ]
+    },
+    {
+      "id": "CO097",
+      "brand": "かっちゃん",
+      "name": "石焼麻婆豆腐",
+      "furigana": "イシヤキマーボードウフ",
+      "category": "調理",
+      "time": "7分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 109,
+      "ingredients": [
+        {
+          "label": "仕込み_麻婆ソース",
+          "amt": "200",
+          "unit": "g",
+          "linkId": "SH003"
+        },
+        {
+          "label": "絹ごし豆腐",
+          "amt": "1/4",
+          "unit": "丁",
+          "linkId": ""
+        },
+        {
+          "label": "カット白ネギ",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "カットネギ",
+          "amt": "2",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "糸唐辛子",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "白ごま",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "ごま",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "牛肉",
+        "乳成分",
+        "ゼラチン"
+      ],
+      "steps": [
+        {
+          "text": "麻婆ソースに豆腐を1/4丁入れて温める",
+          "note": false
+        },
+        {
+          "text": "卓上のラー油をラー油入れについてるスプーンで【1辛】につき【2杯】をここの段階で入れておく",
+          "note": true
+        },
+        {
+          "text": "石も温めておく",
+          "note": false
+        },
+        {
+          "text": "石がある程度温まったら石全体に油を塗る",
+          "note": false
+        },
+        {
+          "text": "麻婆ソースが温まったら石の中にソースと豆腐を移す",
+          "note": false
+        },
+        {
+          "text": "もしも石の温度が低ければここでしっかりと熱する",
+          "note": true
+        },
+        {
+          "text": "白ネギ、カットネギ、糸唐辛子、白ごまを盛る",
+          "note": false
+        },
+        {
+          "text": "木板に盛って完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1hOgQ2FGU2mGrSvMFI6bjQtkaOD5_APb_/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1yA_Rbh1w0gzY2LYReyN_2qrUAVngrWee/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1fd7YEKj_va8PhpHUuF-mWuDiKyN6LKO5/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1tH6IxrMu-jXRHBNjaCl-tqKHJG0smtl8/view?usp=drive_link"
+        },
+        {
+          "type": "工程写真",
+          "url": "https://drive.google.com/file/d/1R4C6NXUkA_F6eQVyfQfnBzv8XPXnnt8i/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "石"
+        },
+        {
+          "item": "皿",
+          "content": "石焼用木板"
+        },
+        {
+          "item": "皿",
+          "content": "石焼用ヤットコ"
+        }
+      ],
+      "related": [
+        {
+          "id": "SH003",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO048",
+        "LU002",
+        "CO041",
+        "CO065"
       ]
     }
   ]
