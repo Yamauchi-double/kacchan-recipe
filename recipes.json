@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T05:17:40.510Z",
+  "generatedAt": "2026-10-15T23:31:22.271Z",
   "count": 168,
   "recipes": [
     {
@@ -532,7 +532,7 @@
       "furigana": "シコミ_ネギシオ",
       "category": "仕込み",
       "time": "5分",
-      "yieldAmt": 420,
+      "yieldAmt": 400,
       "yieldUnit": "g",
       "appOrder": 1,
       "ingredients": [
