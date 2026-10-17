@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:16:22.126Z",
+  "generatedAt": "2026-10-17T08:37:53.901Z",
   "count": 169,
   "recipes": [
     {
@@ -17917,19 +17917,19 @@
         },
         {
           "label": "もつ",
-          "amt": "80",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "キャベツ",
           "amt": "100",
           "unit": "g",
           "linkId": ""
         },
         {
+          "label": "キャベツ",
+          "amt": "160",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
           "label": "もやし",
-          "amt": "60",
+          "amt": "100",
           "unit": "g",
           "linkId": ""
         },
