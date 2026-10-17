@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:37:53.901Z",
+  "generatedAt": "2026-10-17T08:44:29.871Z",
   "count": 169,
   "recipes": [
     {
@@ -17875,114 +17875,6 @@
       ]
     },
     {
-      "id": "CO093",
-      "brand": "かっちゃん",
-      "name": "もつ鍋",
-      "furigana": "モツナベ",
-      "category": "調理",
-      "time": "10分",
-      "yieldAmt": 2,
-      "yieldUnit": "人前",
-      "appOrder": 93,
-      "ingredients": [
-        {
-          "label": "水",
-          "amt": "300",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "白湯",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ヤンニョム",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "ごま油",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "上白糖",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "もつ",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "キャベツ",
-          "amt": "160",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "もやし",
-          "amt": "100",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "にら",
-          "amt": "20",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "絹ごし豆腐",
-          "amt": "1/2",
-          "unit": "丁",
-          "linkId": ""
-        },
-        {
-          "label": "豚バラ",
-          "amt": "40",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "コブクロ",
-          "amt": "10",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "小麦",
-        "乳成分",
-        "牛肉",
-        "ごま",
-        "ゼラチン",
-        "大豆",
-        "鶏肉",
-        "豚肉",
-        "りんご"
-      ],
-      "steps": [],
-      "media": [],
-      "plating": [],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LU003",
-        "CO034",
-        "CO038",
-        "LU015",
-        "CO078"
-      ]
-    },
-    {
       "id": "LT010",
       "brand": "かっちゃん",
       "name": "豚トロ鉄板焼き",
@@ -18087,6 +17979,139 @@
         "CO034",
         "CO036",
         "CO038"
+      ]
+    },
+    {
+      "id": "CO093",
+      "brand": "かっちゃん",
+      "name": "もつ鍋",
+      "furigana": "モツナベ",
+      "category": "調理",
+      "time": "10分",
+      "yieldAmt": 2,
+      "yieldUnit": "人前",
+      "appOrder": 93,
+      "ingredients": [
+        {
+          "label": "水",
+          "amt": "300",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "白湯",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ヤンニョム",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "ごま油",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "上白糖",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "もつ",
+          "amt": "80",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "キャベツ",
+          "amt": "100",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "もやし",
+          "amt": "60",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "にら",
+          "amt": "20",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "絹ごし豆腐",
+          "amt": "1/2",
+          "unit": "丁",
+          "linkId": ""
+        },
+        {
+          "label": "豚バラ",
+          "amt": "40",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "コブクロ",
+          "amt": "10",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "小麦",
+        "乳成分",
+        "牛肉",
+        "ごま",
+        "ゼラチン",
+        "大豆",
+        "鶏肉",
+        "豚肉",
+        "りんご"
+      ],
+      "steps": [
+        {
+          "text": "キャベツ100gを鍋に入れる",
+          "note": false
+        },
+        {
+          "text": "もやし60gをキャベツの上に盛る",
+          "note": false
+        },
+        {
+          "text": "にら20g、絹ごし豆腐、豚バラをもやしの周りに盛る",
+          "note": false
+        },
+        {
+          "text": "水、白湯、ヤンニョム、砂糖、ごま油を混ぜて鍋の中に入れる",
+          "note": false
+        },
+        {
+          "text": "コブクロを盛る",
+          "note": false
+        },
+        {
+          "text": "お客様の卓上で中火より少し強めにかけて15分前後で火が通れば食べれます",
+          "note": false
+        }
+      ],
+      "media": [],
+      "plating": [],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LU003",
+        "CO034",
+        "CO038",
+        "LU015",
+        "CO078"
       ]
     },
     {
