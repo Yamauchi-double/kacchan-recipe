@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T23:31:20.170Z",
-  "count": 169,
+  "generatedAt": "2026-10-19T07:58:20.697Z",
+  "count": 170,
   "recipes": [
     {
       "id": "CO096",
@@ -19573,6 +19573,95 @@
         "SH001",
         "SH002",
         "SH003"
+      ]
+    },
+    {
+      "id": "SH048",
+      "brand": "かっちゃん",
+      "name": "仕込み_モツボイル",
+      "furigana": "シコミ_モツボイル",
+      "category": "仕込み",
+      "time": "10分",
+      "yieldAmt": 700,
+      "yieldUnit": "g",
+      "appOrder": 113,
+      "ingredients": [
+        {
+          "label": "もつ",
+          "amt": "1",
+          "unit": "kg",
+          "linkId": ""
+        },
+        {
+          "label": "水",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        }
+      ],
+      "allergens": [],
+      "steps": [
+        {
+          "text": "解凍したモツを軽く洗う",
+          "note": false
+        },
+        {
+          "text": "沸いたお湯にモツを入れて2～3分ほど茹でる",
+          "note": false
+        },
+        {
+          "text": "お湯を捨ててモツの熱を流水で取る",
+          "note": false
+        },
+        {
+          "text": "3cm幅を目安にカットする",
+          "note": false
+        },
+        {
+          "text": "カット出来たら冷蔵保管。もしくは冷凍保管。",
+          "note": false
+        },
+        {
+          "text": "保存期間：冷蔵3日\n保存期間：冷凍30日",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/1IdDUbk5ZKKMEUfZtgHFyvrMjllqf1drL/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1ZXawHec5Ki24MtnGvitmG8EU8kB4wJJ0/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1XDc-z4FnuptilDp3ZRKIyaQD1MljeIpL/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "ソース容器",
+          "content": "タッパ：1,550ml"
+        },
+        {
+          "item": "保存用",
+          "content": "ラップ＆ポーション袋"
+        }
+      ],
+      "related": [
+        {
+          "id": "CO094",
+          "reason": "手動"
+        }
+      ],
+      "comments": [],
+      "suggested": [
+        "CO093",
+        "SH004",
+        "SH006",
+        "SH007"
       ]
     }
   ]
