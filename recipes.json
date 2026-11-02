@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:31:20.770Z",
+  "generatedAt": "2026-11-02T23:31:21.557Z",
   "count": 170,
   "recipes": [
     {
@@ -4052,7 +4052,7 @@
       "name": "切り物_豚バラカット",
       "furigana": "キリモノ_ブタバラカット",
       "category": "切り物",
-      "time": "",
+      "time": "10分",
       "yieldAmt": null,
       "yieldUnit": "",
       "appOrder": 8,
@@ -17285,7 +17285,7 @@
       "brand": "かっちゃん",
       "name": "切り物_豚トロ",
       "furigana": "キリモノ_トントロ",
-      "category": "限定",
+      "category": "切り物",
       "time": "5分",
       "yieldAmt": 12,
       "yieldUnit": "人前前後",
@@ -17344,9 +17344,9 @@
       "comments": [],
       "suggested": [
         "CO009",
-        "LT005",
-        "LT006",
-        "LT007"
+        "CU001",
+        "CU002",
+        "CU003"
       ]
     },
     {
@@ -17539,10 +17539,10 @@
       ],
       "comments": [],
       "suggested": [
-        "CU009",
         "LT005",
         "LT007",
-        "LT008"
+        "LT008",
+        "LT009"
       ]
     },
     {
