@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T08:14:28.499Z",
+  "generatedAt": "2026-11-07T23:31:19.859Z",
   "count": 170,
   "recipes": [
     {
@@ -17875,113 +17875,6 @@
       ]
     },
     {
-      "id": "LT010",
-      "brand": "かっちゃん",
-      "name": "豚トロ鉄板焼き",
-      "furigana": "トントロテッパンヤキ",
-      "category": "限定",
-      "time": "10分",
-      "yieldAmt": null,
-      "yieldUnit": "",
-      "appOrder": 93,
-      "ingredients": [
-        {
-          "label": "豚トロ",
-          "amt": "80",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "味塩コショー",
-          "amt": "適量",
-          "unit": "",
-          "linkId": ""
-        },
-        {
-          "label": "キャベツ",
-          "amt": "30",
-          "unit": "g",
-          "linkId": ""
-        },
-        {
-          "label": "柚子胡椒",
-          "amt": "5",
-          "unit": "g",
-          "linkId": ""
-        }
-      ],
-      "allergens": [
-        "豚肉"
-      ],
-      "steps": [
-        {
-          "text": "フライパンと鉄板を温めてそれぞれに油を引く",
-          "note": false
-        },
-        {
-          "text": "80gにカットしておいた豚トロに塩コショウを振ってフライパンで焼く",
-          "note": false
-        },
-        {
-          "text": "脂の多い面を下にして焼く。同じような感じならどっちでもいいです。\n中～弱火推奨",
-          "note": true
-        },
-        {
-          "text": "しっかりと焼き曲げ付いたらひっくり返す",
-          "note": false
-        },
-        {
-          "text": "豚トロが焼けてきたら鉄板にキャベツ30gを盛る",
-          "note": false
-        },
-        {
-          "text": "肉厚にもよりますが焼き上がりまで8分前後は見てほしいです",
-          "note": true
-        },
-        {
-          "text": "焼けた豚トロを薄めにカットしていく",
-          "note": false
-        },
-        {
-          "text": "全部切れたら鉄板に移す",
-          "note": false
-        },
-        {
-          "text": "柚子胡椒5gを添えて完成",
-          "note": false
-        }
-      ],
-      "media": [
-        {
-          "type": "料理写真",
-          "url": "https://drive.google.com/file/d/14hDE3rAbki81PusHBv2PN3gQv6Emd_-y/view?usp=drive_link"
-        },
-        {
-          "type": "お皿写真",
-          "url": "https://drive.google.com/file/d/1uSAlNrHGoevc0bxCTmXMNbHFDAJAHjo1/view?usp=drive_link"
-        },
-        {
-          "type": "動画",
-          "url": "https://drive.google.com/file/d/1uwoPgXA5ApP-OV8gcBE32OTvLzpwy0To/view?usp=drive_link"
-        }
-      ],
-      "plating": [
-        {
-          "item": "皿",
-          "content": "鉄板"
-        }
-      ],
-      "related": [],
-      "comments": [],
-      "suggested": [
-        "LT008",
-        "LU003",
-        "CO034",
-        "CO036",
-        "CO038"
-      ]
-    },
-    {
       "id": "CO093",
       "brand": "かっちゃん",
       "name": "もつ鍋",
@@ -18112,6 +18005,113 @@
         "CO038",
         "LU015",
         "CO078"
+      ]
+    },
+    {
+      "id": "LT010",
+      "brand": "かっちゃん",
+      "name": "豚トロ鉄板焼き",
+      "furigana": "トントロテッパンヤキ",
+      "category": "限定",
+      "time": "10分",
+      "yieldAmt": null,
+      "yieldUnit": "",
+      "appOrder": 93,
+      "ingredients": [
+        {
+          "label": "豚トロ",
+          "amt": "80",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "味塩コショー",
+          "amt": "適量",
+          "unit": "",
+          "linkId": ""
+        },
+        {
+          "label": "キャベツ",
+          "amt": "30",
+          "unit": "g",
+          "linkId": ""
+        },
+        {
+          "label": "柚子胡椒",
+          "amt": "5",
+          "unit": "g",
+          "linkId": ""
+        }
+      ],
+      "allergens": [
+        "豚肉"
+      ],
+      "steps": [
+        {
+          "text": "フライパンと鉄板を温めてそれぞれに油を引く",
+          "note": false
+        },
+        {
+          "text": "80gにカットしておいた豚トロに塩コショウを振ってフライパンで焼く",
+          "note": false
+        },
+        {
+          "text": "脂の多い面を下にして焼く。同じような感じならどっちでもいいです。\n中～弱火推奨",
+          "note": true
+        },
+        {
+          "text": "しっかりと焼き曲げ付いたらひっくり返す",
+          "note": false
+        },
+        {
+          "text": "豚トロが焼けてきたら鉄板にキャベツ30gを盛る",
+          "note": false
+        },
+        {
+          "text": "肉厚にもよりますが焼き上がりまで8分前後は見てほしいです",
+          "note": true
+        },
+        {
+          "text": "焼けた豚トロを薄めにカットしていく",
+          "note": false
+        },
+        {
+          "text": "全部切れたら鉄板に移す",
+          "note": false
+        },
+        {
+          "text": "柚子胡椒5gを添えて完成",
+          "note": false
+        }
+      ],
+      "media": [
+        {
+          "type": "料理写真",
+          "url": "https://drive.google.com/file/d/14hDE3rAbki81PusHBv2PN3gQv6Emd_-y/view?usp=drive_link"
+        },
+        {
+          "type": "お皿写真",
+          "url": "https://drive.google.com/file/d/1uSAlNrHGoevc0bxCTmXMNbHFDAJAHjo1/view?usp=drive_link"
+        },
+        {
+          "type": "動画",
+          "url": "https://drive.google.com/file/d/1uwoPgXA5ApP-OV8gcBE32OTvLzpwy0To/view?usp=drive_link"
+        }
+      ],
+      "plating": [
+        {
+          "item": "皿",
+          "content": "鉄板"
+        }
+      ],
+      "related": [],
+      "comments": [],
+      "suggested": [
+        "LT008",
+        "LU003",
+        "CO034",
+        "CO036",
+        "CO038"
       ]
     },
     {
